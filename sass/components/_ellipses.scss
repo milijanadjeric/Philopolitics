@@ -1,0 +1,41 @@
+
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the ellipses component.
+// -----------------------------------------------------------------------------
+
+
+/*  HOME ELLIPSES */
+
+.elipse {
+    position: absolute;
+    margin-left: 39%;
+    z-index: -1;
+
+    &_2 {
+        position: absolute;
+        margin-left: 31%;
+        z-index: -1;
+    }
+    &_3 {
+        position: absolute;
+        margin-left: 23%;
+        z-index: -1;
+    }
+    &_4 {
+        position: absolute;
+        margin-left: 15%;
+        z-index: -1;
+    }
+    &_5 {
+        position: absolute;
+        margin-left: 7%;
+        z-index: -1;
+    }
+    &_6 {
+        position: absolute;
+        margin-left: .2%;
+        z-index: -1;
+        width: 126rem;
+    }
+
+}

@@ -1,0 +1,11 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass mixins.
+// -----------------------------------------------------------------------------
+@mixin clearfix {
+  &::after {
+      content: '';
+      display: table;
+      clear: both;
+  }
+  
+}

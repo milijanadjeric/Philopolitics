@@ -1,0 +1,11 @@
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main_heading {
+  color: red;
+  text-transform: uppercase;
+}
+/*# sourceMappingURL=about-us.css.map */

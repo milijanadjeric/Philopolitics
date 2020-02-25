@@ -1,0 +1,26 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass variables.
+// -----------------------------------------------------------------------------
+
+
+
+/// Container's maximum width
+/// @type Length
+$max-width: 1180px;
+
+
+// COLORS
+$color-white: #FFFFFF;
+$color-yellow: #FFD042;
+$color-blue: #131C6D;
+$color-violet: #7630E5;
+$color-grey-text: #DADADA;
+
+
+//  FONTS 
+
+$font-gl: 'GilroyExtraBold';
+$font-tr: 'truenolight';
+$font-tr-rg: 'truenoregular';
+$font-tr-bd: 'TruenoBold';
+$font-rb: 'Roboto';

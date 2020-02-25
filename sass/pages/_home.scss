@@ -1,0 +1,104 @@
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the home page.
+// -----------------------------------------------------------------------------
+
+body {
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(40%, #322b6c),
+    color-stop(80%, #131c6d),
+    to(#b1bff9)
+  );
+  background-image: linear-gradient(
+    to bottom,
+    #322b6c 40%,
+    #131c6d 80%,
+    #b1bff9 100%
+  );
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hero {
+  display: -webkit-box;
+  display: flex;
+  
+  
+
+  &_text {
+    margin-top: 18rem;
+    margin-left: 10rem;
+    
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+
+    &_heading {
+      text-transform: uppercase;
+      font-family: $font-tr-bd;
+      font-size: 6.4rem;
+      color: $color-white;
+      letter-spacing: 0.2rem;
+    }
+    &_sub {
+      font-family: $font-rb;
+      font-size: 2.1rem;
+      color: $color-white;
+      margin-top: 1rem;
+    }
+    &_sub-span {
+      color: $color-yellow;
+    }
+  }
+
+  &_stars {
+    position: absolute;
+    top: 9rem;
+    left: 66.5rem;
+  }
+  &_sun {
+    position: absolute;
+    top: 9rem;
+    left: 76rem;
+  }
+}
+
+
+.socials {
+  display: -webkit-box;
+  display: flex;
+  justify-content: space-around;
+  color: $color-blue;
+  margin-bottom: 2.5rem;
+  margin-top: 5.7rem;
+
+  &_copy {
+    font-family: $font-tr-rg;
+    font-size: 1.4rem;
+    margin-left: 4rem;
+  }
+
+  &_policy {
+    text-transform: uppercase;
+    font-family: $font-tr-bd;
+    font-size: 1.6rem;
+  }
+
+  &_followus {
+    text-transform: uppercase;
+    font-family: $font-tr-bd;
+    font-size: 1.6rem;
+    margin-right: -18rem;
+  }
+
+  a {
+    padding-left: 1rem;
+    :hover {
+      fill: #1b2798;
+    }
+  }
+}
