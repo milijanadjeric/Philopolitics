@@ -4,12 +4,14 @@
 
 .main_div-1 {
   display: flex;
-  padding-top: 15rem;
+  padding-top: 23rem;
+  margin-left: 22rem;
 
   &_box {
     display: flex;
     flex-direction: column;
-    padding-top: 3rem;
+    padding-top: 4rem;
+    padding-right: 10rem;
 
     &_heading {
       color: $color-white;
@@ -26,30 +28,31 @@
       font-size: 1.8rem;
       letter-spacing: 0.02rem;
       text-align: right;
-      padding-left: 21.2rem;
     }
   }
-
-  
 }
 
 .main_div-2 {
   display: flex;
-  padding-top: 6rem;
+  padding-top: 8rem;
+  margin-left: 14rem;
 
   &_box {
     display: flex;
     flex-direction: column;
-    
-
+    padding-left: 4rem;
 
     &_heading {
       color: $color-white;
       font-family: $font-tr-rg;
       font-size: 3rem;
-      padding-bottom: 1.5rem;
+      padding-bottom: 2rem;
       letter-spacing: 0.02rem;
       text-align: left;
+    }
+
+    &_ellipsebox {
+      display: flex;
     }
 
     &_ellipse {
@@ -57,53 +60,72 @@
       height: 1.1rem;
       border-radius: 50%;
       background-color: $color-yellow;
-
     }
     &_text-1 {
       color: $color-white;
       font-family: "Roboto";
       font-size: 1.8rem;
       letter-spacing: 0.02rem;
-      padding-right: 37.5rem;
+      padding-left: 1rem;
     }
+
     &_text-2 {
       color: $color-white;
       font-family: "Roboto";
       font-size: 1.8rem;
       letter-spacing: 0.02rem;
+      padding-left: 1rem;
     }
   }
 
   img {
-    margin-top: -10rem;
+    margin-top: -11rem;
   }
 }
 
 .main_div-3 {
   display: flex;
-  
+  margin-left: 22rem;
+
   &_box {
-    display: flex;
-    flex-direction: column;
-    padding-top: 2rem;
+    
+    padding-right: 11rem;
 
     &_heading {
       color: $color-white;
       font-family: $font-tr-rg;
       font-size: 3rem;
       padding-bottom: 1.5rem;
-      text-align: right;
+      padding-left: 2.1rem;
+      text-align: left;
       letter-spacing: 0.02rem;
     }
     &_text {
       color: $color-white;
       font-family: "Roboto";
-      font-size: 1.8rem;
+      font-size: 2rem;
       letter-spacing: 0.02rem;
       text-align: right;
-      padding-left: 21.2rem;
+    }
+
+    &_ellipsebox {
+      display: flex;
+      margin-left: 28rem;
+      align-items: center;
+      padding-top: 1.5rem;
+    }
+
+    &_ellipse {
+      width: 1.1rem;
+      height: 1.1rem;
+      border-radius: 50%;
+      background-color: $color-yellow;
+    }
+    &_text-3 {
+      color: $color-white;
+      font-family: "Roboto";
+      font-size: 2.2rem;
+      padding-left: 1.5rem;
     }
   }
-
-  
 }

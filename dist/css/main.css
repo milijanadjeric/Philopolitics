@@ -268,9 +268,9 @@ input[type="text"]:focus {
 
 .elipse_6 {
   position: absolute;
-  margin-left: .2%;
+  margin-left: -.6%;
   z-index: -1;
-  width: 126rem;
+  width: 130.9rem;
 }
 
 .projects {
@@ -432,7 +432,8 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding-top: 15rem;
+  padding-top: 23rem;
+  margin-left: 22rem;
 }
 
 .main_div-1_box {
@@ -443,7 +444,8 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding-top: 3rem;
+  padding-top: 4rem;
+  padding-right: 10rem;
 }
 
 .main_div-1_box_heading {
@@ -462,14 +464,14 @@ body {
   font-size: 1.8rem;
   letter-spacing: 0.02rem;
   text-align: right;
-  padding-left: 21.2rem;
 }
 
 .main_div-2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding-top: 6rem;
+  padding-top: 8rem;
+  margin-left: 14rem;
 }
 
 .main_div-2_box {
@@ -480,15 +482,22 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  padding-left: 4rem;
 }
 
 .main_div-2_box_heading {
   color: #FFFFFF;
   font-family: "truenoregular";
   font-size: 3rem;
-  padding-bottom: 1.5rem;
+  padding-bottom: 2rem;
   letter-spacing: 0.02rem;
   text-align: left;
+}
+
+.main_div-2_box_ellipsebox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .main_div-2_box_ellipse {
@@ -503,7 +512,7 @@ body {
   font-family: "Roboto";
   font-size: 1.8rem;
   letter-spacing: 0.02rem;
-  padding-right: 37.5rem;
+  padding-left: 1rem;
 }
 
 .main_div-2_box_text-2 {
@@ -511,27 +520,22 @@ body {
   font-family: "Roboto";
   font-size: 1.8rem;
   letter-spacing: 0.02rem;
+  padding-left: 1rem;
 }
 
 .main_div-2 img {
-  margin-top: -10rem;
+  margin-top: -11rem;
 }
 
 .main_div-3 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-left: 22rem;
 }
 
 .main_div-3_box {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  padding-top: 2rem;
+  padding-right: 11rem;
 }
 
 .main_div-3_box_heading {
@@ -539,17 +543,42 @@ body {
   font-family: "truenoregular";
   font-size: 3rem;
   padding-bottom: 1.5rem;
-  text-align: right;
+  padding-left: 2.1rem;
+  text-align: left;
   letter-spacing: 0.02rem;
 }
 
 .main_div-3_box_text {
   color: #FFFFFF;
   font-family: "Roboto";
-  font-size: 1.8rem;
+  font-size: 2rem;
   letter-spacing: 0.02rem;
   text-align: right;
-  padding-left: 21.2rem;
+}
+
+.main_div-3_box_ellipsebox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 28rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 1.5rem;
+}
+
+.main_div-3_box_ellipse {
+  width: 1.1rem;
+  height: 1.1rem;
+  border-radius: 50%;
+  background-color: #FFD042;
+}
+
+.main_div-3_box_text-3 {
+  color: #FFFFFF;
+  font-family: "Roboto";
+  font-size: 2.2rem;
+  padding-left: 1.5rem;
 }
 
 /* Slider */
