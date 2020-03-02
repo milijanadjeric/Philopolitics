@@ -1,0 +1,98 @@
+input[type="submit"] {
+  background-color: $color-submit;
+  text-transform: uppercase;
+  font-family: "Roboto";
+  font-size: 1.5rem;
+  font-weight: 500;
+  width: 100%;
+  color: white;
+  padding: 1.3rem 0rem;
+  border: none;
+  border-radius: 0.2rem;
+  margin-bottom: 2rem;
+  
+  cursor: pointer;
+ 
+}
+
+input[type="submit"]:hover {
+  background-color: darken($color: $color-submit, $amount: 4);
+}
+
+.contact {
+  display: flex;
+  margin-left: 22rem;
+  margin-bottom: 4rem;
+  
+  
+ 
+  
+
+  &_container {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: "Roboto";
+    font-size: 1.2rem;
+    
+    
+    
+  }
+
+  &_heading {
+    text-transform: uppercase;
+    font-family: $font-tr-bd;
+    font-size: 2.5rem;
+    color: $color-white;
+    padding-bottom: 5rem;
+    padding-top: 14rem;
+    
+  }
+
+  &_data {
+    width: 100%;
+    border-bottom: 1px $color-white solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    margin-bottom: 25px;
+    resize: vertical;
+    background-color: transparent;
+    
+
+    &_email {
+    width: 100%;
+    border-bottom: 1px $color-white solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    margin-bottom: 4.3rem;
+    resize: vertical;
+    background-color: transparent;
+
+    }
+
+    &_message {
+      width: 100%;
+      border-bottom: 1px $color-white solid;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      outline: none;
+      margin-bottom: 3rem;
+      resize: vertical;
+      background-color: transparent;
+      max-height: 100px;
+      min-height: 100px;
+    }
+  }
+
+  img {
+    padding-left: 20rem;
+    margin-top: 8rem;
+    
+  }
+}

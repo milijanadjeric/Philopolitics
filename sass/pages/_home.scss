@@ -2,19 +2,19 @@
 // This file contains styles that are specific to the home page.
 // -----------------------------------------------------------------------------
 
-body {
+.gradient-effect {
   background-image: -webkit-gradient(
     linear,
     left top,
     left bottom,
     color-stop(40%, #322b6c),
-    color-stop(80%, #131c6d),
-    to(#b1bff9)
+    color-stop(68%, #131c6d),
+    color-stop(100%,#b1bff9)
   );
   background-image: linear-gradient(
     to bottom,
     #322b6c 40%,
-    #131c6d 80%,
+    #131c6d 68%,
     #b1bff9 100%
   );
   background-size: cover;
@@ -80,6 +80,7 @@ body {
     font-family: $font-tr-rg;
     font-size: 1.4rem;
     margin-left: 4rem;
+    color: $color-blue;
   }
 
   &_policy {

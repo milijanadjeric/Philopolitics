@@ -1,0 +1,122 @@
+.header {
+  background-color: $color-footer-text;
+  height: 10rem;
+}
+
+.Aleksandar_bio {
+  display: flex;
+  background-color: $color-footer-text;
+  padding: 8.2rem 25rem 3rem 25rem;
+
+  img {
+    align-self: flex-start;
+  }
+
+  &_text {
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto";
+    font-size: 1.8rem;
+    color: $color-white;
+    padding-left: 5rem;
+    padding-right: 9rem;
+    text-align: justify;
+
+    p {
+      padding-bottom: 2rem;
+    }
+  }
+}
+
+.container_tekstovi {
+  margin: 9.5rem 0 6.5rem 21rem;
+}
+
+.tekstovi_autora {
+  font-family: $font-tr-bd;
+  font-size: 1.8rem;
+  letter-spacing: 0.01rem;
+  text-transform: uppercase;
+  color: $color-footer-text;
+}
+
+.div-1 {
+  display: flex;
+  flex-wrap: wrap;
+
+  &_wrap {
+    margin-right: 4rem;
+    margin-bottom: 5rem;
+    position: relative;
+
+    &_block {
+      position: absolute;
+      margin-top: -4.8rem;
+      background: transparent;
+
+      &_date {
+        width: 5.8rem;
+        height: 4.8rem;
+        background-color: $color-violet-transparent;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        &_number {
+          color: $color-white;
+          font-family: $font-tr-bd;
+          font-size: 2.5rem;
+        }
+
+        &_month {
+          color: $color-white;
+          font-family: $font-tr;
+          text-transform: uppercase;
+        }
+      }
+
+      &_blog {
+        width: 5.8rem;
+        height: 1.6rem;
+        background-color: $color-black;
+        color: $color-white;
+        font-family: $font-tr-rg;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      &_name {
+        width: 5.8rem;
+        height: 4.8rem;
+        font-family: "Roboto";
+        font-size: 1.1rem;
+        text-align: right;
+        padding-top: 0.9rem;
+      }
+
+      &_text {
+        width: 29rem;
+        
+        &_heading {
+          font-family: 'Roboto';
+          font-weight: 500;
+          color: $color-footer-text;
+          font-size: 1.4rem;
+          padding-left: 8rem;
+          padding-top: 1.6rem;
+          padding-bottom: 1.2rem;
+        }
+
+        &_par {
+          font-family: 'Roboto';
+          color: $color-darkgrey-text;
+          font-size: 1.05rem;
+          padding-left: 8rem;
+        }
+      }
+    }
+  }
+}

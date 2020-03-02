@@ -4,7 +4,7 @@
 
 .main_div-1 {
   display: flex;
-  padding-top: 23rem;
+  padding-top: 18rem;
   margin-left: 22rem;
 
   &_box {
@@ -34,7 +34,7 @@
 
 .main_div-2 {
   display: flex;
-  padding-top: 8rem;
+  padding-top: 12rem;
   margin-left: 14rem;
 
   &_box {
@@ -86,10 +86,12 @@
 .main_div-3 {
   display: flex;
   margin-left: 22rem;
+  padding-bottom: 27rem;
 
   &_box {
-    
     padding-right: 11rem;
+    display: flex;
+    flex-direction: column;
 
     &_heading {
       color: $color-white;
@@ -127,5 +129,117 @@
       font-size: 2.2rem;
       padding-left: 1.5rem;
     }
+  }
+}
+
+.Our-team {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 8rem;
+
+  &_heading {
+    color: $color-white;
+    font-family: $font-tr-rg;
+    font-size: 5.5rem;
+    padding-left: 7rem;
+    align-self: center;
+    letter-spacing: 0.02rem;
+  }
+  &_sub-span {
+    color: $color-yellow;
+    text-transform: uppercase;
+    letter-spacing: 0.02rem;
+  }
+}
+
+.Team-members {
+  display: flex;
+  justify-content: center;
+
+  &_Aleksandar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 14rem;
+
+    &_name {
+      color: $color-white;
+      font-family: "Roboto";
+      font-size: 2.4rem;
+      letter-spacing: 0.02rem;
+      padding-top: 3.7rem;
+      padding-bottom: 0.8rem;
+    }
+    &_title {
+      color: rgba(255, 255, 255, 0.7);
+      font-family: "Roboto";
+      font-size: 1.8rem;
+      letter-spacing: 0.02rem;
+    }
+  }
+
+  &_Milena {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &_name {
+      color: $color-white;
+      font-family: "Roboto";
+      font-size: 2.4rem;
+      letter-spacing: 0.02rem;
+      padding-top: 3.7rem;
+      padding-bottom: 0.8rem;
+      padding-left: 2rem;
+    }
+    &_title {
+      color: rgba(255, 255, 255, 0.7);
+      font-family: "Roboto";
+      font-size: 1.8rem;
+      letter-spacing: 0.02rem;
+      padding-left: 2rem;
+    }
+  }
+  a {
+    text-decoration: none;
+  }
+}
+
+//   FOOTER
+
+.Networks {
+  display: flex;
+  justify-content: center;
+  padding-top: 21rem;
+  padding-bottom: 1.8rem;
+  padding-left: 1rem;
+
+  a {
+    padding-left: 1.3rem;
+
+    :hover {
+      fill: #1b2798;
+    }
+  }
+}
+.privacy {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 3rem;
+
+  &_copy {
+    font-family: $font-tr-rg;
+    font-size: 1.4rem;
+    color: $color-footer-text;
+    padding-right: 2.5rem;
+  }
+
+  &_policy {
+    text-transform: uppercase;
+    font-family: $font-tr-rg;
+    font-size: 1.6rem;
+    color: $color-footer-text;
   }
 }
