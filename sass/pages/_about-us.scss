@@ -207,39 +207,3 @@
   }
 }
 
-//   FOOTER
-
-.Networks {
-  display: flex;
-  justify-content: center;
-  padding-top: 21rem;
-  padding-bottom: 1.8rem;
-  padding-left: 1rem;
-
-  a {
-    padding-left: 1.3rem;
-
-    :hover {
-      fill: #1b2798;
-    }
-  }
-}
-.privacy {
-  display: flex;
-  justify-content: center;
-  padding-bottom: 3rem;
-
-  &_copy {
-    font-family: $font-tr-rg;
-    font-size: 1.4rem;
-    color: $color-footer-text;
-    padding-right: 2.5rem;
-  }
-
-  &_policy {
-    text-transform: uppercase;
-    font-family: $font-tr-rg;
-    font-size: 1.6rem;
-    color: $color-footer-text;
-  }
-}
