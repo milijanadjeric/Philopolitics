@@ -883,13 +883,14 @@ input[type="submit"]:hover {
   text-transform: uppercase;
   color: #322b6c;
   margin-top: 3.9rem;
-  margin-bottom: 3.4rem;
+  margin-bottom: 4.3rem;
 }
 
 .slider {
   width: 80%;
   margin-left: 20rem;
   margin-bottom: 30rem;
+  margin-top: 4.8rem;
 }
 
 .div-1 {
@@ -1196,6 +1197,133 @@ input[type="submit"]:hover {
   margin-left: 20rem;
 }
 
+.texts {
+  height: 990px;
+}
+
+.heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #322b6c;
+}
+
+.banner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 56rem;
+  margin-top: 5.6rem;
+  margin-bottom: 1rem;
+}
+
+.banner img {
+  margin-left: 2rem;
+}
+
+.banner img:hover {
+  cursor: pointer;
+}
+
+.banner_heading {
+  color: #FFFFFF;
+  font-family: "truenolight";
+  font-size: 4rem;
+  margin: 0 auto;
+}
+
+.banner_line-2 {
+  border: 0.625339px solid #e5e5e5;
+  width: 56rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 2.3rem;
+  margin-bottom: 1.7rem;
+}
+
+.banner_name-and-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.banner_name {
+  color: rgba(255, 255, 255, 0.9);
+  font-family: "truenoregular";
+  font-size: 1.4rem;
+  letter-spacing: 0.01rem;
+  margin-bottom: 0.3rem;
+}
+
+.banner_date {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: "truenoregular";
+  font-size: 1rem;
+  letter-spacing: 0.01rem;
+  text-transform: uppercase;
+}
+
+.text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: -13rem;
+}
+
+.text img {
+  margin-bottom: 1.9rem;
+}
+
+.text_paragraph-onespace {
+  font-family: 'Roboto';
+  font-size: 1.5rem;
+  width: 57.5rem;
+  color: rgba(103, 103, 103, 0.9);
+  text-align: justify;
+  letter-spacing: 0.01rem;
+  padding-bottom: 2rem;
+}
+
+.text_paragraph-doublespace {
+  font-family: 'Roboto';
+  font-size: 1.5rem;
+  width: 57.5rem;
+  color: rgba(103, 103, 103, 0.9);
+  text-align: justify;
+  letter-spacing: 0.01rem;
+  padding-bottom: 4rem;
+}
+
+.text_paragraph-nospace {
+  font-family: 'Roboto';
+  font-size: 1.5rem;
+  width: 57.5rem;
+  color: rgba(103, 103, 103, 0.9);
+  text-align: justify;
+  letter-spacing: 0.01rem;
+}
+
 /* Slider */
 .slick-slider {
   position: relative;
@@ -1313,12 +1441,12 @@ input[type="submit"]:hover {
   font-size: 0px;
   cursor: pointer;
   background: transparent;
-  color: transparent;
   top: 110%;
   -webkit-transform: translate(0, -50%);
   transform: translate(0, -50%);
   padding: 0;
   border: 1px solid #ccc;
+  border-radius: 0.2rem;
   outline: none;
 }
 
@@ -1344,11 +1472,16 @@ input[type="submit"]:hover {
 
 .slick-prev:before,
 .slick-next:before {
-  font-family: "slick";
+  font-family: "Roboto";
   font-size: 20px;
   line-height: 1;
   color: #ccc;
   opacity: 0.75;
+}
+
+.slick-prev:before :hover,
+.slick-next:before :hover {
+  color: #322b6c;
 }
 
 .slick-prev {
@@ -1361,11 +1494,11 @@ input[type="submit"]:hover {
 }
 
 .slick-prev:before {
-  content: "←";
+  content: "<";
 }
 
 [dir="rtl"] .slick-prev:before {
-  content: "→";
+  content: ">";
 }
 
 .slick-next {
@@ -1378,11 +1511,11 @@ input[type="submit"]:hover {
 }
 
 .slick-next:before {
-  content: "→";
+  content: ">";
 }
 
 [dir="rtl"] .slick-next:before {
-  content: "←";
+  content: "<";
 }
 
 /* Dots */
@@ -1440,7 +1573,7 @@ input[type="submit"]:hover {
   content: "•";
   width: 20px;
   height: 20px;
-  font-family: "slick";
+  font-family: "Roboto";
   font-size: 6px;
   line-height: 20px;
   text-align: center;

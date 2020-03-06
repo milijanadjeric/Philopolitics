@@ -1,0 +1,105 @@
+
+//  NAVIGATION AND BANNER
+
+.heading {
+    display: flex;
+    justify-content: center;
+    background-color: $color-footer-text;
+}
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  width: 56rem;
+  margin-top: 5.6rem;
+  margin-bottom: 1rem;
+
+    img {
+        margin-left: 2rem;
+
+    }
+  img:hover {
+      cursor: pointer;
+  }
+
+  &_heading {
+    color: $color-white;
+    font-family: $font-tr;
+    font-size: 4rem;
+    margin: 0 auto;
+    
+  }
+
+  &_line-2 {
+    border: 0.625339px solid #e5e5e5;
+    width: 56rem;
+    justify-content: center;
+    margin-top: 2.3rem;
+    margin-bottom: 1.7rem;
+  }
+
+  &_name-and-links  {
+      display: flex;
+      justify-content: space-between;
+  }
+
+  &_name {
+      color: rgba(255, 255, 255, 0.9);
+      font-family: $font-tr-rg;
+      font-size: 1.4rem;
+      letter-spacing: 0.01rem;
+      margin-bottom: 0.3rem;
+  }
+
+  &_date {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: $font-tr-rg;
+    font-size: 1rem;
+    letter-spacing: 0.01rem;
+    text-transform: uppercase;
+
+  }
+}
+
+//  TEXT
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: -13rem;
+
+  img {
+    margin-bottom: 1.9rem;
+  }
+
+  &_paragraph-onespace {
+    font-family: 'Roboto';
+    font-size: 1.5rem;
+    width: 57.5rem;
+    color: rgba(103, 103, 103, 0.9);
+    text-align: justify;
+    letter-spacing: 0.01rem;
+    padding-bottom: 2rem;
+  }
+
+  &_paragraph-doublespace {
+    font-family: 'Roboto';
+    font-size: 1.5rem;
+    width: 57.5rem;
+    color: rgba(103, 103, 103, 0.9);
+    text-align: justify;
+    letter-spacing: 0.01rem;
+    padding-bottom: 4rem;
+  }
+
+  &_paragraph-nospace {
+    font-family: 'Roboto';
+    font-size: 1.5rem;
+    width: 57.5rem;
+    color: rgba(103, 103, 103, 0.9);
+    text-align: justify;
+    letter-spacing: 0.01rem;
+  }
+}
