@@ -1,0 +1,90 @@
+.main {
+  display: flex;
+
+  &_text {
+    margin-top: 14rem;
+    width: 42.6rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: 17rem;
+    margin-right: 12rem;
+
+    &_1 {
+      color: $color-white;
+      font-family: $font-tr;
+      font-size: 6.5rem;
+    }
+
+    &_2 {
+      color: $color-white;
+      font-family: $font-tr-bd;
+      text-transform: uppercase;
+      font-size: 5rem;
+      padding-bottom: 4rem;
+    }
+    &_3 {
+      color: $color-white;
+      font-family: "Roboto";
+      font-size: 1.8rem;
+      padding-right: 6rem;
+      padding-bottom: 5rem;
+    }
+  }
+
+  img {
+    margin-top: 7.3rem;
+  }
+}
+
+.button {
+  &_home {
+    text-decoration: none;
+    color: $color-white;
+    font-family: $font-tr-rg;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    background-color: $color-submit;
+    padding: 1.5rem 3.7rem 1.3rem 3.8rem;
+    border-radius: 0.2rem;
+    margin-right: 2.2rem;
+  }
+
+  &_back {
+    text-decoration: none;
+    color: $color-white;
+    font-family: $font-tr-rg;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    padding: 1.35rem 3.7rem 1.15rem 3.8rem;
+    border: 0.2rem solid $color-submit;
+    border-radius: 0.2rem;
+  }
+}
+
+.links {
+  display: flex;
+  justify-content: flex-end;
+
+  &_followus {
+    color: rgba(242, 242, 242, 0.9);
+    text-transform: uppercase;
+    font-family: $font-tr-bd;
+    font-size: 1.4rem;
+    padding-right: 2.5rem;
+    padding-top: 6.5rem;
+  }
+
+  &_socials {
+      margin-right: 15rem;
+  }
+
+  img {
+    padding-left: 1.5rem;
+    padding-top: 6.5rem;
+    padding-bottom: 4rem;
+  }
+  
+}
+
+  
+

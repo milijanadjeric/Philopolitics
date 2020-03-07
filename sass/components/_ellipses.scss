@@ -33,9 +33,23 @@
     }
     &_6 {
         position: absolute;
-       
         z-index: -1;
         width: 130.9rem;
+        margin-left: -1%;
+    }
+
+    &_7 {
+        position: absolute;
+        z-index: -1;
+        margin-left: -3%;
+        width: 138.9rem;
+    }
+
+    &_7about-us {
+        position: absolute;
+        z-index: -1;
+        margin-left: -2%;
+        width: 137rem;
     }
 
 }

@@ -319,6 +319,21 @@ input[type="text"]:focus {
   position: absolute;
   z-index: -1;
   width: 130.9rem;
+  margin-left: -1%;
+}
+
+.elipse_7 {
+  position: absolute;
+  z-index: -1;
+  margin-left: -3%;
+  width: 138.9rem;
+}
+
+.elipse_7about-us {
+  position: absolute;
+  z-index: -1;
+  margin-left: -2%;
+  width: 137rem;
 }
 
 .projects {
@@ -383,8 +398,8 @@ input[type="text"]:focus {
 }
 
 .gradient-effect {
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(40%, #322b6c), color-stop(68%, #131c6d), to(#b1bff9));
-  background-image: linear-gradient(to bottom, #322b6c 40%, #131c6d 68%, #b1bff9 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(20%, #322b6c), color-stop(60%, #131c6d), to(#b1bff9));
+  background-image: linear-gradient(to bottom, #322b6c 20%, #131c6d 60%, #b1bff9 100%);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -756,7 +771,7 @@ input[type="submit"] {
   padding: 1.3rem 0rem;
   border: none;
   border-radius: 0.2rem;
-  margin-bottom: 2rem;
+  margin-bottom: 7rem;
   cursor: pointer;
 }
 
@@ -1322,6 +1337,103 @@ input[type="submit"]:hover {
   color: rgba(103, 103, 103, 0.9);
   text-align: justify;
   letter-spacing: 0.01rem;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main_text {
+  margin-top: 14rem;
+  width: 42.6rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 17rem;
+  margin-right: 12rem;
+}
+
+.main_text_1 {
+  color: #FFFFFF;
+  font-family: "truenolight";
+  font-size: 6.5rem;
+}
+
+.main_text_2 {
+  color: #FFFFFF;
+  font-family: "TruenoBold";
+  text-transform: uppercase;
+  font-size: 5rem;
+  padding-bottom: 4rem;
+}
+
+.main_text_3 {
+  color: #FFFFFF;
+  font-family: "Roboto";
+  font-size: 1.8rem;
+  padding-right: 6rem;
+  padding-bottom: 5rem;
+}
+
+.main img {
+  margin-top: 7.3rem;
+}
+
+.button_home {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-family: "truenoregular";
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  background-color: #00C2CC;
+  padding: 1.5rem 3.7rem 1.3rem 3.8rem;
+  border-radius: 0.2rem;
+  margin-right: 2.2rem;
+}
+
+.button_back {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-family: "truenoregular";
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  padding: 1.35rem 3.7rem 1.15rem 3.8rem;
+  border: 0.2rem solid #00C2CC;
+  border-radius: 0.2rem;
+}
+
+.links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.links_followus {
+  color: rgba(242, 242, 242, 0.9);
+  text-transform: uppercase;
+  font-family: "TruenoBold";
+  font-size: 1.4rem;
+  padding-right: 2.5rem;
+  padding-top: 6.5rem;
+}
+
+.links_socials {
+  margin-right: 15rem;
+}
+
+.links img {
+  padding-left: 1.5rem;
+  padding-top: 6.5rem;
+  padding-bottom: 4rem;
 }
 
 /* Slider */

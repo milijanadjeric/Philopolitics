@@ -7,14 +7,14 @@
     linear,
     left top,
     left bottom,
-    color-stop(40%, #322b6c),
-    color-stop(68%, #131c6d),
+    color-stop(20%, #322b6c),
+    color-stop(60%, #131c6d),
     color-stop(100%,#b1bff9)
   );
   background-image: linear-gradient(
     to bottom,
-    #322b6c 40%,
-    #131c6d 68%,
+    #322b6c 20%,
+    #131c6d 60%,
     #b1bff9 100%
   );
   background-size: cover;
