@@ -1,4 +1,9 @@
 @charset "UTF-8";
+/* EXAMPLE
+*    @include breakpoint (phone) {
+*        width: 40%;
+*    }
+*/
 /**
  * Set up a decent box model on the root element
  */
@@ -61,10 +66,18 @@ html {
   font-weight: bold;
 }
 
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
 .logo {
-  position: absolute;
-  top: 3rem;
-  left: 9rem;
+  margin-top: 2.5rem;
+  margin-left: 10.5rem;
 }
 
 .logo_text {
@@ -77,10 +90,6 @@ html {
   padding-left: 1.4rem;
 }
 
-.navigation {
-  margin-left: 45rem;
-}
-
 .navigation a {
   float: left;
   font-size: 1.1rem;
@@ -89,7 +98,7 @@ html {
   color: #FFFFFF;
   padding: 0.5rem 1.2rem;
   text-decoration: none;
-  margin-top: 3rem;
+  margin-top: 3.5rem;
   margin-right: 2.5rem;
   letter-spacing: 0.04rem;
 }
@@ -101,7 +110,7 @@ html {
 }
 
 .navigation::after {
-  content: '';
+  content: "";
   display: table;
   clear: both;
 }
@@ -121,7 +130,7 @@ html {
   background-color: inherit;
   font-family: "truenoregular";
   text-transform: uppercase;
-  margin-top: 3rem;
+  margin-top: 3.5rem;
   margin-right: 2.5rem;
   letter-spacing: 0.04rem;
 }
@@ -178,8 +187,8 @@ html {
 
 .languages {
   float: right;
-  margin-right: 7rem;
-  margin-top: -2.5rem;
+  margin-top: 3.5rem;
+  margin-right: 4rem;
 }
 
 .languages a {
@@ -195,6 +204,8 @@ html {
 input[type="text"] {
   width: 4rem;
   border: 1px solid #FFFFFF;
+  color: #FFFFFF;
+  font-family: "truenolight";
   border-radius: 1.3rem;
   font-size: 1.9rem;
   background-color: transparent;
@@ -284,56 +295,71 @@ input[type="text"]:focus {
   margin-top: 4rem;
 }
 
-/*  HOME ELLIPSES */
 .elipse {
   position: absolute;
-  margin-left: 39%;
   z-index: -1;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
 }
 
 .elipse_2 {
   position: absolute;
-  margin-left: 31%;
   z-index: -1;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
 }
 
 .elipse_3 {
   position: absolute;
-  margin-left: 23%;
   z-index: -1;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
 }
 
 .elipse_4 {
   position: absolute;
-  margin-left: 15%;
   z-index: -1;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
 }
 
 .elipse_5 {
   position: absolute;
-  margin-left: 7%;
   z-index: -1;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
 }
 
 .elipse_6 {
   position: absolute;
   z-index: -1;
   width: 130.9rem;
-  margin-left: -1%;
+  left: 50%;
+  -webkit-transform: translate(-50.5%);
+          transform: translate(-50.5%);
 }
 
 .elipse_7 {
   position: absolute;
   z-index: -1;
-  margin-left: -3%;
   width: 138.9rem;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
 }
 
 .elipse_7about-us {
   position: absolute;
   z-index: -1;
-  margin-left: -2%;
   width: 137rem;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
 }
 
 .projects {
@@ -397,9 +423,9 @@ input[type="text"]:focus {
   padding: 0 3.7rem 0 5.7rem;
 }
 
-.gradient-effect {
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(20%, #322b6c), color-stop(60%, #131c6d), to(#b1bff9));
-  background-image: linear-gradient(to bottom, #322b6c 20%, #131c6d 60%, #b1bff9 100%);
+.gradient-effect-1 {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(20%, #322b6c), color-stop(70%, #131c6d), to(#b1bff9));
+  background-image: linear-gradient(to bottom, #322b6c 20%, #131c6d 70%, #b1bff9 100%);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -412,7 +438,6 @@ input[type="text"]:focus {
 
 .hero_text {
   margin-top: 18rem;
-  margin-left: 10rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -428,6 +453,7 @@ input[type="text"]:focus {
   font-size: 6.4rem;
   color: #FFFFFF;
   letter-spacing: 0.2rem;
+  margin-left: 10.5rem;
 }
 
 .hero_text_sub {
@@ -435,6 +461,7 @@ input[type="text"]:focus {
   font-size: 2.1rem;
   color: #FFFFFF;
   margin-top: 1rem;
+  margin-left: 10.8rem;
 }
 
 .hero_text_sub-span {
@@ -444,13 +471,13 @@ input[type="text"]:focus {
 .hero_stars {
   position: absolute;
   top: 9rem;
-  left: 66.5rem;
+  left: 78rem;
 }
 
 .hero_sun {
   position: absolute;
   top: 9rem;
-  left: 76rem;
+  left: 88rem;
 }
 
 .socials {
@@ -461,13 +488,11 @@ input[type="text"]:focus {
       justify-content: space-around;
   color: #131C6D;
   margin-bottom: 2.5rem;
-  margin-top: 5.7rem;
 }
 
 .socials_copy {
   font-family: "truenoregular";
   font-size: 1.4rem;
-  margin-left: 4rem;
   color: #131C6D;
 }
 
@@ -486,10 +511,18 @@ input[type="text"]:focus {
 
 .socials a {
   padding-left: 1rem;
+  text-decoration: none;
 }
 
 .socials a :hover {
   fill: #1b2798;
+}
+
+.gradient-effect-2 {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(20%, #322b6c), color-stop(65%, #131c6d), to(#b1bff9));
+  background-image: linear-gradient(to bottom, #322b6c 20%, #131c6d 65%, #b1bff9 100%);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .main_div-1 {
@@ -760,6 +793,13 @@ input[type="text"]:focus {
   text-decoration: none;
 }
 
+.gradient-effect-3 {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(20%, #322b6c), color-stop(57%, #131c6d), to(#b1bff9));
+  background-image: linear-gradient(to bottom, #322b6c 20%, #131c6d 57%, #b1bff9 100%);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 input[type="submit"] {
   background-color: #00C2CC;
   text-transform: uppercase;
@@ -850,7 +890,7 @@ input[type="submit"]:hover {
 
 .contact img {
   padding-left: 20rem;
-  margin-top: 8rem;
+  margin-top: 6rem;
 }
 
 .header {
@@ -1337,6 +1377,13 @@ input[type="submit"]:hover {
   color: rgba(103, 103, 103, 0.9);
   text-align: justify;
   letter-spacing: 0.01rem;
+}
+
+.gradient-effect-4 {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(20%, #322b6c), color-stop(40%, #131c6d), to(#b1bff9));
+  background-image: linear-gradient(to bottom, #322b6c 20%, #131c6d 40%, #b1bff9 100%);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .main {

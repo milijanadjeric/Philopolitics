@@ -1,55 +1,59 @@
-
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the ellipses component.
 // -----------------------------------------------------------------------------
 
 
-/*  HOME ELLIPSES */
-
 .elipse {
+  position: absolute;
+  z-index: -1;
+  left: 50%;
+  transform: translate(-50%);
+
+  &_2 {
     position: absolute;
-    margin-left: 39%;
     z-index: -1;
+    left: 50%;
+    transform: translate(-50%);
+  }
+  &_3 {
+    position: absolute;
+    z-index: -1;
+    left: 50%;
+    transform: translate(-50%);
+  }
+  &_4 {
+    position: absolute;
+    z-index: -1;
+    left: 50%;
+    transform: translate(-50%);
+  }
+  &_5 {
+    position: absolute;
+    z-index: -1;
+    left: 50%;
+    transform: translate(-50%);
+  }
+  &_6 {
+    position: absolute;
+    z-index: -1;
+    width: 130.9rem;
+    left: 50%;
+    transform: translate(-50.5%);
+  }
 
-    &_2 {
-        position: absolute;
-        margin-left: 31%;
-        z-index: -1;
-    }
-    &_3 {
-        position: absolute;
-        margin-left: 23%;
-        z-index: -1;
-    }
-    &_4 {
-        position: absolute;
-        margin-left: 15%;
-        z-index: -1;
-    }
-    &_5 {
-        position: absolute;
-        margin-left: 7%;
-        z-index: -1;
-    }
-    &_6 {
-        position: absolute;
-        z-index: -1;
-        width: 130.9rem;
-        margin-left: -1%;
-    }
+  &_7 {
+    position: absolute;
+    z-index: -1;
+    width: 138.9rem;
+    left: 50%;
+    transform: translate(-50%);
+  }
 
-    &_7 {
-        position: absolute;
-        z-index: -1;
-        margin-left: -3%;
-        width: 138.9rem;
-    }
-
-    &_7about-us {
-        position: absolute;
-        z-index: -1;
-        margin-left: -2%;
-        width: 137rem;
-    }
-
+  &_7about-us {
+    position: absolute;
+    z-index: -1;
+    width: 137rem;
+    left: 50%;
+    transform: translate(-50%);
+  }
 }

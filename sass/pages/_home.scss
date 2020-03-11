@@ -2,19 +2,19 @@
 // This file contains styles that are specific to the home page.
 // -----------------------------------------------------------------------------
 
-.gradient-effect {
+.gradient-effect-1 {
   background-image: -webkit-gradient(
     linear,
     left top,
     left bottom,
     color-stop(20%, #322b6c),
-    color-stop(60%, #131c6d),
-    color-stop(100%,#b1bff9)
+    color-stop(70%, #131c6d),
+    color-stop(100%, #b1bff9)
   );
   background-image: linear-gradient(
     to bottom,
     #322b6c 20%,
-    #131c6d 60%,
+    #131c6d 70%,
     #b1bff9 100%
   );
   background-size: cover;
@@ -24,13 +24,9 @@
 .hero {
   display: -webkit-box;
   display: flex;
-  
-  
 
   &_text {
     margin-top: 18rem;
-    margin-left: 10rem;
-    
     display: -webkit-box;
     display: flex;
     -webkit-box-orient: vertical;
@@ -43,12 +39,14 @@
       font-size: 6.4rem;
       color: $color-white;
       letter-spacing: 0.2rem;
+      margin-left: 10.5rem;
     }
     &_sub {
       font-family: $font-rb;
       font-size: 2.1rem;
       color: $color-white;
       margin-top: 1rem;
+      margin-left: 10.8rem;
     }
     &_sub-span {
       color: $color-yellow;
@@ -58,15 +56,14 @@
   &_stars {
     position: absolute;
     top: 9rem;
-    left: 66.5rem;
+    left: 78rem;
   }
   &_sun {
     position: absolute;
     top: 9rem;
-    left: 76rem;
+    left: 88rem;
   }
 }
-
 
 .socials {
   display: -webkit-box;
@@ -74,12 +71,11 @@
   justify-content: space-around;
   color: $color-blue;
   margin-bottom: 2.5rem;
-  margin-top: 5.7rem;
 
   &_copy {
     font-family: $font-tr-rg;
     font-size: 1.4rem;
-    margin-left: 4rem;
+
     color: $color-blue;
   }
 
@@ -98,6 +94,8 @@
 
   a {
     padding-left: 1rem;
+    text-decoration: none;
+
     :hover {
       fill: #1b2798;
     }

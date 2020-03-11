@@ -1,0 +1,53 @@
+//-------------------------
+//--------MIXIN BREAKPOINTS
+//-------------------------
+
+/* EXAMPLE
+*    @include breakpoint (phone) {
+*        width: 40%;
+*    }
+*/
+
+
+
+@mixin breakpoint($point) {
+    @if $point == desktop--Large {//max-width = 1700px
+        @media (max-width: $desktop--Large)                 { @content; }
+    }
+    @if $point == desktop {//max-width = 1440px
+        @media (max-width: $desktop)                        { @content; }
+    }
+    @if $point == desktop--Small {//max-width = 1200px
+        @media (max-width: $desktop--Small)                 { @content; }
+    }
+    @else if $point == tablet {//max-width = 1023px
+        @media (max-width: $tablet)                         { @content; }
+    }
+    @else if $point == mobile {//max-width = 767px
+        @media (max-width: $mobile)                         { @content; }
+    }
+    @else if $point == mobile--Small {//max-width = 360px
+        @media (max-width: $mobile--Small)                  { @content; }
+    }
+    @else if $point == mobile--Smallest {//max-width = 320px
+        @media (max-width: $mobile--Smallest)               { @content; }
+    }
+    @else if $point == exeptGadgets {
+        @media (min-width: $tablet + 1)                     { @content; }
+    }
+}
+
+
+//------MEDIA QUERIES   1rem - 16px
+
+
+$desktop--Large   : 1700px;    //   1700 / 16px = 106.25rem
+$desktop          : 1440px;    //   1440 / 16px = 90rem
+$desktop--Small   : 1200px;    //   1200 / 16px = 75rem
+$tablet           : 1023px;    //   1023 / 16px = 64rem
+$mobile           : 767px;     //   767 / 16px = 48rem
+$mobile--Small    : 360px;     //   360 / 16px = 22.5rem
+$mobile--Smallest : 320px;     //   320 / 16px = 20rem
+
+
+// ORDER: Base + typography > general layout + grid > page layout > components
