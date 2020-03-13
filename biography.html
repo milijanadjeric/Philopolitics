@@ -118,7 +118,7 @@
 
     <section class="slider">
         <p class="tekstovi_autora">tekstovi autora</p>
-        <div class="container_tekstovi">
+        <div class="container_tekstovi biography">
             <div class="slide-box">
                 <div class="div-1">
                     <div class="div-1_wrap">
@@ -599,23 +599,7 @@
     <script type="text/javascript" src="./js/slick.min.js"></script>
     <script>
 
-        /* When the user clicks on the button, 
-        toggle between hiding and showing the dropdown content */
-
-        function myFunction() {
-            document.getElementById("myDropdown").classList.toggle("show");
-        }
-
-        // Close the dropdown if the user clicks outside of it
-
-        window.onclick = function (e) {
-            if (!e.target.matches('.dropdown_btn')) {
-                var myDropdown = document.getElementById("myDropdown");
-                if (myDropdown.classList.contains('show')) {
-                    myDropdown.classList.remove('show');
-                }
-            }
-        }
+       
 
         $('.container_tekstovi').slick();
 

@@ -365,7 +365,7 @@ input[type="text"]:focus {
 }
 
 .projects {
-  margin-top: 20.7rem;
+  margin-top: 18rem;
 }
 
 .slidebox_content {
@@ -945,6 +945,10 @@ input[type="submit"]:hover {
   margin-top: 4.8rem;
 }
 
+.biography {
+  height: 66.5rem;
+}
+
 .div-1 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1250,7 +1254,7 @@ input[type="submit"]:hover {
 }
 
 .texts {
-  height: 990px;
+  height: 99rem;
 }
 
 .heading {
@@ -1486,14 +1490,14 @@ input[type="submit"]:hover {
   padding-bottom: 4rem;
 }
 
-.Projects_bio {
+.Projects-bio {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   padding: 5rem 11rem 3rem 11rem;
 }
 
-.Projects_bio_title {
+.Projects-bio_title {
   font-family: "TruenoBold";
   font-size: 1.8rem;
   letter-spacing: 0.01rem;
@@ -1501,7 +1505,7 @@ input[type="submit"]:hover {
   color: #322b6c;
 }
 
-.Projects_bio_text {
+.Projects-bio_text {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1517,7 +1521,161 @@ input[type="submit"]:hover {
   text-align: justify;
 }
 
-.Projects_bio_text p {
+.Projects-bio_text p {
+  padding-bottom: 2rem;
+}
+
+.projectss {
+  height: 99rem;
+}
+
+.div-11 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 11rem;
+}
+
+.div-11_wrap {
+  margin-bottom: 6rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.div-11_wrap_circle {
+  width: 19rem;
+  height: 19rem;
+  background-color: #c4c4c4;
+  border-radius: 50%;
+}
+
+.div-11_wrap_block {
+  width: 38rem;
+  margin-left: 4rem;
+}
+
+.div-11_wrap_block_name {
+  font-family: "truenoregular";
+  font-weight: 600;
+  font-size: 1.8rem;
+  letter-spacing: 0.01rem;
+  text-transform: uppercase;
+  color: #322b6c;
+  padding-bottom: 2.4rem;
+}
+
+.div-11_wrap_block_par {
+  font-family: 'Roboto';
+  font-size: 1.3rem;
+  color: #000;
+  line-height: 2.2rem;
+  padding-bottom: 2rem;
+}
+
+.div-22 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 11rem;
+}
+
+.div-22_wrap {
+  margin-bottom: 6rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.div-22_wrap_circle {
+  width: 19rem;
+  height: 19rem;
+  background-color: #c4c4c4;
+  border-radius: 50%;
+}
+
+.div-22_wrap_block {
+  width: 38rem;
+  margin-left: 4rem;
+}
+
+.div-22_wrap_block_name {
+  font-family: "truenoregular";
+  font-weight: 600;
+  font-size: 1.8rem;
+  letter-spacing: 0.01rem;
+  text-transform: uppercase;
+  color: #322b6c;
+  padding-bottom: 2.4rem;
+}
+
+.div-22_wrap_block_par {
+  font-family: 'Roboto';
+  font-size: 1.3rem;
+  color: #000;
+  line-height: 2.2rem;
+  padding-bottom: 2rem;
+}
+
+.div-33 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 11rem;
+}
+
+.div-33_wrap {
+  margin-bottom: 6rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.div-33_wrap_circle {
+  width: 19rem;
+  height: 19rem;
+  background-color: #c4c4c4;
+  border-radius: 50%;
+}
+
+.div-33_wrap_block {
+  width: 38rem;
+  margin-left: 4rem;
+}
+
+.div-33_wrap_block_name {
+  font-family: "truenoregular";
+  font-weight: 600;
+  font-size: 1.8rem;
+  letter-spacing: 0.01rem;
+  text-transform: uppercase;
+  color: #322b6c;
+  padding-bottom: 2.4rem;
+}
+
+.div-33_wrap_block_par {
+  font-family: 'Roboto';
+  font-size: 1.3rem;
+  color: #000;
+  line-height: 2.2rem;
   padding-bottom: 2rem;
 }
 
@@ -1623,10 +1781,6 @@ input[type="submit"]:hover {
 }
 
 /* Slider */
-.slick-loading .slick-list {
-  background: #fff url("./ajax-loader.gif") center center no-repeat;
-}
-
 /* Arrows */
 .slick-prev,
 .slick-next {

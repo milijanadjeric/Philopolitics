@@ -1,9 +1,6 @@
-.Projects_bio {
+.Projects-bio {
   display: flex;
   padding: 5rem 11rem 3rem 11rem;
-  
-
-  
 
   &_title {
     font-family: $font-tr-bd;
@@ -11,7 +8,6 @@
     letter-spacing: 0.01rem;
     text-transform: uppercase;
     color: $color-footer-text;
-    
   }
 
   &_text {
@@ -31,3 +27,139 @@
     }
   }
 }
+
+.projectss {
+  height: 99rem;
+  
+}
+
+//    SLIDER
+
+
+
+.div-11 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-left: 11rem;
+
+  &_wrap {
+    margin-bottom: 6rem;
+    display: flex;
+
+    &_circle {
+      width: 19rem;
+      height: 19rem;
+      background-color: #c4c4c4;
+      border-radius: 50%;
+    }
+
+    &_block {
+      width: 38rem;
+      margin-left: 4rem;
+
+      &_name {
+        font-family: $font-tr-rg;
+        font-weight: 600;
+        font-size: 1.8rem;
+        letter-spacing: 0.01rem;
+        text-transform: uppercase;
+        color: $color-footer-text;
+        padding-bottom: 2.4rem;
+      }
+
+      &_par {
+        font-family: 'Roboto';
+        font-size: 1.3rem;
+        color: $color-black;
+        line-height: 2.2rem;
+        padding-bottom: 2rem;
+      }
+    }
+  }
+}
+.div-22 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-left: 11rem;
+
+  &_wrap {
+    margin-bottom: 6rem;
+    display: flex;
+
+    &_circle {
+      width: 19rem;
+      height: 19rem;
+      background-color: #c4c4c4;
+      border-radius: 50%;
+    }
+
+    &_block {
+      width: 38rem;
+      margin-left: 4rem;
+
+      &_name {
+        font-family: $font-tr-rg;
+        font-weight: 600;
+        font-size: 1.8rem;
+        letter-spacing: 0.01rem;
+        text-transform: uppercase;
+        color: $color-footer-text;
+        padding-bottom: 2.4rem;
+      }
+
+      &_par {
+        font-family: 'Roboto';
+        font-size: 1.3rem;
+        color: $color-black;
+        line-height: 2.2rem;
+        padding-bottom: 2rem;
+      }
+    }
+  }
+}
+
+.div-33 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-left: 11rem;
+
+  &_wrap {
+    margin-bottom: 6rem;
+    display: flex;
+
+    &_circle {
+      width: 19rem;
+      height: 19rem;
+      background-color: #c4c4c4;
+      border-radius: 50%;
+    }
+
+    &_block {
+      width: 38rem;
+      margin-left: 4rem;
+
+      &_name {
+        font-family: $font-tr-rg;
+        font-weight: 600;
+        font-size: 1.8rem;
+        letter-spacing: 0.01rem;
+        text-transform: uppercase;
+        color: $color-footer-text;
+        padding-bottom: 2.4rem;
+      }
+
+      &_par {
+        font-family: 'Roboto';
+        font-size: 1.3rem;
+        color: $color-black;
+        line-height: 2.2rem;
+        padding-bottom: 2rem;
+      }
+    }
+  }
+}
+
+//   SLIDER - END
