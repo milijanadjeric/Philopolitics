@@ -1,0 +1,33 @@
+.Projects_bio {
+  display: flex;
+  padding: 5rem 11rem 3rem 11rem;
+  
+
+  
+
+  &_title {
+    font-family: $font-tr-bd;
+    font-size: 1.8rem;
+    letter-spacing: 0.01rem;
+    text-transform: uppercase;
+    color: $color-footer-text;
+    
+  }
+
+  &_text {
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto";
+    font-size: 1.8rem;
+    color: $color-footer-text;
+    // padding-left: 5rem;       // for different text style
+    // padding-right: 9rem;
+    padding-left: 24rem;
+    padding-right: 24rem;
+    text-align: justify;
+
+    p {
+      padding-bottom: 2rem;
+    }
+  }
+}

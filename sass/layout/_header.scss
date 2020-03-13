@@ -4,6 +4,8 @@
 header {
   display: flex;
   justify-content: space-between;
+  background-color: $color-footer-text;
+  height: 10rem;
 }
 
 //  -----LOG0 -----//
@@ -115,7 +117,7 @@ header {
 
 /* links About us and Contact */
 .mrg-right {
-  margin-right: 2.5rem;
+  margin-right: 2.8rem;
 
   &_border:hover {
     background-color: rgba(255, 255, 255, 0.6);

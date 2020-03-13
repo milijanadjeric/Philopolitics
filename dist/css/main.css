@@ -73,6 +73,8 @@ header {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  background-color: #322b6c;
+  height: 10rem;
 }
 
 .logo {
@@ -177,7 +179,7 @@ header {
 
 /* links About us and Contact */
 .mrg-right {
-  margin-right: 2.5rem;
+  margin-right: 2.8rem;
 }
 
 .mrg-right_border:hover {
@@ -567,7 +569,7 @@ input[type="text"]:focus {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding-top: 12rem;
+  padding-top: 10rem;
   margin-left: 14rem;
 }
 
@@ -621,7 +623,7 @@ input[type="text"]:focus {
 }
 
 .main_div-2 img {
-  margin-top: -11rem;
+  margin-top: -12rem;
 }
 
 .main_div-3 {
@@ -891,11 +893,6 @@ input[type="submit"]:hover {
 .contact img {
   padding-left: 20rem;
   margin-top: 6rem;
-}
-
-.header {
-  background-color: #322b6c;
-  height: 10rem;
 }
 
 .Aleksandar_bio {
@@ -1347,11 +1344,17 @@ input[type="submit"]:hover {
 }
 
 .text img {
-  margin-bottom: 1.9rem;
+  position: relative;
+}
+
+.text_info {
+  position: absolute;
+  top: -3.6rem;
+  left: 25.9rem;
 }
 
 .text_paragraph-onespace {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-size: 1.5rem;
   width: 57.5rem;
   color: rgba(103, 103, 103, 0.9);
@@ -1361,7 +1364,7 @@ input[type="submit"]:hover {
 }
 
 .text_paragraph-doublespace {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-size: 1.5rem;
   width: 57.5rem;
   color: rgba(103, 103, 103, 0.9);
@@ -1371,7 +1374,7 @@ input[type="submit"]:hover {
 }
 
 .text_paragraph-nospace {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-size: 1.5rem;
   width: 57.5rem;
   color: rgba(103, 103, 103, 0.9);
@@ -1481,6 +1484,41 @@ input[type="submit"]:hover {
   padding-left: 1.5rem;
   padding-top: 6.5rem;
   padding-bottom: 4rem;
+}
+
+.Projects_bio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 5rem 11rem 3rem 11rem;
+}
+
+.Projects_bio_title {
+  font-family: "TruenoBold";
+  font-size: 1.8rem;
+  letter-spacing: 0.01rem;
+  text-transform: uppercase;
+  color: #322b6c;
+}
+
+.Projects_bio_text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: "Roboto";
+  font-size: 1.8rem;
+  color: #322b6c;
+  padding-left: 24rem;
+  padding-right: 24rem;
+  text-align: justify;
+}
+
+.Projects_bio_text p {
+  padding-bottom: 2rem;
 }
 
 /* Slider */

@@ -1,10 +1,9 @@
-
 //  NAVIGATION AND BANNER
 
 .heading {
-    display: flex;
-    justify-content: center;
-    background-color: $color-footer-text;
+  display: flex;
+  justify-content: center;
+  background-color: $color-footer-text;
 }
 
 .banner {
@@ -14,12 +13,11 @@
   margin-top: 5.6rem;
   margin-bottom: 1rem;
 
-    img {
-        margin-left: 2rem;
-
-    }
+  img {
+    margin-left: 2rem;
+  }
   img:hover {
-      cursor: pointer;
+    cursor: pointer;
   }
 
   &_heading {
@@ -27,7 +25,6 @@
     font-family: $font-tr;
     font-size: 4rem;
     margin: 0 auto;
-    
   }
 
   &_line-2 {
@@ -38,17 +35,17 @@
     margin-bottom: 1.7rem;
   }
 
-  &_name-and-links  {
-      display: flex;
-      justify-content: space-between;
+  &_name-and-links {
+    display: flex;
+    justify-content: space-between;
   }
 
   &_name {
-      color: rgba(255, 255, 255, 0.9);
-      font-family: $font-tr-rg;
-      font-size: 1.4rem;
-      letter-spacing: 0.01rem;
-      margin-bottom: 0.3rem;
+    color: rgba(255, 255, 255, 0.9);
+    font-family: $font-tr-rg;
+    font-size: 1.4rem;
+    letter-spacing: 0.01rem;
+    margin-bottom: 0.3rem;
   }
 
   &_date {
@@ -57,7 +54,6 @@
     font-size: 1rem;
     letter-spacing: 0.01rem;
     text-transform: uppercase;
-
   }
 }
 
@@ -71,11 +67,17 @@
   margin-bottom: -13rem;
 
   img {
-    margin-bottom: 1.9rem;
+    position: relative;
+  }
+
+  &_info {
+    position: absolute;
+    top: -3.6rem;
+    left: 25.9rem;
   }
 
   &_paragraph-onespace {
-    font-family: 'Roboto';
+    font-family: "Roboto";
     font-size: 1.5rem;
     width: 57.5rem;
     color: rgba(103, 103, 103, 0.9);
@@ -85,7 +87,7 @@
   }
 
   &_paragraph-doublespace {
-    font-family: 'Roboto';
+    font-family: "Roboto";
     font-size: 1.5rem;
     width: 57.5rem;
     color: rgba(103, 103, 103, 0.9);
@@ -95,7 +97,7 @@
   }
 
   &_paragraph-nospace {
-    font-family: 'Roboto';
+    font-family: "Roboto";
     font-size: 1.5rem;
     width: 57.5rem;
     color: rgba(103, 103, 103, 0.9);
