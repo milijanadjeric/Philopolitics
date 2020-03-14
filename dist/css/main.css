@@ -946,7 +946,7 @@ input[type="submit"]:hover {
 }
 
 .biography {
-  height: 66.5rem;
+  height: 69rem;
 }
 
 .div-1 {
@@ -1254,7 +1254,7 @@ input[type="submit"]:hover {
 }
 
 .texts {
-  height: 99rem;
+  height: 101.5rem;
 }
 
 .heading {
@@ -1526,7 +1526,14 @@ input[type="submit"]:hover {
 }
 
 .projectss {
-  height: 99rem;
+  height: 70rem;
+}
+
+.slider-projects {
+  width: 80%;
+  margin-left: 11rem;
+  margin-bottom: 16rem;
+  margin-top: 1rem;
 }
 
 .div-11 {
@@ -1539,7 +1546,6 @@ input[type="submit"]:hover {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin-left: 11rem;
 }
 
 .div-11_wrap {
@@ -1547,13 +1553,6 @@ input[type="submit"]:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-}
-
-.div-11_wrap_circle {
-  width: 19rem;
-  height: 19rem;
-  background-color: #c4c4c4;
-  border-radius: 50%;
 }
 
 .div-11_wrap_block {
@@ -1589,7 +1588,6 @@ input[type="submit"]:hover {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin-left: 11rem;
 }
 
 .div-22_wrap {
@@ -1597,13 +1595,6 @@ input[type="submit"]:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-}
-
-.div-22_wrap_circle {
-  width: 19rem;
-  height: 19rem;
-  background-color: #c4c4c4;
-  border-radius: 50%;
 }
 
 .div-22_wrap_block {
@@ -1639,7 +1630,6 @@ input[type="submit"]:hover {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin-left: 11rem;
 }
 
 .div-33_wrap {
@@ -1647,13 +1637,6 @@ input[type="submit"]:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-}
-
-.div-33_wrap_circle {
-  width: 19rem;
-  height: 19rem;
-  background-color: #c4c4c4;
-  border-radius: 50%;
 }
 
 .div-33_wrap_block {
@@ -1679,6 +1662,136 @@ input[type="submit"]:hover {
   padding-bottom: 2rem;
 }
 
+.texts-2 {
+  height: 127rem;
+}
+
+.slider-publications {
+  width: 80%;
+  margin-bottom: 25rem;
+  margin-left: 20.5rem;
+}
+
+.div-111 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.div-111_wrap {
+  margin-bottom: 8rem;
+  margin-right: 9.2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.div-111_wrap img {
+  max-width: 25rem;
+}
+
+.div-111_wrap_block_publ {
+  font-family: "truenoregular";
+  text-transform: uppercase;
+  color: #322b6c;
+  font-size: 1.4rem;
+  padding-top: 1.4rem;
+  padding-bottom: 1.4rem;
+}
+
+.div-111_wrap_block_author {
+  font-family: "truenoregular";
+  text-transform: capitalize;
+  color: #000;
+  font-size: 1.2rem;
+}
+
+.div-222 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.div-222_wrap {
+  margin-bottom: 8rem;
+  margin-right: 9.2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.div-222_wrap img {
+  max-width: 25rem;
+}
+
+.div-222_wrap_block_publ {
+  font-family: "truenoregular";
+  text-transform: uppercase;
+  color: #322b6c;
+  font-size: 1.4rem;
+  padding-top: 1.4rem;
+  padding-bottom: 1.4rem;
+}
+
+.div-222_wrap_block_author {
+  font-family: "truenoregular";
+  text-transform: capitalize;
+  color: #000;
+  font-size: 1.2rem;
+}
+
+.div-333 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.div-333_wrap {
+  margin-bottom: 8rem;
+  margin-right: 9.2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.div-333_wrap img {
+  max-width: 25rem;
+}
+
+.div-333_wrap_block_publ {
+  font-family: "truenoregular";
+  text-transform: uppercase;
+  color: #322b6c;
+  font-size: 1.4rem;
+  padding-top: 1.4rem;
+  padding-bottom: 1.4rem;
+}
+
+.div-333_wrap_block_author {
+  font-family: "truenoregular";
+  text-transform: capitalize;
+  color: #000;
+  font-size: 1.2rem;
+}
+
 /* Slider */
 .slick-slider {
   position: relative;
@@ -1700,7 +1813,6 @@ input[type="submit"]:hover {
   overflow: hidden;
   display: block;
   margin: 0;
-  padding-bottom: 6.5rem;
 }
 
 .slick-list:focus {

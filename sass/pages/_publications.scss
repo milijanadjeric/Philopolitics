@@ -1,0 +1,120 @@
+.texts-2 {
+    height: 127rem;
+}
+
+//    SLIDER
+
+.slider-publications {
+    width: 80%;
+    margin-bottom: 25rem;
+    margin-left: 20.5rem;
+}
+  
+
+.div-111 {
+    display: flex;
+    flex-wrap: wrap;
+    
+    &_wrap {
+      margin-bottom: 8rem;
+      margin-right: 9.2rem;
+      display: flex;
+      flex-direction: column;
+
+      img {
+          max-width: 25rem;
+      }
+      
+  
+      &_block {
+
+        &_publ {
+            font-family: $font-tr-rg;
+            text-transform: uppercase;
+            color: $color-footer-text;
+            font-size: 1.4rem;
+            padding-top: 1.4rem;
+            padding-bottom: 1.4rem;
+        }
+
+        &_author {
+            font-family: $font-tr-rg;
+            text-transform: capitalize;
+            color: $color-black;
+            font-size: 1.2rem;
+        }
+      }
+    }
+  }
+  .div-222 {
+    display: flex;
+    flex-wrap: wrap;
+  
+    &_wrap {
+      margin-bottom: 8rem;
+      margin-right: 9.2rem;
+      display: flex;
+      flex-direction: column;
+
+      img {
+        max-width: 25rem;
+    }
+  
+  
+      &_block {
+
+        &_publ {
+            font-family: $font-tr-rg;
+            text-transform: uppercase;
+            color: $color-footer-text;
+            font-size: 1.4rem;
+            padding-top: 1.4rem;
+            padding-bottom: 1.4rem;
+        }
+
+        &_author {
+            font-family: $font-tr-rg;
+            text-transform: capitalize;
+            color: $color-black;
+            font-size: 1.2rem;
+        } 
+      }
+    }
+  }
+  
+  .div-333 {
+    display: flex;
+    flex-wrap: wrap;
+  
+    &_wrap {
+      margin-bottom: 8rem;
+      margin-right: 9.2rem;
+      display: flex;
+      flex-direction: column;
+
+
+      img {
+        max-width: 25rem;
+    }
+  
+      &_block {
+
+        &_publ {
+            font-family: $font-tr-rg;
+            text-transform: uppercase;
+            color: $color-footer-text;
+            font-size: 1.4rem;
+            padding-top: 1.4rem;
+            padding-bottom: 1.4rem;
+        }
+
+        &_author {
+            font-family: $font-tr-rg;
+            text-transform: capitalize;
+            color: $color-black;
+            font-size: 1.2rem;
+        }
+      }
+    }
+  }
+  

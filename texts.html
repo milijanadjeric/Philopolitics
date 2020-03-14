@@ -48,7 +48,7 @@
                 <button class="subnavbtn mrg-right">What we do<i class="subnav_down"></i></button>
                 <div class="subnav-content">
                     <a href="projects.html">Projects</a>
-                    <a href="#">Publications</a>
+                    <a href="publications.html">Publications</a>
                 </div>
             </div>
             <div class="subnav">
@@ -79,6 +79,7 @@
     </header>
 
     <section class="slider">
+        <!-- class slider comes from page biography.scss   -->
 
         <div class="container_tekstovi texts">
             <div class="slide-box">
@@ -758,7 +759,10 @@
 
        
 
-        $('.container_tekstovi').slick();
+        $('.container_tekstovi').slick({
+            infinite: false,
+            
+        });
 
 
 
