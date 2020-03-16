@@ -1,63 +1,65 @@
 .projects {
-    margin-top: 18rem; 
+  margin-top: 18rem;
+}
+
+
+// *** this is to make negative right-margin on slider on home page - autoplay slider ***
+
+.autoplay .slick-list {
+  padding-right: 19rem;
+  margin-left: 15rem;
+}
+
+.slidebox {
+
+  &_content {
+    display: flex;
+    height: 16rem;
   }
-  
-  .slidebox {
-  
-    &_content {
-      display: flex;
-      height: 16rem;
-      
-      
+
+  &_circle {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    background-color: $color-white;
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.25);
+    margin-top: 3.3rem;
+  }
+
+  &_card {
+    width: 35rem;
+    height: 15rem;
+    background-color: $color-violet;
+    box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 18px;
+    margin-left: -4rem;
+    z-index: -1;
+
+    &_heading {
+      color: $color-white;
+      font-size: 1.8rem;
+      font-family: $font-gl;
+      text-transform: capitalize;
+      padding: 2.3rem 0 1.8rem 5.5rem;
     }
-    
-    &_circle {
-      width: 8rem;
-      height: 8rem;
-      border-radius: 50%;
-      background-color: $color-white;
-      box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.25);
-      margin-top: 3.3rem;
-      
-      
-  
+
+    &_text-left {
+      color: $color-grey-text;
+      font-size: 1.4rem;
+      font-family: $font-gl;
+      padding: 0 2.8rem 0 5.7rem;
     }
-  
-    &_card {
-      width: 35rem;
-      height: 15rem;
-      background-color: $color-violet;
-      box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.25);
-      border-radius: 18px;
-      margin-left: -4rem;
-      z-index: -1;
-  
-      &_heading {
-        color: $color-white;
-        font-size: 1.8rem;
-        font-family: $font-gl;
-        text-transform: capitalize;
-        padding: 2.3rem 0 1.8rem 5.5rem;
-      }
-  
-      &_text-left {
-        color: $color-grey-text;
-        font-size: 1.4rem;
-        font-family: $font-gl;
-        padding: 0 2.8rem 0 5.7rem;
-      }
-      &_text-center {
-        color: $color-grey-text;
-        font-size: 1.4rem;
-        font-family: $font-gl;
-        padding: 0 8.4rem 0 5.7rem;
-      }
-      &_text-right {
-        color: $color-grey-text;
-        font-size: 1.4rem;
-        font-family: $font-gl;
-        padding: 0 3.7rem 0 5.7rem;
-      }
+    &_text-center {
+      color: $color-grey-text;
+      font-size: 1.4rem;
+      font-family: $font-gl;
+      padding: 0 8.4rem 0 5.7rem;
+    }
+    &_text-right {
+      color: $color-grey-text;
+      font-size: 1.4rem;
+      font-family: $font-gl;
+      padding: 0 3.7rem 0 5.7rem;
     }
   }
-  
+}

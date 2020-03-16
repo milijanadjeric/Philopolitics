@@ -46,7 +46,7 @@
         <circle id="Ellipse(5)" cx="550" r="548.5" stroke="#6C4BA1" stroke-opacity="0.07" stroke-width="3"></circle>
     </svg>
     <?xml version="1.0" encoding="UTF-8"?>
-    <svg class="elipse_6" xmlns="http://www.w3.org/2000/svg" width="1152" height="650" viewBox="0 0 1152 650"
+    <svg class="elipse_6" xmlns="http://www.w3.org/2000/svg" width="1122" height="650" viewBox="0 0 1152 650"
         fill="none">
         <circle id="Ellipse(6)" cx="582" r="648.5" stroke="#6C4BA1" stroke-opacity="0.07" stroke-width="3"></circle>
     </svg>
@@ -96,13 +96,13 @@
 
         <!-- NAVIGATION -->
 
-    
+
         <div class="navbar">
             <div class="subnav">
                 <button class="subnavbtn mrg-right">What we do<i class="subnav_down"></i></button>
                 <div class="subnav-content">
                     <a href="projects.html">Projects</a>
-                    <a href="#">Publications</a>
+                    <a href="publications.html">Publications</a>
                 </div>
             </div>
             <div class="subnav">
@@ -125,7 +125,7 @@
                 <input type="text" name="search" placeholder="">
                 <div class="search-icon"></div>
             </form>
-            <a href="#"><img src="img/SFRJ.svg" alt=""></a>
+            <a href="#"><img class="languages_img" src="img/SFRJ.svg" alt=""></a>
             <a href="#"><img src="img/UK.svg" alt=""></a>
         </div>
 
@@ -139,8 +139,11 @@
             <p class="hero_text_sub">Najbolji <span class="hero_text_sub-span">svet</span> od svih mogućih <span
                     class="hero_text_sub-span">svetova.</span></p>
         </div>
-        <img src="img/stars.svg" alt="" class="hero_stars">
-        <img src="img/sun.svg" alt="" class="hero_sun">
+        <div class="hero_img">
+        <img src="img/stars.svg" alt="" class="hero_img_stars">
+        <img src="img/sun.svg" alt="" class="hero_img_sun">
+    </div>
+        
     </section>
 
     <!-- HEADING AND THE SUN END -->
@@ -287,13 +290,13 @@
         /*  SLICK SLIDER*/
 
         $('.autoplay').slick({
-            slidesToShow: 3,
+            slidesToShow: 2,
             slidesToScroll: 1,
-            autoplaySpeed: 1000,
+            autoplaySpeed: 2000,
             arrows: false,
             dots: false,
             autoplay: true,
-           
+
         });
 
 

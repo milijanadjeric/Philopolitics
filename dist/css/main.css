@@ -191,6 +191,7 @@ header {
   float: right;
   margin-top: 3.5rem;
   margin-right: 4rem;
+  z-index: 222;
 }
 
 .languages a {
@@ -297,9 +298,35 @@ input[type="text"]:focus {
   margin-top: 4rem;
 }
 
+.btn-download {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 15rem;
+  height: 4rem;
+  background-color: #322b6c;
+  border: none;
+  color: #FFFFFF;
+  font-family: "truenoregular";
+  text-transform: uppercase;
+  font-size: 1rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: .2rem;
+  margin-top: 7.5rem;
+}
+
+.btn-download img {
+  padding-left: .5rem;
+}
+
 .elipse {
   position: absolute;
-  z-index: -1;
   left: 50%;
   -webkit-transform: translate(-50%);
           transform: translate(-50%);
@@ -307,7 +334,6 @@ input[type="text"]:focus {
 
 .elipse_2 {
   position: absolute;
-  z-index: -1;
   left: 50%;
   -webkit-transform: translate(-50%);
           transform: translate(-50%);
@@ -315,7 +341,6 @@ input[type="text"]:focus {
 
 .elipse_3 {
   position: absolute;
-  z-index: -1;
   left: 50%;
   -webkit-transform: translate(-50%);
           transform: translate(-50%);
@@ -323,7 +348,6 @@ input[type="text"]:focus {
 
 .elipse_4 {
   position: absolute;
-  z-index: -1;
   left: 50%;
   -webkit-transform: translate(-50%);
           transform: translate(-50%);
@@ -331,7 +355,6 @@ input[type="text"]:focus {
 
 .elipse_5 {
   position: absolute;
-  z-index: -1;
   left: 50%;
   -webkit-transform: translate(-50%);
           transform: translate(-50%);
@@ -339,8 +362,6 @@ input[type="text"]:focus {
 
 .elipse_6 {
   position: absolute;
-  z-index: -1;
-  width: 130.9rem;
   left: 50%;
   -webkit-transform: translate(-50.5%);
           transform: translate(-50.5%);
@@ -348,17 +369,15 @@ input[type="text"]:focus {
 
 .elipse_7 {
   position: absolute;
-  z-index: -1;
-  width: 138.9rem;
+  width: 122.5rem;
   left: 50%;
   -webkit-transform: translate(-50%);
           transform: translate(-50%);
 }
 
-.elipse_7about-us {
+.elipse_7-about-us {
   position: absolute;
-  z-index: -1;
-  width: 137rem;
+  width: 122.5rem;
   left: 50%;
   -webkit-transform: translate(-50%);
           transform: translate(-50%);
@@ -366,6 +385,11 @@ input[type="text"]:focus {
 
 .projects {
   margin-top: 18rem;
+}
+
+.autoplay .slick-list {
+  padding-right: 19rem;
+  margin-left: 15rem;
 }
 
 .slidebox_content {
@@ -432,12 +456,6 @@ input[type="text"]:focus {
   background-repeat: no-repeat;
 }
 
-.hero {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
 .hero_text {
   margin-top: 18rem;
   display: -webkit-box;
@@ -456,6 +474,7 @@ input[type="text"]:focus {
   color: #FFFFFF;
   letter-spacing: 0.2rem;
   margin-left: 10.5rem;
+  z-index: 12;
 }
 
 .hero_text_sub {
@@ -470,15 +489,15 @@ input[type="text"]:focus {
   color: #FFD042;
 }
 
-.hero_stars {
+.hero_img_stars {
   position: absolute;
-  top: 9rem;
+  top: 8rem;
   left: 78rem;
 }
 
-.hero_sun {
+.hero_img_sun {
   position: absolute;
-  top: 9rem;
+  top: 8rem;
   left: 88rem;
 }
 
@@ -489,6 +508,7 @@ input[type="text"]:focus {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   color: #131C6D;
+  margin-top: 6rem;
   margin-bottom: 2.5rem;
 }
 
@@ -837,6 +857,7 @@ input[type="submit"]:hover {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  z-index: 1;
   width: 25%;
   color: rgba(255, 255, 255, 0.5);
   font-family: "Roboto";
@@ -893,6 +914,7 @@ input[type="submit"]:hover {
 .contact img {
   padding-left: 20rem;
   margin-top: 6rem;
+  z-index: 2;
 }
 
 .Aleksandar_bio {
@@ -939,7 +961,6 @@ input[type="submit"]:hover {
 }
 
 .slider {
-  width: 80%;
   margin-left: 20rem;
   margin-bottom: 30rem;
   margin-top: 4.8rem;
@@ -1494,7 +1515,7 @@ input[type="submit"]:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 5rem 11rem 3rem 11rem;
+  padding: 5rem 11rem 3rem 20rem;
 }
 
 .Projects-bio_title {
@@ -1516,8 +1537,8 @@ input[type="submit"]:hover {
   font-family: "Roboto";
   font-size: 1.8rem;
   color: #322b6c;
-  padding-left: 24rem;
-  padding-right: 24rem;
+  padding-left: 20rem;
+  padding-right: 18rem;
   text-align: justify;
 }
 
@@ -1529,9 +1550,16 @@ input[type="submit"]:hover {
   height: 70rem;
 }
 
+.container_projekti .slick-prev {
+  left: 457px;
+}
+
+.container_projekti .slick-next {
+  right: 550px;
+}
+
 .slider-projects {
-  width: 80%;
-  margin-left: 11rem;
+  margin-left: 20rem;
   margin-bottom: 16rem;
   margin-top: 1rem;
 }
@@ -1670,6 +1698,14 @@ input[type="submit"]:hover {
   width: 80%;
   margin-bottom: 25rem;
   margin-left: 20.5rem;
+}
+
+.container_tekstovi .slick-prev {
+  left: 787px;
+}
+
+.container_tekstovi .slick-next {
+  right: 145px;
 }
 
 .div-111 {
@@ -1815,6 +1851,8 @@ input[type="submit"]:hover {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  margin-left: 12rem;
+  width: 37.8rem;
 }
 
 .div_name {
@@ -1822,6 +1860,7 @@ input[type="submit"]:hover {
   font-size: 2.2rem;
   text-transform: uppercase;
   color: #322b6c;
+  padding-bottom: 1.3rem;
 }
 
 .div_author {
@@ -1829,6 +1868,7 @@ input[type="submit"]:hover {
   font-size: 1.6rem;
   text-transform: capitalize;
   color: #000;
+  padding-bottom: 5.2rem;
 }
 
 .div_parag {
@@ -1836,6 +1876,8 @@ input[type="submit"]:hover {
   font-size: 1.3rem;
   letter-spacing: 0.01rem;
   color: #000;
+  line-height: 1.7rem;
+  padding-bottom: 2rem;
 }
 
 /* Slider */
@@ -1858,7 +1900,6 @@ input[type="submit"]:hover {
   position: relative;
   overflow: hidden;
   display: block;
-  margin: 0;
 }
 
 .slick-list:focus {
@@ -2011,7 +2052,7 @@ input[type="submit"]:hover {
 }
 
 .slick-next {
-  right: 130px;
+  right: 200px;
 }
 
 [dir="rtl"] .slick-next {

@@ -50,6 +50,7 @@ input[type="submit"]:hover {
   &_container {
     display: flex;
     flex-direction: column;
+    z-index: 1;
     width: 25%;
     color: rgba(255, 255, 255, 0.5);
     font-family: "Roboto";
@@ -113,6 +114,7 @@ input[type="submit"]:hover {
   img {
     padding-left: 20rem;
     margin-top: 6rem;
+    z-index: 2;
     
   }
 }

@@ -22,8 +22,7 @@
 }
 
 .hero {
-  display: -webkit-box;
-  display: flex;
+  
 
   &_text {
     margin-top: 18rem;
@@ -32,6 +31,7 @@
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     flex-direction: column;
+   
 
     &_heading {
       text-transform: uppercase;
@@ -40,6 +40,7 @@
       color: $color-white;
       letter-spacing: 0.2rem;
       margin-left: 10.5rem;
+      z-index: 12;
     }
     &_sub {
       font-family: $font-rb;
@@ -53,15 +54,22 @@
     }
   }
 
-  &_stars {
-    position: absolute;
-    top: 9rem;
-    left: 78rem;
-  }
-  &_sun {
-    position: absolute;
-    top: 9rem;
-    left: 88rem;
+  &_img {
+    
+    
+    &_stars {
+      position: absolute;
+      top: 8rem;
+      left: 78rem;
+      
+      
+    }
+    &_sun {
+      position: absolute;
+      top: 8rem;
+      left: 88rem;
+
+    }
   }
 }
 
@@ -70,6 +78,7 @@
   display: flex;
   justify-content: space-around;
   color: $color-blue;
+  margin-top: 6rem;
   margin-bottom: 2.5rem;
 
   &_copy {

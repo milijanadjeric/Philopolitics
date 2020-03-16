@@ -7,6 +7,9 @@
 
     display: flex;
     flex-direction: column;
+    margin-left: 12rem;
+    width: 37.8rem;
+    
 
 
   &_name {
@@ -14,6 +17,7 @@
     font-size: 2.2rem;
     text-transform: uppercase;
     color: $color-footer-text;
+    padding-bottom: 1.3rem;
   }
 
   &_author {
@@ -21,6 +25,7 @@
     font-size: 1.6rem;
     text-transform: capitalize;
     color: $color-black;
+    padding-bottom: 5.2rem;
   }
 
   &_parag {
@@ -28,5 +33,12 @@
     font-size: 1.3rem;
     letter-spacing: 0.01rem;
     color: $color-black;
+    line-height: 1.7rem;
+    padding-bottom: 2rem;
+    
   }
+
+  
+    
+  
 }

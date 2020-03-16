@@ -56,7 +56,8 @@ $slick-opacity-not-active: 0.25 !default;
   position: relative;
   overflow: hidden;
   display: block;
-  margin: 0;
+
+  
   
 
   &:focus {
@@ -223,7 +224,7 @@ $slick-opacity-not-active: 0.25 !default;
 }
 
 .slick-next {
-  right: 130px;
+  right: 200px;
 
   [dir="rtl"] & {
     left: -25px;

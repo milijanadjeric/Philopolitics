@@ -1,6 +1,6 @@
 .Projects-bio {
   display: flex;
-  padding: 5rem 11rem 3rem 11rem;
+  padding: 5rem 11rem 3rem 20rem;
 
   &_title {
     font-family: $font-tr-bd;
@@ -18,8 +18,8 @@
     color: $color-footer-text;
     // padding-left: 5rem;       // for different text style
     // padding-right: 9rem;
-    padding-left: 24rem;
-    padding-right: 24rem;
+    padding-left: 20rem;
+    padding-right: 18rem;
     text-align: justify;
 
     p {
@@ -34,9 +34,21 @@
   height: 70rem;    
 }
 
+
+// *** this is to move buttons prev and next to left side on page projects ***
+
+.container_projekti .slick-prev {
+  left: 457px;
+
+}
+
+.container_projekti .slick-next {
+  right: 550px;
+}
+
 .slider-projects {
-  width: 80%;
-  margin-left: 11rem;
+  
+  margin-left: 20rem;
   margin-bottom: 16rem;
   margin-top: 1rem;
 
