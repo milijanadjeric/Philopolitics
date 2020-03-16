@@ -1663,7 +1663,7 @@ input[type="submit"]:hover {
 }
 
 .texts-2 {
-  height: 127rem;
+  height: 127.5rem;
 }
 
 .slider-publications {
@@ -1692,8 +1692,8 @@ input[type="submit"]:hover {
           flex-direction: column;
 }
 
-.div-111_wrap img {
-  max-width: 25rem;
+.div-111_wrap a {
+  text-decoration: none;
 }
 
 .div-111_wrap_block_publ {
@@ -1736,6 +1736,10 @@ input[type="submit"]:hover {
   max-width: 25rem;
 }
 
+.div-222_wrap a {
+  text-decoration: none;
+}
+
 .div-222_wrap_block_publ {
   font-family: "truenoregular";
   text-transform: uppercase;
@@ -1776,6 +1780,10 @@ input[type="submit"]:hover {
   max-width: 25rem;
 }
 
+.div-333_wrap a {
+  text-decoration: none;
+}
+
 .div-333_wrap_block_publ {
   font-family: "truenoregular";
   text-transform: uppercase;
@@ -1790,6 +1798,44 @@ input[type="submit"]:hover {
   text-transform: capitalize;
   color: #000;
   font-size: 1.2rem;
+}
+
+.main-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 11.7rem 0 41.2rem 11rem;
+}
+
+.div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.div_name {
+  font-family: "TruenoBold";
+  font-size: 2.2rem;
+  text-transform: uppercase;
+  color: #322b6c;
+}
+
+.div_author {
+  font-family: "Roboto";
+  font-size: 1.6rem;
+  text-transform: capitalize;
+  color: #000;
+}
+
+.div_parag {
+  font-family: "Roboto";
+  font-size: 1.3rem;
+  letter-spacing: 0.01rem;
+  color: #000;
 }
 
 /* Slider */
