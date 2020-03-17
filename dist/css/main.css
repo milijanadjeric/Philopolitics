@@ -77,9 +77,22 @@ header {
   height: 10rem;
 }
 
+@media (max-width: 1023px) {
+  header {
+    height: 8rem;
+  }
+}
+
 .logo {
   margin-top: 2.5rem;
   margin-left: 10.5rem;
+}
+
+@media (max-width: 1023px) {
+  .logo {
+    margin-left: 7rem;
+    margin-top: 2rem;
+  }
 }
 
 .logo_text {
@@ -92,11 +105,24 @@ header {
   padding-left: 1.4rem;
 }
 
+@media (max-width: 1023px) {
+  .logo_text {
+    padding-left: 1rem;
+    font-size: 1.1rem;
+  }
+}
+
 /* The navigation menu */
 .navbar {
   overflow: hidden;
   background-color: #322b6c;
   margin-top: 3.5rem;
+}
+
+@media (max-width: 1023px) {
+  .navbar {
+    margin-top: 3rem;
+  }
 }
 
 /* Navigation links */
@@ -182,6 +208,12 @@ header {
   margin-right: 2.8rem;
 }
 
+@media (max-width: 1023px) {
+  .mrg-right {
+    margin-right: .5rem;
+  }
+}
+
 .mrg-right_border:hover {
   background-color: rgba(255, 255, 255, 0.6);
   border-radius: 0.7rem;
@@ -192,6 +224,13 @@ header {
   margin-top: 3.5rem;
   margin-right: 4rem;
   z-index: 222;
+}
+
+@media (max-width: 1023px) {
+  .languages {
+    margin-right: 2.5rem;
+    margin-top: 3rem;
+  }
 }
 
 .languages a {
@@ -362,6 +401,7 @@ input[type="text"]:focus {
 
 .elipse_6 {
   position: absolute;
+  width: 131rem;
   left: 50%;
   -webkit-transform: translate(-50.5%);
           transform: translate(-50.5%);
@@ -369,7 +409,7 @@ input[type="text"]:focus {
 
 .elipse_7 {
   position: absolute;
-  width: 122.5rem;
+  width: 134.5rem;
   left: 50%;
   -webkit-transform: translate(-50%);
           transform: translate(-50%);
@@ -377,7 +417,7 @@ input[type="text"]:focus {
 
 .elipse_7-about-us {
   position: absolute;
-  width: 122.5rem;
+  width: 134.5rem;
   left: 50%;
   -webkit-transform: translate(-50%);
           transform: translate(-50%);
@@ -389,7 +429,7 @@ input[type="text"]:focus {
 
 .autoplay .slick-list {
   padding-right: 19rem;
-  margin-left: 15rem;
+  margin-left: 22rem;
 }
 
 .slidebox_content {
@@ -585,6 +625,10 @@ input[type="text"]:focus {
   text-align: right;
 }
 
+.main_div-1 img {
+  z-index: 2;
+}
+
 .main_div-2 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -644,6 +688,7 @@ input[type="text"]:focus {
 
 .main_div-2 img {
   margin-top: -12rem;
+  z-index: 2;
 }
 
 .main_div-3 {
@@ -846,7 +891,7 @@ input[type="submit"]:hover {
   display: -ms-flexbox;
   display: flex;
   margin-left: 22rem;
-  margin-bottom: 4rem;
+  margin-bottom: 4.5rem;
 }
 
 .contact_container {
@@ -1432,6 +1477,7 @@ input[type="submit"]:hover {
           flex-direction: column;
   margin-left: 17rem;
   margin-right: 12rem;
+  z-index: 2;
 }
 
 .main_text_1 {
@@ -1458,6 +1504,7 @@ input[type="submit"]:hover {
 
 .main img {
   margin-top: 7.3rem;
+  z-index: 2;
 }
 
 .button_home {
@@ -1490,6 +1537,7 @@ input[type="submit"]:hover {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
+  margin-top: 7rem;
 }
 
 .links_followus {
@@ -1498,16 +1546,16 @@ input[type="submit"]:hover {
   font-family: "TruenoBold";
   font-size: 1.4rem;
   padding-right: 2.5rem;
-  padding-top: 6.5rem;
+  z-index: 2;
 }
 
 .links_socials {
   margin-right: 15rem;
+  z-index: 2;
 }
 
 .links img {
   padding-left: 1.5rem;
-  padding-top: 6.5rem;
   padding-bottom: 4rem;
 }
 
@@ -1843,6 +1891,12 @@ input[type="submit"]:hover {
   margin: 11.7rem 0 41.2rem 11rem;
 }
 
+@media (max-width: 1023px) {
+  .main-section {
+    margin: 8rem 0 25rem 7rem;
+  }
+}
+
 .div {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1853,6 +1907,12 @@ input[type="submit"]:hover {
           flex-direction: column;
   margin-left: 12rem;
   width: 37.8rem;
+}
+
+@media (max-width: 1023px) {
+  .div {
+    margin-left: 6rem;
+  }
 }
 
 .div_name {

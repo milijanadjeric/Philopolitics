@@ -6,12 +6,21 @@ header {
   justify-content: space-between;
   background-color: $color-footer-text;
   height: 10rem;
+
+  @include breakpoint (tablet) {
+    height: 8rem;
+  }
 }
 
 //  -----LOG0 -----//
 .logo {
   margin-top: 2.5rem;
   margin-left: 10.5rem;
+
+  @include breakpoint (tablet) {
+    margin-left: 7rem;
+    margin-top: 2rem;
+  }
 
   &_text {
     display: inline-block;
@@ -21,6 +30,11 @@ header {
     font-family: $font-tr;
     letter-spacing: 0.1rem;
     padding-left: 1.4rem;
+
+    @include breakpoint (tablet) {
+      padding-left: 1rem;
+      font-size: 1.1rem;
+    }
   }
 }
 
@@ -32,6 +46,10 @@ header {
   overflow: hidden;
   background-color: $color-footer-text;
   margin-top: 3.5rem;
+
+  @include breakpoint (tablet) {
+    margin-top: 3rem;
+  }
 }
 
 /* Navigation links */
@@ -46,6 +64,7 @@ header {
   //beacuse elipse and elipse_2 has z-index: 1
   position: relative;
   z-index: 222;
+
 }
 
 /* The subnavigation menu */
@@ -119,6 +138,10 @@ header {
 .mrg-right {
   margin-right: 2.8rem;
 
+  @include breakpoint (tablet) {
+    margin-right: .5rem;
+  }
+
   &_border:hover {
     background-color: rgba(255, 255, 255, 0.6);
     border-radius: 0.7rem;
@@ -132,6 +155,11 @@ header {
   margin-top: 3.5rem;
   margin-right: 4rem;
   z-index: 222;
+
+  @include breakpoint (tablet) {
+    margin-right: 2.5rem;
+    margin-top: 3rem;
+  }
 
   a {
     margin-left: 1rem;

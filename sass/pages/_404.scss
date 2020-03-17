@@ -5,7 +5,7 @@
     left bottom,
     color-stop(20%, #322b6c),
     color-stop(40%, #131c6d),
-    color-stop(100%,#b1bff9)
+    color-stop(100%, #b1bff9)
   );
   background-image: linear-gradient(
     to bottom,
@@ -27,6 +27,7 @@
     flex-direction: column;
     margin-left: 17rem;
     margin-right: 12rem;
+    z-index: 2;
 
     &_1 {
       color: $color-white;
@@ -52,6 +53,7 @@
 
   img {
     margin-top: 7.3rem;
+    z-index: 2;
   }
 }
 
@@ -83,6 +85,7 @@
 .links {
   display: flex;
   justify-content: flex-end;
+  margin-top: 7rem;
 
   &_followus {
     color: rgba(242, 242, 242, 0.9);
@@ -90,20 +93,16 @@
     font-family: $font-tr-bd;
     font-size: 1.4rem;
     padding-right: 2.5rem;
-    padding-top: 6.5rem;
+    z-index: 2;
   }
 
   &_socials {
-      margin-right: 15rem;
+    margin-right: 15rem;
+    z-index: 2;
   }
 
   img {
     padding-left: 1.5rem;
-    padding-top: 6.5rem;
     padding-bottom: 4rem;
   }
-  
 }
-
-  
-

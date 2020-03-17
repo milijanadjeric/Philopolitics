@@ -1,17 +1,23 @@
 .main-section {
   display: flex;
   margin: 11.7rem 0 41.2rem 11rem;
+
+  @include breakpoint(tablet) {
+    margin: 8rem 0 25rem 7rem;
+  }
 }
 
 .div {
+  display: flex;
+  flex-direction: column;
+  margin-left: 12rem;
+  width: 37.8rem;
 
-    display: flex;
-    flex-direction: column;
-    margin-left: 12rem;
-    width: 37.8rem;
-    
+  @include breakpoint(tablet) {
+    margin-left: 6rem;
+  }
 
-
+  
   &_name {
     font-family: $font-tr-bd;
     font-size: 2.2rem;
@@ -35,10 +41,5 @@
     color: $color-black;
     line-height: 1.7rem;
     padding-bottom: 2rem;
-    
   }
-
-  
-    
-  
 }
