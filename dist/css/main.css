@@ -91,7 +91,7 @@ header {
 @media (max-width: 1023px) {
   .logo {
     margin-left: 7rem;
-    margin-top: 2rem;
+    margin-top: 2.2rem;
   }
 }
 
@@ -1893,7 +1893,7 @@ input[type="submit"]:hover {
 
 @media (max-width: 1023px) {
   .main-section {
-    margin: 8rem 0 25rem 7rem;
+    margin: 7rem 0 25rem 7rem;
   }
 }
 
