@@ -26,11 +26,19 @@
   padding-top: 18rem;
   margin-left: 22rem;
 
+  @include breakpoint(mobile)  {
+    margin-left: 2rem;
+    padding-top: 10rem;
+
+   
+  }
+
   &_box {
     display: flex;
     flex-direction: column;
     padding-top: 4rem;
     padding-right: 10rem;
+
 
     &_heading {
       color: $color-white;
@@ -51,6 +59,9 @@
   }
   img {
     z-index: 2;
+    @include breakpoint(mobile)  {
+      margin-right: 2rem;
+    }
   }
 }
 
@@ -59,10 +70,20 @@
   padding-top: 10rem;
   margin-left: 14rem;
 
+  @include breakpoint(mobile) {
+    margin-left: 0;
+  }
+
   &_box {
     display: flex;
     flex-direction: column;
     padding-left: 4rem;
+
+    @include breakpoint(mobile) {
+      padding-left: 0;
+      padding-right: 1rem;
+      margin-left: -3rem;
+    }
 
     &_heading {
       color: $color-white;
@@ -103,6 +124,11 @@
   img {
     margin-top: -12rem;
     z-index: 2;
+
+    @include breakpoint(mobile) {
+      margin-top: -4rem;
+      width: 35rem;
+    }
   }
 }
 
@@ -111,10 +137,20 @@
   margin-left: 22rem;
   padding-bottom: 27rem;
 
+  @include breakpoint(mobile) {
+    margin-left: 2rem;
+    margin-top: 10rem;
+    padding-bottom: 20rem;
+  }
+
   &_box {
     padding-right: 11rem;
     display: flex;
     flex-direction: column;
+
+    @include breakpoint(mobile) {
+      padding-right: 0;
+    }
 
     &_heading {
       color: $color-white;
@@ -138,6 +174,10 @@
       margin-left: 28rem;
       align-items: center;
       padding-top: 1.5rem;
+
+      @include breakpoint(mobile) {
+        margin-left: 25rem;
+      }
     }
 
     &_ellipse {

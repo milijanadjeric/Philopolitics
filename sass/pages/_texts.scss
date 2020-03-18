@@ -5,3 +5,13 @@
 .texts {
     height: 101.5rem;
 }
+
+//  *** SLIDER  ***  //
+
+.slider {
+
+    @include breakpoint(desktop) {
+        margin-left: 19rem;
+    }
+}
+

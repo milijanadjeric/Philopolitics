@@ -8,12 +8,20 @@
   
   left: 50%;
   transform: translate(-50%);
+  
+  @include breakpoint(mobile) {
+    display: none;
+  }
 
   &_2 {
     position: absolute;
     
     left: 50%;
     transform: translate(-50%);
+
+    @include breakpoint(mobile) {
+      display: none;
+    }
   }
   
   &_3 {
@@ -21,6 +29,10 @@
    
     left: 50%;
     transform: translate(-50%);
+
+    @include breakpoint(mobile) {
+      display: none;
+    }
   }
 
   &_4 {
@@ -28,6 +40,10 @@
     
     left: 50%;
     transform: translate(-50%);
+
+    @include breakpoint(mobile) {
+      display: none;
+    }
   }
 
   &_5 {
@@ -35,6 +51,10 @@
    
     left: 50%;
     transform: translate(-50%);
+
+    @include breakpoint(mobile) {
+      display: none;
+    }
   }
 
   &_6 {
@@ -43,6 +63,10 @@
     width: 131rem;
     left: 50%;
     transform: translate(-50.5%);
+
+    @include breakpoint(mobile) {
+      display: none;
+    }
   }
 
   &_7 {
@@ -59,5 +83,9 @@
     width: 134.5rem;
     left: 50%;
     transform: translate(-50%);
+
+    @include breakpoint(mobile) {
+      display: none;
+    }
   }
 }
