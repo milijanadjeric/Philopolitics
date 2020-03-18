@@ -5,6 +5,11 @@
   @include breakpoint(tablet) {
     margin: 8rem 0 25rem 9rem;
   }
+
+  @include breakpoint(mobile) {
+    margin: 6rem 1.5rem 25rem 6rem;
+  }
+
 }
 
 .div {
@@ -15,6 +20,10 @@
 
   @include breakpoint(tablet) {
     margin-left: 6rem;
+  }
+
+  @include breakpoint(mobile) {
+    margin-left: 4rem;
   }
 
   

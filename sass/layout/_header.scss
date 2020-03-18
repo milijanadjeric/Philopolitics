@@ -25,6 +25,10 @@ header {
     margin-top: 2.2rem;
   }
 
+  @include breakpoint(mobile) {
+    margin-left: 6rem;
+  }
+
   &_text {
     display: inline-block;
     text-transform: uppercase;

@@ -22,6 +22,10 @@
     align-items: center;
     border-radius: .2rem;
     margin-top: 7.5rem;
+
+    @include breakpoint(mobile) {
+        margin-top: 2.2rem;
+    }
     
 
     img {

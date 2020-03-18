@@ -95,6 +95,12 @@ header {
   }
 }
 
+@media (max-width: 800px) {
+  .logo {
+    margin-left: 6rem;
+  }
+}
+
 .logo_text {
   display: inline-block;
   text-transform: uppercase;
@@ -358,6 +364,12 @@ input[type="text"]:focus {
           align-items: center;
   border-radius: .2rem;
   margin-top: 7.5rem;
+}
+
+@media (max-width: 800px) {
+  .btn-download {
+    margin-top: 2.2rem;
+  }
 }
 
 .btn-download img {
@@ -1947,7 +1959,13 @@ input[type="submit"]:hover {
 
 @media (max-width: 1280px) {
   .main-section {
-    margin: 7rem 0 25rem 9rem;
+    margin: 8rem 0 25rem 9rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .main-section {
+    margin: 6rem 1.5rem 25rem 6rem;
   }
 }
 
@@ -1966,6 +1984,12 @@ input[type="submit"]:hover {
 @media (max-width: 1280px) {
   .div {
     margin-left: 6rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .div {
+    margin-left: 4rem;
   }
 }
 
