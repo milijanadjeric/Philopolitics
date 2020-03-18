@@ -13,9 +13,14 @@
     margin-left: 17.5rem;
   }
   @include breakpoint (tablet)  {
-    margin-left: 16rem;
-    
+    margin-left: 19.5rem;
   }
+
+  @include breakpoint(mobile) {
+    margin-left: 11.5rem;
+  }
+
+  
 
 
 }
@@ -28,7 +33,13 @@
   @include breakpoint (tablet)  {
     left: 750px;
   }
+
+  @include breakpoint(mobile) {
+    left: 422px;
+  }
 }
+
+
 .container_tekstovi .slick-next {
   right: 145px;
 
@@ -40,8 +51,14 @@
     right: 90px;
   }
   @include breakpoint (tablet) {
-    right: 70px;
+    right: 135px;
   }
+
+  @include breakpoint(mobile)  {
+    right: 75px;
+  }
+
+  
   
 
   
@@ -58,8 +75,10 @@
     flex-direction: column;
 
     @include breakpoint (tablet)  {
-      margin-right: 5rem;
+      margin-right: 7rem;
     }
+
+    
 
 
     a {
@@ -96,7 +115,7 @@
     flex-direction: column;
 
     @include breakpoint (tablet)  {
-      margin-right: 5rem;
+      margin-right: 7rem;
     }
 
     img {
@@ -138,7 +157,7 @@
     flex-direction: column;
 
     @include breakpoint (tablet)  {
-      margin-right: 5rem;
+      margin-right: 7rem;
     }
 
     img {

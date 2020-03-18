@@ -146,7 +146,7 @@ header {
   margin-right: 2.8rem;
 
   @include breakpoint (tablet) {
-    margin-right: .5rem;
+    margin-right: 1rem;
   }
 
   &_border:hover {
