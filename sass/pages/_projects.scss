@@ -2,6 +2,16 @@
   display: flex;
   padding: 5rem 11rem 3rem 20rem;
 
+  @include breakpoint (desktop) {
+    padding-left: 12rem;
+  }
+
+  @include breakpoint (mobile) {
+    padding-left: 7rem;
+
+  }
+
+
   &_title {
     font-family: $font-tr-bd;
     font-size: 1.8rem;
@@ -21,6 +31,11 @@
     padding-left: 20rem;
     padding-right: 18rem;
     text-align: justify;
+
+    @include breakpoint (mobile) {
+      padding-left: 5rem;
+      padding-right: 5rem;
+    }
 
     p {
       padding-bottom: 2rem;
@@ -44,6 +59,18 @@
 
 .container_projekti .slick-next {
   right: 550px;
+
+  @include breakpoint (desktop) {
+    right: 600px;
+  }
+
+  @include breakpoint (desktop--Small) {
+    right: 560px;
+  }
+
+  @include breakpoint (mobile) {
+    right: 130px;
+  }
 }
 
 .slider-projects {
@@ -51,6 +78,14 @@
   margin-left: 20rem;
   margin-bottom: 16rem;
   margin-top: 1rem;
+
+  @include breakpoint (desktop) {
+    margin-left: 12rem;
+  }
+
+  @include breakpoint (mobile) {
+    margin-left: 7rem;
+  }
 
 }
 

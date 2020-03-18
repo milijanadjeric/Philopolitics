@@ -1578,6 +1578,18 @@ input[type="submit"]:hover {
   padding: 5rem 11rem 3rem 20rem;
 }
 
+@media (max-width: 1323px) {
+  .Projects-bio {
+    padding-left: 12rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .Projects-bio {
+    padding-left: 7rem;
+  }
+}
+
 .Projects-bio_title {
   font-family: "TruenoBold";
   font-size: 1.8rem;
@@ -1602,6 +1614,13 @@ input[type="submit"]:hover {
   text-align: justify;
 }
 
+@media (max-width: 800px) {
+  .Projects-bio_text {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+}
+
 .Projects-bio_text p {
   padding-bottom: 2rem;
 }
@@ -1618,10 +1637,40 @@ input[type="submit"]:hover {
   right: 550px;
 }
 
+@media (max-width: 1323px) {
+  .container_projekti .slick-next {
+    right: 600px;
+  }
+}
+
+@media (max-width: 1282px) {
+  .container_projekti .slick-next {
+    right: 560px;
+  }
+}
+
+@media (max-width: 800px) {
+  .container_projekti .slick-next {
+    right: 130px;
+  }
+}
+
 .slider-projects {
   margin-left: 20rem;
   margin-bottom: 16rem;
   margin-top: 1rem;
+}
+
+@media (max-width: 1323px) {
+  .slider-projects {
+    margin-left: 12rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .slider-projects {
+    margin-left: 7rem;
+  }
 }
 
 .div-11 {
