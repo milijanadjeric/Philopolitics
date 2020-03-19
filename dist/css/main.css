@@ -1023,6 +1023,7 @@ input[type="submit"]:hover {
 @media (max-width: 800px) {
   .contact {
     margin-left: 10rem;
+    margin-bottom: 15rem;
   }
 }
 
@@ -1103,6 +1104,7 @@ input[type="submit"]:hover {
 @media (max-width: 800px) {
   .contact img {
     padding-left: 6rem;
+    width: 45rem;
   }
 }
 

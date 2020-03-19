@@ -45,10 +45,8 @@ input[type="submit"]:hover {
 
   @include breakpoint(mobile) {
     margin-left: 10rem;
+    margin-bottom: 15rem;
   }
-  
-  
- 
   
 
   &_container {
@@ -126,6 +124,7 @@ input[type="submit"]:hover {
 
     @include breakpoint(mobile) {
       padding-left: 6rem;
+      width: 45rem;
     }
     
   }
