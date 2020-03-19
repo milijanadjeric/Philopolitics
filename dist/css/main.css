@@ -85,7 +85,7 @@ header {
 
 .logo {
   margin-top: 2.5rem;
-  margin-left: 10.5rem;
+  margin-left: 15rem;
 }
 
 @media (max-width: 1280px) {
@@ -1004,8 +1004,14 @@ input[type="submit"] {
   padding: 1.3rem 0rem;
   border: none;
   border-radius: 0.2rem;
-  margin-bottom: 7rem;
+  margin-bottom: 11rem;
   cursor: pointer;
+}
+
+@media (max-width: 1280px) {
+  input[type="submit"] {
+    margin-bottom: 13rem;
+  }
 }
 
 input[type="submit"]:hover {
@@ -1023,7 +1029,7 @@ input[type="submit"]:hover {
 @media (max-width: 800px) {
   .contact {
     margin-left: 10rem;
-    margin-bottom: 15rem;
+    margin-bottom: 35rem;
   }
 }
 
@@ -1036,16 +1042,10 @@ input[type="submit"]:hover {
       -ms-flex-direction: column;
           flex-direction: column;
   z-index: 1;
-  width: 25%;
+  width: 30%;
   color: rgba(255, 255, 255, 0.5);
   font-family: "Roboto";
   font-size: 1.2rem;
-}
-
-@media (max-width: 800px) {
-  .contact_container {
-    width: 35%;
-  }
 }
 
 .contact_heading {
@@ -1054,7 +1054,7 @@ input[type="submit"]:hover {
   font-size: 2.5rem;
   color: #FFFFFF;
   padding-bottom: 5rem;
-  padding-top: 14rem;
+  padding-top: 10rem;
 }
 
 .contact_data {
@@ -1097,7 +1097,6 @@ input[type="submit"]:hover {
 
 .contact img {
   padding-left: 20rem;
-  margin-top: 6rem;
   z-index: 2;
 }
 
