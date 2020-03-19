@@ -1023,13 +1023,13 @@ input[type="submit"]:hover {
   display: -ms-flexbox;
   display: flex;
   margin-left: 22rem;
-  margin-bottom: 4.5rem;
+  margin-bottom: 5rem;
 }
 
 @media (max-width: 800px) {
   .contact {
     margin-left: 10rem;
-    margin-bottom: 45rem;
+    margin-bottom: 55rem;
   }
 }
 
@@ -2160,7 +2160,7 @@ input[type="submit"]:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 11.7rem 0 41.2rem 11rem;
+  margin: 11.7rem 0 41.2rem 16rem;
 }
 
 @media (max-width: 1280px) {
