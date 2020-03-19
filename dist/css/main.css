@@ -228,13 +228,13 @@ header {
 .languages {
   float: right;
   margin-top: 3.5rem;
-  margin-right: 4rem;
+  margin-right: 5rem;
   z-index: 222;
 }
 
 @media (max-width: 1280px) {
   .languages {
-    margin-right: 2.5rem;
+    margin-right: 4rem;
     margin-top: 3rem;
   }
 }
@@ -562,8 +562,8 @@ input[type="text"]:focus {
 }
 
 .gradient-effect-1 {
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(20%, #322b6c), color-stop(70%, #131c6d), to(#b1bff9));
-  background-image: linear-gradient(to bottom, #322b6c 20%, #131c6d 70%, #b1bff9 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(20%, #322b6c), color-stop(75%, #131c6d), to(#b1bff9));
+  background-image: linear-gradient(to bottom, #322b6c 20%, #131c6d 75%, #b1bff9 100%);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -585,8 +585,14 @@ input[type="text"]:focus {
   font-size: 6.4rem;
   color: #FFFFFF;
   letter-spacing: 0.2rem;
-  margin-left: 10.5rem;
+  margin-left: 14rem;
   z-index: 12;
+}
+
+@media (max-width: 1282px) {
+  .hero_text_heading {
+    margin-left: 15rem;
+  }
 }
 
 .hero_text_sub {
@@ -594,7 +600,13 @@ input[type="text"]:focus {
   font-size: 2.1rem;
   color: #FFFFFF;
   margin-top: 1rem;
-  margin-left: 10.8rem;
+  margin-left: 14.5rem;
+}
+
+@media (max-width: 1282px) {
+  .hero_text_sub {
+    margin-left: 15.5rem;
+  }
 }
 
 .hero_text_sub-span {
@@ -604,13 +616,43 @@ input[type="text"]:focus {
 .hero_img_stars {
   position: absolute;
   top: 8rem;
-  left: 78rem;
+  left: 77rem;
+}
+
+@media (max-width: 1323px) {
+  .hero_img_stars {
+    left: 75rem;
+  }
+}
+
+@media (max-width: 1282px) {
+  .hero_img_stars {
+    left: 70.5rem;
+  }
+}
+
+@media (max-width: 1280px) {
+  .hero_img_stars {
+    left: 71rem;
+  }
 }
 
 .hero_img_sun {
   position: absolute;
   top: 8rem;
-  left: 88rem;
+  left: 86.5rem;
+}
+
+@media (max-width: 1323px) {
+  .hero_img_sun {
+    left: 85rem;
+  }
+}
+
+@media (max-width: 1282px) {
+  .hero_img_sun {
+    left: 80rem;
+  }
 }
 
 .socials {
@@ -640,7 +682,7 @@ input[type="text"]:focus {
   text-transform: uppercase;
   font-family: "TruenoBold";
   font-size: 1.6rem;
-  margin-right: -18rem;
+  margin-right: -22rem;
 }
 
 .socials a {

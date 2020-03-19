@@ -160,11 +160,11 @@ header {
 .languages {
   float: right;
   margin-top: 3.5rem;
-  margin-right: 4rem;
+  margin-right: 5rem;
   z-index: 222;
 
   @include breakpoint (tablet) {
-    margin-right: 2.5rem;
+    margin-right: 4rem;
     margin-top: 3rem;
   }
 
