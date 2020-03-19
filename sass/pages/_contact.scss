@@ -4,13 +4,13 @@
     left top,
     left bottom,
     color-stop(20%, #322b6c),
-    color-stop(57%, #131c6d),
+    color-stop(53%, #131c6d),
     color-stop(100%,#b1bff9)
   );
   background-image: linear-gradient(
     to bottom,
     #322b6c 20%,
-    #131c6d 57%,
+    #131c6d 53%,
     #b1bff9 100%
   );
   background-size: cover;
@@ -32,7 +32,7 @@ input[type="submit"] {
   cursor: pointer;
 
   @include breakpoint(tablet) {
-    margin-bottom: 13rem;
+    margin-bottom: 14.5rem;
   }
  
 }
@@ -48,7 +48,7 @@ input[type="submit"]:hover {
 
   @include breakpoint(mobile) {
     margin-left: 10rem;
-    margin-bottom: 35rem;
+    margin-bottom: 45rem;
   }
   
 
