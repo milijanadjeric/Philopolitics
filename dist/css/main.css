@@ -1755,7 +1755,13 @@ input[type="submit"]:hover {
 
 @media (max-width: 1280px) {
   .links img {
-    padding-bottom: 6rem;
+    padding-bottom: 15rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .links img {
+    padding-bottom: 55rem;
   }
 }
 
