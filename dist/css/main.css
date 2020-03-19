@@ -1626,9 +1626,22 @@ input[type="submit"]:hover {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin-left: 17rem;
+  margin-left: 20rem;
   margin-right: 12rem;
   z-index: 2;
+}
+
+@media (max-width: 1280px) {
+  .main_text {
+    margin-left: 15rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .main_text {
+    margin-left: 6rem;
+    margin-right: 0;
+  }
 }
 
 .main_text_1 {
@@ -1653,6 +1666,12 @@ input[type="submit"]:hover {
   padding-bottom: 5rem;
 }
 
+@media (max-width: 800px) {
+  .main_text_3 {
+    padding-right: 0;
+  }
+}
+
 .main img {
   margin-top: 7.3rem;
   z-index: 2;
@@ -1665,9 +1684,15 @@ input[type="submit"]:hover {
   text-transform: uppercase;
   font-size: 1.5rem;
   background-color: #00C2CC;
-  padding: 1.5rem 3.7rem 1.3rem 3.8rem;
+  padding: 1.5rem 4rem 1.3rem 4rem;
   border-radius: 0.2rem;
   margin-right: 2.2rem;
+}
+
+@media (max-width: 800px) {
+  .button_home {
+    padding: 1.5rem 2rem 1.3rem 2rem;
+  }
 }
 
 .button_back {
@@ -1676,9 +1701,15 @@ input[type="submit"]:hover {
   font-family: "truenoregular";
   text-transform: uppercase;
   font-size: 1.5rem;
-  padding: 1.35rem 3.7rem 1.15rem 3.8rem;
+  padding: 1.35rem 4rem 1.15rem 4rem;
   border: 0.2rem solid #00C2CC;
   border-radius: 0.2rem;
+}
+
+@media (max-width: 800px) {
+  .button_back {
+    padding: 1.35rem 2rem 1.15rem 2rem;
+  }
 }
 
 .links {
@@ -1705,9 +1736,27 @@ input[type="submit"]:hover {
   z-index: 2;
 }
 
+@media (max-width: 1280px) {
+  .links_socials {
+    margin-right: 12rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .links_socials {
+    margin-right: 6rem;
+  }
+}
+
 .links img {
   padding-left: 1.5rem;
   padding-bottom: 4rem;
+}
+
+@media (max-width: 1280px) {
+  .links img {
+    padding-bottom: 6rem;
+  }
 }
 
 .Projects-bio {
