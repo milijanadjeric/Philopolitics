@@ -1171,7 +1171,7 @@ input[type="submit"]:hover {
 
 @media (max-width: 800px) {
   .slider {
-    margin-left: 7rem;
+    margin-left: 9.5rem;
   }
 }
 
@@ -1193,13 +1193,13 @@ input[type="submit"]:hover {
 
 @media (max-width: 800px) {
   .container_tekstovi-2 .slick-next {
-    right: 120px;
+    right: 90px;
   }
 }
 
 @media (max-width: 800px) {
   .container_tekstovi-2 .slick-prev {
-    left: 470px;
+    left: 475px;
   }
 }
 
