@@ -1115,6 +1115,13 @@ input[type="submit"]:hover {
   padding: 5rem 25rem 3rem 25rem;
 }
 
+@media (max-width: 800px) {
+  .Aleksandar_bio {
+    padding-left: 7rem;
+    padding-right: 7rem;
+  }
+}
+
 .Aleksandar_bio img {
   -ms-flex-item-align: start;
       align-self: flex-start;
@@ -1156,8 +1163,44 @@ input[type="submit"]:hover {
   margin-top: 4.8rem;
 }
 
+@media (max-width: 1282px) {
+  .slider {
+    margin-left: 16.5rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .slider {
+    margin-left: 7rem;
+  }
+}
+
 .biography {
   height: 69rem;
+}
+
+@media (max-width: 1323px) {
+  .container_tekstovi-2 .slick-next {
+    right: 180px;
+  }
+}
+
+@media (max-width: 1282px) {
+  .container_tekstovi-2 .slick-next {
+    right: 165px;
+  }
+}
+
+@media (max-width: 800px) {
+  .container_tekstovi-2 .slick-next {
+    right: 120px;
+  }
+}
+
+@media (max-width: 800px) {
+  .container_tekstovi-2 .slick-prev {
+    left: 470px;
+  }
 }
 
 .div-1 {
@@ -1243,7 +1286,7 @@ input[type="submit"]:hover {
 }
 
 .div-1_wrap_block_text_heading {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-weight: 500;
   color: #322b6c;
   font-size: 1.4rem;
@@ -1253,7 +1296,7 @@ input[type="submit"]:hover {
 }
 
 .div-1_wrap_block_text_par {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   color: #828282;
   font-size: 1.05rem;
   padding-left: 8rem;
@@ -1342,7 +1385,7 @@ input[type="submit"]:hover {
 }
 
 .div-2_wrap_block_text_heading {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-weight: 500;
   color: #322b6c;
   font-size: 1.4rem;
@@ -1352,7 +1395,7 @@ input[type="submit"]:hover {
 }
 
 .div-2_wrap_block_text_par {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   color: #828282;
   font-size: 1.05rem;
   padding-left: 8rem;
@@ -1441,7 +1484,7 @@ input[type="submit"]:hover {
 }
 
 .div-3_wrap_block_text_heading {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-weight: 500;
   color: #322b6c;
   font-size: 1.4rem;
@@ -1451,27 +1494,28 @@ input[type="submit"]:hover {
 }
 
 .div-3_wrap_block_text_par {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   color: #828282;
   font-size: 1.05rem;
   padding-left: 8rem;
 }
 
 .line {
-  border: 0.625339px solid #E5E5E5;
+  border: 0.625339px solid #e5e5e5;
   width: 95.5rem;
   margin-bottom: -19rem;
   margin-left: 20rem;
 }
 
-.texts {
-  height: 101.5rem;
+@media (max-width: 800px) {
+  .line {
+    width: 60rem;
+    margin-left: 10rem;
+  }
 }
 
-@media (max-width: 1323px) {
-  .slider {
-    margin-left: 19rem;
-  }
+.texts {
+  height: 101.5rem;
 }
 
 .heading {
