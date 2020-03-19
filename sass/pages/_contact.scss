@@ -42,6 +42,10 @@ input[type="submit"]:hover {
   display: flex;
   margin-left: 22rem;
   margin-bottom: 4.5rem;
+
+  @include breakpoint(mobile) {
+    margin-left: 10rem;
+  }
   
   
  
@@ -55,6 +59,10 @@ input[type="submit"]:hover {
     color: rgba(255, 255, 255, 0.5);
     font-family: "Roboto";
     font-size: 1.2rem;
+
+    @include breakpoint(mobile) {
+      width: 35%;
+    }
     
     
     
@@ -115,6 +123,10 @@ input[type="submit"]:hover {
     padding-left: 20rem;
     margin-top: 6rem;
     z-index: 2;
+
+    @include breakpoint(mobile) {
+      padding-left: 6rem;
+    }
     
   }
 }

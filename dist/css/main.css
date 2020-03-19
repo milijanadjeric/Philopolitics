@@ -449,6 +449,12 @@ input[type="text"]:focus {
           transform: translate(-50.5%);
 }
 
+@media (max-width: 1282px) {
+  .elipse_6 {
+    width: 128.5rem;
+  }
+}
+
 @media (max-width: 800px) {
   .elipse_6 {
     display: none;
@@ -469,6 +475,18 @@ input[type="text"]:focus {
   left: 50%;
   -webkit-transform: translate(-50%);
           transform: translate(-50%);
+}
+
+@media (max-width: 1323px) {
+  .elipse_7-about-us {
+    width: 132rem;
+  }
+}
+
+@media (max-width: 1282px) {
+  .elipse_7-about-us {
+    width: 128rem;
+  }
 }
 
 @media (max-width: 800px) {
@@ -1002,6 +1020,12 @@ input[type="submit"]:hover {
   margin-bottom: 4.5rem;
 }
 
+@media (max-width: 800px) {
+  .contact {
+    margin-left: 10rem;
+  }
+}
+
 .contact_container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1015,6 +1039,12 @@ input[type="submit"]:hover {
   color: rgba(255, 255, 255, 0.5);
   font-family: "Roboto";
   font-size: 1.2rem;
+}
+
+@media (max-width: 800px) {
+  .contact_container {
+    width: 35%;
+  }
 }
 
 .contact_heading {
@@ -1068,6 +1098,12 @@ input[type="submit"]:hover {
   padding-left: 20rem;
   margin-top: 6rem;
   z-index: 2;
+}
+
+@media (max-width: 800px) {
+  .contact img {
+    padding-left: 6rem;
+  }
 }
 
 .Aleksandar_bio {
