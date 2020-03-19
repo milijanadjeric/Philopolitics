@@ -4,13 +4,13 @@
     left top,
     left bottom,
     color-stop(20%, #322b6c),
-    color-stop(40%, #131c6d),
+    color-stop(45%, #131c6d),
     color-stop(100%, #b1bff9)
   );
   background-image: linear-gradient(
     to bottom,
     #322b6c 20%,
-    #131c6d 40%,
+    #131c6d 45%,
     #b1bff9 100%
   );
   background-size: cover;
@@ -110,6 +110,10 @@
   justify-content: flex-end;
   margin-top: 7rem;
 
+  @include breakpoint (tablet) {
+    margin-top: 5rem;
+  }
+
   &_followus {
     color: rgba(242, 242, 242, 0.9);
     text-transform: uppercase;
@@ -140,7 +144,7 @@
     }
 
     @include breakpoint (mobile) {
-      padding-bottom: 55rem;
+      padding-bottom: 58rem;
     }
   }
 }

@@ -1604,8 +1604,8 @@ input[type="submit"]:hover {
 }
 
 .gradient-effect-4 {
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(20%, #322b6c), color-stop(40%, #131c6d), to(#b1bff9));
-  background-image: linear-gradient(to bottom, #322b6c 20%, #131c6d 40%, #b1bff9 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(20%, #322b6c), color-stop(45%, #131c6d), to(#b1bff9));
+  background-image: linear-gradient(to bottom, #322b6c 20%, #131c6d 45%, #b1bff9 100%);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -1722,6 +1722,12 @@ input[type="submit"]:hover {
   margin-top: 7rem;
 }
 
+@media (max-width: 1280px) {
+  .links {
+    margin-top: 5rem;
+  }
+}
+
 .links_followus {
   color: rgba(242, 242, 242, 0.9);
   text-transform: uppercase;
@@ -1761,7 +1767,7 @@ input[type="submit"]:hover {
 
 @media (max-width: 800px) {
   .links img {
-    padding-bottom: 55rem;
+    padding-bottom: 58rem;
   }
 }
 
