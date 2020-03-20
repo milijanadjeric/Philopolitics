@@ -59,7 +59,7 @@
 
         <div class="logo">
             <?xml version="1.0" encoding="UTF-8"?>
-            <svg xmlns="http://www.w3.org/2000/svg" width="38" height="40" viewBox="0 0 38 40" fill="none">
+            <svg class="logo" xmlns="http://www.w3.org/2000/svg" width="38" height="40" viewBox="0 0 38 40" fill="none">
                 <path d="M16.9473 8.78369H20.3183V38.5107H16.9473V8.78369Z" fill="#322B6C" stroke="white"
                     stroke-miterlimit="3"></path>
                 <path fill-rule="evenodd" clip-rule="evenodd"
@@ -97,7 +97,7 @@
         <!-- NAVIGATION -->
 
 
-        <div class="navbar">
+        <nav class="navbar" class="mobile-nav" id="myMobile">
             <div class="subnav">
                 <button class="subnavbtn mrg-right">What we do<i class="subnav_down"></i></button>
                 <div class="subnav-content">
@@ -116,7 +116,7 @@
             </div>
             <a href="about-us.html" class="mrg-right mrg-right_border">About us</a>
             <a href="contact.html" class="mrg-right mrg-right_border">Contact</a>
-        </div>
+        </nav>
 
         <!-- NAVIGATION  END -->
 
@@ -129,6 +129,14 @@
             <a href="#"><img src="img/UK.svg" alt=""></a>
         </div>
 
+        <a href="javascript:void(0);" onclick="myFunction()" class="mobile-nav-icon"><?xml version="1.0" encoding="UTF-8"?>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                fill="none">
+                <g id="Meni">
+                    <path id="Vector" d="M3 18H21V16H3V18ZM3 13H21V11H3V13ZM3 6V8H21V6H3Z" fill="white"></path>
+                </g>
+            </svg></a>
+       
     </header>
 
     <!-- HEADING AND THE SUN -->
@@ -142,6 +150,7 @@
         <div class="hero_img">
             <img src="img/stars.svg" alt="" class="hero_img_stars">
             <img src="img/sun.svg" alt="" class="hero_img_sun">
+            <img src="img/stars-mobile.svg" alt="" class="hero_img_stars-mobile">
         </div>
 
     </section>
@@ -287,6 +296,17 @@
 
     <script>
 
+function myFunction() {
+  var x = document.getElementById("myMobile");
+  if (x.className === "mobile-nav") {
+    x.className += " responsive";
+  } else {
+    x.className = "mobile-nav";
+  }
+}
+
+
+
         /*  SLICK SLIDER*/
 
         $('.autoplay').slick({
@@ -296,6 +316,20 @@
             arrows: false,
             dots: false,
             autoplay: true,
+
+            // responsive: [
+            //     {
+            //         breakpoint: 375,
+            //         settings: {
+            //             slidesToShow: 1,
+            //             slidesToScroll: 1
+            //         }
+            //     }
+
+            //     // You can unslick at a given breakpoint now by adding:
+            //     // settings: "unslick"
+            //     // instead of a settings object
+            // ]
 
         });
 

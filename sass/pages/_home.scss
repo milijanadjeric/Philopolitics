@@ -37,8 +37,28 @@
   );
   background-size: cover;
   background-repeat: no-repeat;
-
   }
+
+  @include breakpoint (mobile-Small) {
+    background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(10%, #322b6c),
+    color-stop(70%, #131c6d),
+    color-stop(100%, #b1bff9)
+  );
+  background-image: linear-gradient(
+    to bottom,
+    #322b6c 10%,
+    #131c6d 70%,
+    #b1bff9 100%
+  );
+  background-size: cover;
+  background-repeat: no-repeat;
+  }
+
+  
 }
 
 .hero {
@@ -55,8 +75,6 @@
       margin-top: 2rem;
     }
 
-    
-   
 
     &_heading {
       text-transform: uppercase;
@@ -75,6 +93,11 @@
         margin-left: 4rem;
       }
 
+      @include breakpoint (mobile--Small) {
+        font-size: 3.2rem;
+        margin-left: 5rem;
+      }
+
     }
     &_sub {
       font-family: $font-rb;
@@ -82,13 +105,16 @@
       color: $color-white;
       margin-top: 1rem;
       margin-left: 14.5rem;
-
+      
       @include breakpoint (desktop--Small) {
         margin-left: 15.5rem;
       }
       @include breakpoint (mobile) {
         margin-left: 4rem;
-       
+      }
+      @include breakpoint (mobile--Small) {
+        font-size: 1.3rem;
+        margin-left: 8rem;
       }
     }
     &_sub-span {
@@ -117,7 +143,20 @@
         width: 46.4rem;
         top: 17rem;
         left: 32rem;
-        
+      }
+      @include breakpoint(mobile--Small) {
+        display: none;
+      }
+    }
+
+    &_stars-mobile {
+      display: none;
+
+      @include breakpoint(mobile--Small) {
+       display: block;
+       margin: 2rem auto;
+       
+       
       }
     }
     
@@ -139,6 +178,15 @@
         top: 17rem;
         left: 40rem;
       }
+
+      @include breakpoint(mobile--Small) {
+        width: 27rem;
+        left: 5.5rem;
+        top: 18rem;
+        
+       
+       
+      }
           
       
 
@@ -157,6 +205,12 @@
   @include breakpoint (mobile) {
     padding-bottom: 55rem;
     margin-top: 10rem;
+
+    @include breakpoint (mobile--Small) {
+      margin-top: 3rem;
+      padding-bottom: 0;
+      
+    }
   }
 
   &_copy {

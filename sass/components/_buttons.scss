@@ -28,6 +28,10 @@
     @include breakpoint(mobile) {
         margin-top: 2.2rem;
     }
+
+    @include breakpoint(mobile--Small)  {
+        margin-top: 2rem;
+    }
     
 
     img {

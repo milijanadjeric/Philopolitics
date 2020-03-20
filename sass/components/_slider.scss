@@ -4,6 +4,10 @@
   @include breakpoint (mobile) {
     margin-top: 35rem;
   }
+
+  @include breakpoint (mobile--Small) {
+    margin-top: 2.5rem;
+  }
 }
 
 
@@ -17,11 +21,14 @@
     margin-left: 0;
     padding-right: 0;
   }
+
 }
 
 
 
 .slidebox {
+
+  
   
 
   &_content {
@@ -37,6 +44,11 @@
     background-color: $color-white;
     box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.25);
     margin-top: 3.3rem;
+
+    @include breakpoint (mobile-Small) {
+      width: 7rem;
+      height: 7rem;
+    }
   }
 
   &_card {
@@ -48,12 +60,21 @@
     margin-left: -4rem;
     z-index: -1;
 
+    @include breakpoint (mobile-Small) {
+      width: 27rem;
+      height: 12rem;
+    }
+
     &_heading {
       color: $color-white;
       font-size: 1.8rem;
       font-family: $font-gl;
       text-transform: capitalize;
       padding: 2.3rem 0 1.8rem 5.5rem;
+
+      @include breakpoint (mobile-Small) {
+        font-size: 1.5rem;
+      }
     }
 
     &_text-left {
@@ -61,18 +82,30 @@
       font-size: 1.4rem;
       font-family: $font-gl;
       padding: 0 2.8rem 0 5.7rem;
+
+      @include breakpoint (mobile-Small) {
+        font-size: 1.2rem;
+      }
     }
     &_text-center {
       color: $color-grey-text;
       font-size: 1.4rem;
       font-family: $font-gl;
       padding: 0 8.4rem 0 5.7rem;
+
+      @include breakpoint (mobile-Small) {
+        font-size: 1.2rem;
+      }
     }
     &_text-right {
       color: $color-grey-text;
       font-size: 1.4rem;
       font-family: $font-gl;
       padding: 0 3.7rem 0 5.7rem;
+
+      @include breakpoint (mobile-Small) {
+        font-size: 1.2rem;
+      }
     }
   }
 }

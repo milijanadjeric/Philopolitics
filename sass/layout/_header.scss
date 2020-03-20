@@ -6,27 +6,31 @@ header {
   justify-content: space-between;
   background-color: $color-footer-text;
   height: 10rem;
+  
 
-  @include breakpoint (tablet) {
+  @include breakpoint(tablet) {
     height: 8rem;
   }
 }
 
 //  -----LOG0 -----//
 .logo {
-  margin-top: 2.5rem;
-  margin-left: 15rem;
+  margin-left: 0;
 
-  
-
-
-  @include breakpoint (tablet) {
+  @include breakpoint(tablet) {
     margin-left: 9rem;
     margin-top: 2.2rem;
   }
 
   @include breakpoint(mobile) {
     margin-left: 6rem;
+  }
+
+  @include breakpoint(mobile--Small) {
+    width: 2.4rem;
+    height: 2.4rem;
+    margin-left: 0;
+    margin-top: 0;
   }
 
   &_text {
@@ -38,13 +42,16 @@ header {
     letter-spacing: 0.1rem;
     padding-left: 1.4rem;
 
-    @include breakpoint (tablet) {
+    @include breakpoint(tablet) {
       padding-left: 1rem;
       font-size: 1.1rem;
     }
+
+    @include breakpoint(mobile--Small) {
+      font-size: 0.8rem;
+    }
   }
 }
-
 
 //  -----NAVIGATION-----//
 
@@ -52,10 +59,13 @@ header {
 .navbar {
   overflow: hidden;
   background-color: $color-footer-text;
-  margin-top: 3.5rem;
 
-  @include breakpoint (tablet) {
+  @include breakpoint(tablet) {
     margin-top: 3rem;
+  }
+
+  @include breakpoint(mobile--Small) {
+    margin-top: 0;
   }
 }
 
@@ -72,12 +82,20 @@ header {
   position: relative;
   z-index: 222;
 
+  @include breakpoint(mobile--Small) {
+    display: none;
+  }
 }
 
 /* The subnavigation menu */
 .subnav {
   float: left;
   overflow: hidden;
+
+  @include breakpoint(mobile--Small) {
+    display: none;
+  }
+  
 
   &_down {
     transform: rotate(5deg);
@@ -133,6 +151,8 @@ header {
   color: white;
   text-decoration: none;
   margin-right: 0.5rem;
+
+  
 }
 
 /* When you move the mouse over the subnav container, open the subnav content */
@@ -140,12 +160,11 @@ header {
   display: block;
 }
 
-
 /* links About us and Contact */
 .mrg-right {
   margin-right: 2.8rem;
 
-  @include breakpoint (tablet) {
+  @include breakpoint(tablet) {
     margin-right: 1rem;
   }
 
@@ -155,17 +174,21 @@ header {
   }
 }
 
-
 //  -----LANGUAGES-----//
 .languages {
   float: right;
-  margin-top: 3.5rem;
   margin-right: 5rem;
   z-index: 222;
 
-  @include breakpoint (tablet) {
+  @include breakpoint(tablet) {
     margin-right: 4rem;
     margin-top: 3rem;
+  }
+
+  img {
+    @include breakpoint(mobile--Small) {
+      display: none;
+    }
   }
 
   a {
@@ -177,7 +200,6 @@ header {
     margin-right: 1.5rem;
     float: left;
   }
-
 }
 
 //  -----SEARCH BOX -----//
@@ -193,6 +215,10 @@ input[type="text"] {
   -webkit-transition: width 0.4s ease-in-out;
   -moz-transition: width 0.4s ease-in-out;
   -o-transition: width 0.4s ease-in-out;
+
+  @include breakpoint(mobile--Small) {
+    border: none;
+  }
 }
 
 /* When the input field gets focus, change its width to 100px */
@@ -224,4 +250,38 @@ input[type="text"]:focus {
   -ms-transform: rotate(-45deg);
   -moz-transform: rotate(-45deg);
   -o-transform: rotate(-45deg);
+}
+
+.mobile-nav {
+  @include breakpoint(mobile--Small) {
+    width: 400px;
+    height: 700px;
+    float: right;
+    background-color: $color-footer-text;
+    z-index: 333;
+
+    a {
+      @include breakpoint(mobile--Small) {
+        display: block;
+        font-size: 1.1rem;
+        color: $color-white;
+        padding: 0.5rem 1.2rem;
+        text-decoration: none;
+        font-family: $font-tr-rg;
+        text-transform: uppercase;
+        margin-left: 2rem;
+      }
+    }
+  }
+}
+
+.mobile-nav-icon {
+  margin-top: 2.5rem;
+  margin-right: 2.5rem;
+  cursor: pointer;
+  display: none;
+
+  @include breakpoint(mobile--Small) {
+    display: inline-block;
+  }
 }
