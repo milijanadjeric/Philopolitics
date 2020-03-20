@@ -1,5 +1,9 @@
 .projects {
   margin-top: 18rem;
+
+  @include breakpoint (mobile) {
+    margin-top: 35rem;
+  }
 }
 
 
@@ -8,7 +12,14 @@
 .autoplay .slick-list {
   padding-right: 19rem;
   margin-left: 22rem;
+
+  @include breakpoint (mobile) {
+    margin-left: 0;
+    padding-right: 0;
+  }
 }
+
+
 
 .slidebox {
   

@@ -499,9 +499,22 @@ input[type="text"]:focus {
   margin-top: 18rem;
 }
 
+@media (max-width: 800px) {
+  .projects {
+    margin-top: 35rem;
+  }
+}
+
 .autoplay .slick-list {
   padding-right: 19rem;
   margin-left: 22rem;
+}
+
+@media (max-width: 800px) {
+  .autoplay .slick-list {
+    margin-left: 0;
+    padding-right: 0;
+  }
 }
 
 .slidebox_content {
@@ -568,6 +581,15 @@ input[type="text"]:focus {
   background-repeat: no-repeat;
 }
 
+@media (max-width: 800px) {
+  .gradient-effect-1 {
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(10%, #322b6c), color-stop(35%, #131c6d), to(#b1bff9));
+    background-image: linear-gradient(to bottom, #322b6c 10%, #131c6d 35%, #b1bff9 100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+
 .hero_text {
   margin-top: 18rem;
   display: -webkit-box;
@@ -577,6 +599,12 @@ input[type="text"]:focus {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
       flex-direction: column;
+}
+
+@media (max-width: 800px) {
+  .hero_text {
+    margin-top: 2rem;
+  }
 }
 
 .hero_text_heading {
@@ -595,6 +623,12 @@ input[type="text"]:focus {
   }
 }
 
+@media (max-width: 800px) {
+  .hero_text_heading {
+    margin-left: 4rem;
+  }
+}
+
 .hero_text_sub {
   font-family: "Roboto";
   font-size: 2.1rem;
@@ -606,6 +640,12 @@ input[type="text"]:focus {
 @media (max-width: 1282px) {
   .hero_text_sub {
     margin-left: 15.5rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .hero_text_sub {
+    margin-left: 4rem;
   }
 }
 
@@ -637,6 +677,14 @@ input[type="text"]:focus {
   }
 }
 
+@media (max-width: 800px) {
+  .hero_img_stars {
+    width: 46.4rem;
+    top: 17rem;
+    left: 32rem;
+  }
+}
+
 .hero_img_sun {
   position: absolute;
   top: 8rem;
@@ -655,6 +703,14 @@ input[type="text"]:focus {
   }
 }
 
+@media (max-width: 800px) {
+  .hero_img_sun {
+    width: 33.3rem;
+    top: 17rem;
+    left: 40rem;
+  }
+}
+
 .socials {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -666,10 +722,23 @@ input[type="text"]:focus {
   margin-bottom: 2.5rem;
 }
 
+@media (max-width: 800px) {
+  .socials {
+    padding-bottom: 55rem;
+    margin-top: 10rem;
+  }
+}
+
 .socials_copy {
   font-family: "truenoregular";
   font-size: 1.4rem;
   color: #131C6D;
+}
+
+@media (max-width: 800px) {
+  .socials_copy {
+    display: none;
+  }
 }
 
 .socials_policy {
@@ -678,11 +747,23 @@ input[type="text"]:focus {
   font-size: 1.6rem;
 }
 
+@media (max-width: 800px) {
+  .socials_policy {
+    display: none;
+  }
+}
+
 .socials_followus {
   text-transform: uppercase;
   font-family: "TruenoBold";
   font-size: 1.6rem;
   margin-right: -22rem;
+}
+
+@media (max-width: 800px) {
+  .socials_followus {
+    display: none;
+  }
 }
 
 .socials a {

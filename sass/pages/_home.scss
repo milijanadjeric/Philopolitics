@@ -19,6 +19,26 @@
   );
   background-size: cover;
   background-repeat: no-repeat;
+
+  @include breakpoint (mobile) {
+    background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(10%, #322b6c),
+    color-stop(35%, #131c6d),
+    color-stop(100%, #b1bff9)
+  );
+  background-image: linear-gradient(
+    to bottom,
+    #322b6c 10%,
+    #131c6d 35%,
+    #b1bff9 100%
+  );
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  }
 }
 
 .hero {
@@ -30,6 +50,12 @@
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     flex-direction: column;
+
+    @include breakpoint (mobile) {
+      margin-top: 2rem;
+    }
+
+    
    
 
     &_heading {
@@ -44,6 +70,11 @@
       @include breakpoint (desktop--Small) {
         margin-left: 15rem;
       }
+
+      @include breakpoint (mobile) {
+        margin-left: 4rem;
+      }
+
     }
     &_sub {
       font-family: $font-rb;
@@ -51,9 +82,13 @@
       color: $color-white;
       margin-top: 1rem;
       margin-left: 14.5rem;
-      
+
       @include breakpoint (desktop--Small) {
         margin-left: 15.5rem;
+      }
+      @include breakpoint (mobile) {
+        margin-left: 4rem;
+       
       }
     }
     &_sub-span {
@@ -61,8 +96,7 @@
     }
   }
 
-  &_img {
-    
+  &_img { 
     
     &_stars {
       position: absolute;
@@ -78,9 +112,15 @@
 
       @include breakpoint (tablet) {
         left: 71rem;
+      }
+      @include breakpoint (mobile) {
+        width: 46.4rem;
+        top: 17rem;
+        left: 32rem;
         
       }
     }
+    
 
     &_sun {
       position: absolute;
@@ -91,12 +131,13 @@
         left: 85rem;
       }
 
-      @include breakpoint (tablet) {
-
-      }
-
       @include breakpoint (desktop--Small) {
         left: 80rem;
+      }
+      @include breakpoint (mobile) {
+        width: 33.3rem;
+        top: 17rem;
+        left: 40rem;
       }
           
       
@@ -113,16 +154,29 @@
   margin-top: 6rem;
   margin-bottom: 2.5rem;
 
+  @include breakpoint (mobile) {
+    padding-bottom: 55rem;
+    margin-top: 10rem;
+  }
+
   &_copy {
     font-family: $font-tr-rg;
     font-size: 1.4rem;
     color: $color-blue;
+
+    @include breakpoint (mobile) {
+      display: none;
+    }
   }
 
   &_policy {
     text-transform: uppercase;
     font-family: $font-tr-bd;
     font-size: 1.6rem;
+
+    @include breakpoint (mobile) {
+      display: none;
+    }
   }
 
   &_followus {
@@ -130,6 +184,10 @@
     font-family: $font-tr-bd;
     font-size: 1.6rem;
     margin-right: -22rem;
+
+    @include breakpoint (mobile) {
+      display: none;
+    }
   }
 
   a {
