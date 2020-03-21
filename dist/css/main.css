@@ -100,7 +100,7 @@ header {
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 364px) {
   .logo {
     width: 2.4rem;
     height: 2.4rem;
@@ -126,7 +126,7 @@ header {
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 364px) {
   .logo_text {
     font-size: 0.8rem;
   }
@@ -144,7 +144,7 @@ header {
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 364px) {
   .navbar {
     margin-top: 0;
   }
@@ -163,7 +163,7 @@ header {
   z-index: 222;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 364px) {
   .navbar a {
     display: none;
   }
@@ -175,7 +175,7 @@ header {
   overflow: hidden;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 364px) {
   .subnav {
     display: none;
   }
@@ -269,7 +269,7 @@ header {
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 364px) {
   .languages img {
     display: none;
   }
@@ -299,7 +299,7 @@ input[type="text"] {
   -o-transition: width 0.4s ease-in-out;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 364px) {
   input[type="text"] {
     border: none;
   }
@@ -336,7 +336,7 @@ input[type="text"]:focus {
   -o-transform: rotate(-45deg);
 }
 
-@media (max-width: 375px) {
+@media (max-width: 364px) {
   .mobile-nav {
     width: 400px;
     height: 700px;
@@ -346,7 +346,7 @@ input[type="text"]:focus {
   }
 }
 
-@media (max-width: 375px) and (max-width: 375px) {
+@media (max-width: 364px) and (max-width: 364px) {
   .mobile-nav a {
     display: block;
     font-size: 1.1rem;
@@ -366,7 +366,7 @@ input[type="text"]:focus {
   display: none;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 364px) {
   .mobile-nav-icon {
     display: inline-block;
   }
@@ -450,7 +450,7 @@ input[type="text"]:focus {
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 364px) {
   .btn-download {
     margin-top: 2rem;
   }
@@ -589,7 +589,7 @@ input[type="text"]:focus {
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 364px) {
   .projects {
     margin-top: 2.5rem;
   }
@@ -719,7 +719,7 @@ input[type="text"]:focus {
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 364px) {
   .hero_text_heading {
     font-size: 3.2rem;
     margin-left: 5rem;
@@ -746,7 +746,7 @@ input[type="text"]:focus {
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 364px) {
   .hero_text_sub {
     font-size: 1.3rem;
     margin-left: 8rem;
@@ -789,7 +789,7 @@ input[type="text"]:focus {
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 364px) {
   .hero_img_stars {
     display: none;
   }
@@ -799,7 +799,7 @@ input[type="text"]:focus {
   display: none;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 364px) {
   .hero_img_stars-mobile {
     display: block;
     margin: 2rem auto;
@@ -832,7 +832,7 @@ input[type="text"]:focus {
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 364px) {
   .hero_img_sun {
     width: 27rem;
     left: 5.5rem;
@@ -858,7 +858,7 @@ input[type="text"]:focus {
   }
 }
 
-@media (max-width: 800px) and (max-width: 375px) {
+@media (max-width: 800px) and (max-width: 364px) {
   .socials {
     margin-top: 3rem;
     padding-bottom: 0;
@@ -2539,16 +2539,16 @@ input[type="submit"]:hover {
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 364px) {
   .main-section {
     display: block;
     margin-top: 3.5rem;
-    margin-left: 3.9rem;
+    margin-left: 3.5rem;
     margin-bottom: 8.6rem;
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 364px) {
   .main-section_img {
     width: 30rem;
     height: 38.6rem;
@@ -2579,7 +2579,7 @@ input[type="submit"]:hover {
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 364px) {
   .div {
     margin-left: 0;
     margin-top: 2rem;
@@ -2603,7 +2603,7 @@ input[type="submit"]:hover {
   padding-bottom: 5.2rem;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 364px) {
   .div_author {
     padding-bottom: 3rem;
   }
