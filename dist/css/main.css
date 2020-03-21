@@ -2542,7 +2542,7 @@ input[type="submit"]:hover {
 @media (max-width: 364px) {
   .main-section {
     display: block;
-    margin-top: 3.5rem;
+    margin-top: 0;
     margin-left: 3.2rem;
     margin-bottom: 8.6rem;
   }
