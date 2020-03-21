@@ -5,6 +5,10 @@
 .btn_readmore {
     margin-left: 21rem;
     margin-top: 4rem;
+
+    @include breakpoint(mobile--Small) {
+        display:none;
+      }
 }
 
 //  *** button on page one-publication  ***  //

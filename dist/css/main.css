@@ -424,6 +424,12 @@ input[type="text"]:focus {
   margin-top: 4rem;
 }
 
+@media (max-width: 364px) {
+  .btn_readmore {
+    display: none;
+  }
+}
+
 .btn-download {
   cursor: pointer;
   display: -webkit-box;
@@ -1040,7 +1046,7 @@ input[type="text"]:focus {
   height: 1.1rem;
   border-radius: 50%;
   background-color: #FFD042;
-  margin-top: .5rem;
+  margin-top: 0.5rem;
 }
 
 .main_div-2_box_text-1 {
@@ -1184,9 +1190,9 @@ input[type="text"]:focus {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
 .Team-members_Aleksandar {
@@ -1203,7 +1209,13 @@ input[type="text"]:focus {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-right: 14rem;
+  margin-left: 22rem;
+}
+
+@media (max-width: 800px) {
+  .Team-members_Aleksandar {
+    margin-left: 8rem;
+  }
 }
 
 .Team-members_Aleksandar_name {
@@ -1236,6 +1248,13 @@ input[type="text"]:focus {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-right: 24rem;
+}
+
+@media (max-width: 800px) {
+  .Team-members_Milena {
+    margin-right: 10rem;
+  }
 }
 
 .Team-members_Milena_name {

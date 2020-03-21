@@ -2,7 +2,6 @@
 // This file contains styles that are specific to page about-us
 // -----------------------------------------------------------------------------
 
-
 .gradient-effect-2 {
   background-image: -webkit-gradient(
     linear,
@@ -10,7 +9,7 @@
     left bottom,
     color-stop(20%, #322b6c),
     color-stop(65%, #131c6d),
-    color-stop(100%,#b1bff9)
+    color-stop(100%, #b1bff9)
   );
   background-image: linear-gradient(
     to bottom,
@@ -21,17 +20,17 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 .main_div-1 {
   display: flex;
   padding-top: 18rem;
   margin-left: 25rem;
 
-  @include breakpoint(mobile)  {
+  @include breakpoint(mobile) {
     margin-left: 2rem;
     padding-top: 10rem;
-
-   
   }
+
 
   &_box {
     display: flex;
@@ -48,7 +47,7 @@
       padding-bottom: 1.5rem;
       text-align: right;
       letter-spacing: 0.02rem;
-      
+
     }
     &_text {
       color: $color-white;
@@ -56,14 +55,14 @@
       font-size: 1.8rem;
       letter-spacing: 0.02rem;
       text-align: right;
-      
     }
   }
   img {
     z-index: 2;
-    @include breakpoint(mobile)  {
+    @include breakpoint(mobile) {
       margin-right: 2rem;
     }
+    
   }
 }
 
@@ -79,7 +78,6 @@
   &_box {
     display: flex;
     flex-direction: column;
-   
 
     @include breakpoint(mobile) {
       padding-left: 0;
@@ -105,7 +103,7 @@
       height: 1.1rem;
       border-radius: 50%;
       background-color: $color-yellow;
-      margin-top: .5rem;
+      margin-top: 0.5rem;
     }
 
     &_text-1 {
@@ -133,13 +131,13 @@
       margin-top: -4rem;
       width: 35rem;
     }
+
   }
 }
 
 .main_div-3 {
   display: flex;
   margin-left: 24rem;
- 
   padding-bottom: 27rem;
 
   @include breakpoint(mobile) {
@@ -198,6 +196,7 @@
       padding-left: 1.5rem;
     }
   }
+  
 }
 
 .Our-team {
@@ -222,14 +221,18 @@
 
 .Team-members {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
 
   &_Aleksandar {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-right: 14rem;
+    margin-left: 22rem;
+
+    @include breakpoint(mobile) {
+      margin-left: 8rem;
+    }
 
     &_name {
       color: $color-white;
@@ -252,6 +255,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-right: 24rem;
+
+    @include breakpoint(mobile) {
+      margin-right: 10rem;
+    }
 
     &_name {
       color: $color-white;
@@ -274,4 +282,3 @@
     text-decoration: none;
   }
 }
-
