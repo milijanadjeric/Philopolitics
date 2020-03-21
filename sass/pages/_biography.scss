@@ -3,6 +3,10 @@
   background-color: $color-footer-text;
   padding: 5rem 25rem 3rem 25rem;
 
+  @include breakpoint (tablet) {
+    padding-left: 17rem;
+  }
+
   @include breakpoint (mobile) {
     padding-left: 7rem;
     padding-right: 7rem;
@@ -22,10 +26,6 @@
     padding-right: 9rem;
     text-align: justify;
 
-    // @include breakpoint (mobile) {
-      
-    //   padding-right: 5rem;
-    // }
 
     p {
       padding-bottom: 2rem;

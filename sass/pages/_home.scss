@@ -82,11 +82,16 @@
       font-size: 6.4rem;
       color: $color-white;
       letter-spacing: 0.2rem;
-      margin-left: 14rem;
+      margin-left: 16rem;
       z-index: 12;
 
+
       @include breakpoint (desktop--Small) {
-        margin-left: 15rem;
+        margin-left: 16.5rem;
+      }
+
+      @include breakpoint (tablet)  {
+        margin-left: 10rem;
       }
 
       @include breakpoint (mobile) {
@@ -104,11 +109,17 @@
       font-size: 2.1rem;
       color: $color-white;
       margin-top: 1rem;
-      margin-left: 14.5rem;
+      margin-left: 16.5rem;
+      
       
       @include breakpoint (desktop--Small) {
-        margin-left: 15.5rem;
+        margin-left: 16.5rem;
       }
+
+      @include breakpoint (tablet)  {
+        margin-left: 10.5rem;
+      }
+
       @include breakpoint (mobile) {
         margin-left: 4rem;
       }

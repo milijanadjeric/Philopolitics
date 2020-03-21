@@ -15,7 +15,8 @@ header {
 
 //  -----LOG0 -----//
 .logo {
-  margin-left: 0;
+  margin-top: 2.5rem;
+  margin-left: 16rem;
 
   @include breakpoint(tablet) {
     margin-left: 9rem;
@@ -59,6 +60,7 @@ header {
 .navbar {
   overflow: hidden;
   background-color: $color-footer-text;
+  margin-top: 3.2rem;
 
   @include breakpoint(tablet) {
     margin-top: 3rem;
@@ -179,6 +181,7 @@ header {
   float: right;
   margin-right: 5rem;
   z-index: 222;
+  margin-top: 3.5rem;
 
   @include breakpoint(tablet) {
     margin-right: 4rem;

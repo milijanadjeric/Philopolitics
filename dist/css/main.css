@@ -84,7 +84,8 @@ header {
 }
 
 .logo {
-  margin-left: 0;
+  margin-top: 2.5rem;
+  margin-left: 16rem;
 }
 
 @media (max-width: 1280px) {
@@ -136,6 +137,7 @@ header {
 .navbar {
   overflow: hidden;
   background-color: #322b6c;
+  margin-top: 3.2rem;
 }
 
 @media (max-width: 1280px) {
@@ -260,6 +262,7 @@ header {
   float: right;
   margin-right: 5rem;
   z-index: 222;
+  margin-top: 3.5rem;
 }
 
 @media (max-width: 1280px) {
@@ -703,13 +706,19 @@ input[type="text"]:focus {
   font-size: 6.4rem;
   color: #FFFFFF;
   letter-spacing: 0.2rem;
-  margin-left: 14rem;
+  margin-left: 16rem;
   z-index: 12;
 }
 
 @media (max-width: 1282px) {
   .hero_text_heading {
-    margin-left: 15rem;
+    margin-left: 16.5rem;
+  }
+}
+
+@media (max-width: 1280px) {
+  .hero_text_heading {
+    margin-left: 10rem;
   }
 }
 
@@ -731,12 +740,18 @@ input[type="text"]:focus {
   font-size: 2.1rem;
   color: #FFFFFF;
   margin-top: 1rem;
-  margin-left: 14.5rem;
+  margin-left: 16.5rem;
 }
 
 @media (max-width: 1282px) {
   .hero_text_sub {
-    margin-left: 15.5rem;
+    margin-left: 16.5rem;
+  }
+}
+
+@media (max-width: 1280px) {
+  .hero_text_sub {
+    margin-left: 10.5rem;
   }
 }
 
@@ -923,7 +938,7 @@ input[type="text"]:focus {
   display: -ms-flexbox;
   display: flex;
   padding-top: 18rem;
-  margin-left: 22rem;
+  margin-left: 25rem;
 }
 
 @media (max-width: 800px) {
@@ -942,7 +957,7 @@ input[type="text"]:focus {
       -ms-flex-direction: column;
           flex-direction: column;
   padding-top: 4rem;
-  padding-right: 10rem;
+  padding-right: 7rem;
 }
 
 .main_div-1_box_heading {
@@ -977,7 +992,7 @@ input[type="text"]:focus {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding-top: 10rem;
+  padding-top: 8rem;
   margin-left: 14rem;
 }
 
@@ -995,7 +1010,6 @@ input[type="text"]:focus {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding-left: 4rem;
 }
 
 @media (max-width: 800px) {
@@ -1011,7 +1025,7 @@ input[type="text"]:focus {
   font-family: "truenoregular";
   font-size: 3rem;
   padding-bottom: 2rem;
-  letter-spacing: 0.02rem;
+  letter-spacing: 0.2rem;
   text-align: left;
 }
 
@@ -1026,6 +1040,7 @@ input[type="text"]:focus {
   height: 1.1rem;
   border-radius: 50%;
   background-color: #FFD042;
+  margin-top: .5rem;
 }
 
 .main_div-2_box_text-1 {
@@ -1060,7 +1075,7 @@ input[type="text"]:focus {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-left: 22rem;
+  margin-left: 24rem;
   padding-bottom: 27rem;
 }
 
@@ -1102,7 +1117,7 @@ input[type="text"]:focus {
 .main_div-3_box_text {
   color: #FFFFFF;
   font-family: "Roboto";
-  font-size: 2rem;
+  font-size: 1.8rem;
   letter-spacing: 0.02rem;
   text-align: right;
 }
@@ -1372,6 +1387,12 @@ input[type="submit"]:hover {
   display: flex;
   background-color: #322b6c;
   padding: 5rem 25rem 3rem 25rem;
+}
+
+@media (max-width: 1280px) {
+  .Aleksandar_bio {
+    padding-left: 17rem;
+  }
 }
 
 @media (max-width: 800px) {
@@ -2078,12 +2099,19 @@ input[type="submit"]:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 5rem 11rem 3rem 20rem;
+  padding: 5rem 11rem 3rem 20.5rem;
 }
 
 @media (max-width: 1323px) {
   .Projects-bio {
-    padding-left: 12rem;
+    padding-left: 18rem;
+  }
+}
+
+@media (max-width: 1280px) {
+  .Projects-bio {
+    padding-left: 11rem;
+    padding-right: 10.5rem;
   }
 }
 
@@ -2112,9 +2140,16 @@ input[type="submit"]:hover {
   font-family: "Roboto";
   font-size: 1.8rem;
   color: #322b6c;
-  padding-left: 20rem;
-  padding-right: 18rem;
+  padding-left: 15rem;
+  padding-right: 22.5rem;
   text-align: justify;
+}
+
+@media (max-width: 1323px) {
+  .Projects-bio_text {
+    padding-left: 17.5rem;
+    padding-right: 23rem;
+  }
 }
 
 @media (max-width: 800px) {
@@ -2308,6 +2343,7 @@ input[type="submit"]:hover {
 
 .slider-publications {
   width: 80%;
+  margin-top: 5rem;
   margin-bottom: 25rem;
   margin-left: 20.5rem;
 }

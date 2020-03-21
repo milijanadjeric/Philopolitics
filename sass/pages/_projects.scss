@@ -1,9 +1,14 @@
 .Projects-bio {
   display: flex;
-  padding: 5rem 11rem 3rem 20rem;
+  padding: 5rem 11rem 3rem 20.5rem;
 
   @include breakpoint (desktop) {
-    padding-left: 12rem;
+    padding-left: 18rem;
+  }
+
+  @include breakpoint (tablet) {
+    padding-left: 11rem;
+    padding-right: 10.5rem;
   }
 
   @include breakpoint (mobile) {
@@ -28,9 +33,14 @@
     color: $color-footer-text;
     // padding-left: 5rem;       // for different text style
     // padding-right: 9rem;
-    padding-left: 20rem;
-    padding-right: 18rem;
+    padding-left: 15rem;
+    padding-right: 22.5rem;
     text-align: justify;
+
+    @include breakpoint (desktop) {
+      padding-left: 17.5rem;
+      padding-right: 23rem;
+    }
 
     @include breakpoint (mobile) {
       padding-left: 5rem;
