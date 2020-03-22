@@ -31,12 +31,27 @@
     padding-top: 10rem;
   }
 
+  @include breakpoint(mobile--Small) {
+    flex-direction: column-reverse;
+    padding-top: 5rem;
+    margin-left: 0;
+  }
+
 
   &_box {
     display: flex;
     flex-direction: column;
     padding-top: 4rem;
     padding-right: 7rem;
+
+    @include breakpoint(mobile) {
+      
+    }
+
+    @include breakpoint(mobile--Small)  {
+      padding-right: 3.6rem;
+    }
+    
 
 
     &_heading {
@@ -48,6 +63,14 @@
       text-align: right;
       letter-spacing: 0.02rem;
 
+      @include breakpoint(mobile--Small) {
+        font-size: 2rem;
+        text-align: left;
+        padding-bottom: .5rem;
+        padding-left: 3.8rem;
+        
+      }
+
     }
     &_text {
       color: $color-white;
@@ -55,12 +78,24 @@
       font-size: 1.8rem;
       letter-spacing: 0.02rem;
       text-align: right;
+      line-height: 2.5rem;
+
+      @include breakpoint(mobile--Small) {
+        font-size: 1.3rem;
+        line-height: 1.8rem;
+        
+        
+      }
     }
   }
   img {
     z-index: 2;
     @include breakpoint(mobile) {
       margin-right: 2rem;
+    }
+    @include breakpoint(mobile--Small) {
+      width: 20rem;
+      margin: 0 auto;
     }
     
   }
@@ -75,6 +110,12 @@
     margin-left: 0;
   }
 
+  @include breakpoint(mobile--Small) {
+    flex-direction: column;
+    padding-top: 0;
+  }
+
+
   &_box {
     display: flex;
     flex-direction: column;
@@ -85,6 +126,12 @@
       margin-left: -3rem;
     }
 
+    @include breakpoint(mobile--Small) {
+      margin-left: 0;
+      padding-right: 0;
+     
+    }
+
     &_heading {
       color: $color-white;
       font-family: $font-tr-rg;
@@ -92,10 +139,22 @@
       padding-bottom: 2rem;
       letter-spacing: 0.2rem;
       text-align: left;
+
+      @include breakpoint(mobile--Small) {
+        font-size: 1.9rem;
+        margin-left: 3.5rem;
+        padding-right: 3rem;
+        letter-spacing: 0.1rem;
+       
+      }
     }
 
     &_ellipsebox {
-      display: flex;
+      @include breakpoint(mobile--Small) {
+        margin-left: 3.5rem;
+      }
+    
+
     }
 
     &_ellipse {
@@ -103,7 +162,16 @@
       height: 1.1rem;
       border-radius: 50%;
       background-color: $color-yellow;
-      margin-top: 0.5rem;
+      margin-top: 0.7rem;
+      margin-right: .5rem;
+      float: left;
+
+      @include breakpoint(mobile--Small) {
+        margin-top: 0;
+      }
+
+    
+  
     }
 
     &_text-1 {
@@ -111,7 +179,20 @@
       font-family: "Roboto";
       font-size: 1.8rem;
       letter-spacing: 0.02rem;
-      padding-left: 1rem;
+      line-height: 2.5rem;
+      padding-right: 32rem;
+      
+      @include breakpoint(mobile) {
+        padding-right: 2rem;
+      }
+
+      @include breakpoint(mobile--Small) {
+        font-size: 1.3rem;
+        line-height: 1.8rem;
+        padding-bottom: 1rem;
+        
+        
+      }
     }
 
     &_text-2 {
@@ -119,7 +200,26 @@
       font-family: "Roboto";
       font-size: 1.8rem;
       letter-spacing: 0.02rem;
-      padding-left: 1rem;
+      padding-right: 32rem;
+      line-height: 2.5rem;
+
+      @include breakpoint(desktop) {
+        padding-right: 29rem;
+      }
+      @include breakpoint(desktop--Small) {
+        padding-right: 25rem;
+      }
+      @include breakpoint(mobile) {
+        padding-right: 3rem;
+      }
+
+      @include breakpoint(mobile--Small) {
+        font-size: 1.3rem;
+        line-height: 1.8rem;
+        
+        
+        
+      }
     }
   }
 
@@ -129,7 +229,13 @@
 
     @include breakpoint(mobile) {
       margin-top: -4rem;
-      width: 35rem;
+      width: 30rem;
+      
+    }
+    @include breakpoint(mobile--Small) {
+      margin-bottom: -5rem;
+      margin-left: 2.5rem;
+      
     }
 
   }
@@ -145,6 +251,14 @@
     margin-top: 10rem;
     padding-bottom: 20rem;
   }
+
+  @include breakpoint(mobile--Small) {
+    flex-direction: column-reverse;
+    margin-top: 5rem;
+    margin-left: 0;
+    padding-bottom: 10rem;
+  }
+
 
   &_box {
     padding-right: 11rem;
@@ -163,13 +277,52 @@
       padding-left: 2.1rem;
       text-align: left;
       letter-spacing: 0.02rem;
+
+      @include breakpoint(mobile--Small)  {
+        display: none;
+        
+
+      }
+      
     }
+
+    &_heading-mobile {
+      display: none;
+      color: $color-white;
+      font-family: $font-tr-rg;
+      font-size: 1.9rem;
+      padding-bottom: .3rem;
+      padding-left: 3.8rem;
+      padding-top: 4rem;
+      text-align: left;
+      letter-spacing: 0.02rem; 
+
+      @include breakpoint(mobile--Small) {
+        display: block;
+      }
+
+    }
+    &_heading-mobilefirst {
+      color: $color-yellow;
+    }
+
+    &_heading-mobilesecond {
+      color: $color-yellow;
+    }
+
     &_text {
       color: $color-white;
       font-family: "Roboto";
       font-size: 1.8rem;
       letter-spacing: 0.02rem;
       text-align: right;
+      line-height: 2.5rem;
+
+      @include breakpoint(mobile--Small) {
+        font-size: 1.3rem;
+        line-height: 1.8rem;
+        padding: 0 5rem 1rem 0
+      }
     }
 
     &_ellipsebox {
@@ -181,6 +334,11 @@
       @include breakpoint(mobile) {
         margin-left: 25rem;
       }
+
+      @include breakpoint(mobile--Small) {
+        margin-left: 23rem;
+        padding-top: .5rem;
+      }
     }
 
     &_ellipse {
@@ -188,12 +346,32 @@
       height: 1.1rem;
       border-radius: 50%;
       background-color: $color-yellow;
+
+      @include breakpoint(mobile--Small) {
+
+        width: .9rem;
+        height: .9rem;
+
+      }
     }
     &_text-3 {
       color: $color-white;
       font-family: "Roboto";
       font-size: 2.2rem;
-      padding-left: 1.5rem;
+      padding-left: 1.5rem; 
+
+      @include breakpoint(mobile--Small) {
+        font-size: 1.3rem;
+      }
+
+      
+    }
+  }
+
+  img {
+    @include breakpoint(mobile--Small) {
+      width: 20rem;
+      margin: 0 auto;
     }
   }
   
@@ -204,18 +382,38 @@
   justify-content: center;
   padding-bottom: 8rem;
 
+  @include breakpoint(mobile--Small) {
+    flex-direction: column;
+    padding-bottom: 5rem;
+  }
+
+
   &_heading {
     color: $color-white;
-    font-family: $font-tr-rg;
+    font-family: $font-tr-bd;
     font-size: 5.5rem;
     padding-left: 7rem;
     align-self: center;
     letter-spacing: 0.02rem;
+
+    @include breakpoint(mobile--Small)  {
+      font-size: 4rem;
+      padding-left: 0;
+      padding-top: 1.3rem;
+    }
   }
   &_sub-span {
     color: $color-yellow;
     text-transform: uppercase;
     letter-spacing: 0.02rem;
+  }
+
+  img {
+    @include breakpoint(mobile--Small)  {
+      width: 12rem;
+      margin: 0 auto;
+    }
+    
   }
 }
 
@@ -233,6 +431,10 @@
     @include breakpoint(mobile) {
       margin-left: 8rem;
     }
+    @include breakpoint(mobile--Small) {
+      margin-left: 0;
+    
+    }
 
     &_name {
       color: $color-white;
@@ -241,12 +443,26 @@
       letter-spacing: 0.02rem;
       padding-top: 3.7rem;
       padding-bottom: 0.8rem;
+
+      @include breakpoint(mobile--Small) {
+        font-size: 1.1rem;
+      }
     }
     &_title {
       color: rgba(255, 255, 255, 0.7);
       font-family: "Roboto";
       font-size: 1.8rem;
       letter-spacing: 0.02rem;
+
+      @include breakpoint(mobile--Small)  {
+        font-size: .9rem;
+      }
+    }
+
+    img {
+      @include breakpoint(mobile--Small)  {
+        width: 8rem;
+      }
     }
   }
 
@@ -261,6 +477,11 @@
       margin-right: 10rem;
     }
 
+    @include breakpoint(mobile--Small) {
+      margin-right: 0;
+    
+    }
+
     &_name {
       color: $color-white;
       font-family: "Roboto";
@@ -269,6 +490,10 @@
       padding-top: 3.7rem;
       padding-bottom: 0.8rem;
       padding-left: 2rem;
+
+      @include breakpoint(mobile--Small) {
+        font-size: 1.1rem;
+      }
     }
     &_title {
       color: rgba(255, 255, 255, 0.7);
@@ -276,9 +501,19 @@
       font-size: 1.8rem;
       letter-spacing: 0.02rem;
       padding-left: 2rem;
+
+      @include breakpoint(mobile--Small)  {
+        font-size: .9rem;
+      }
     }
   }
   a {
     text-decoration: none;
+  }
+
+  img {
+    @include breakpoint(mobile--Small)  {
+      width: 8rem;
+    }
   }
 }

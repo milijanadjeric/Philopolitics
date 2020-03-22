@@ -9,6 +9,10 @@
     padding-bottom: 1.8rem;
     padding-left: 1rem;
 
+    @include breakpoint(mobile--Small) {
+      padding-left: 0;
+    }
+
     
   
     a {
@@ -24,6 +28,11 @@
     display: flex;
     justify-content: center;
     padding-bottom: 3rem;
+
+    @include breakpoint(mobile--Small) {
+      display: none;
+    }
+    
   
     &_copy {
       font-family: $font-tr-rg;
