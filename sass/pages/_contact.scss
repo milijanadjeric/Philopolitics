@@ -15,6 +15,29 @@
   );
   background-size: cover;
   background-repeat: no-repeat;
+
+  @include breakpoint(mobile--Small) {
+
+    background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(10%, #322b6c),
+    color-stop(70%, #131c6d),
+    color-stop(100%,#b1bff9)
+  );
+  background-image: linear-gradient(
+    to bottom,
+    #322b6c 10%,
+    #131c6d 70%,
+    #b1bff9 100%
+  );
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  }
+
+  
 }
 
 input[type="submit"] {
@@ -34,6 +57,10 @@ input[type="submit"] {
   @include breakpoint(tablet) {
     margin-bottom: 14.5rem;
   }
+  @include breakpoint(mobile--Small) {
+    margin-bottom: 3.5rem;
+    font-size: 1.3rem;
+  }
  
 }
 
@@ -46,9 +73,16 @@ input[type="submit"]:hover {
   margin-left: 22rem;
   margin-bottom: 5rem;
 
+  
+
   @include breakpoint(mobile) {
     margin-left: 10rem;
     margin-bottom: 55rem;
+  }
+  @include breakpoint(mobile--Small) {
+    flex-direction: column-reverse;
+    margin: 0;
+    
   }
   
 
@@ -59,7 +93,15 @@ input[type="submit"]:hover {
     width: 30%;
     color: rgba(255, 255, 255, 0.5);
     font-family: "Roboto";
-    font-size: 1.2rem;    
+    font-size: 1.2rem; 
+
+    @include breakpoint(mobile--Small)   {
+      width: 70%;
+      margin: 0 auto;
+      
+    }  
+
+    
     
   }
 
@@ -70,6 +112,12 @@ input[type="submit"]:hover {
     color: $color-white;
     padding-bottom: 5rem;
     padding-top: 10rem;
+
+    @include breakpoint(mobile--Small) {
+     padding-top: 0;
+     padding-bottom: 3rem;
+      font-size: 1.8rem;
+    }
     
   }
 
@@ -122,6 +170,11 @@ input[type="submit"]:hover {
       padding-left: 6rem;
       width: 45rem;
     }
-    
+    @include breakpoint(mobile--Small) {
+      width: 26rem;
+      height: 26rem;
+      padding-left: 0;
+      margin-left: 6rem;
+    }
   }
 }

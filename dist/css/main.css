@@ -1286,6 +1286,15 @@ input[type="text"]:focus {
   background-repeat: no-repeat;
 }
 
+@media (max-width: 364px) {
+  .gradient-effect-3 {
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(10%, #322b6c), color-stop(70%, #131c6d), to(#b1bff9));
+    background-image: linear-gradient(to bottom, #322b6c 10%, #131c6d 70%, #b1bff9 100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+
 input[type="submit"] {
   background-color: #00C2CC;
   text-transform: uppercase;
@@ -1304,6 +1313,13 @@ input[type="submit"] {
 @media (max-width: 1280px) {
   input[type="submit"] {
     margin-bottom: 14.5rem;
+  }
+}
+
+@media (max-width: 364px) {
+  input[type="submit"] {
+    margin-bottom: 3.5rem;
+    font-size: 1.3rem;
   }
 }
 
@@ -1326,6 +1342,16 @@ input[type="submit"]:hover {
   }
 }
 
+@media (max-width: 364px) {
+  .contact {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    margin: 0;
+  }
+}
+
 .contact_container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1341,6 +1367,13 @@ input[type="submit"]:hover {
   font-size: 1.2rem;
 }
 
+@media (max-width: 364px) {
+  .contact_container {
+    width: 70%;
+    margin: 0 auto;
+  }
+}
+
 .contact_heading {
   text-transform: uppercase;
   font-family: "TruenoBold";
@@ -1348,6 +1381,14 @@ input[type="submit"]:hover {
   color: #FFFFFF;
   padding-bottom: 5rem;
   padding-top: 10rem;
+}
+
+@media (max-width: 364px) {
+  .contact_heading {
+    padding-top: 0;
+    padding-bottom: 3rem;
+    font-size: 1.8rem;
+  }
 }
 
 .contact_data {
@@ -1397,6 +1438,15 @@ input[type="submit"]:hover {
   .contact img {
     padding-left: 6rem;
     width: 45rem;
+  }
+}
+
+@media (max-width: 364px) {
+  .contact img {
+    width: 26rem;
+    height: 26rem;
+    padding-left: 0;
+    margin-left: 6rem;
   }
 }
 
