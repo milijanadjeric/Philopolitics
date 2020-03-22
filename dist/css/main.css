@@ -1953,6 +1953,15 @@ input[type="submit"]:hover {
   background-repeat: no-repeat;
 }
 
+@media (max-width: 364px) {
+  .gradient-effect-4 {
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(10%, #322b6c), color-stop(70%, #131c6d), to(#b1bff9));
+    background-image: linear-gradient(to bottom, #322b6c 10%, #131c6d 70%, #b1bff9 100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+
 .main {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2053,9 +2062,10 @@ input[type="submit"]:hover {
 
 @media (max-width: 364px) {
   .main img {
-    width: 21rem;
-    margin-bottom: 10rem;
-    margin-left: 8.5rem;
+    width: 26rem;
+    margin-top: 4rem;
+    margin-bottom: 6rem;
+    margin-left: 5rem;
   }
 }
 
