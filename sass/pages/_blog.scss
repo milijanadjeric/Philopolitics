@@ -13,9 +13,11 @@
   margin-top: 5.6rem;
   margin-bottom: 1rem;
 
-  img {
+  img,
+  .mobile-twitter {
     margin-left: 2rem;
   }
+  
   img:hover {
     cursor: pointer;
   }
@@ -25,19 +27,37 @@
     font-family: $font-tr;
     font-size: 4rem;
     margin: 0 auto;
+
+    @include breakpoint(mobile--Small) {
+      font-size: 2rem;
+      padding-left: 3rem;
+     
+    }
   }
 
   &_line-2 {
-    border: 0.625339px solid #e5e5e5;
+    border: 0.625339px solid rgba(255, 255, 255, 0.3);
     width: 56rem;
     justify-content: center;
     margin-top: 2.3rem;
     margin-bottom: 1.7rem;
+
+    @include breakpoint(mobile--Small) {
+      width: 30rem;
+      margin-left: 3rem;
+      
+    }
   }
 
   &_name-and-links {
     display: flex;
     justify-content: space-between;
+
+    @include breakpoint(mobile--Small) {
+      padding-left: 3rem;
+      padding-right: 3rem;
+    }
+    
   }
 
   &_name {
@@ -46,6 +66,10 @@
     font-size: 1.4rem;
     letter-spacing: 0.01rem;
     margin-bottom: 0.3rem;
+
+    @include breakpoint(mobile--Small) {
+      font-size: 1.2rem;
+    }
   }
 
   &_date {
@@ -55,6 +79,8 @@
     letter-spacing: 0.01rem;
     text-transform: uppercase;
   }
+
+ 
 }
 
 //  TEXT
@@ -66,14 +92,30 @@
   align-items: center;
   margin-bottom: -13rem;
 
+  @include breakpoint(mobile--Small) {
+    margin-bottom: 6rem;
+  }
+
   img {
     position: relative;
+
+    @include breakpoint(mobile--Small) {
+      width: 30rem;
+      margin-bottom: 2rem;
+     
+      
+       
+    }
   }
 
   &_info {
     position: absolute;
     top: -3.6rem;
     left: 25.9rem;
+
+    @include breakpoint(mobile--Small) {
+      display: none;
+    }
   }
 
   &_paragraph-onespace {
@@ -84,6 +126,22 @@
     text-align: justify;
     letter-spacing: 0.01rem;
     padding-bottom: 2rem;
+
+    @include breakpoint(desktop) {
+      font-size: 1.7rem;
+    }
+
+    @include breakpoint(desktop--Small) {
+      font-size: 1.9rem;
+    }
+
+    @include breakpoint(mobile--Small) {
+      font-size: 1.4rem;
+      width: 36.4rem;
+      padding-left: 3rem;
+      padding-right: 3rem;
+     
+    }
   }
 
   &_paragraph-doublespace {
@@ -94,6 +152,22 @@
     text-align: justify;
     letter-spacing: 0.01rem;
     padding-bottom: 4rem;
+
+    @include breakpoint(desktop) {
+      font-size: 1.7rem;
+    }
+    @include breakpoint(desktop--Small) {
+      font-size: 1.9rem;
+    }
+    @include breakpoint(mobile--Small) {
+      font-size: 1.4rem;
+      width: 36.4rem;
+      padding-left: 3rem;
+      padding-right: 3rem;
+      padding-bottom: 2rem;
+      
+      
+    }
   }
 
   &_paragraph-nospace {
@@ -103,5 +177,62 @@
     color: rgba(103, 103, 103, 0.9);
     text-align: justify;
     letter-spacing: 0.01rem;
+
+    @include breakpoint(desktop) {
+      font-size: 1.7rem;
+    }
+    @include breakpoint(desktop--Small) {
+      font-size: 1.9rem;
+    }
+    @include breakpoint(mobile--Small) {
+      font-size: 1.4rem;
+      width: 36.4rem;
+      padding-left: 3rem;
+      padding-right: 3rem;
+      
+
+      
+    }
   }
+
+  &_paragraph-topbottomspace {
+    font-family: "Roboto";
+    font-size: 1.5rem;
+    width: 57.5rem;
+    color: rgba(103, 103, 103, 0.9);
+    text-align: justify;
+    letter-spacing: 0.01rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+    @include breakpoint(desktop) {
+      font-size: 1.7rem;
+    }
+    @include breakpoint(desktop--Small) {
+      font-size: 1.9rem;
+    }
+
+  }
+}
+
+.Networks-nodisplay {
+  @include breakpoint(mobile--Small)  {
+  display: none;
+}
+}
+
+.mobile-displaynone {
+  @include breakpoint(mobile--Small) {
+    display: none;
+
+  }
+}
+.desktop-twitter {
+  fill: $color-white;
+}
+.mobile-twitter {
+  @include breakpoint(mobile--Small) {
+    fill: #c8c7d1;
+    
+}
 }

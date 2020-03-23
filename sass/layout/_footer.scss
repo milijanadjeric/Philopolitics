@@ -3,49 +3,44 @@
 // -----------------------------------------------------------------------------
 
 .Networks {
-    display: flex;
-    justify-content: center;
-    padding-top: 22rem;
-    padding-bottom: 1.8rem;
-    padding-left: 1rem;
+  display: flex;
+  justify-content: center;
+  padding-top: 22rem;
+  padding-bottom: 1.8rem;
+  padding-left: 1rem;
 
-    @include breakpoint(mobile--Small) {
-      padding-left: 0;
-    }
-
-    
-  
-    a {
-      padding-left: 1.3rem;
-  
-      :hover {
-        fill: #1b2798;
-      }
-    }
-
+  @include breakpoint(mobile--Small) {
+    padding-left: 0;
   }
-  .privacy {
-    display: flex;
-    justify-content: center;
-    padding-bottom: 3rem;
 
-    @include breakpoint(mobile--Small) {
-      display: none;
-    }
-    
-  
-    &_copy {
-      font-family: $font-tr-rg;
-      font-size: 1.4rem;
-      color: $color-footer-text-2;
-      padding-right: 2.5rem;
-    }
-  
-    &_policy {
-      text-transform: uppercase;
-      font-family: $font-tr-rg;
-      font-size: 1.6rem;
-      color: $color-footer-text;
+  a {
+    padding-left: 1.3rem;
+
+    :hover {
+      fill: #1b2798;
     }
   }
-  
+}
+.privacy {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 3rem;
+
+  @include breakpoint(mobile--Small) {
+    display: none;
+  }
+
+  &_copy {
+    font-family: $font-tr-rg;
+    font-size: 1.4rem;
+    color: $color-footer-text-2;
+    padding-right: 2.5rem;
+  }
+
+  &_policy {
+    text-transform: uppercase;
+    font-family: $font-tr-rg;
+    font-size: 1.6rem;
+    color: $color-footer-text;
+  }
+}
