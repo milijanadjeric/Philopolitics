@@ -36,13 +36,14 @@
   }
 
   &_line-2 {
-    border: 0.625339px solid rgba(255, 255, 255, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.3);
     width: 56rem;
     justify-content: center;
     margin-top: 2.3rem;
     margin-bottom: 1.7rem;
 
     @include breakpoint(mobile--Small) {
+      border: 0.65px solid rgba(255, 255, 255, 0.3);
       width: 30rem;
       margin-left: 3rem;
       

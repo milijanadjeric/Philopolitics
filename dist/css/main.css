@@ -2203,7 +2203,7 @@ input[type="submit"]:hover {
 }
 
 .banner_line-2 {
-  border: 0.62534px solid rgba(255, 255, 255, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.3);
   width: 56rem;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -2214,6 +2214,7 @@ input[type="submit"]:hover {
 
 @media (max-width: 364px) {
   .banner_line-2 {
+    border: 0.65px solid rgba(255, 255, 255, 0.3);
     width: 30rem;
     margin-left: 3rem;
   }
