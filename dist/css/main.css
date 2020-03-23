@@ -2276,7 +2276,7 @@ input[type="submit"]:hover {
 
 @media (max-width: 364px) {
   .text {
-    margin-bottom: 6rem;
+    margin-bottom: 7rem;
   }
 }
 
@@ -2331,6 +2331,8 @@ input[type="submit"]:hover {
     width: 36.4rem;
     padding-left: 3rem;
     padding-right: 3rem;
+    line-height: 18px;
+    letter-spacing: .04rem;
   }
 }
 
@@ -2363,6 +2365,8 @@ input[type="submit"]:hover {
     padding-left: 3rem;
     padding-right: 3rem;
     padding-bottom: 2rem;
+    line-height: 18px;
+    letter-spacing: .04rem;
   }
 }
 
@@ -2393,6 +2397,8 @@ input[type="submit"]:hover {
     width: 36.4rem;
     padding-left: 3rem;
     padding-right: 3rem;
+    line-height: 18px;
+    letter-spacing: .04rem;
   }
 }
 
