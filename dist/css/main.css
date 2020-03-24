@@ -1801,6 +1801,12 @@ input[type="submit"]:hover {
   margin-top: 4.8rem;
 }
 
+@media (max-width: 1520px) {
+  .slider {
+    margin-left: 28rem;
+  }
+}
+
 @media (max-width: 1282px) {
   .slider {
     margin-left: 16.5rem;

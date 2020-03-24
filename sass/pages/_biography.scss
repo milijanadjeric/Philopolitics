@@ -50,6 +50,10 @@
   margin-bottom: 30rem;
   margin-top: 4.8rem;
 
+  @include breakpoint(desktop--Large) {
+    margin-left: 28rem;
+  }
+
   @include breakpoint(desktop--Small) {
     margin-left: 16.5rem;
   }
