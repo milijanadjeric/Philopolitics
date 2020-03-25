@@ -3,7 +3,7 @@
 // -----------------------------------------------------------------------------
 header {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   background-color: $color-footer-text;
   height: 10rem;
   
@@ -15,8 +15,8 @@ header {
 
 //  -----LOG0 -----//
 .logo {
-  margin-top: 2.5rem;
-  margin-left: 16rem;
+  margin-top: 2.8rem;
+  margin-left: 7rem;
 
   @include breakpoint(tablet) {
     margin-left: 9rem;
@@ -28,10 +28,18 @@ header {
   }
 
   @include breakpoint(mobile--Small) {
-    width: 2.4rem;
-    height: 2.4rem;
     margin-left: 0;
-    margin-top: 0;
+    margin-top: 1.8rem;
+  }
+
+
+  &_picture {
+    @include breakpoint(mobile--Small) {
+      width: 2.7rem;
+      height: 2.7rem;
+
+    }
+
   }
 
   &_text {
@@ -50,6 +58,10 @@ header {
 
     @include breakpoint(mobile--Small) {
       font-size: 0.8rem;
+      text-transform: capitalize;
+      letter-spacing: 0.03rem;
+      padding-left: 0.4rem;
+     
     }
   }
 }
@@ -60,7 +72,8 @@ header {
 .navbar {
   overflow: hidden;
   background-color: $color-footer-text;
-  margin-top: 3.2rem;
+  margin-top: 3.5rem;
+  margin-left: 5rem;
 
   @include breakpoint(tablet) {
     margin-top: 3rem;
@@ -178,10 +191,11 @@ header {
 
 //  -----LANGUAGES-----//
 .languages {
-  float: right;
-  margin-right: 5rem;
   z-index: 222;
   margin-top: 3.5rem;
+  margin-right: -3rem;
+  
+  
 
   @include breakpoint(tablet) {
     margin-right: 4rem;
@@ -199,15 +213,14 @@ header {
     width: 1rem;
   }
 
-  &_form {
-    margin-right: 1.5rem;
-    float: left;
-  }
+  
+  
 }
 
 //  -----SEARCH BOX -----//
 input[type="text"] {
   width: 4rem;
+  height: 2.3rem;
   border: 1px solid $color-white;
   color: $color-white;
   font-family: $font-tr;
@@ -221,6 +234,7 @@ input[type="text"] {
 
   @include breakpoint(mobile--Small) {
     border: none;
+    
   }
 }
 
@@ -228,32 +242,143 @@ input[type="text"] {
 
 input[type="text"]:focus {
   width: 10rem;
+
+  @include breakpoint(mobile--Small)  {
+    display: none;
+  }
+
+
 }
 
-.search-icon:before {
-  content: "";
-  position: absolute;
-  top: 8px;
-  left: 3px;
-  height: 7px;
-  width: 1.5px;
-  background-color: currentColor;
+.search-box {
+  z-index: 222;
+  margin-top: 3.5rem;
+  margin-right: -15rem;
+
+  @include breakpoint(mobile--Small) {
+    display: none;
+  }
+
+  
+  &_form button {
+    border: none;
+    background: transparent;
+    margin-left: -2.5rem;
+    width: 1.1rem;
+    height: 1.1rem;
+  }
+
+  &_search-icon {
+
+    @include breakpoint(mobile--Small) {
+    width: 2rem;
+    height: 2rem;
+    margin-left: -3rem;
+    
+    
+    }
+  }
 }
-.search-icon {
-  color: $color-white;
-  position: absolute;
-  margin-top: -1.8rem;
-  margin-left: 1.4rem;
-  width: 9px;
-  height: 9px;
-  border: solid 1px $color-white;
-  border-radius: 100%;
-  transform: rotate(-45deg);
-  -webkit-transform: rotate(-45deg);
-  -ms-transform: rotate(-45deg);
-  -moz-transform: rotate(-45deg);
-  -o-transform: rotate(-45deg);
+
+/*  MOBILE FULLSCREEN SEARH BOX */
+
+.search-box-mobile {
+  display: none;
+  
+
+  @include breakpoint(mobile--Small) {
+    display: block;
+    margin-top: 2.3rem;
+    margin-right: -14rem;
+  }
+
+  button {
+    border: none;
+    background: transparent;
+    margin-left: -2.5rem;
+    width: 2rem;
+    height: 1.1rem;
+
+  }
+
 }
+.icon {
+    width: 1.8rem;
+    height: 1.8rem;
+    
+
+}
+
+.overlay {  
+  display: none;
+
+  @include breakpoint(mobile--Small) {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 222;
+  top: 0;
+  left: 0;
+  background-color: $color-footer-text;
+
+  }
+  
+}
+
+.overlay-content { 
+
+  @include breakpoint(mobile--Small) {
+  position: relative;
+  top: 46%;
+  width: 80%;
+  text-align: center;
+  margin-top: 30px;
+  margin: auto;
+}
+}
+
+.overlay .closebtn {
+  @include breakpoint(mobile--Small) {
+  position: absolute;
+  top: 5px;
+  right: 45px;
+  font-size: 60px;
+  cursor: pointer;
+  color: white;
+}
+}
+
+
+.overlay input[type=text] {
+
+  @include breakpoint(mobile--Small) {
+
+  padding: 15px;
+  font-size: 17px;
+  border: none;
+  float: left;
+  width: 80%;
+  background: white;
+}
+}
+
+
+.overlay button {
+
+ @include breakpoint(mobile--Small) {
+
+  float: left;
+  width: 10%;
+  padding: 15px;
+  background: red;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+}
+
+
+/*  MOBILE NAVIGATION */
 
 .mobile-nav {
   @include breakpoint(mobile--Small) {
@@ -279,8 +404,7 @@ input[type="text"]:focus {
 }
 
 .mobile-nav-icon {
-  margin-top: 2.5rem;
-  margin-right: 2.5rem;
+  margin-top: 2rem;
   cursor: pointer;
   display: none;
 
@@ -288,3 +412,5 @@ input[type="text"]:focus {
     display: inline-block;
   }
 }
+
+
