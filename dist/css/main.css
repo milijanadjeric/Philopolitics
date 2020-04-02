@@ -108,7 +108,7 @@ header {
 
 @media (max-width: 364px) {
   .logo {
-    margin-left: 0;
+    margin-left: .5rem;
     margin-top: 1.5rem;
   }
 }
@@ -377,7 +377,7 @@ input[type="text"]:focus {
   .search-box-mobile {
     display: block;
     margin-top: 2rem;
-    margin-right: -7rem;
+    margin-right: -5rem;
   }
 }
 
@@ -489,6 +489,7 @@ input[type="text"]:focus {
 @media (max-width: 364px) {
   .mobile-nav-icon {
     display: inline-block;
+    margin-right: 1rem;
   }
 }
 
@@ -2291,18 +2292,9 @@ input[type="submit"]:hover {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 56rem;
+  width: 57.5rem;
   margin-top: 5.6rem;
   margin-bottom: 1rem;
-}
-
-.banner img,
-.banner .mobile-twitter {
-  margin-left: 2rem;
-}
-
-.banner img:hover {
-  cursor: pointer;
 }
 
 .banner_heading {
@@ -2315,18 +2307,16 @@ input[type="submit"]:hover {
 @media (max-width: 364px) {
   .banner_heading {
     font-size: 2rem;
+    line-height: 3rem;
     padding-left: 3rem;
   }
 }
 
 .banner_line-2 {
   border: 1px solid rgba(255, 255, 255, 0.3);
-  width: 56rem;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  width: 57.5rem;
   margin-top: 2.3rem;
-  margin-bottom: 1.7rem;
+  margin-bottom: 1rem;
 }
 
 @media (max-width: 364px) {
@@ -2334,6 +2324,7 @@ input[type="submit"]:hover {
     border: 0.3px solid rgba(255, 255, 255, 0.3);
     width: 30rem;
     margin-left: 3rem;
+    margin-top: 1rem;
   }
 }
 
@@ -2373,6 +2364,25 @@ input[type="submit"]:hover {
   font-size: 1rem;
   letter-spacing: 0.01rem;
   text-transform: uppercase;
+}
+
+.banner_links {
+  fill: #FFFFFF;
+  margin-left: 2rem;
+}
+
+.banner_links:hover {
+  fill-opacity: 0.7;
+}
+
+.banner_links-marginright {
+  margin-right: 1.5rem;
+}
+
+@media (max-width: 364px) {
+  .banner_links-marginright {
+    margin-right: 0;
+  }
 }
 
 .text {
@@ -2450,7 +2460,7 @@ input[type="submit"]:hover {
     padding-left: 3rem;
     padding-right: 3rem;
     line-height: 18px;
-    letter-spacing: .04rem;
+    letter-spacing: 0.04rem;
   }
 }
 
@@ -2484,7 +2494,7 @@ input[type="submit"]:hover {
     padding-right: 3rem;
     padding-bottom: 2rem;
     line-height: 18px;
-    letter-spacing: .04rem;
+    letter-spacing: 0.04rem;
   }
 }
 
@@ -2516,7 +2526,7 @@ input[type="submit"]:hover {
     padding-left: 3rem;
     padding-right: 3rem;
     line-height: 18px;
-    letter-spacing: .04rem;
+    letter-spacing: 0.04rem;
   }
 }
 
@@ -2552,16 +2562,6 @@ input[type="submit"]:hover {
 @media (max-width: 364px) {
   .mobile-displaynone {
     display: none;
-  }
-}
-
-.desktop-twitter {
-  fill: #FFFFFF;
-}
-
-@media (max-width: 364px) {
-  .mobile-twitter {
-    fill: #c8c7d1;
   }
 }
 

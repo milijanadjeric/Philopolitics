@@ -9,18 +9,9 @@
 .banner {
   display: flex;
   flex-direction: column;
-  width: 56rem;
+  width: 57.5rem;
   margin-top: 5.6rem;
   margin-bottom: 1rem;
-
-  img,
-  .mobile-twitter {
-    margin-left: 2rem;
-  }
-  
-  img:hover {
-    cursor: pointer;
-  }
 
   &_heading {
     color: $color-white;
@@ -30,23 +21,22 @@
 
     @include breakpoint(mobile--Small) {
       font-size: 2rem;
+      line-height: 3rem;
       padding-left: 3rem;
-     
     }
   }
 
   &_line-2 {
     border: 1px solid rgba(255, 255, 255, 0.3);
-    width: 56rem;
-    justify-content: center;
+    width: 57.5rem;
     margin-top: 2.3rem;
-    margin-bottom: 1.7rem;
+    margin-bottom: 1rem;
 
     @include breakpoint(mobile--Small) {
       border: 0.3px solid rgba(255, 255, 255, 0.3);
       width: 30rem;
       margin-left: 3rem;
-      
+      margin-top: 1rem;
     }
   }
 
@@ -58,7 +48,6 @@
       padding-left: 3rem;
       padding-right: 3rem;
     }
-    
   }
 
   &_name {
@@ -81,7 +70,22 @@
     text-transform: uppercase;
   }
 
- 
+  &_links {
+    fill: $color-white;
+    margin-left: 2rem;
+
+    &:hover {
+      fill-opacity: 0.7;
+    }
+  }
+
+  &_links-marginright {
+    margin-right: 1.5rem;
+    @include breakpoint(mobile--Small) {
+      margin-right: 0;
+    }
+  }
+
 }
 
 //  TEXT
@@ -103,9 +107,6 @@
     @include breakpoint(mobile--Small) {
       width: 30rem;
       margin-bottom: 2rem;
-     
-      
-       
     }
   }
 
@@ -142,8 +143,7 @@
       padding-left: 3rem;
       padding-right: 3rem;
       line-height: 18px;
-     letter-spacing: .04rem;
-     
+      letter-spacing: 0.04rem;
     }
   }
 
@@ -169,9 +169,7 @@
       padding-right: 3rem;
       padding-bottom: 2rem;
       line-height: 18px;
-      letter-spacing: .04rem;
-      
-      
+      letter-spacing: 0.04rem;
     }
   }
 
@@ -195,10 +193,7 @@
       padding-left: 3rem;
       padding-right: 3rem;
       line-height: 18px;
-     letter-spacing: .04rem;
-      
-
-      
+      letter-spacing: 0.04rem;
     }
   }
 
@@ -218,30 +213,17 @@
     @include breakpoint(desktop--Small) {
       font-size: 1.9rem;
     }
-
-
-
   }
 }
 
 .Networks-nodisplay {
-  @include breakpoint(mobile--Small)  {
-  display: none;
-}
+  @include breakpoint(mobile--Small) {
+    display: none;
+  }
 }
 
 .mobile-displaynone {
   @include breakpoint(mobile--Small) {
     display: none;
-
   }
-}
-.desktop-twitter {
-  fill: $color-white;
-}
-.mobile-twitter {
-  @include breakpoint(mobile--Small) {
-    fill: #c8c7d1;
-    
-}
 }

@@ -23,7 +23,8 @@
 
         <div class="logo">
             <?xml version="1.0" encoding="UTF-8"?>
-            <svg class="logo_picture" xmlns="http://www.w3.org/2000/svg" width="38" height="40" viewBox="0 0 38 40" fill="none">
+            <svg class="logo_picture" xmlns="http://www.w3.org/2000/svg" width="38" height="40" viewBox="0 0 38 40"
+                fill="none">
                 <path d="M16.9473 8.78369H20.3183V38.5107H16.9473V8.78369Z" fill="#322B6C" stroke="white"
                     stroke-miterlimit="3"></path>
                 <path fill-rule="evenodd" clip-rule="evenodd"
@@ -82,61 +83,61 @@
 
         <!-- NAVIGATION  END -->
 
-       <!-- SEARCH-BOX ON MOBILE DEVICE -->
-       <div id="myOverlay" class="overlay">
-        <span class="closebtn" onclick="closeSearch()" title="Close Overlay">×</span>
-        <div class="overlay-content">
-            <form action="/action_page.php">
-                <input type="text" placeholder="Search.." name="search">
-                <button type="submit"><i class="fa fa-search"></i></button>
+        <!-- SEARCH-BOX ON MOBILE DEVICE -->
+        <div id="myOverlay" class="overlay">
+            <span class="closebtn" onclick="closeSearch()" title="Close Overlay">×</span>
+            <div class="overlay-content">
+                <form action="/action_page.php">
+                    <input type="text" placeholder="Search.." name="search">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+        </div>
+        <div class="search-box-mobile">
+            <form class="search-box_form-mobile" action="action_page.php">
+                <input type="text" name="search" placeholder="">
+                <button type="submit" onclick="openSearch()"><svg class="icon" width="11" height="10"
+                        viewBox="0 0 11 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path id="Vector"
+                            d="M8.10397 6.28931H7.65229L7.49219 6.13493C8.05251 5.48313 8.38985 4.63694 8.38985 3.71641C8.38985 1.66381 6.72604 0 4.67344 0C2.62084 0 0.957031 1.66381 0.957031 3.71641C0.957031 5.76901 2.62084 7.43282 4.67344 7.43282C5.59397 7.43282 6.44016 7.09548 7.09197 6.53516L7.24634 6.69525V7.14694L10.1051 10L10.957 9.14808L8.10397 6.28931ZM4.67344 6.28931C3.24977 6.28931 2.10054 5.14008 2.10054 3.71641C2.10054 2.29274 3.24977 1.14351 4.67344 1.14351C6.09711 1.14351 7.24634 2.29274 7.24634 3.71641C7.24634 5.14008 6.09711 6.28931 4.67344 6.28931Z"
+                            fill="white" fill-opacity="1" />
+                    </svg></button>
             </form>
         </div>
-    </div>
-    <div class="search-box-mobile">
-        <form class="search-box_form-mobile" action="action_page.php">
-            <input type="text" name="search" placeholder="">
-            <button type="submit" onclick="openSearch()"><svg class="icon" width="11" height="10"
-                    viewBox="0 0 11 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path id="Vector"
-                        d="M8.10397 6.28931H7.65229L7.49219 6.13493C8.05251 5.48313 8.38985 4.63694 8.38985 3.71641C8.38985 1.66381 6.72604 0 4.67344 0C2.62084 0 0.957031 1.66381 0.957031 3.71641C0.957031 5.76901 2.62084 7.43282 4.67344 7.43282C5.59397 7.43282 6.44016 7.09548 7.09197 6.53516L7.24634 6.69525V7.14694L10.1051 10L10.957 9.14808L8.10397 6.28931ZM4.67344 6.28931C3.24977 6.28931 2.10054 5.14008 2.10054 3.71641C2.10054 2.29274 3.24977 1.14351 4.67344 1.14351C6.09711 1.14351 7.24634 2.29274 7.24634 3.71641C7.24634 5.14008 6.09711 6.28931 4.67344 6.28931Z"
-                        fill="white" fill-opacity="1" />
-                </svg></button>
-        </form>
-    </div>
-    <!-- SEARCH-BOX ON MOBILE DEVICE  END -->
+        <!-- SEARCH-BOX ON MOBILE DEVICE  END -->
 
-    <div class="search-box">
-        <form class="search-box_form" action="action_page.php">
-            <input type="text" name="search" placeholder="">
-            <button type="submit"><svg class="search-box_search-icon" width="11" height="10" viewBox="0 0 11 10"
-                    fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path id="Vector"
-                        d="M8.10397 6.28931H7.65229L7.49219 6.13493C8.05251 5.48313 8.38985 4.63694 8.38985 3.71641C8.38985 1.66381 6.72604 0 4.67344 0C2.62084 0 0.957031 1.66381 0.957031 3.71641C0.957031 5.76901 2.62084 7.43282 4.67344 7.43282C5.59397 7.43282 6.44016 7.09548 7.09197 6.53516L7.24634 6.69525V7.14694L10.1051 10L10.957 9.14808L8.10397 6.28931ZM4.67344 6.28931C3.24977 6.28931 2.10054 5.14008 2.10054 3.71641C2.10054 2.29274 3.24977 1.14351 4.67344 1.14351C6.09711 1.14351 7.24634 2.29274 7.24634 3.71641C7.24634 5.14008 6.09711 6.28931 4.67344 6.28931Z"
-                        fill="white" fill-opacity="1" />
-                </svg></button>
-        </form>
-    </div>
+        <div class="search-box">
+            <form class="search-box_form" action="action_page.php">
+                <input type="text" name="search" placeholder="">
+                <button type="submit"><svg class="search-box_search-icon" width="11" height="10" viewBox="0 0 11 10"
+                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path id="Vector"
+                            d="M8.10397 6.28931H7.65229L7.49219 6.13493C8.05251 5.48313 8.38985 4.63694 8.38985 3.71641C8.38985 1.66381 6.72604 0 4.67344 0C2.62084 0 0.957031 1.66381 0.957031 3.71641C0.957031 5.76901 2.62084 7.43282 4.67344 7.43282C5.59397 7.43282 6.44016 7.09548 7.09197 6.53516L7.24634 6.69525V7.14694L10.1051 10L10.957 9.14808L8.10397 6.28931ZM4.67344 6.28931C3.24977 6.28931 2.10054 5.14008 2.10054 3.71641C2.10054 2.29274 3.24977 1.14351 4.67344 1.14351C6.09711 1.14351 7.24634 2.29274 7.24634 3.71641C7.24634 5.14008 6.09711 6.28931 4.67344 6.28931Z"
+                            fill="white" fill-opacity="1" />
+                    </svg></button>
+            </form>
+        </div>
 
-    <div class="languages">
+        <div class="languages">
 
-        <a href="#"><img class="languages_img" src="img/SFRJ.svg" alt=""></a>
-        <a href="#"><img src="img/UK.svg" alt=""></a>
-    </div>
+            <a href="#"><img class="languages_img" src="img/SFRJ.svg" alt=""></a>
+            <a href="#"><img src="img/UK.svg" alt=""></a>
+        </div>
 
-    <a href="javascript:void(0);" onclick="myFunction()" class="mobile-nav-icon">
-        <?xml version="1.0" encoding="UTF-8"?>
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-            <g id="Meni">
-                <path id="Vector" d="M3 18H21V16H3V18ZM3 13H21V11H3V13ZM3 6V8H21V6H3Z" fill="white"></path>
-            </g>
-        </svg></a>
+        <a href="javascript:void(0);" onclick="myFunction()" class="mobile-nav-icon">
+            <?xml version="1.0" encoding="UTF-8"?>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <g id="Meni">
+                    <path id="Vector" d="M3 18H21V16H3V18ZM3 13H21V11H3V13ZM3 6V8H21V6H3Z" fill="white"></path>
+                </g>
+            </svg></a>
 
         <!-- NAVIGATION  END -->
     </header>
 
     <section class="heading">
         <div class="banner">
-            <h1 class="banner_heading">Ten Proposals to Change the Europian Union</h1>
+            <h1 class="banner_heading">Ten Proposals to Change the European Union</h1>
             <hr class="banner_line-2">
             <div class="banner_name-and-links">
                 <div>
@@ -144,17 +145,31 @@
                     <time class="banner_date">february, 20. 2019.</time>
                 </div>
                 <div>
-                    <a href="#"><img src="img/facebook.svg" alt=""></a>
                     <a href="#">
                         <?xml version="1.0" encoding="UTF-8"?>
-                        <svg class="mobile-twitter desktop-twitter" xmlns="http://www.w3.org/2000/svg" width="20"
-                            height="17" viewBox="0 0 20 17" fill="none">
+                        <svg class="banner_links" xmlns="http://www.w3.org/2000/svg" width="9" height="18" viewBox="0 0 9 18">
+                            <path id="Combined-Shape"
+                                d="M5.70711 17.3483L5.66553 8.68391L8.05728 8.67243L8.35991 5.68512L5.65121 5.69812L5.6481 4.20368C5.64436 3.42494 5.71635 3.00732 6.83485 3.00196L8.33007 2.99478L8.31574 0.00865327L5.92366 0.0201309C3.05038 0.0339173 2.04601 1.4872 2.0577 3.923L2.0663 5.71566L0.275285 5.72425L0.289612 8.71004L2.08063 8.70145L2.1222 17.3655L5.70711 17.3483Z"></path>
+                        </svg>
+                    </a>
+                    <a href="#">
+                        <?xml version="1.0" encoding="UTF-8"?>
+                        <svg class="banner_links" xmlns="http://www.w3.org/2000/svg" width="20"
+                            height="17" viewBox="0 0 20 17">
                             <path id="Combined-Shape"
                                 d="M9.91598 4.84955L9.9569 5.5243L9.2749 5.44167C6.79245 5.12496 4.62372 4.05088 2.78234 2.24697L1.88211 1.3519L1.65023 2.01287C1.1592 3.48629 1.47291 5.04234 2.4959 6.08888C3.04149 6.66723 2.91874 6.74985 1.97759 6.40559C1.65023 6.29543 1.36379 6.21281 1.33651 6.25412C1.24103 6.35051 1.56839 7.60361 1.82755 8.09934C2.18218 8.78785 2.9051 9.4626 3.69621 9.86194L4.36456 10.1787L3.57345 10.1924C2.80962 10.1924 2.78234 10.2062 2.86418 10.4954C3.13697 11.3904 4.21452 12.3406 5.41483 12.7537L6.2605 13.0429L5.52395 13.4835C4.43276 14.117 3.15061 14.475 1.86847 14.5025C1.25467 14.5163 0.75 14.5714 0.75 14.6127C0.75 14.7504 2.41406 15.5215 3.38249 15.8245C6.28778 16.7195 9.73866 16.334 12.3302 14.8055C14.1716 13.7176 16.013 11.5557 16.8723 9.4626C17.3361 8.3472 17.7998 6.3092 17.7998 5.33151C17.7998 4.69808 17.8407 4.61546 18.6046 3.85809C19.0547 3.41744 19.4775 2.93548 19.5593 2.79778C19.6957 2.53614 19.6821 2.53614 18.9865 2.77024C17.8271 3.18335 17.6634 3.12827 18.2363 2.5086C18.6591 2.06795 19.1638 1.26928 19.1638 1.03518C19.1638 0.993871 18.9592 1.06272 18.7273 1.18666C18.4818 1.32436 17.9362 1.53091 17.527 1.65485L16.7905 1.88894L16.1221 1.43452C15.7538 1.18666 15.2355 0.91125 14.9627 0.828628C14.2671 0.635844 13.2032 0.663384 12.5757 0.883709C10.8708 1.50337 9.79322 3.10073 9.91598 4.84955Z">
                             </path>
                         </svg>
                     </a>
-                    <a href="#"><img src="img/Share.svg" alt=""></a>
+                    <a href="#">
+                        <?xml version="1.0" encoding="UTF-8"?>
+                        <svg class="banner_links banner_links-marginright" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22">
+                            <g id="Share">
+                                <path id="Vector"
+                                    d="M16.5 14.7402C15.8033 14.7402 15.18 15.0152 14.7033 15.446L8.1675 11.6418C8.21333 11.431 8.25 11.2202 8.25 11.0002C8.25 10.7802 8.21333 10.5693 8.1675 10.3585L14.63 6.591C15.125 7.04933 15.7758 7.3335 16.5 7.3335C18.0217 7.3335 19.25 6.10516 19.25 4.5835C19.25 3.06183 18.0217 1.8335 16.5 1.8335C14.9783 1.8335 13.75 3.06183 13.75 4.5835C13.75 4.8035 13.7867 5.01433 13.8325 5.22516L7.37 8.99266C6.875 8.53433 6.22417 8.25016 5.5 8.25016C3.97833 8.25016 2.75 9.4785 2.75 11.0002C2.75 12.5218 3.97833 13.7502 5.5 13.7502C6.22417 13.7502 6.875 13.466 7.37 13.0077L13.8967 16.821C13.8508 17.0135 13.8233 17.2152 13.8233 17.4168C13.8233 18.8927 15.0242 20.0935 16.5 20.0935C17.9758 20.0935 19.1767 18.8927 19.1767 17.4168C19.1767 15.941 17.9758 14.7402 16.5 14.7402Z"></path>
+                            </g>
+                        </svg>
+                    </a>
                 </div>
             </div>
         </div>
@@ -182,7 +197,8 @@
             Greece,
             in particular, but also on the other eurozone peripheral countries as an example for all the European
             populations. <br>
-            <p class=" text_paragraph-nospace mobile-displaynone">Reinforce a Europe-wide (as much for the European Union generally as for each
+            <p class=" text_paragraph-nospace mobile-displaynone">Reinforce a Europe-wide (as much for the European
+                Union generally as for each
                 member state)
                 authoritarian form of governance, without resorting to new experiments resembling fascist or Nazi
                 regimes or
@@ -195,7 +211,8 @@
                 This touches on executive powers, expeditious voting procedures, limiting or violating many rights,
                 disregarding electors’ choices and, among more, increased repression of dissent.</p>
         </p>
-        <p class="text_paragraph-topbottomspace mobile-displaynone">There are lessons to be learned from the failure of the
+        <p class="text_paragraph-topbottomspace mobile-displaynone">There are lessons to be learned from the failure of
+            the
             policies adopted by
             the government of Alexis Tsipras in 2015 to break the bonds of austerity. It is also necessary to realize
             the limits of the socialist minority government of Antonio Costa in Portugal.</p>
@@ -262,7 +279,7 @@
             </a>
         </div>
         <div class="privacy">
-            <p class="privacy_copy">Copyright &copy 2019 Philopilitics.</p>
+            <p class="privacy_copy">Copyright &copy 2019 Philopolitics.</p>
             <p class="privacy_policy">Privacy Policy</p>
 
         </div>
@@ -275,25 +292,25 @@
 
     <script>
 
-            function openSearch() {
-                        document.getElementById("myOverlay").style.display = "block";
-                    }
-            
-                    function closeSearch() {
-                        document.getElementById("myOverlay").style.display = "none";
-                    }
-                    
-            
-                    function myFunction() {
-                        var x = document.getElementById("myMobile");
-                        if (x.className === "mobile-nav") {
-                            x.className += " responsive";
-                        } else {
-                            x.className = "mobile-nav";
-                        }
-                    }
-            
-                </script>
+        function openSearch() {
+            document.getElementById("myOverlay").style.display = "block";
+        }
+
+        function closeSearch() {
+            document.getElementById("myOverlay").style.display = "none";
+        }
+
+
+        function myFunction() {
+            var x = document.getElementById("myMobile");
+            if (x.className === "mobile-nav") {
+                x.className += " responsive";
+            } else {
+                x.className = "mobile-nav";
+            }
+        }
+
+    </script>
 
 </body>
 
