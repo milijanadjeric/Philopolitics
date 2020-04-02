@@ -99,7 +99,7 @@ header {
   text-decoration: none;
   font-family: $font-tr-rg;
   text-transform: uppercase;
-  //beacuse elipse and elipse_2 has z-index: 1
+  //because elipse and elipse_2 has z-index: 1
   position: relative;
   z-index: 222;
 
@@ -129,7 +129,7 @@ header {
     display: inline-block;
     padding: 2px;
     margin-bottom: 3px;
-    margin-left: 5px;
+    margin-left: 7px;
   }
 }
 
@@ -154,6 +154,8 @@ header {
   border-top-right-radius: 0.7rem;
   border-top-left-radius: 0.7rem;
 }
+
+
 
 /* Style the subnav content - positioned absolute */
 .subnav-content {

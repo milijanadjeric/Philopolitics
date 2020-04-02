@@ -1,113 +1,73 @@
-.Projects-bio {
-  display: flex;
-  padding: 5rem 11rem 3rem 16rem;
-
-  @include breakpoint (desktop) {
-    padding-left: 16rem;
-  }
-
-  @include breakpoint (desktop--Small) {
-    padding-left: 15rem;
-  }
-
-  @include breakpoint (tablet) {
-    padding-left: 18.5rem;
-    
-  }
-
-  @include breakpoint (mobile) {
-    padding-left: 7rem;
-
-  }
-
-
-  &_title {
-    font-family: $font-tr-bd;
-    font-size: 1.8rem;
-    letter-spacing: 0.01rem;
-    text-transform: uppercase;
-    color: $color-footer-text;
-  }
-
-  &_text {
-    display: flex;
-    flex-direction: column;
-    font-family: "Roboto";
-    font-size: 1.8rem;
-    color: $color-footer-text;
-    // padding-left: 5rem;       // for different text style
-    // padding-right: 9rem;
-    padding-left: 15rem;
-    padding-right: 22.5rem;
-    text-align: justify;
-
-    @include breakpoint (desktop) {
-      padding-left: 17.5rem;
-      padding-right: 23rem;
-    }
-
-    @include breakpoint (mobile) {
-      padding-left: 5rem;
-      padding-right: 5rem;
-    }
-
-    p {
-      padding-bottom: 2rem;
-    }
-  }
+.title {
+  font-family: $font-tr-bd;
+  font-size: 1.8rem;
+  letter-spacing: 0.01rem;
+  text-transform: uppercase;
+  color: $color-footer-text;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
 }
 
 // ***  SLIDER  ***///
 
 .projectss {
-  height: 70rem;    
+  height: 125rem;
+  
 }
-
 
 // *** this is to move buttons prev and next to left side on page projects ***
 
+
 .container_projekti .slick-prev {
   left: 457px;
-
+  margin-bottom: 10rem;
+  
 }
 
 .container_projekti .slick-next {
   right: 600px;
 
-  @include breakpoint (desktop) {
-    right: 600px;
+  @include breakpoint(desktop) {
+    right: 570px;
   }
 
-  @include breakpoint (desktop--Small) {
-    right: 560px;
+  @include breakpoint(desktop--Small) {
+    right: 530px;
+  }
+  @include breakpoint(tablet) {
+    right: 500px;
   }
 
-  @include breakpoint (mobile) {
-    right: 130px;
+  @include breakpoint(mobile) {
+    right: 110px;
   }
 }
 
 .slider-projects {
-  
   margin-left: 15rem;
-  margin-bottom: 16rem;
-  margin-top: 1rem;
-
-  @include breakpoint (desktop) {
-    margin-left: 12rem;
+  margin-bottom: 5rem;
+  
+  
+  
+  @include breakpoint(desktop) {
+    margin-left: 15rem;
   }
 
-  @include breakpoint (mobile) {
-    margin-left: 7rem;
+  @include breakpoint(tablet) {
+    margin-left: 18rem;
   }
 
+
+  @include breakpoint(mobile) {
+    margin-left: 9rem;
+  }
 }
 
 .div-11 {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  
+
   &_wrap {
     margin-bottom: 6rem;
     display: flex;
@@ -127,7 +87,7 @@
       }
 
       &_par {
-        font-family: 'Roboto';
+        font-family: "Roboto";
         font-size: 1.3rem;
         color: $color-black;
         line-height: 2.2rem;
@@ -145,7 +105,6 @@
     margin-bottom: 6rem;
     display: flex;
 
-
     &_block {
       width: 38rem;
       margin-left: 4rem;
@@ -161,7 +120,7 @@
       }
 
       &_par {
-        font-family: 'Roboto';
+        font-family: "Roboto";
         font-size: 1.3rem;
         color: $color-black;
         line-height: 2.2rem;
@@ -175,7 +134,6 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  
 
   &_wrap {
     margin-bottom: 6rem;
@@ -196,7 +154,7 @@
       }
 
       &_par {
-        font-family: 'Roboto';
+        font-family: "Roboto";
         font-size: 1.3rem;
         color: $color-black;
         line-height: 2.2rem;
@@ -206,7 +164,4 @@
   }
 }
 
-
-
 //   SLIDER - END
-

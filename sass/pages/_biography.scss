@@ -91,10 +91,16 @@
   display: flex;
   flex-wrap: wrap;
 
+  a {
+    text-decoration: none;
+  }
+  
+
   &_wrap {
     margin-right: 4rem;
     margin-bottom: 5rem;
     position: relative;
+    
 
     &_block {
       position: absolute;
@@ -142,6 +148,7 @@
         font-size: 1.1rem;
         text-align: right;
         padding-top: 0.9rem;
+        color: $color-black;
       }
 
       &_text {
@@ -171,6 +178,10 @@
   display: flex;
   flex-wrap: wrap;
 
+  a {
+    text-decoration: none;
+  }
+
   &_wrap {
     margin-right: 4rem;
     margin-bottom: 5rem;
@@ -222,6 +233,7 @@
         font-size: 1.1rem;
         text-align: right;
         padding-top: 0.9rem;
+        color: $color-black;
       }
 
       &_text {
@@ -252,6 +264,10 @@
   display: flex;
   flex-wrap: wrap;
 
+  a {
+    text-decoration: none;
+  }
+
   &_wrap {
     margin-right: 4rem;
     margin-bottom: 5rem;
@@ -303,6 +319,7 @@
         font-size: 1.1rem;
         text-align: right;
         padding-top: 0.9rem;
+        color: $color-black;
       }
 
       &_text {
