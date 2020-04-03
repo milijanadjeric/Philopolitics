@@ -61,11 +61,11 @@
     position: absolute;
    
     width: 131rem;
-    left: 50%;
+    left: 51%;
     transform: translate(-50.5%);
 
     @include breakpoint(desktop--Small) {
-      width: 128.5rem;
+      width: 127rem;
       
     }
 

@@ -286,6 +286,7 @@ input[type="text"]:focus {
   }
 
   &_search-icon {
+    margin-bottom: .1rem;
 
     @include breakpoint(mobile--Small) {
     width: 2rem;

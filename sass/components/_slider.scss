@@ -1,5 +1,14 @@
 .projects {
-  margin-top: 3rem;
+  margin-top: 10rem;
+
+  @include breakpoint (desktop) {
+    margin-top: 15rem;
+  }
+
+  @include breakpoint (tablet) {
+    margin-top: 16rem;
+  }
+  
 
   @include breakpoint (mobile) {
     margin-top: 35rem;
@@ -8,42 +17,48 @@
   @include breakpoint (mobile--Small) {
     margin-top: 2.5rem;
   }
+
+  a {
+    text-decoration: none;
+  }
 }
 
 
 // *** this is to make negative right-margin on slider on home page - autoplay slider ***
 
-.autoplay .slick-list {
-    
-    margin-left: 22rem;
-
-  @include breakpoint (mobile) {
-    margin-left: 0;
-    padding-right: 0;
-  }
-
-}
 
 
 
 .slidebox {
+  margin-left: 10rem;
 
-  
+  @include breakpoint (desktop--Small) {
+    margin-left: 7rem;
+  }
+
+  @include breakpoint (mobile--Small) {
+    margin-left: .5rem;
+    
+    
+  }
+   
   
 
   &_content {
     display: flex;
-    height: 13.5rem;
+    height: 15rem;
     
+    
+   
   }
 
   &_circle {
-    width: 7rem;
-    height: 7rem;
+    width: 8rem;
+    height: 8rem;
     border-radius: 50%;
     background-color: $color-white;
     box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.25);
-    margin-top: 2.4rem;
+    margin-top: 2.5rem;
 
     @include breakpoint (mobile-Small) {
       width: 7rem;
@@ -52,13 +67,14 @@
   }
 
   &_card {
-    width: 29rem;
-    height: 12rem;
+    width: 31rem;
+    height: 13rem;
     background-color: $color-violet;
     box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.25);
     border-radius: 18px;
     margin-left: -4rem;
     z-index: -1;
+    
 
     @include breakpoint (mobile-Small) {
       width: 27rem;
@@ -70,7 +86,7 @@
       font-size: 1.7rem;
       font-family: $font-gl;
       text-transform: capitalize;
-      padding: 1.5rem 0 1rem 5.5rem;
+      padding: 2rem 0 1rem 5.5rem;
 
       @include breakpoint (mobile-Small) {
         font-size: 1.5rem;
@@ -82,6 +98,7 @@
       font-size: 1.3rem;
       font-family: $font-gl;
       padding: 0 1.7rem 0 5.7rem;
+      
 
       @include breakpoint (mobile-Small) {
         font-size: 1.2rem;
@@ -101,7 +118,7 @@
       color: $color-grey-text;
       font-size: 1.3rem;
       font-family: $font-gl;
-      padding: 0 .5rem 0 5.7rem;
+      padding: 0 1.5rem 0 5.7rem;
 
       @include breakpoint (mobile-Small) {
         font-size: 1.2rem;
@@ -109,3 +126,5 @@
     }
   }
 }
+
+
