@@ -8,13 +8,13 @@
     left top,
     left bottom,
     color-stop(20%, #322b6c),
-    color-stop(75%, #131c6d),
+    color-stop(69%, #131c6d),
     color-stop(100%, #b1bff9)
   );
   background-image: linear-gradient(
     to bottom,
     #322b6c 20%,
-    #131c6d 75%,
+    #131c6d 69%,
     #b1bff9 100%
   );
   background-size: cover;
@@ -137,8 +137,9 @@
     
     &_stars {
       position: absolute;
+      height: 31rem;
       top: 8rem;
-      left: 77rem;
+      left: 92rem;
 
       @include breakpoint (desktop) {
         left: 75rem;
@@ -174,8 +175,9 @@
 
     &_sun {
       position: absolute;
+      height: 30rem;
       top: 8rem;
-      left: 86.5rem;
+      left: 99rem;
 
       @include breakpoint (desktop) {
         left: 85rem;
@@ -210,8 +212,8 @@
   display: flex;
   justify-content: space-around;
   color: $color-blue;
-  margin-top: 6rem;
-  margin-bottom: 2.5rem;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
 
   @include breakpoint (mobile) {
     padding-bottom: 55rem;
@@ -226,8 +228,9 @@
 
   &_copy {
     font-family: $font-tr-rg;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     color: $color-blue;
+    margin-left: 3.5rem;
 
     @include breakpoint (mobile) {
       display: none;
@@ -237,7 +240,7 @@
   &_policy {
     text-transform: uppercase;
     font-family: $font-tr-bd;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
 
     @include breakpoint (mobile) {
       display: none;
@@ -247,7 +250,7 @@
   &_followus {
     text-transform: uppercase;
     font-family: $font-tr-bd;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     margin-right: -22rem;
 
     @include breakpoint (mobile) {
@@ -258,9 +261,10 @@
   a {
     padding-left: 1rem;
     text-decoration: none;
+    
 
     :hover {
-      fill: #1b2798;
+      fill: #2a245b;
     }
   }
 }

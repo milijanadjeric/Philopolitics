@@ -719,7 +719,7 @@ input[type="text"]:focus {
 }
 
 .projects {
-  margin-top: 18rem;
+  margin-top: 3rem;
 }
 
 @media (max-width: 800px) {
@@ -735,7 +735,6 @@ input[type="text"]:focus {
 }
 
 .autoplay .slick-list {
-  padding-right: 19rem;
   margin-left: 22rem;
 }
 
@@ -750,22 +749,22 @@ input[type="text"]:focus {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 16rem;
+  height: 13.5rem;
 }
 
 .slidebox_circle {
-  width: 8rem;
-  height: 8rem;
+  width: 7rem;
+  height: 7rem;
   border-radius: 50%;
   background-color: #FFFFFF;
   -webkit-box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.25);
           box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.25);
-  margin-top: 3.3rem;
+  margin-top: 2.4rem;
 }
 
 .slidebox_card {
-  width: 35rem;
-  height: 15rem;
+  width: 29rem;
+  height: 12rem;
   background-color: #7630E5;
   -webkit-box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.25);
           box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.25);
@@ -776,36 +775,36 @@ input[type="text"]:focus {
 
 .slidebox_card_heading {
   color: #FFFFFF;
-  font-size: 1.8rem;
+  font-size: 1.7rem;
   font-family: "GilroyExtraBold";
   text-transform: capitalize;
-  padding: 2.3rem 0 1.8rem 5.5rem;
+  padding: 1.5rem 0 1rem 5.5rem;
 }
 
 .slidebox_card_text-left {
   color: #DADADA;
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   font-family: "GilroyExtraBold";
-  padding: 0 2.8rem 0 5.7rem;
+  padding: 0 1.7rem 0 5.7rem;
 }
 
 .slidebox_card_text-center {
   color: #DADADA;
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   font-family: "GilroyExtraBold";
-  padding: 0 8.4rem 0 5.7rem;
+  padding: 0 7rem 0 5.7rem;
 }
 
 .slidebox_card_text-right {
   color: #DADADA;
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   font-family: "GilroyExtraBold";
-  padding: 0 3.7rem 0 5.7rem;
+  padding: 0 .5rem 0 5.7rem;
 }
 
 .gradient-effect-1 {
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(20%, #322b6c), color-stop(75%, #131c6d), to(#b1bff9));
-  background-image: linear-gradient(to bottom, #322b6c 20%, #131c6d 75%, #b1bff9 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(20%, #322b6c), color-stop(69%, #131c6d), to(#b1bff9));
+  background-image: linear-gradient(to bottom, #322b6c 20%, #131c6d 69%, #b1bff9 100%);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -910,8 +909,9 @@ input[type="text"]:focus {
 
 .hero_img_stars {
   position: absolute;
+  height: 31rem;
   top: 8rem;
-  left: 77rem;
+  left: 92rem;
 }
 
 @media (max-width: 1323px) {
@@ -959,8 +959,9 @@ input[type="text"]:focus {
 
 .hero_img_sun {
   position: absolute;
+  height: 30rem;
   top: 8rem;
-  left: 86.5rem;
+  left: 99rem;
 }
 
 @media (max-width: 1323px) {
@@ -998,8 +999,8 @@ input[type="text"]:focus {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   color: #131C6D;
-  margin-top: 6rem;
-  margin-bottom: 2.5rem;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
 }
 
 @media (max-width: 800px) {
@@ -1018,8 +1019,9 @@ input[type="text"]:focus {
 
 .socials_copy {
   font-family: "truenoregular";
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   color: #131C6D;
+  margin-left: 3.5rem;
 }
 
 @media (max-width: 800px) {
@@ -1031,7 +1033,7 @@ input[type="text"]:focus {
 .socials_policy {
   text-transform: uppercase;
   font-family: "TruenoBold";
-  font-size: 1.6rem;
+  font-size: 1.5rem;
 }
 
 @media (max-width: 800px) {
@@ -1043,7 +1045,7 @@ input[type="text"]:focus {
 .socials_followus {
   text-transform: uppercase;
   font-family: "TruenoBold";
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   margin-right: -22rem;
 }
 
@@ -1059,7 +1061,7 @@ input[type="text"]:focus {
 }
 
 .socials a :hover {
-  fill: #1b2798;
+  fill: #2a245b;
 }
 
 .gradient-effect-2 {
