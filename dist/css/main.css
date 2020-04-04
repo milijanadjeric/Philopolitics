@@ -108,7 +108,7 @@ header {
 
 @media (max-width: 364px) {
   .logo {
-    margin-left: .5rem;
+    margin-left: 0.5rem;
     margin-top: 1.5rem;
   }
 }
@@ -361,7 +361,7 @@ input[type="text"]:focus {
 }
 
 .search-box_search-icon {
-  margin-bottom: .1rem;
+  margin-bottom: 0.1rem;
 }
 
 @media (max-width: 364px) {
@@ -418,7 +418,7 @@ input[type="text"]:focus {
 @media (max-width: 364px) {
   .overlay-content {
     position: relative;
-    top: 46%;
+    top: 50%;
     width: 80%;
     text-align: center;
     margin-top: 30px;
@@ -429,22 +429,24 @@ input[type="text"]:focus {
 @media (max-width: 364px) {
   .overlay .closebtn {
     position: absolute;
-    top: 5px;
-    right: 45px;
-    font-size: 60px;
+    top: 12px;
+    right: 34px;
+    font-size: 30px;
     cursor: pointer;
-    color: white;
+    color: #FFFFFF;
   }
 }
 
 @media (max-width: 364px) {
-  .overlay input[type=text] {
+  .overlay input[type="text"] {
     padding: 15px;
     font-size: 17px;
     border: none;
     float: left;
-    width: 80%;
-    background: white;
+    width: 100%;
+    background: #322b6c;
+    border: 1px solid rgba(255, 255, 255, 0.9);
+    border-radius: 1.9rem;
   }
 }
 
@@ -452,12 +454,19 @@ input[type="text"]:focus {
   .overlay button {
     float: left;
     width: 10%;
-    padding: 15px;
-    background: red;
-    font-size: 17px;
+    background: #322b6c;
+    padding-top: .5rem;
+    padding-bottom: .2rem;
     border: none;
     cursor: pointer;
+    margin-left: -3.8rem;
+    margin-top: .3rem;
   }
+}
+
+.overlay-search-icon {
+  width: 1.6rem;
+  height: 1.6rem;
 }
 
 /*  MOBILE NAVIGATION */

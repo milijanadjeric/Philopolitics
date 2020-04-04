@@ -6,7 +6,6 @@ header {
   justify-content: space-around;
   background-color: $color-footer-text;
   height: 10rem;
-  
 
   @include breakpoint(tablet) {
     height: 8rem;
@@ -15,8 +14,6 @@ header {
   @include breakpoint(mobile--Small) {
     height: 6rem;
   }
-
-  
 }
 
 //  -----LOG0 -----//
@@ -34,18 +31,15 @@ header {
   }
 
   @include breakpoint(mobile--Small) {
-    margin-left: .5rem;
+    margin-left: 0.5rem;
     margin-top: 1.5rem;
   }
-
 
   &_picture {
     @include breakpoint(mobile--Small) {
       width: 2.7rem;
       height: 2.7rem;
-
     }
-
   }
 
   &_text {
@@ -67,7 +61,6 @@ header {
       text-transform: capitalize;
       letter-spacing: 0.03rem;
       padding-left: 0.4rem;
-     
     }
   }
 }
@@ -116,7 +109,6 @@ header {
   @include breakpoint(mobile--Small) {
     display: none;
   }
-  
 
   &_down {
     transform: rotate(5deg);
@@ -155,8 +147,6 @@ header {
   border-top-left-radius: 0.7rem;
 }
 
-
-
 /* Style the subnav content - positioned absolute */
 .subnav-content {
   display: none;
@@ -174,8 +164,6 @@ header {
   color: white;
   text-decoration: none;
   margin-right: 0.5rem;
-
-  
 }
 
 /* When you move the mouse over the subnav container, open the subnav content */
@@ -202,11 +190,8 @@ header {
   z-index: 222;
   margin-top: 3.5rem;
   margin-right: -3.5rem;
-  
-  
 
   @include breakpoint(tablet) {
-   
     margin-top: 3rem;
   }
 
@@ -220,7 +205,6 @@ header {
     margin-left: 1rem;
     width: 1rem;
   }
-
 }
 
 //  -----SEARCH BOX -----//
@@ -240,7 +224,6 @@ input[type="text"] {
 
   @include breakpoint(mobile--Small) {
     border: none;
-    
   }
 }
 
@@ -249,11 +232,9 @@ input[type="text"] {
 input[type="text"]:focus {
   width: 10rem;
 
-  @include breakpoint(mobile--Small)  {
+  @include breakpoint(mobile--Small) {
     display: none;
   }
-
-
 }
 
 .search-box {
@@ -268,15 +249,12 @@ input[type="text"]:focus {
   @include breakpoint(tablet) {
     margin-top: 3rem;
     margin-right: -14rem;
-    
-
   }
 
   @include breakpoint(mobile--Small) {
     display: none;
   }
 
-  
   &_form button {
     border: none;
     background: transparent;
@@ -286,14 +264,12 @@ input[type="text"]:focus {
   }
 
   &_search-icon {
-    margin-bottom: .1rem;
+    margin-bottom: 0.1rem;
 
     @include breakpoint(mobile--Small) {
-    width: 2rem;
-    height: 2rem;
-    margin-left: -3rem;
-    
-    
+      width: 2rem;
+      height: 2rem;
+      margin-left: -3rem;
     }
   }
 }
@@ -302,7 +278,6 @@ input[type="text"]:focus {
 
 .search-box-mobile {
   display: none;
-  
 
   @include breakpoint(mobile--Small) {
     display: block;
@@ -316,84 +291,84 @@ input[type="text"]:focus {
     margin-left: -2.5rem;
     width: 2rem;
     height: 1.1rem;
-
   }
-
 }
 .icon {
-    width: 1.8rem;
-    height: 1.8rem;
-    
+  width: 1.8rem;
+  height: 1.8rem;
 }
 
 /*  MOBILE FULLSCREEN SEARCH BOX */
 
-.overlay {  
+.overlay {
   display: none;
 
   @include breakpoint(mobile--Small) {
-  height: 100%;
-  width: 100%;
-  position: fixed;
-  z-index: 222;
-  top: 0;
-  left: 0;
-  background-color: $color-footer-text;
-
+    
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 222;
+    top: 0;
+    left: 0;
+    background-color: $color-footer-text;
   }
-  
 }
 
-.overlay-content { 
-
+.overlay-content {
   @include breakpoint(mobile--Small) {
-  position: relative;
-  top: 46%;
-  width: 80%;
-  text-align: center;
-  margin-top: 30px;
-  margin: auto;
-}
+    position: relative;
+    top: 50%;
+    width: 80%;
+    text-align: center;
+    margin-top: 30px;
+    margin: auto;
+  }
 }
 
 .overlay .closebtn {
   @include breakpoint(mobile--Small) {
-  position: absolute;
-  top: 5px;
-  right: 45px;
-  font-size: 60px;
-  cursor: pointer;
-  color: white;
+    position: absolute;
+    top: 12px;
+    right: 34px;
+    font-size: 30px;
+    cursor: pointer;
+    color:$color-white;
+  }
 }
-}
 
-
-.overlay input[type=text] {
-
+.overlay input[type="text"] {
   @include breakpoint(mobile--Small) {
-
-  padding: 15px;
-  font-size: 17px;
-  border: none;
-  float: left;
-  width: 80%;
-  background: white;
+    padding: 15px;
+    font-size: 17px;
+    border: none;
+    float: left;
+    width: 100%;
+    background: $color-footer-text;
+    border: 1px solid rgba(255, 255, 255, 0.9);
+    border-radius: 1.9rem;
+  }
 }
-}
-
 
 .overlay button {
-
- @include breakpoint(mobile--Small) {
-
-  float: left;
-  width: 10%;
-  padding: 15px;
-  background: red;
-  font-size: 17px;
-  border: none;
-  cursor: pointer;
+  @include breakpoint(mobile--Small) {
+    float: left;
+    width: 10%;
+    background: $color-footer-text;
+    padding-top: .5rem;
+    padding-bottom: .2rem;
+    border: none;
+    cursor: pointer;
+    margin-left: -3.8rem;
+    margin-top: .3rem;
+    
+  }
 }
+
+.overlay-search-icon {
+  width: 1.6rem;
+  height: 1.6rem;
+
 }
 
 
@@ -432,5 +407,3 @@ input[type="text"]:focus {
     margin-right: 1rem;
   }
 }
-
-
