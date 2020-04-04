@@ -355,9 +355,9 @@ input[type="text"]:focus {
 .search-box_form button {
   border: none;
   background: transparent;
-  margin-left: -2.5rem;
-  width: 1.1rem;
-  height: 1.1rem;
+  margin-left: -2.8rem;
+  width: 1.7rem;
+  height: 1.7rem;
 }
 
 .search-box_search-icon {
@@ -405,7 +405,6 @@ input[type="text"]:focus {
 
 @media (max-width: 364px) {
   .overlay {
-    display: block;
     height: 100%;
     width: 100%;
     position: fixed;
