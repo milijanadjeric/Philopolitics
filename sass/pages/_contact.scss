@@ -171,10 +171,10 @@ input[type="submit"]:hover {
       width: 45rem;
     }
     @include breakpoint(mobile--Small) {
-      width: 26rem;
-      height: 26rem;
+      width: 23rem;
+      height: 23rem;
       padding-left: 0;
-      margin-left: 5.5rem;
+      margin-left: 6rem;
       margin-bottom: .5rem;
     }
   }

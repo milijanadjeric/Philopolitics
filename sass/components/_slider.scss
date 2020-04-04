@@ -26,7 +26,12 @@
 
 // *** this is to make negative right-margin on slider on home page - autoplay slider ***
 
+.autoplay .slick-list {
+  @include breakpoint (mobile--Small) {
+    
+  }
 
+}
 
 
 .slidebox {

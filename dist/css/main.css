@@ -405,6 +405,7 @@ input[type="text"]:focus {
 
 @media (max-width: 364px) {
   .overlay {
+    display: block;
     height: 100%;
     width: 100%;
     position: fixed;
@@ -836,16 +837,16 @@ input[type="text"]:focus {
 }
 
 .gradient-effect-1 {
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(20%, #322b6c), color-stop(69%, #131c6d), to(#b1bff9));
-  background-image: linear-gradient(to bottom, #322b6c 20%, #131c6d 69%, #b1bff9 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(20%, #322b6c), color-stop(75%, #131c6d), to(#b1bff9));
+  background-image: linear-gradient(to bottom, #322b6c 20%, #131c6d 75%, #b1bff9 100%);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 @media (max-width: 800px) {
   .gradient-effect-1 {
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(10%, #322b6c), color-stop(35%, #131c6d), to(#b1bff9));
-    background-image: linear-gradient(to bottom, #322b6c 10%, #131c6d 35%, #b1bff9 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(10%, #322b6c), color-stop(65%, #131c6d), to(#b1bff9));
+    background-image: linear-gradient(to bottom, #322b6c 10%, #131c6d 65%, #b1bff9 100%);
     background-size: cover;
     background-repeat: no-repeat;
   }
@@ -1942,10 +1943,10 @@ input[type="submit"]:hover {
 
 @media (max-width: 364px) {
   .contact img {
-    width: 26rem;
-    height: 26rem;
+    width: 23rem;
+    height: 23rem;
     padding-left: 0;
-    margin-left: 5.5rem;
+    margin-left: 6rem;
     margin-bottom: .5rem;
   }
 }

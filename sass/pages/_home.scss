@@ -8,13 +8,13 @@
     left top,
     left bottom,
     color-stop(20%, #322b6c),
-    color-stop(69%, #131c6d),
+    color-stop(75%, #131c6d),
     color-stop(100%, #b1bff9)
   );
   background-image: linear-gradient(
     to bottom,
     #322b6c 20%,
-    #131c6d 69%,
+    #131c6d 75%,
     #b1bff9 100%
   );
   background-size: cover;
@@ -26,13 +26,13 @@
     left top,
     left bottom,
     color-stop(10%, #322b6c),
-    color-stop(35%, #131c6d),
+    color-stop(65%, #131c6d),
     color-stop(100%, #b1bff9)
   );
   background-image: linear-gradient(
     to bottom,
     #322b6c 10%,
-    #131c6d 35%,
+    #131c6d 65%,
     #b1bff9 100%
   );
   background-size: cover;
