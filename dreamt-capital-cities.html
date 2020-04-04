@@ -12,7 +12,7 @@
     <link rel="icon" type="image/png" href="img/apple-touch-icon-76x76.png">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="dist/css/main.css">
-    <title>Blog</title>
+    <title>Dreamt capital cities</title>
 </head>
 
 
@@ -23,7 +23,7 @@
 
         <div class="logo">
             <?xml version="1.0" encoding="UTF-8"?>
-            <svg xmlns="http://www.w3.org/2000/svg" width="38" height="40" viewBox="0 0 38 40" fill="none">
+            <svg class="logo_picture" xmlns="http://www.w3.org/2000/svg" width="38" height="40" viewBox="0 0 38 40" fill="none">
                 <path d="M16.9473 8.78369H20.3183V38.5107H16.9473V8.78369Z" fill="#322B6C" stroke="white"
                     stroke-miterlimit="3"></path>
                 <path fill-rule="evenodd" clip-rule="evenodd"
@@ -60,12 +60,12 @@
 
         <!-- NAVIGATION -->
 
-        <div class="navbar">
+        <div class="navbar" class="mobile-nav" id="myMobile">
             <div class="subnav">
                 <button class="subnavbtn mrg-right">What we do<i class="subnav_down"></i></button>
                 <div class="subnav-content">
                     <a href="projects.html">Projects</a>
-                    <a href="publications.html">Publications</a>
+                    <a href="#">Publications</a>
                 </div>
             </div>
             <div class="subnav">
@@ -82,141 +82,84 @@
 
         <!-- NAVIGATION  END -->
 
-        <!-- SEARCH-BOX ON MOBILE DEVICE -->
-        <div id="myOverlay" class="overlay">
-            <span class="closebtn" onclick="closeSearch()" title="Close Overlay">×</span>
-            <div class="overlay-content">
-                <form action="/action_page.php">
-                    <input type="text" placeholder="Search.." name="search">
-                    <button type="submit"><i class="fa fa-search"></i></button>
-                </form>
-            </div>
-        </div>
-        <div class="search-box-mobile">
-            <form class="search-box_form-mobile" action="action_page.php">
-                <input type="text" name="search" placeholder="">
-                <button type="submit" onclick="openSearch()"><svg class="icon" width="11" height="10"
-                        viewBox="0 0 11 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path id="Vector"
-                            d="M8.10397 6.28931H7.65229L7.49219 6.13493C8.05251 5.48313 8.38985 4.63694 8.38985 3.71641C8.38985 1.66381 6.72604 0 4.67344 0C2.62084 0 0.957031 1.66381 0.957031 3.71641C0.957031 5.76901 2.62084 7.43282 4.67344 7.43282C5.59397 7.43282 6.44016 7.09548 7.09197 6.53516L7.24634 6.69525V7.14694L10.1051 10L10.957 9.14808L8.10397 6.28931ZM4.67344 6.28931C3.24977 6.28931 2.10054 5.14008 2.10054 3.71641C2.10054 2.29274 3.24977 1.14351 4.67344 1.14351C6.09711 1.14351 7.24634 2.29274 7.24634 3.71641C7.24634 5.14008 6.09711 6.28931 4.67344 6.28931Z"
-                            fill="white" fill-opacity="1" />
-                    </svg></button>
+       <!-- SEARCH-BOX ON MOBILE DEVICE -->
+       <div id="myOverlay" class="overlay">
+        <span class="closebtn" onclick="closeSearch()" title="Close Overlay">×</span>
+        <div class="overlay-content">
+            <form action="/action_page.php">
+                <input type="text" placeholder="Search.." name="search">
+                <button type="submit"><i class="fa fa-search"></i></button>
             </form>
         </div>
-        <!-- SEARCH-BOX ON MOBILE DEVICE  END -->
+    </div>
+    <div class="search-box-mobile">
+        <form class="search-box_form-mobile" action="action_page.php">
+            <input type="text" name="search" placeholder="">
+            <button type="submit" onclick="openSearch()"><svg class="icon" width="11" height="10"
+                    viewBox="0 0 11 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path id="Vector"
+                        d="M8.10397 6.28931H7.65229L7.49219 6.13493C8.05251 5.48313 8.38985 4.63694 8.38985 3.71641C8.38985 1.66381 6.72604 0 4.67344 0C2.62084 0 0.957031 1.66381 0.957031 3.71641C0.957031 5.76901 2.62084 7.43282 4.67344 7.43282C5.59397 7.43282 6.44016 7.09548 7.09197 6.53516L7.24634 6.69525V7.14694L10.1051 10L10.957 9.14808L8.10397 6.28931ZM4.67344 6.28931C3.24977 6.28931 2.10054 5.14008 2.10054 3.71641C2.10054 2.29274 3.24977 1.14351 4.67344 1.14351C6.09711 1.14351 7.24634 2.29274 7.24634 3.71641C7.24634 5.14008 6.09711 6.28931 4.67344 6.28931Z"
+                        fill="white" fill-opacity="1" />
+                </svg></button>
+        </form>
+    </div>
+    <!-- SEARCH-BOX ON MOBILE DEVICE  END -->
 
-        <div class="search-box">
-            <form class="search-box_form" action="action_page.php">
-                <input type="text" name="search" placeholder="">
-                <button type="submit"><svg class="search-box_search-icon" width="11" height="10" viewBox="0 0 11 10"
-                        fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path id="Vector"
-                            d="M8.10397 6.28931H7.65229L7.49219 6.13493C8.05251 5.48313 8.38985 4.63694 8.38985 3.71641C8.38985 1.66381 6.72604 0 4.67344 0C2.62084 0 0.957031 1.66381 0.957031 3.71641C0.957031 5.76901 2.62084 7.43282 4.67344 7.43282C5.59397 7.43282 6.44016 7.09548 7.09197 6.53516L7.24634 6.69525V7.14694L10.1051 10L10.957 9.14808L8.10397 6.28931ZM4.67344 6.28931C3.24977 6.28931 2.10054 5.14008 2.10054 3.71641C2.10054 2.29274 3.24977 1.14351 4.67344 1.14351C6.09711 1.14351 7.24634 2.29274 7.24634 3.71641C7.24634 5.14008 6.09711 6.28931 4.67344 6.28931Z"
-                            fill="white" fill-opacity="1" />
-                    </svg></button>
-            </form>
-        </div>
+    <div class="search-box">
+        <form class="search-box_form" action="action_page.php">
+            <input type="text" name="search" placeholder="">
+            <button type="submit"><svg class="search-box_search-icon" width="11" height="10" viewBox="0 0 11 10"
+                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path id="Vector"
+                        d="M8.10397 6.28931H7.65229L7.49219 6.13493C8.05251 5.48313 8.38985 4.63694 8.38985 3.71641C8.38985 1.66381 6.72604 0 4.67344 0C2.62084 0 0.957031 1.66381 0.957031 3.71641C0.957031 5.76901 2.62084 7.43282 4.67344 7.43282C5.59397 7.43282 6.44016 7.09548 7.09197 6.53516L7.24634 6.69525V7.14694L10.1051 10L10.957 9.14808L8.10397 6.28931ZM4.67344 6.28931C3.24977 6.28931 2.10054 5.14008 2.10054 3.71641C2.10054 2.29274 3.24977 1.14351 4.67344 1.14351C6.09711 1.14351 7.24634 2.29274 7.24634 3.71641C7.24634 5.14008 6.09711 6.28931 4.67344 6.28931Z"
+                        fill="white" fill-opacity="1" />
+                </svg></button>
+        </form>
+    </div>
 
-        <div class="languages">
+    <div class="languages">
 
-            <a href="#"><img class="languages_img" src="img/SFRJ.svg" alt=""></a>
-            <a href="#"><img src="img/UK.svg" alt=""></a>
-        </div>
+        <a href="#"><img class="languages_img" src="img/SFRJ.svg" alt=""></a>
+        <a href="#"><img src="img/UK.svg" alt=""></a>
+    </div>
 
-        <a href="javascript:void(0);" onclick="myFunction()" class="mobile-nav-icon">
-            <?xml version="1.0" encoding="UTF-8"?>
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                <g id="Meni">
-                    <path id="Vector" d="M3 18H21V16H3V18ZM3 13H21V11H3V13ZM3 6V8H21V6H3Z" fill="white"></path>
-                </g>
-            </svg></a>
-
-
-
+    <a href="javascript:void(0);" onclick="myFunction()" class="mobile-nav-icon">
+        <?xml version="1.0" encoding="UTF-8"?>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <g id="Meni">
+                <path id="Vector" d="M3 18H21V16H3V18ZM3 13H21V11H3V13ZM3 6V8H21V6H3Z" fill="white"></path>
+            </g>
+        </svg></a>
     </header>
 
-    <section class="slider">
-        <!-- class slider comes from page biography.scss   -->
+    <section>
+        <div class="Aleksandar_bio">
+            <img src="img/Aleksandar.svg" alt="">
+            <div class="Aleksandar_bio_text">
+                <p><span class="hero_text_sub-span">DREAMT CAPITAL CITIES </span>(1984, Belgrade) graduated from the
+                    University in Belgrade where he gained diploma in Political Sciences and got his research Master at
+                    the Ecole Des Hautes Etudes en Sciences Sociales (EHESS) in Paris in domain of national identity of
+                    the oversea French citizens living in the Metropolitan France.</p>
+                <p>In Serbia, he worked as a researcher and analyst in the Helsinki Committee for Human Rights. At that
+                    position, he specialised for the questions of ethnic minorities in post-Yugoslav space and for the
+                    question of nationalism and national identity.</p>
+                <p>Aleksandar also worked for the Government of Serbia as a contact point for the EU program “Europe for
+                    Citizens”. During 2008, he was engaged by the Czech Government as an external consultant for their
+                    Balkan policy strategy during the Czech presidency over the EU Council.</p>
+                <p>His fields of interest are post-colonialism, political culture, cultural identities and issues of
+                    political representation in space.</p>
+                <p>Aleksandar speaks Czech, English, French and Serbo-Croatian.</p>
+            </div>
+        </div>
+    </section>
 
-        <div class="container_tekstovi-2 texts">
+    <section class="slider">
+        <p class="tekstovi_autora">tekstovi autora</p>
+        <div class="container_tekstovi-2 biography">
             <div class="slide-box">
                 <div class="div-1">
                     <div class="div-1_wrap">
                         <a href="text.html">
-                            <img src="img/tekstovi.svg" alt="">
-                            <div class="div-1_wrap_block">
-                                <div class="div-1_wrap_block_date">
-                                    <p class="div-1_wrap_block_date_number">12</p>
-                                    <p class="div-1_wrap_block_date_month">nov</p>
-                                </div>
-                                <div class="div-1_wrap_block_blog">
-                                    <p>blog</p>
-                                </div>
-                                <div class="div-1_wrap_block_name">
-                                    <p>Aleksandar <br>Obradović</p>
-                                </div>
-                            </div>
-                            <div class="div-1_wrap_block_text">
-                                <p class="div-1_wrap_block_text_heading">These countries spend the most on Research and
-                                    Development</p>
-                                <p class="div-1_wrap_block_text_par">Innovation can be a major competitive advantage for
-                                    any
-                                    developed <br>economy. However, achieving
-                                    a sustainable rate of innovation isn’t necessarily a straightforward exercise.</p>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="div-1_wrap">
-                        <a href="text.html">
-                            <img src="img/tekstovi.svg" alt="">
-                            <div class="div-1_wrap_block">
-                                <div class="div-1_wrap_block_date">
-                                    <p class="div-1_wrap_block_date_number">12</p>
-                                    <p class="div-1_wrap_block_date_month">nov</p>
-                                </div>
-                                <div class="div-1_wrap_block_blog">
-                                    <p>blog</p>
-                                </div>
-                                <div class="div-1_wrap_block_name">
-                                    <p>Aleksandar <br>Obradović</p>
-                                </div>
-                            </div>
-                            <div class="div-1_wrap_block_text">
-                                <p class="div-1_wrap_block_text_heading">These countries spend the most on Research and
-                                    Development</p>
-                                <p class="div-1_wrap_block_text_par">Innovation can be a major competitive advantage for
-                                    any
-                                    developed <br>economy. However, achieving
-                                    a sustainable rate of innovation isn’t necessarily a straightforward exercise.</p>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="div-1_wrap">
-                            <a href="text.html">
-                        <img src="img/tekstovi.svg" alt="">
-                        <div class="div-1_wrap_block">
-                            <div class="div-1_wrap_block_date">
-                                <p class="div-1_wrap_block_date_number">12</p>
-                                <p class="div-1_wrap_block_date_month">nov</p>
-                            </div>
-                            <div class="div-1_wrap_block_blog">
-                                <p>blog</p>
-                            </div>
-                            <div class="div-1_wrap_block_name">
-                                <p>Aleksandar <br>Obradović</p>
-                            </div>
-                        </div>
-                        <div class="div-1_wrap_block_text">
-                            <p class="div-1_wrap_block_text_heading">These countries spend the most on Research and
-                                Development</p>
-                            <p class="div-1_wrap_block_text_par">Innovation can be a major competitive advantage for any
-                                developed <br>economy. However, achieving
-                                a sustainable rate of innovation isn’t necessarily a straightforward exercise.</p>
-                        </div>
-                        </a>
-                    </div>
-                    <div class="div-1_wrap">
-                            <a href="text.html">
                         <img src="img/tekstovi.svg" alt="">
                         <div class="div-1_wrap_block">
                             <div class="div-1_wrap_block_date">
@@ -507,154 +450,10 @@
                         </div>
                         </a>
                     </div>
-                    <div class="div-2_wrap">
-                            <a href="">
-                        <img src="img/tekstovi.svg" alt="">
-                        <div class="div-2_wrap_block">
-                            <div class="div-2_wrap_block_date">
-                                <p class="div-2_wrap_block_date_number">12</p>
-                                <p class="div-2_wrap_block_date_month">nov</p>
-                            </div>
-                            <div class="div-2_wrap_block_blog">
-                                <p>blog</p>
-                            </div>
-                            <div class="div-2_wrap_block_name">
-                                <p>Aleksandar <br>Obradović</p>
-                            </div>
-                        </div>
-                        <div class="div-2_wrap_block_text">
-                            <p class="div-2_wrap_block_text_heading">These countries spend the most on Research and
-                                Development</p>
-                            <p class="div-2_wrap_block_text_par">Innovation can be a major competitive advantage for any
-                                developed <br>economy. However, achieving
-                                a sustainable rate of innovation isn’t necessarily a straightforward exercise.</p>
-                        </div>
-                        </a>
-                    </div>
-                    <div class="div-2_wrap">
-                            <a href="">
-                        <img src="img/tekstovi.svg" alt="">
-                        <div class="div-2_wrap_block">
-                            <div class="div-2_wrap_block_date">
-                                <p class="div-2_wrap_block_date_number">12</p>
-                                <p class="div-2_wrap_block_date_month">nov</p>
-                            </div>
-                            <div class="div-2_wrap_block_blog">
-                                <p>blog</p>
-                            </div>
-                            <div class="div-2_wrap_block_name">
-                                <p>Aleksandar <br>Obradović</p>
-                            </div>
-                        </div>
-                        <div class="div-2_wrap_block_text">
-                            <p class="div-2_wrap_block_text_heading">These countries spend the most on Research and
-                                Development</p>
-                            <p class="div-2_wrap_block_text_par">Innovation can be a major competitive advantage for any
-                                developed <br>economy. However, achieving
-                                a sustainable rate of innovation isn’t necessarily a straightforward exercise.</p>
-                        </div>
-                        </a>
-                    </div>
-                    <div class="div-2_wrap">
-                            <a href="">
-                        <img src="img/tekstovi.svg" alt="">
-                        <div class="div-2_wrap_block">
-                            <div class="div-2_wrap_block_date">
-                                <p class="div-2_wrap_block_date_number">12</p>
-                                <p class="div-2_wrap_block_date_month">nov</p>
-                            </div>
-                            <div class="div-2_wrap_block_blog">
-                                <p>blog</p>
-                            </div>
-                            <div class="div-2_wrap_block_name">
-                                <p>Aleksandar <br>Obradović</p>
-                            </div>
-                        </div>
-                        <div class="div-2_wrap_block_text">
-                            <p class="div-2_wrap_block_text_heading">These countries spend the most on Research and
-                                Development</p>
-                            <p class="div-2_wrap_block_text_par">Innovation can be a major competitive advantage for any
-                                developed <br>economy. However, achieving
-                                a sustainable rate of innovation isn’t necessarily a straightforward exercise.</p>
-                        </div>
-                        </a>
-                    </div>
                 </div>
             </div>
             <div class="slide-box">
                 <div class="div-3">
-                    <div class="div-3_wrap">
-                            <a href="">                        
-                        <img src="img/tekstovi.svg" alt="">
-                        <div class="div-3_wrap_block">
-                            <div class="div-3_wrap_block_date">
-                                <p class="div-3_wrap_block_date_number">12</p>
-                                <p class="div-3_wrap_block_date_month">nov</p>
-                            </div>
-                            <div class="div-3_wrap_block_blog">
-                                <p>blog</p>
-                            </div>
-                            <div class="div-3_wrap_block_name">
-                                <p>Aleksandar <br>Obradović</p>
-                            </div>
-                        </div>
-                        <div class="div-3_wrap_block_text">
-                            <p class="div-3_wrap_block_text_heading">These countries spend the most on Research and
-                                Development</p>
-                            <p class="div-3_wrap_block_text_par">Innovation can be a major competitive advantage for any
-                                developed <br>economy. However, achieving
-                                a sustainable rate of innovation isn’t necessarily a straightforward exercise.</p>
-                        </div>
-                        </a>
-                    </div>
-                    <div class="div-3_wrap">
-                            <a href="">
-                        <img src="img/tekstovi.svg" alt="">
-                        <div class="div-3_wrap_block">
-                            <div class="div-3_wrap_block_date">
-                                <p class="div-3_wrap_block_date_number">12</p>
-                                <p class="div-3_wrap_block_date_month">nov</p>
-                            </div>
-                            <div class="div-3_wrap_block_blog">
-                                <p>blog</p>
-                            </div>
-                            <div class="div-3_wrap_block_name">
-                                <p>Aleksandar <br>Obradović</p>
-                            </div>
-                        </div>
-                        <div class="div-3_wrap_block_text">
-                            <p class="div-3_wrap_block_text_heading">These countries spend the most on Research and
-                                Development</p>
-                            <p class="div-3_wrap_block_text_par">Innovation can be a major competitive advantage for any
-                                developed <br>economy. However, achieving
-                                a sustainable rate of innovation isn’t necessarily a straightforward exercise.</p>
-                        </div>
-                        </a>
-                    </div>
-                    <div class="div-3_wrap">
-                            <a href="">
-                        <img src="img/tekstovi.svg" alt="">
-                        <div class="div-3_wrap_block">
-                            <div class="div-3_wrap_block_date">
-                                <p class="div-3_wrap_block_date_number">12</p>
-                                <p class="div-3_wrap_block_date_month">nov</p>
-                            </div>
-                            <div class="div-3_wrap_block_blog">
-                                <p>blog</p>
-                            </div>
-                            <div class="div-3_wrap_block_name">
-                                <p>Aleksandar <br>Obradović</p>
-                            </div>
-                        </div>
-                        <div class="div-3_wrap_block_text">
-                            <p class="div-3_wrap_block_text_heading">These countries spend the most on Research and
-                                Development</p>
-                            <p class="div-3_wrap_block_text_par">Innovation can be a major competitive advantage for any
-                                developed <br>economy. However, achieving
-                                a sustainable rate of innovation isn’t necessarily a straightforward exercise.</p>
-                        </div>
-                        </a>
-                    </div>
                     <div class="div-3_wrap">
                             <a href="">
                         <img src="img/tekstovi.svg" alt="">
@@ -864,6 +663,9 @@
         </div>
     </footer>
 
+
+
+
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
@@ -892,11 +694,10 @@ function openSearch() {
 
         /*  SLICK SLIDER*/
 
-
+       
 
         $('.container_tekstovi-2').slick({
             infinite: false,
-
         });
 
 

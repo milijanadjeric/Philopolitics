@@ -6,6 +6,10 @@
   color: $color-footer-text;
   margin-top: 4rem;
   margin-bottom: 4rem;
+
+  @include breakpoint (mobile--Small) {
+    display: none;
+  }
 }
 
 // ***  SLIDER  ***///
@@ -68,9 +72,14 @@
   flex-wrap: wrap;
   flex-direction: column;
 
+
   &_wrap {
     margin-bottom: 6rem;
     display: flex;
+
+    @include breakpoint (mobile--Small) {
+      display: block;
+    }
 
     &_block {
       width: 38rem;

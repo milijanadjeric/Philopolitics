@@ -219,7 +219,7 @@
   display: flex;
   justify-content: space-around;
   color: $color-blue;
-  margin-top: 2.5rem;
+  margin-top: 3rem;
   margin-bottom: 1rem;
 
   @include breakpoint (mobile) {
@@ -295,6 +295,9 @@
     :hover {
       fill: #2a245b;
     }
+  }
+  img {
+    margin-top: -.5rem;
   }
 }
 .socials-mobile {

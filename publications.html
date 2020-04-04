@@ -23,7 +23,7 @@
 
         <div class="logo">
             <?xml version="1.0" encoding="UTF-8"?>
-            <svg xmlns="http://www.w3.org/2000/svg" width="38" height="40" viewBox="0 0 38 40" fill="none">
+            <svg class="logo_picture" xmlns="http://www.w3.org/2000/svg" width="38" height="40" viewBox="0 0 38 40" fill="none">
                 <path d="M16.9473 8.78369H20.3183V38.5107H16.9473V8.78369Z" fill="#322B6C" stroke="white"
                     stroke-miterlimit="3"></path>
                 <path fill-rule="evenodd" clip-rule="evenodd"
@@ -60,7 +60,7 @@
 
         <!-- NAVIGATION -->
 
-        <div class="navbar">
+        <div class="navbar" class="mobile-nav" id="myMobile">
             <div class="subnav">
                 <button class="subnavbtn mrg-right">What we do<i class="subnav_down"></i></button>
                 <div class="subnav-content">
@@ -404,6 +404,28 @@
     <script type="text/javascript" src="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script type="text/javascript" src="./js/slick.min.js"></script>
     <script>
+
+function openSearch() {
+            document.getElementById("myOverlay").style.display = "block";
+        }
+
+        function closeSearch() {
+            document.getElementById("myOverlay").style.display = "none";
+        }
+
+
+        function myFunction() {
+            var x = document.getElementById("myMobile");
+            if (x.className === "mobile-nav") {
+                x.className += " responsive";
+            } else {
+                x.className = "mobile-nav";
+            }
+        }
+
+
+
+        /*  SLICK SLIDER*/
 
 
 
