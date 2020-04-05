@@ -1561,6 +1561,7 @@ input[type="text"]:focus {
 @media (max-width: 364px) {
   .main_div-3_box_text-3 {
     font-size: 1.3rem;
+    padding-left: 1.2rem;
   }
 }
 
@@ -3039,6 +3040,12 @@ input[type="submit"]:hover {
   display: flex;
 }
 
+@media (max-width: 364px) {
+  .div-22_wrap {
+    display: block;
+  }
+}
+
 .div-22_wrap_block {
   width: 38rem;
   margin-left: 4rem;
@@ -3079,6 +3086,12 @@ input[type="submit"]:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+@media (max-width: 364px) {
+  .div-33_wrap {
+    display: block;
+  }
 }
 
 .div-33_wrap_block {

@@ -114,6 +114,10 @@
     margin-bottom: 6rem;
     display: flex;
 
+    @include breakpoint (mobile--Small) {
+      display: block;
+    }
+
     &_block {
       width: 38rem;
       margin-left: 4rem;
@@ -147,6 +151,10 @@
   &_wrap {
     margin-bottom: 6rem;
     display: flex;
+
+    @include breakpoint (mobile--Small) {
+      display: block;
+    }
 
     &_block {
       width: 38rem;
