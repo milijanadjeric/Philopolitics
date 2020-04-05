@@ -380,7 +380,7 @@ input[type="text"]:focus {
 @media (max-width: 364px) {
   .search-box-mobile {
     display: block;
-    margin-top: 2rem;
+    margin-top: 2.1rem;
     margin-right: -7rem;
   }
 }
@@ -389,7 +389,6 @@ input[type="text"]:focus {
   border: none;
   background: transparent;
   width: 2rem;
-  height: 1.8rem;
 }
 
 .icon {
