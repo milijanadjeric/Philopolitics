@@ -448,6 +448,10 @@ input[type="text"]:focus {
   }
 }
 
+.overlay input[type="text"]:hover {
+  background: red;
+}
+
 @media (max-width: 364px) {
   .overlay button {
     float: left;

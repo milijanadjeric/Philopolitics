@@ -348,6 +348,10 @@ input[type="text"]:focus {
   }
 }
 
+.overlay input[type="text"]:hover {
+  background: red;
+}
+
 .overlay button {
   @include breakpoint(mobile--Small) {
     float: left;
