@@ -20,25 +20,33 @@
 
 // 4. Components
 @import
+  'components/slider',
   'components/buttons',
-  'components/ellipses',
-  'components/slider';
+  'components/ellipses';
+  
 
 // 5. Page-specific styles
 @import
-  'pages/home',
-  'pages/about-us',
-  'pages/contact',
-  'pages/biography',
-  'pages/text',
-  'pages/blog',
   'pages/404',
+  'pages/about-us',
+  'pages/being-yugoslav',
+  'pages/biography',
+  'pages/blog',
+  'pages/contact',
+  'pages/diy-politics',
+  'pages/dreamt-capital-cities',
+  'pages/home',
+  'pages/one-publication',
   'pages/projects',
   'pages/publications',
-  'pages/one-publication',
-  'pages/dreamt-capital-cities',
-  'pages/diy-politics',
-  'pages/being-yugoslav';
+  'pages/text';
+  
+  
+  
+  
+  
+  
+  
   
 
 // 6. Themes
