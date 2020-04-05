@@ -296,81 +296,63 @@ input[type="text"]:focus {
   height: 1.6rem;
 }
 
-
-/*  MOBILE FULLSCREEN SEARCH BOX */
+/*  MOBILE FULLSCREEN SEARCH BOX IN OVERLAY */
 
 .overlay {
   display: none;
-
-  @include breakpoint(mobile--Small) {
-    height: 100%;
-    width: 100%;
-    position: fixed;
-    z-index: 2222;
-    top: 0;
-    left: 0;
-    background-color: $color-footer-text;
-  }
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 2222;
+  top: 0;
+  left: 0;
+  background-color: $color-footer-text;
 }
 
 .overlay-content {
-  @include breakpoint(mobile--Small) {
-    position: relative;
-    top: 50%;
-    width: 80%;
-    text-align: center;
-    margin-top: 30px;
-    margin: auto;
-  }
+  position: relative;
+  top: 50%;
+  width: 80%;
+  text-align: center;
+  margin-top: 30px;
+  margin: auto;
 }
 
 .overlay .closebtn {
-  @include breakpoint(mobile--Small) {
-    position: absolute;
-    top: 12px;
-    right: 37px;
-    font-size: 30px;
-    cursor: pointer;
-    color:$color-white;
-  }
+  position: absolute;
+  top: 12px;
+  right: 37px;
+  font-size: 30px;
+  cursor: pointer;
+  color: $color-white;
 }
 
 .overlay input[type="text"] {
-  @include breakpoint(mobile--Small) {
-    padding: 15px;
-    font-size: 17px;
-    border: none;
-    float: left;
-    width: 100%;
-    background: $color-footer-text;
-    border: 1px solid rgba(255, 255, 255, 0.9);
-    border-radius: 1.9rem;
-  }
-}
-
-.overlay input[type="text"]:hover {
-  background: red;
+  padding: 15px;
+  font-size: 17px;
+  border: none;
+  float: left;
+  width: 100%;
+  background: $color-footer-text;
+  border: 1px solid rgba(255, 255, 255, 0.9);
+  border-radius: 1.9rem;
 }
 
 .overlay button {
-  @include breakpoint(mobile--Small) {
-    float: left;
-    width: 10%;
-    background: $color-footer-text;
-    padding-top: .5rem;
-    padding-bottom: .2rem;
-    border: none;
-    cursor: pointer;
-    margin-left: -3.8rem;
-    margin-top: .3rem;
-    
-  }
+  float: left;
+  width: 10%;
+  background: $color-footer-text;
+  padding-top: 0.5rem;
+  padding-bottom: 0.2rem;
+  border: none;
+  cursor: pointer;
+  margin-left: -3.8rem;
+  margin-top: 0.3rem;
 }
 
 .overlay-search-icon {
   width: 1.6rem;
   height: 1.6rem;
-
 }
 
 
@@ -403,10 +385,11 @@ input[type="text"]:focus {
   margin-top: 1.7rem;
   cursor: pointer;
   display: none;
-  margin-right: .6rem;
+  margin-right: 0.6rem;
 
   @include breakpoint(mobile--Small) {
     display: inline-block;
-    
   }
 }
+
+/*  MOBILE NAVIGATION END */
