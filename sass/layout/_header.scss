@@ -31,7 +31,7 @@ header {
   }
 
   @include breakpoint(mobile--Small) {
-    margin-left: 0.5rem;
+    margin-left: 0;
     margin-top: 1.5rem;
   }
 
@@ -281,16 +281,15 @@ input[type="text"]:focus {
 
   @include breakpoint(mobile--Small) {
     display: block;
-    margin-top: 2.1rem;
-    margin-right: -9rem;
+    margin-top: 2rem;
+    margin-right: -7rem;
   }
 
   button {
     border: none;
     background: transparent;
-    margin-left: -2.5rem;
     width: 2rem;
-    height: 1.1rem;
+    height: 1.8rem;
   }
 }
 .icon {
@@ -401,6 +400,7 @@ input[type="text"]:focus {
   margin-top: 1.7rem;
   cursor: pointer;
   display: none;
+  margin-right: .6rem;
 
   @include breakpoint(mobile--Small) {
     display: inline-block;
