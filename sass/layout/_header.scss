@@ -281,8 +281,8 @@ input[type="text"]:focus {
 
   @include breakpoint(mobile--Small) {
     display: block;
-    margin-top: 2rem;
-    margin-right: -5rem;
+    margin-top: 2.1rem;
+    margin-right: -9rem;
   }
 
   button {
@@ -294,9 +294,10 @@ input[type="text"]:focus {
   }
 }
 .icon {
-  width: 1.8rem;
-  height: 1.8rem;
+  width: 1.6rem;
+  height: 1.6rem;
 }
+
 
 /*  MOBILE FULLSCREEN SEARCH BOX */
 
@@ -307,7 +308,7 @@ input[type="text"]:focus {
     height: 100%;
     width: 100%;
     position: fixed;
-    z-index: 222;
+    z-index: 2222;
     top: 0;
     left: 0;
     background-color: $color-footer-text;
@@ -329,7 +330,7 @@ input[type="text"]:focus {
   @include breakpoint(mobile--Small) {
     position: absolute;
     top: 12px;
-    right: 34px;
+    right: 37px;
     font-size: 30px;
     cursor: pointer;
     color:$color-white;
@@ -403,6 +404,6 @@ input[type="text"]:focus {
 
   @include breakpoint(mobile--Small) {
     display: inline-block;
-    margin-right: 1rem;
+    
   }
 }

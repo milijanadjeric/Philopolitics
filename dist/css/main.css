@@ -380,8 +380,8 @@ input[type="text"]:focus {
 @media (max-width: 364px) {
   .search-box-mobile {
     display: block;
-    margin-top: 2rem;
-    margin-right: -5rem;
+    margin-top: 2.1rem;
+    margin-right: -9rem;
   }
 }
 
@@ -394,8 +394,8 @@ input[type="text"]:focus {
 }
 
 .icon {
-  width: 1.8rem;
-  height: 1.8rem;
+  width: 1.6rem;
+  height: 1.6rem;
 }
 
 /*  MOBILE FULLSCREEN SEARCH BOX */
@@ -408,7 +408,7 @@ input[type="text"]:focus {
     height: 100%;
     width: 100%;
     position: fixed;
-    z-index: 222;
+    z-index: 2222;
     top: 0;
     left: 0;
     background-color: #322b6c;
@@ -430,7 +430,7 @@ input[type="text"]:focus {
   .overlay .closebtn {
     position: absolute;
     top: 12px;
-    right: 34px;
+    right: 37px;
     font-size: 30px;
     cursor: pointer;
     color: #FFFFFF;
@@ -502,7 +502,6 @@ input[type="text"]:focus {
 @media (max-width: 364px) {
   .mobile-nav-icon {
     display: inline-block;
-    margin-right: 1rem;
   }
 }
 
