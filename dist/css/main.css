@@ -4067,7 +4067,7 @@ input[type="submit"]:hover {
 @media (max-width: 364px) {
   .slider-projects {
     margin-left: 0;
-    margin-top: 6rem;
+    margin-top: 4rem;
   }
 }
 
@@ -4093,6 +4093,7 @@ input[type="submit"]:hover {
 @media (max-width: 364px) {
   .div-11_wrap {
     display: block;
+    margin-bottom: 4rem;
   }
 }
 
@@ -4101,7 +4102,7 @@ input[type="submit"]:hover {
     width: 30rem;
     height: 30rem;
     margin-left: 3.2rem;
-    margin-bottom: 5rem;
+    margin-bottom: 4rem;
   }
 }
 
@@ -4169,6 +4170,7 @@ input[type="submit"]:hover {
 @media (max-width: 364px) {
   .div-22_wrap {
     display: block;
+    margin-bottom: 4rem;
   }
 }
 
@@ -4177,7 +4179,7 @@ input[type="submit"]:hover {
     width: 30rem;
     height: 30rem;
     margin-left: 3.2rem;
-    margin-bottom: 5rem;
+    margin-bottom: 4rem;
   }
 }
 
@@ -4245,6 +4247,7 @@ input[type="submit"]:hover {
 @media (max-width: 364px) {
   .div-33_wrap {
     display: block;
+    margin-bottom: 4rem;
   }
 }
 
@@ -4253,7 +4256,7 @@ input[type="submit"]:hover {
     width: 30rem;
     height: 30rem;
     margin-left: 3.2rem;
-    margin-bottom: 5rem;
+    margin-bottom: 4rem;
   }
 }
 
