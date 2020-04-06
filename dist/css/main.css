@@ -3941,7 +3941,6 @@ input[type="submit"]:hover {
 @media (max-width: 364px) {
   .main-section_img {
     width: 30rem;
-    height: 38.6rem;
   }
 }
 
@@ -4347,6 +4346,29 @@ input[type="submit"]:hover {
   }
 }
 
+@media (max-width: 364px) {
+  .slider-publications {
+    margin-left: 3.1rem;
+    margin-top: 3.5rem;
+  }
+}
+
+.naslov {
+  font-family: "TruenoBold";
+  font-size: 1.8rem;
+  letter-spacing: 0.01rem;
+  text-transform: uppercase;
+  color: #322b6c;
+  margin-top: 3.9rem;
+  margin-bottom: 4.3rem;
+}
+
+@media (max-width: 364px) {
+  .naslov {
+    display: none;
+  }
+}
+
 .container_tekstovi .slick-prev {
   left: 915px;
 }
@@ -4360,12 +4382,6 @@ input[type="submit"]:hover {
 @media (max-width: 1282px) {
   .container_tekstovi .slick-prev {
     left: 880px;
-  }
-}
-
-@media (max-width: 800px) {
-  .container_tekstovi .slick-prev {
-    left: 422px;
   }
 }
 
@@ -4420,8 +4436,10 @@ input[type="submit"]:hover {
   }
 }
 
-.div-111_wrap a {
-  text-decoration: none;
+@media (max-width: 364px) {
+  .div-111_wrap {
+    margin-bottom: 3.5rem;
+  }
 }
 
 .div-111_wrap_block_publ {
@@ -4438,6 +4456,16 @@ input[type="submit"]:hover {
   text-transform: capitalize;
   color: #000;
   font-size: 1.2rem;
+}
+
+@media (max-width: 364px) {
+  .div-111_wrap img {
+    width: 30rem;
+  }
+}
+
+.div-111_wrap a {
+  text-decoration: none;
 }
 
 .heading {
