@@ -118,3 +118,10 @@
     }
   }
 }
+
+.hidden {
+  @include breakpoint(mobile--Small) {
+    display: none;
+  }
+
+}

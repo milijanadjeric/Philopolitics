@@ -4468,6 +4468,12 @@ input[type="submit"]:hover {
   text-decoration: none;
 }
 
+@media (max-width: 364px) {
+  .hidden {
+    display: none;
+  }
+}
+
 .heading {
   display: -webkit-box;
   display: -ms-flexbox;

@@ -200,42 +200,12 @@
                                 <p class="div-111_wrap_block_author">ime autora</p>
                             </div>
                         </a>
+                        <button id="loadmore" class="btnLoad">Load more</button>
                     </div>
                 </div>
             </div>
             <div class="slide-box">
-                <div class="div-111">
-                    <div class="div-111_wrap">
-                        <a href="">
-                            <img src="img/Slika-kvadrata.svg" alt="">
-                            <div class="div-111_wrap_block">
-                                <p class="div-111_wrap_block_publ">ime publikacije </p>
-                                <p class="div-111_wrap_block_author">ime autora</p>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="div-111_wrap">
-                        <a href="">
-                            <img src="img/Slika-kvadrata.svg" alt="">
-                            <div class="div-111_wrap_block">
-                                <p class="div-111_wrap_block_publ">ime publikacije </p>
-                                <p class="div-111_wrap_block_author">ime autora</p>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="div-111_wrap">
-                        <a href="">
-                            <img src="img/Slika-kvadrata.svg" alt="">
-                            <div class="div-111_wrap_block">
-                                <p class="div-111_wrap_block_publ">ime publikacije </p>
-                                <p class="div-111_wrap_block_author">ime autora</p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="slide-box">
-                <div class="div-111">
+                <div class="div-111 hidden">
                     <div class="div-111_wrap">
                         <a href="">
                             <img src="img/Slika-kvadrata.svg" alt="">
@@ -266,7 +236,7 @@
                 </div>
             </div>
             <div class="slide-box">
-                <div class="div-111">
+                <div class="div-111 hidden">
                     <div class="div-111_wrap">
                         <a href="">
                             <img src="img/Slika-kvadrata.svg" alt="">
@@ -297,7 +267,7 @@
                 </div>
             </div>
             <div class="slide-box">
-                <div class="div-111">
+                <div class="div-111 hidden">
                     <div class="div-111_wrap">
                         <a href="">
                             <img src="img/Slika-kvadrata.svg" alt="">
@@ -324,6 +294,38 @@
                                 <p class="div-111_wrap_block_author">ime autora</p>
                             </div>
                         </a>
+                    </div>
+                </div>
+            </div>
+            <div class="slide-box">
+                <div class="div-111 hidden">
+                    <div class="div-111_wrap">
+                        <a href="">
+                            <img src="img/Slika-kvadrata.svg" alt="">
+                            <div class="div-111_wrap_block">
+                                <p class="div-111_wrap_block_publ">ime publikacije </p>
+                                <p class="div-111_wrap_block_author">ime autora</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="div-111_wrap">
+                        <a href="">
+                            <img src="img/Slika-kvadrata.svg" alt="">
+                            <div class="div-111_wrap_block">
+                                <p class="div-111_wrap_block_publ">ime publikacije </p>
+                                <p class="div-111_wrap_block_author">ime autora</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="div-111_wrap">
+                        <a href="">
+                            <img src="img/Slika-kvadrata.svg" alt="">
+                            <div class="div-111_wrap_block">
+                                <p class="div-111_wrap_block_publ">ime publikacije </p>
+                                <p class="div-111_wrap_block_author">ime autora</p>
+                            </div>
+                        </a>
+                        <button id="loadless" class="btnLoad">Load less</button>
                     </div>
                 </div>
             </div>
@@ -375,6 +377,22 @@
 
             ]
 
+        });
+        
+        /*  JQUERY -  TOGGLE BETWEEN LOAD MORE/LOAD LESS ON MOBILE DEVICE */
+
+        $(document).ready(function () {
+            $("#loadmore").click(function () {
+                
+                $(".hidden").toggle();
+            });
+        });
+
+        $(document).ready(function () {
+            $("#loadless").click(function () {
+                
+                $(".hidden").toggle();
+            });
         });
 
     </script>
