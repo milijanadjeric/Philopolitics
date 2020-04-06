@@ -252,3 +252,13 @@
 }
 
 //   SLIDER - END
+
+
+//  LOAD MORE ON MOBILE DEVICE //@include
+
+.hidden {
+  @include breakpoint(mobile--Small) {
+    display: none;
+  }
+
+}
