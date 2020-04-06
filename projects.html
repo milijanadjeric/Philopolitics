@@ -216,7 +216,7 @@
                                 veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequa
                             </p>
                             <a href=""><img src="img/read-more.svg" alt=""></a>
-                            <button id="loadmore" class="btnLoadMore">Load more</button>
+                            <button id="loadmore" class="btnLoad">Load more</button>
                         </div>
                     </div>
                 </div>
@@ -375,6 +375,7 @@
                                 veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequa
                             </p>
                             <a href=""><img src="img/read-more.svg" alt=""></a>
+                            <button id="loadless" class="btnLoad">Load less</button>
                         </div>
                     </div>
                 </div>
@@ -437,6 +438,14 @@
 
         $(document).ready(function () {
             $("#loadmore").click(function () {
+                
+                $(".hidden").toggle();
+            });
+        });
+
+        $(document).ready(function () {
+            $("#loadless").click(function () {
+                
                 $(".hidden").toggle();
             });
         });

@@ -42,13 +42,14 @@
     }  
 }
 
-//  *** button LOAD MORE on page projects on mobile device  ***  //
+//  *** buttons LOAD MORE and LOAD LESS on page projects ---> on mobile device  ***  //
 
-.btnLoadMore {
+.btnLoad {
     display: none;
     font-family: $font-tr-rg;
     font-size: 1.3rem;
     border: none;
+    border-radius: .2rem;
     color: $color-white;
     text-transform: uppercase;
     background-color: $color-footer-text;
@@ -57,7 +58,7 @@
 
     @include breakpoint(mobile--Small) {
         display: block;
-        margin-top: 7rem;
-        margin-bottom: 2rem;
+        margin-top: 6rem;
+        
     }
 }

@@ -702,11 +702,12 @@ input[type="text"]:focus {
   padding-left: .5rem;
 }
 
-.btnLoadMore {
+.btnLoad {
   display: none;
   font-family: "truenoregular";
   font-size: 1.3rem;
   border: none;
+  border-radius: .2rem;
   color: #FFFFFF;
   text-transform: uppercase;
   background-color: #322b6c;
@@ -715,10 +716,9 @@ input[type="text"]:focus {
 }
 
 @media (max-width: 364px) {
-  .btnLoadMore {
+  .btnLoad {
     display: block;
-    margin-top: 7rem;
-    margin-bottom: 2rem;
+    margin-top: 6rem;
   }
 }
 
@@ -4332,41 +4332,34 @@ input[type="submit"]:hover {
 }
 
 .texts-2 {
-  height: 127.5rem;
+  height: 119rem;
 }
 
 .slider-publications {
-  width: 80%;
+  margin-left: 15rem;
   margin-top: 5rem;
-  margin-bottom: 25rem;
-  margin-left: 20.5rem;
+  margin-bottom: 21rem;
 }
 
 @media (max-width: 1282px) {
   .slider-publications {
-    margin-left: 17.5rem;
-  }
-}
-
-@media (max-width: 1280px) {
-  .slider-publications {
-    margin-left: 19.5rem;
-  }
-}
-
-@media (max-width: 800px) {
-  .slider-publications {
-    margin-left: 11.5rem;
+    margin-left: 13rem;
   }
 }
 
 .container_tekstovi .slick-prev {
-  left: 787px;
+  left: 915px;
 }
 
-@media (max-width: 1280px) {
+@media (max-width: 1323px) {
   .container_tekstovi .slick-prev {
-    left: 750px;
+    left: 890px;
+  }
+}
+
+@media (max-width: 1282px) {
+  .container_tekstovi .slick-prev {
+    left: 880px;
   }
 }
 
@@ -4382,19 +4375,13 @@ input[type="submit"]:hover {
 
 @media (max-width: 1323px) {
   .container_tekstovi .slick-next {
-    right: 127px;
+    right: 140px;
   }
 }
 
 @media (max-width: 1282px) {
   .container_tekstovi .slick-next {
-    right: 90px;
-  }
-}
-
-@media (max-width: 1280px) {
-  .container_tekstovi .slick-next {
-    right: 135px;
+    right: 130px;
   }
 }
 
@@ -4410,11 +4397,14 @@ input[type="submit"]:hover {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .div-111_wrap {
-  margin-bottom: 8rem;
-  margin-right: 9.2rem;
+  margin-bottom: 5.5rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -4444,106 +4434,6 @@ input[type="submit"]:hover {
 }
 
 .div-111_wrap_block_author {
-  font-family: "truenoregular";
-  text-transform: capitalize;
-  color: #000;
-  font-size: 1.2rem;
-}
-
-.div-222 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-
-.div-222_wrap {
-  margin-bottom: 8rem;
-  margin-right: 9.2rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-@media (max-width: 1280px) {
-  .div-222_wrap {
-    margin-right: 7rem;
-  }
-}
-
-.div-222_wrap img {
-  max-width: 25rem;
-}
-
-.div-222_wrap a {
-  text-decoration: none;
-}
-
-.div-222_wrap_block_publ {
-  font-family: "truenoregular";
-  text-transform: uppercase;
-  color: #322b6c;
-  font-size: 1.4rem;
-  padding-top: 1rem;
-  padding-bottom: .5rem;
-}
-
-.div-222_wrap_block_author {
-  font-family: "truenoregular";
-  text-transform: capitalize;
-  color: #000;
-  font-size: 1.2rem;
-}
-
-.div-333 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-
-.div-333_wrap {
-  margin-bottom: 8rem;
-  margin-right: 9.2rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-@media (max-width: 1280px) {
-  .div-333_wrap {
-    margin-right: 7rem;
-  }
-}
-
-.div-333_wrap img {
-  max-width: 25rem;
-}
-
-.div-333_wrap a {
-  text-decoration: none;
-}
-
-.div-333_wrap_block_publ {
-  font-family: "truenoregular";
-  text-transform: uppercase;
-  color: #322b6c;
-  font-size: 1.4rem;
-  padding-top: 1rem;
-  padding-bottom: .5rem;
-}
-
-.div-333_wrap_block_author {
   font-family: "truenoregular";
   text-transform: capitalize;
   color: #000;

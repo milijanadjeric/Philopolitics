@@ -1,38 +1,36 @@
 .texts-2 {
-  height: 127.5rem;
+  height: 119rem;
 }
 
 //    SLIDER
 
 .slider-publications {
-  width: 80%;
+  margin-left: 15rem;
   margin-top: 5rem;
-  margin-bottom: 25rem;
-  margin-left: 20.5rem;
+  margin-bottom: 21rem;
+  
 
-  @include breakpoint (desktop--Small)  {
-    margin-left: 17.5rem;
-  }
-  @include breakpoint (tablet)  {
-    margin-left: 19.5rem;
+  @include breakpoint (desktop--Small) {
+    margin-left: 13rem;
   }
 
   @include breakpoint(mobile) {
-    margin-left: 11.5rem;
+    
   }
-
-  
-
 
 }
 
 // *** this is to move buttons prev and next on page publications ***
 
 .container_tekstovi .slick-prev {
-  left: 787px;
+  left: 915px;
 
-  @include breakpoint (tablet)  {
-    left: 750px;
+  @include breakpoint (desktop) {
+    left: 890px;
+  }
+
+  @include breakpoint (desktop--Small) {
+    left: 880px;
   }
 
   @include breakpoint(mobile) {
@@ -45,121 +43,32 @@
   right: 145px;
 
   @include breakpoint (desktop) {
-    right: 127px;
+    right: 140px;
   }
 
   @include breakpoint (desktop--Small)  {
-    right: 90px;
+    right: 130px;
   }
-  @include breakpoint (tablet) {
-    right: 135px;
-  }
+
 
   @include breakpoint(mobile)  {
     right: 75px;
   }
 }
 
+
 .div-111 {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
 
   &_wrap {
-    margin-bottom: 8rem;
-    margin-right: 9.2rem;
+    margin-bottom: 5.5rem;
     display: flex;
     flex-direction: column;
 
     @include breakpoint (tablet)  {
       margin-right: 7rem;
-    }
-
-    
-
-
-    a {
-      text-decoration: none;
-    }
-
-    &_block {
-
-      &_publ {
-        font-family: $font-tr-rg;
-        text-transform: uppercase;
-        color: $color-footer-text;
-        font-size: 1.4rem;
-        padding-top: 1rem;
-        padding-bottom: .5rem;
-      }
-
-      &_author {
-        font-family: $font-tr-rg;
-        text-transform: capitalize;
-        color: $color-black;
-        font-size: 1.2rem;
-      }
-    }
-  }
-}
-.div-222 {
-  display: flex;
-  flex-wrap: wrap;
-
-  &_wrap {
-    margin-bottom: 8rem;
-    margin-right: 9.2rem;
-    display: flex;
-    flex-direction: column;
-
-    @include breakpoint (tablet)  {
-      margin-right: 7rem;
-    }
-
-    img {
-      max-width: 25rem;
-    }
-
-    a {
-      text-decoration: none;
-    }
-
-    &_block {
-
-      &_publ {
-        font-family: $font-tr-rg;
-        text-transform: uppercase;
-        color: $color-footer-text;
-        font-size: 1.4rem;
-        padding-top: 1rem;
-        padding-bottom: .5rem;
-      }
-
-      &_author {
-        font-family: $font-tr-rg;
-        text-transform: capitalize;
-        color: $color-black;
-        font-size: 1.2rem;
-      }
-    }
-  }
-}
-
-.div-333 {
-  display: flex;
-  flex-wrap: wrap;
-
-  &_wrap {
-    margin-bottom: 8rem;
-    margin-right: 9.2rem;
-    display: flex;
-    flex-direction: column;
-
-    @include breakpoint (tablet)  {
-      margin-right: 7rem;
-    }
-
-    img {
-      max-width: 25rem;
     }
 
     a {
