@@ -3,17 +3,26 @@
   background-color: $color-footer-text;
   padding: 5rem 25rem 3rem 25rem;
 
-  @include breakpoint (tablet) {
-    padding-left: 17rem;
-  }
+  
 
   @include breakpoint (mobile) {
     padding-left: 7rem;
     padding-right: 7rem;
   }
 
+  @include breakpoint (mobile--Small) {
+    display: block;
+    padding-left: 0;
+    padding-right: 0;
+
+  }
+
   img {
     align-self: flex-start;
+
+    @include breakpoint (mobile) {
+      
+    }
   }
 
   &_text {
@@ -41,36 +50,45 @@
   color: $color-footer-text;
   margin-top: 3.9rem;
   margin-bottom: 4.3rem;
+  @include breakpoint (mobile--Small) {
+    font-size: 1.3rem;
+    margin-top: 2.5rem;
+    margin-bottom: 2rem;
+    margin-left: 2.5rem;
+  }
 }
 
 //    SLIDER
 
-.slider {
-  margin-left: 20rem;
-  margin-bottom: 30rem;
+.slider-biography {
+  margin-left: 12.5rem;
   margin-top: 4.8rem;
+  height: 66rem;
 
-
+  @include breakpoint(desktop) {
+    margin-left: 12rem;
+  }
 
   @include breakpoint(desktop--Small) {
-    margin-left: 16.5rem;
+   margin-left: 10.5rem;
   }
   @include breakpoint (mobile) {
     margin-left: 9.5rem;
   }
-}
-
-.biography {
-  height: 69rem;
+  @include breakpoint (mobile--Small) {
+    margin-left: 0;
+    margin-top: 0;
+  }
 }
 
 .container_tekstovi-2 .slick-next {
+  right: 130px;
 
   @include breakpoint(desktop) {
-    right: 175px;
+    right: 120px;
   }
   @include breakpoint(desktop--Small){
-    right: 165px;
+    right: 105px;
   }
 
   @include breakpoint (mobile) {
@@ -79,6 +97,15 @@
 }
 
 .container_tekstovi-2 .slick-prev {
+
+  left: 955px;
+
+  @include breakpoint(desktop) {
+    left: 940px;
+  }
+  @include breakpoint(desktop--Small) {
+    left: 930px;
+  }
 
   @include breakpoint (mobile) {
     left: 475px;
@@ -90,6 +117,7 @@
 .div-1 {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
 
   a {
     text-decoration: none;
@@ -97,7 +125,8 @@
   
 
   &_wrap {
-    margin-right: 4rem;
+    display: flex;
+    flex-direction: column;
     margin-bottom: 5rem;
     position: relative;
     
@@ -106,6 +135,9 @@
       position: absolute;
       margin-top: -4.8rem;
       background: transparent;
+      @include breakpoint (mobile--Small) {
+        margin-top: -7rem;
+      }
 
       &_date {
         width: 5.8rem;
@@ -115,17 +147,27 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        @include breakpoint (mobile--Small) {
+          width: 8.5rem;
+          height: 7rem;
+        }
 
         &_number {
           color: $color-white;
           font-family: $font-tr-bd;
           font-size: 2.5rem;
+          @include breakpoint (mobile--Small) {
+            font-size: 3.6rem;
+          }
         }
 
         &_month {
           color: $color-white;
           font-family: $font-tr;
           text-transform: uppercase;
+          @include breakpoint (mobile--Small) {
+            font-size: 1.6rem;
+          }
         }
       }
 
@@ -139,6 +181,11 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        @include breakpoint (mobile--Small)  {
+          width: 8.5rem;
+          height: 2.8rem;
+          font-size: 1.3rem;
+        }
       }
 
       &_name {
@@ -149,10 +196,17 @@
         text-align: right;
         padding-top: 0.9rem;
         color: $color-black;
+        @include breakpoint (mobile--Small) {
+          font-size: 1.3rem;
+          width: 8.5rem;
+        }
       }
 
       &_text {
         width: 29rem;
+        @include breakpoint (mobile--Small) {
+          width: 33rem;
+        }
 
         &_heading {
           font-family: "Roboto";
@@ -162,6 +216,10 @@
           padding-left: 8rem;
           padding-top: 1.6rem;
           padding-bottom: 1.2rem;
+          @include breakpoint (mobile--Small) {
+            font-size: 1.6rem;
+            padding-left: 10.5rem;
+          }
         }
 
         &_par {
@@ -169,193 +227,53 @@
           color: $color-darkgrey-text;
           font-size: 1.05rem;
           padding-left: 8rem;
+          @include breakpoint (mobile--Small) {
+            font-size: 1.3rem;
+            padding-left: 10.5rem;
+          }
         }
       }
     }
-  }
-}
-.div-2 {
-  display: flex;
-  flex-wrap: wrap;
+    img {
+      @include breakpoint (mobile--Small) {
+        width: 36rem;
 
-  a {
-    text-decoration: none;
-  }
-
-  &_wrap {
-    margin-right: 4rem;
-    margin-bottom: 5rem;
-    position: relative;
-
-    &_block {
-      position: absolute;
-      margin-top: -4.8rem;
-      background: transparent;
-
-      &_date {
-        width: 5.8rem;
-        height: 4.8rem;
-        background-color: $color-violet-transparent;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-
-        &_number {
-          color: $color-white;
-          font-family: $font-tr-bd;
-          font-size: 2.5rem;
-        }
-
-        &_month {
-          color: $color-white;
-          font-family: $font-tr;
-          text-transform: uppercase;
-        }
-      }
-
-      &_blog {
-        width: 5.8rem;
-        height: 1.6rem;
-        background-color: $color-black;
-        color: $color-white;
-        font-family: $font-tr-rg;
-        text-transform: uppercase;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
-
-      &_name {
-        width: 5.8rem;
-        height: 4.8rem;
-        font-family: "Roboto";
-        font-size: 1.1rem;
-        text-align: right;
-        padding-top: 0.9rem;
-        color: $color-black;
-      }
-
-      &_text {
-        width: 29rem;
-
-        &_heading {
-          font-family: "Roboto";
-          font-weight: 500;
-          color: $color-footer-text;
-          font-size: 1.4rem;
-          padding-left: 8rem;
-          padding-top: 1.6rem;
-          padding-bottom: 1.2rem;
-        }
-
-        &_par {
-          font-family: "Roboto";
-          color: $color-darkgrey-text;
-          font-size: 1.05rem;
-          padding-left: 8rem;
-        }
       }
     }
   }
 }
 
-.div-3 {
-  display: flex;
-  flex-wrap: wrap;
 
-  a {
-    text-decoration: none;
-  }
-
-  &_wrap {
-    margin-right: 4rem;
-    margin-bottom: 5rem;
-    position: relative;
-
-    &_block {
-      position: absolute;
-      margin-top: -4.8rem;
-      background: transparent;
-
-      &_date {
-        width: 5.8rem;
-        height: 4.8rem;
-        background-color: $color-violet-transparent;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-
-        &_number {
-          color: $color-white;
-          font-family: $font-tr-bd;
-          font-size: 2.5rem;
-        }
-
-        &_month {
-          color: $color-white;
-          font-family: $font-tr;
-          text-transform: uppercase;
-        }
-      }
-
-      &_blog {
-        width: 5.8rem;
-        height: 1.6rem;
-        background-color: $color-black;
-        color: $color-white;
-        font-family: $font-tr-rg;
-        text-transform: uppercase;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
-
-      &_name {
-        width: 5.8rem;
-        height: 4.8rem;
-        font-family: "Roboto";
-        font-size: 1.1rem;
-        text-align: right;
-        padding-top: 0.9rem;
-        color: $color-black;
-      }
-
-      &_text {
-        width: 29rem;
-
-        &_heading {
-          font-family: "Roboto";
-          font-weight: 500;
-          color: $color-footer-text;
-          font-size: 1.4rem;
-          padding-left: 8rem;
-          padding-top: 1.6rem;
-          padding-bottom: 1.2rem;
-        }
-
-        &_par {
-          font-family: "Roboto";
-          color: $color-darkgrey-text;
-          font-size: 1.05rem;
-          padding-left: 8rem;
-        }
-      }
-    }
-  }
-}
 
 //   SLIDER - END
 
 .line {
   border: 0.625339px solid #e5e5e5;
-  width: 95.5rem;
-  margin-bottom: -19rem;
-  margin-left: 20rem;
+  width: 109rem;
+  margin-top: 25rem;
+  margin-left: 12.8rem;
+
+  @include breakpoint(desktop) {
+    width: 107rem;
+  }
+
+  @include breakpoint(desktop--Small) {
+    width: 104rem;
+  }
 
   @include breakpoint (mobile) {
     width: 60rem;
     margin-left: 10rem;
   }
+
+  @include breakpoint(mobile--Small)  {
+    display: none;
+  }
+}
+
+.hidden {
+  @include breakpoint(mobile--Small) {
+    display: none;
+  }
+
 }
