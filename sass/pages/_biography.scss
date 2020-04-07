@@ -3,25 +3,42 @@
   background-color: $color-footer-text;
   padding: 5rem 25rem 3rem 25rem;
 
-  
-
-  @include breakpoint (mobile) {
+  @include breakpoint(mobile) {
     padding-left: 7rem;
     padding-right: 7rem;
   }
 
-  @include breakpoint (mobile--Small) {
+  @include breakpoint(mobile--Small) {
+    background-image: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      color-stop(10%, #322b6c),
+      color-stop(70%, #131c6d),
+      color-stop(100%, #b1bff9)
+    );
+    background-image: linear-gradient(
+      to bottom,
+      #322b6c 10%,
+      #131c6d 70%,
+      #b1bff9 100%
+    );
+    background-size: cover;
+    background-repeat: no-repeat;
     display: block;
     padding-left: 0;
     padding-right: 0;
-
+    padding-bottom: 0;
+    padding-top: 1.5rem;
+    
   }
 
   img {
     align-self: flex-start;
 
-    @include breakpoint (mobile) {
-      
+    @include breakpoint(mobile--Small) {
+      width: 6.2rem;
+      margin-left: 15rem;
     }
   }
 
@@ -35,6 +52,12 @@
     padding-right: 9rem;
     text-align: justify;
 
+    @include breakpoint(mobile--Small) {
+      font-size: 1.3rem;
+      padding-left: 3.1rem;
+      padding-right: 3.1rem;
+      padding-top: 1.5rem;
+    }
 
     p {
       padding-bottom: 2rem;
@@ -50,11 +73,12 @@
   color: $color-footer-text;
   margin-top: 3.9rem;
   margin-bottom: 4.3rem;
-  @include breakpoint (mobile--Small) {
+
+  @include breakpoint(mobile--Small) {
     font-size: 1.3rem;
-    margin-top: 2.5rem;
+    margin-top: 2rem;
     margin-bottom: 2rem;
-    margin-left: 2.5rem;
+    margin-left: 3.1rem;
   }
 }
 
@@ -70,12 +94,12 @@
   }
 
   @include breakpoint(desktop--Small) {
-   margin-left: 10.5rem;
+    margin-left: 10.5rem;
   }
-  @include breakpoint (mobile) {
+  @include breakpoint(mobile) {
     margin-left: 9.5rem;
   }
-  @include breakpoint (mobile--Small) {
+  @include breakpoint(mobile--Small) {
     margin-left: 0;
     margin-top: 0;
   }
@@ -87,17 +111,16 @@
   @include breakpoint(desktop) {
     right: 120px;
   }
-  @include breakpoint(desktop--Small){
+  @include breakpoint(desktop--Small) {
     right: 105px;
   }
 
-  @include breakpoint (mobile) {
+  @include breakpoint(mobile) {
     right: 90px;
   }
 }
 
 .container_tekstovi-2 .slick-prev {
-
   left: 955px;
 
   @include breakpoint(desktop) {
@@ -107,11 +130,9 @@
     left: 930px;
   }
 
-  @include breakpoint (mobile) {
+  @include breakpoint(mobile) {
     left: 475px;
-
   }
-
 }
 
 .div-1 {
@@ -122,20 +143,18 @@
   a {
     text-decoration: none;
   }
-  
 
   &_wrap {
     display: flex;
     flex-direction: column;
     margin-bottom: 5rem;
     position: relative;
-    
 
     &_block {
       position: absolute;
       margin-top: -4.8rem;
       background: transparent;
-      @include breakpoint (mobile--Small) {
+      @include breakpoint(mobile--Small) {
         margin-top: -7rem;
       }
 
@@ -147,7 +166,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        @include breakpoint (mobile--Small) {
+        @include breakpoint(mobile--Small) {
           width: 8.5rem;
           height: 7rem;
         }
@@ -156,7 +175,7 @@
           color: $color-white;
           font-family: $font-tr-bd;
           font-size: 2.5rem;
-          @include breakpoint (mobile--Small) {
+          @include breakpoint(mobile--Small) {
             font-size: 3.6rem;
           }
         }
@@ -165,7 +184,7 @@
           color: $color-white;
           font-family: $font-tr;
           text-transform: uppercase;
-          @include breakpoint (mobile--Small) {
+          @include breakpoint(mobile--Small) {
             font-size: 1.6rem;
           }
         }
@@ -181,7 +200,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        @include breakpoint (mobile--Small)  {
+        @include breakpoint(mobile--Small) {
           width: 8.5rem;
           height: 2.8rem;
           font-size: 1.3rem;
@@ -196,7 +215,7 @@
         text-align: right;
         padding-top: 0.9rem;
         color: $color-black;
-        @include breakpoint (mobile--Small) {
+        @include breakpoint(mobile--Small) {
           font-size: 1.3rem;
           width: 8.5rem;
         }
@@ -204,7 +223,7 @@
 
       &_text {
         width: 29rem;
-        @include breakpoint (mobile--Small) {
+        @include breakpoint(mobile--Small) {
           width: 33rem;
         }
 
@@ -216,7 +235,7 @@
           padding-left: 8rem;
           padding-top: 1.6rem;
           padding-bottom: 1.2rem;
-          @include breakpoint (mobile--Small) {
+          @include breakpoint(mobile--Small) {
             font-size: 1.6rem;
             padding-left: 10.5rem;
           }
@@ -227,7 +246,7 @@
           color: $color-darkgrey-text;
           font-size: 1.05rem;
           padding-left: 8rem;
-          @include breakpoint (mobile--Small) {
+          @include breakpoint(mobile--Small) {
             font-size: 1.3rem;
             padding-left: 10.5rem;
           }
@@ -235,15 +254,12 @@
       }
     }
     img {
-      @include breakpoint (mobile--Small) {
+      @include breakpoint(mobile--Small) {
         width: 36rem;
-
       }
     }
   }
 }
-
-
 
 //   SLIDER - END
 
@@ -261,12 +277,12 @@
     width: 104rem;
   }
 
-  @include breakpoint (mobile) {
+  @include breakpoint(mobile) {
     width: 60rem;
     margin-left: 10rem;
   }
 
-  @include breakpoint(mobile--Small)  {
+  @include breakpoint(mobile--Small) {
     display: none;
   }
 }
@@ -275,5 +291,4 @@
   @include breakpoint(mobile--Small) {
     display: none;
   }
-
 }

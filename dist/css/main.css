@@ -1723,15 +1723,28 @@ input[type="text"]:focus {
 
 @media (max-width: 364px) {
   .Aleksandar_bio {
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(10%, #322b6c), color-stop(70%, #131c6d), to(#b1bff9));
+    background-image: linear-gradient(to bottom, #322b6c 10%, #131c6d 70%, #b1bff9 100%);
+    background-size: cover;
+    background-repeat: no-repeat;
     display: block;
     padding-left: 0;
     padding-right: 0;
+    padding-bottom: 0;
+    padding-top: 1.5rem;
   }
 }
 
 .Aleksandar_bio img {
   -ms-flex-item-align: start;
       align-self: flex-start;
+}
+
+@media (max-width: 364px) {
+  .Aleksandar_bio img {
+    width: 6.2rem;
+    margin-left: 15rem;
+  }
 }
 
 .Aleksandar_bio_text {
@@ -1748,6 +1761,15 @@ input[type="text"]:focus {
   padding-left: 5rem;
   padding-right: 9rem;
   text-align: justify;
+}
+
+@media (max-width: 364px) {
+  .Aleksandar_bio_text {
+    font-size: 1.3rem;
+    padding-left: 3.1rem;
+    padding-right: 3.1rem;
+    padding-top: 1.5rem;
+  }
 }
 
 .Aleksandar_bio_text p {
@@ -1767,9 +1789,9 @@ input[type="text"]:focus {
 @media (max-width: 364px) {
   .tekstovi_autora {
     font-size: 1.3rem;
-    margin-top: 2.5rem;
+    margin-top: 2rem;
     margin-bottom: 2rem;
-    margin-left: 2.5rem;
+    margin-left: 3.1rem;
   }
 }
 
