@@ -423,6 +423,10 @@
   display: flex;
   justify-content: space-evenly;
 
+  @include breakpoint(mobile--Small)  {
+    margin-bottom: 20rem;
+  }
+
   &_Aleksandar {
     display: flex;
     flex-direction: column;

@@ -1574,6 +1574,12 @@ input[type="text"]:focus {
           justify-content: space-evenly;
 }
 
+@media (max-width: 364px) {
+  .Team-members {
+    margin-bottom: 20rem;
+  }
+}
+
 .Team-members_Aleksandar {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1833,7 +1839,7 @@ input[type="text"]:focus {
 }
 
 .container_tekstovi-2 .slick-next {
-  right: 130px;
+  right: 125px;
 }
 
 @media (max-width: 1323px) {
@@ -1855,7 +1861,7 @@ input[type="text"]:focus {
 }
 
 .container_tekstovi-2 .slick-prev {
-  left: 955px;
+  left: 960px;
 }
 
 @media (max-width: 1323px) {
@@ -2126,51 +2132,53 @@ input[type="text"]:focus {
 }
 
 @media (max-width: 364px) {
-  .container_tekstovi {
+  .container_tekstovi-1 {
     margin-top: 3rem;
   }
 }
 
-.container_tekstovi .slick-next {
-  right: 130px;
+.container_tekstovi-1 .slick-next {
+  right: 125px;
+  top: 1080px;
 }
 
 @media (max-width: 1323px) {
-  .container_tekstovi .slick-next {
+  .container_tekstovi-1 .slick-next {
     right: 120px;
   }
 }
 
 @media (max-width: 1282px) {
-  .container_tekstovi .slick-next {
+  .container_tekstovi-1 .slick-next {
     right: 105px;
   }
 }
 
 @media (max-width: 800px) {
-  .container_tekstovi .slick-next {
+  .container_tekstovi-1 .slick-next {
     right: 90px;
   }
 }
 
-.container_tekstovi .slick-prev {
-  left: 955px;
+.container_tekstovi-1 .slick-prev {
+  left: 960px;
+  top: 1080px;
 }
 
 @media (max-width: 1323px) {
-  .container_tekstovi .slick-prev {
+  .container_tekstovi-1 .slick-prev {
     left: 940px;
   }
 }
 
 @media (max-width: 1282px) {
-  .container_tekstovi .slick-prev {
+  .container_tekstovi-1 .slick-prev {
     left: 930px;
   }
 }
 
 @media (max-width: 800px) {
-  .container_tekstovi .slick-prev {
+  .container_tekstovi-1 .slick-prev {
     left: 475px;
   }
 }
@@ -2355,34 +2363,34 @@ input[type="text"]:focus {
   }
 }
 
-.line {
+.line-1 {
   border: 0.625339px solid #e5e5e5;
   width: 109rem;
-  margin-top: 25rem;
+  margin-top: 15rem;
   margin-left: 12.8rem;
 }
 
 @media (max-width: 1323px) {
-  .line {
+  .line-1 {
     width: 107rem;
   }
 }
 
 @media (max-width: 1282px) {
-  .line {
+  .line-1 {
     width: 104rem;
   }
 }
 
 @media (max-width: 800px) {
-  .line {
+  .line-1 {
     width: 60rem;
     margin-left: 10rem;
   }
 }
 
 @media (max-width: 364px) {
-  .line {
+  .line-1 {
     display: none;
   }
 }
