@@ -56,11 +56,14 @@
       font-size: 1.3rem;
       padding-left: 3.1rem;
       padding-right: 3.1rem;
-      padding-top: 1.5rem;
+      padding-top: 1.3rem;
     }
 
     p {
       padding-bottom: 2rem;
+      @include breakpoint(mobile--Small) {
+        padding-bottom: 1.5rem; 
+      }
     }
   }
 }
