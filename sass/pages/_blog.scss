@@ -1,19 +1,223 @@
 
+//    SLIDER
 
-//  THE HEIGHT OF THE CLASS CONTAINER_TEKSTOVI IS BIGGER THAN ON THE PAGE "BIOGRAPHY"
+.slider-blog {
+    margin-left: 12.5rem;
+    margin-top: 4.8rem;
+    height: 105rem;
+  
+    @include breakpoint(desktop) {
+      margin-left: 12rem;
+    }
+  
+    @include breakpoint(desktop--Small) {
+      margin-left: 10.5rem;
+    }
+    @include breakpoint(mobile) {
+      margin-left: 9.5rem;
+    }
+    @include breakpoint(mobile--Small) {
+      margin-left: 0;
+      margin-top: 0;
+    }
+  }
 
-.texts {
-    height: 101.5rem;
-}
+  .container_tekstovi {
+      
+    @include breakpoint(mobile--Small) {
+        margin-top: 3rem;
+    }
 
-//  *** SLIDER  ***  //
-// class slider comes from page biography.scss  
-
-
-// .slider {
-
-//     @include breakpoint(desktop) {
-//         margin-left: 19rem;
-//     }
-// }
-
+  }
+  
+  .container_tekstovi .slick-next {
+    right: 130px;
+    
+   
+  
+    @include breakpoint(desktop) {
+      right: 120px;
+    }
+    @include breakpoint(desktop--Small) {
+      right: 105px;
+    }
+  
+    @include breakpoint(mobile) {
+      right: 90px;
+    }
+  }
+  
+  .container_tekstovi .slick-prev {
+    left: 955px;
+   
+  
+    @include breakpoint(desktop) {
+      left: 940px;
+    }
+    @include breakpoint(desktop--Small) {
+      left: 930px;
+    }
+  
+    @include breakpoint(mobile) {
+      left: 475px;
+    }
+  }
+  
+  .div-1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  
+    a {
+      text-decoration: none;
+    }
+  
+    &_wrap {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 5rem;
+      position: relative;
+  
+      &_block {
+        position: absolute;
+        margin-top: -4.8rem;
+        background: transparent;
+        @include breakpoint(mobile--Small) {
+          margin-top: -7rem;
+        }
+  
+        &_date {
+          width: 5.8rem;
+          height: 4.8rem;
+          background-color: $color-violet-transparent;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          @include breakpoint(mobile--Small) {
+            width: 8.5rem;
+            height: 7rem;
+          }
+  
+          &_number {
+            color: $color-white;
+            font-family: $font-tr-bd;
+            font-size: 2.5rem;
+            @include breakpoint(mobile--Small) {
+              font-size: 3.6rem;
+            }
+          }
+  
+          &_month {
+            color: $color-white;
+            font-family: $font-tr;
+            text-transform: uppercase;
+            @include breakpoint(mobile--Small) {
+              font-size: 1.6rem;
+            }
+          }
+        }
+  
+        &_blog {
+          width: 5.8rem;
+          height: 1.6rem;
+          background-color: $color-black;
+          color: $color-white;
+          font-family: $font-tr-rg;
+          text-transform: uppercase;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          @include breakpoint(mobile--Small) {
+            width: 8.5rem;
+            height: 2.8rem;
+            font-size: 1.3rem;
+          }
+        }
+  
+        &_name {
+          width: 5.8rem;
+          height: 4.8rem;
+          font-family: "Roboto";
+          font-size: 1.1rem;
+          text-align: right;
+          padding-top: 0.9rem;
+          color: $color-black;
+          @include breakpoint(mobile--Small) {
+            font-size: 1.3rem;
+            width: 8.5rem;
+          }
+        }
+  
+        &_text {
+          width: 29rem;
+          @include breakpoint(mobile--Small) {
+            width: 33rem;
+          }
+  
+          &_heading {
+            font-family: "Roboto";
+            font-weight: 500;
+            color: $color-footer-text;
+            font-size: 1.4rem;
+            padding-left: 8rem;
+            padding-top: 1.6rem;
+            padding-bottom: 1.2rem;
+            @include breakpoint(mobile--Small) {
+              font-size: 1.6rem;
+              padding-left: 10.5rem;
+            }
+          }
+  
+          &_par {
+            font-family: "Roboto";
+            color: $color-darkgrey-text;
+            font-size: 1.05rem;
+            padding-left: 8rem;
+            @include breakpoint(mobile--Small) {
+              font-size: 1.3rem;
+              padding-left: 10.5rem;
+            }
+          }
+        }
+      }
+      img {
+        @include breakpoint(mobile--Small) {
+          width: 36rem;
+        }
+      }
+    }
+  }
+  
+  //   SLIDER - END
+  
+  .line {
+    border: 0.625339px solid #e5e5e5;
+    width: 109rem;
+    margin-top: 25rem;
+    margin-left: 12.8rem;
+  
+    @include breakpoint(desktop) {
+      width: 107rem;
+    }
+  
+    @include breakpoint(desktop--Small) {
+      width: 104rem;
+    }
+  
+    @include breakpoint(mobile) {
+      width: 60rem;
+      margin-left: 10rem;
+    }
+  
+    @include breakpoint(mobile--Small) {
+      display: none;
+    }
+  }
+  
+  .hidden {
+    @include breakpoint(mobile--Small) {
+      display: none;
+    }
+  }
+  
