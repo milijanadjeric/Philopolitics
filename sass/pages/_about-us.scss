@@ -422,6 +422,7 @@
 .Team-members {
   display: flex;
   justify-content: space-evenly;
+  margin-bottom: 17rem;
 
   @include breakpoint(mobile--Small)  {
     margin-bottom: 15rem;
