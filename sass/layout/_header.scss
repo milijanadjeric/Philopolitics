@@ -145,6 +145,11 @@ header {
   background-color: rgba(255, 255, 255, 0.6);
   border-top-right-radius: 0.7rem;
   border-top-left-radius: 0.7rem;
+
+  @include breakpoint(mobile--Small) {
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 0.7rem;
+  }
 }
 
 /* Style the subnav content - positioned absolute */
@@ -156,6 +161,10 @@ header {
   border-bottom-left-radius: 0.7rem;
   border-bottom-right-radius: 0.7rem;
   font-family: $font-tr-rg;
+
+  @include breakpoint(mobile--Small) {
+    background-color: transparent;
+  }
 }
 
 /* Style the subnav links */
@@ -355,28 +364,63 @@ input[type="text"]:focus {
   height: 1.6rem;
 }
 
-
 /*  MOBILE NAVIGATION */
 
 .mobile-nav {
   @include breakpoint(mobile--Small) {
-    width: 400px;
-    height: 700px;
+    width: 205px;
+    position: absolute;
+    right: 0;
+    height: 696.5px;
     float: right;
     background-color: $color-footer-text;
     z-index: 333;
+  }
 
-    a {
+  a {
+    @include breakpoint(mobile--Small) {
+      display: block;
+      margin-top: 33rem;
+      font-size: 1.1rem;
+      color: $color-white;
+      padding: 0.5rem 1.2rem;
+      text-decoration: none;
+      font-family: $font-tr-rg;
+      text-transform: uppercase;
+      margin-left: 2rem;
+    }
+    &:last-of-type {
       @include breakpoint(mobile--Small) {
-        display: block;
-        font-size: 1.1rem;
-        color: $color-white;
-        padding: 0.5rem 1.2rem;
-        text-decoration: none;
-        font-family: $font-tr-rg;
-        text-transform: uppercase;
-        margin-left: 2rem;
+        margin-top: 9rem;
       }
+    }
+  }
+
+  div.subnav {
+    @include breakpoint(mobile--Small) {
+      display: block;
+      margin-top: 9rem;
+      margin-left: 2rem;
+    }
+  }
+  div.subnav a {
+    @include breakpoint(mobile--Small) {
+      margin-top: 0.7rem;
+      margin-left: 4rem;
+      text-align: left;
+    }
+  }
+
+  div.languages-mobile p {
+    @include breakpoint(mobile--Small) {
+      display: block;
+      color: $color-white;
+      text-transform: uppercase;
+      font-family: $font-tr-rg;
+      font-size: 1.3rem;
+      letter-spacing: 0.02rem;
+      margin-left: 3.7rem;
+      
     }
   }
 }
@@ -393,3 +437,33 @@ input[type="text"]:focus {
 }
 
 /*  MOBILE NAVIGATION END */
+.languages-mobile {
+  display: none;
+
+  @include breakpoint(mobile--Small) {
+    display: block;
+    margin-left: 1.3rem;
+    
+  }
+
+  p {
+    @include breakpoint(mobile--Small) {
+      display: none;
+    }
+  }
+
+
+}
+
+.languages-mobile a {
+  margin-top: 140px;
+  margin-bottom: 1rem;
+  float: left;
+  
+
+  
+}
+.languages-mobile:last-of-type a {
+ margin-top: 140px;
+  
+}

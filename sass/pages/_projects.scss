@@ -15,18 +15,21 @@
 // ***  SLIDER  ***///
 
 .projectss {
-  height: 125rem;
+  height: 121rem;
 }
 
 // *** this is to move buttons prev and next to left side on page projects ***
 
 .container_projekti .slick-prev {
-  left: 457px;
+  left: 460px;
   margin-bottom: 10rem;
+  top: 1320px;
 }
+
 
 .container_projekti .slick-next {
   right: 600px;
+  top: 1320px;
 
   @include breakpoint(desktop) {
     right: 570px;
@@ -46,7 +49,7 @@
 
 .slider-projects {
   margin-left: 15rem;
-  margin-bottom: 5rem;
+  
 
   @include breakpoint(desktop) {
     margin-left: 15rem;
