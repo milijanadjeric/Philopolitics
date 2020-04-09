@@ -108,7 +108,7 @@ header {
 
 @media (max-width: 364px) {
   .logo {
-    margin-left: .5rem;
+    margin-left: 1rem;
     margin-top: 1.5rem;
   }
 }
@@ -529,6 +529,7 @@ input[type="text"]:focus {
     font-size: 1.3rem;
     letter-spacing: 0.02rem;
     text-align: center;
+    padding-bottom: 1rem;
   }
 }
 
