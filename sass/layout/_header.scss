@@ -31,7 +31,7 @@ header {
   }
 
   @include breakpoint(mobile--Small) {
-    margin-left: 0;
+    margin-left: .5rem;
     margin-top: 1.5rem;
   }
 
@@ -291,7 +291,7 @@ input[type="text"]:focus {
   @include breakpoint(mobile--Small) {
     display: block;
     margin-top: 2.1rem;
-    margin-right: -7rem;
+    margin-right: -5rem;
   }
 
   button {
@@ -371,7 +371,7 @@ input[type="text"]:focus {
     width: 205px;
     position: absolute;
     right: 0;
-    height: 696.5px;
+    height: 697px;
     float: right;
     background-color: $color-footer-text;
     z-index: 333;
@@ -429,7 +429,7 @@ input[type="text"]:focus {
   margin-top: 1.7rem;
   cursor: pointer;
   display: none;
-  margin-right: 0.6rem;
+  margin-right: 0.8rem;
 
   @include breakpoint(mobile--Small) {
     display: inline-block;
