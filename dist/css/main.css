@@ -394,8 +394,8 @@ input[type="text"]:focus {
 @media (max-width: 364px) {
   .search-box-mobile {
     display: block;
-    margin-top: 2.1rem;
-    margin-right: -5rem;
+    margin-top: 1.8rem;
+    margin-right: -2rem;
   }
 }
 
@@ -433,7 +433,7 @@ input[type="text"]:focus {
 
 .overlay .closebtn {
   position: absolute;
-  top: 12px;
+  top: 8px;
   right: 37px;
   font-size: 30px;
   cursor: pointer;
@@ -542,7 +542,7 @@ input[type="text"]:focus {
   margin-top: 1.3rem;
   cursor: pointer;
   display: none;
-  margin-right: 0.8rem;
+  margin-right: 1.8rem;
 }
 
 @media (max-width: 364px) {

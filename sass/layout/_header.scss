@@ -298,8 +298,8 @@ input[type="text"]:focus {
 
   @include breakpoint(mobile--Small) {
     display: block;
-    margin-top: 2.1rem;
-    margin-right: -5rem;
+    margin-top: 1.8rem;
+    margin-right: -2rem;
   }
 
   button {
@@ -337,7 +337,7 @@ input[type="text"]:focus {
 
 .overlay .closebtn {
   position: absolute;
-  top: 12px;
+  top: 8px;
   right: 37px;
   font-size: 30px;
   cursor: pointer;
@@ -452,7 +452,7 @@ button.subnavbtn.mrg-right:nth-of-type(1) {
   margin-top: 1.3rem;
   cursor: pointer;
   display: none;
-  margin-right: 0.8rem;
+  margin-right: 1.8rem;
 
   @include breakpoint(mobile--Small) {
     display: inline-block;
