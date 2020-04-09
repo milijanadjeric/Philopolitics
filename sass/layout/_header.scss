@@ -333,6 +333,8 @@ input[type="text"]:focus {
   text-align: center;
   margin-top: 30px;
   margin: auto;
+  
+
 }
 
 .overlay .closebtn {
@@ -346,13 +348,14 @@ input[type="text"]:focus {
 
 .overlay input[type="text"] {
   padding: 15px;
-  font-size: 17px;
-  border: none;
   float: left;
   width: 100%;
   background: $color-footer-text;
   border: 1px solid rgba(255, 255, 255, 0.9);
   border-radius: 1.9rem;
+  font-family: "Roboto";
+  font-size: 1.3rem;
+  color: $color-white;
 }
 
 .overlay button {
@@ -470,7 +473,7 @@ button.subnavbtn.mrg-right:nth-of-type(1) {
 /*  MOBILE NAVIGATION END */
 .languages-mobile {
   display: none;
-  margin-top: 24rem;
+  margin-top: 23.5rem;
 
   @include breakpoint(mobile--Small) {
     display: flex;

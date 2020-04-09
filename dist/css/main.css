@@ -441,13 +441,14 @@ input[type="text"]:focus {
 
 .overlay input[type="text"] {
   padding: 15px;
-  font-size: 17px;
-  border: none;
   float: left;
   width: 100%;
   background: #322b6c;
   border: 1px solid rgba(255, 255, 255, 0.9);
   border-radius: 1.9rem;
+  font-family: "Roboto";
+  font-size: 1.3rem;
+  color: #FFFFFF;
 }
 
 .overlay button {
@@ -559,7 +560,7 @@ input[type="text"]:focus {
 /*  MOBILE NAVIGATION END */
 .languages-mobile {
   display: none;
-  margin-top: 24rem;
+  margin-top: 23.5rem;
 }
 
 @media (max-width: 364px) {
