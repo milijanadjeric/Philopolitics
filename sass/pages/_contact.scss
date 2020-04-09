@@ -5,7 +5,7 @@
     left bottom,
     color-stop(20%, #322b6c),
     color-stop(53%, #131c6d),
-    color-stop(100%,#b1bff9)
+    color-stop(100%, #b1bff9)
   );
   background-image: linear-gradient(
     to bottom,
@@ -17,27 +17,23 @@
   background-repeat: no-repeat;
 
   @include breakpoint(mobile--Small) {
-
     background-image: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    color-stop(10%, #322b6c),
-    color-stop(65%, #131c6d),
-    color-stop(100%,#b1bff9)
-  );
-  background-image: linear-gradient(
-    to bottom,
-    #322b6c 10%,
-    #131c6d 65%,
-    #b1bff9 100%
-  );
-  background-size: cover;
-  background-repeat: no-repeat;
-
+      linear,
+      left top,
+      left bottom,
+      color-stop(10%, #322b6c),
+      color-stop(65%, #131c6d),
+      color-stop(100%, #b1bff9)
+    );
+    background-image: linear-gradient(
+      to bottom,
+      #322b6c 10%,
+      #131c6d 65%,
+      #b1bff9 100%
+    );
+    background-size: cover;
+    background-repeat: no-repeat;
   }
-
-  
 }
 
 input[type="submit"] {
@@ -61,7 +57,6 @@ input[type="submit"] {
     margin-bottom: 3.5rem;
     font-size: 1.3rem;
   }
- 
 }
 
 input[type="submit"]:hover {
@@ -73,8 +68,6 @@ input[type="submit"]:hover {
   margin-left: 22rem;
   margin-bottom: 5rem;
 
-  
-
   @include breakpoint(mobile) {
     margin-left: 10rem;
     margin-bottom: 55rem;
@@ -82,9 +75,7 @@ input[type="submit"]:hover {
   @include breakpoint(mobile--Small) {
     flex-direction: column-reverse;
     margin: 0;
-    
   }
-  
 
   &_container {
     display: flex;
@@ -93,16 +84,12 @@ input[type="submit"]:hover {
     width: 30%;
     color: rgba(255, 255, 255, 0.5);
     font-family: "Roboto";
-    font-size: 1.2rem; 
+    font-size: 1.2rem;
 
-    @include breakpoint(mobile--Small)   {
+    @include breakpoint(mobile--Small) {
       width: 70%;
       margin: 0 auto;
-      
-    }  
-
-    
-    
+    }
   }
 
   &_heading {
@@ -114,11 +101,10 @@ input[type="submit"]:hover {
     padding-top: 10rem;
 
     @include breakpoint(mobile--Small) {
-     padding-top: 0;
-     padding-bottom: 3rem;
+      padding-top: 0;
+      padding-bottom: 3rem;
       font-size: 1.8rem;
     }
-    
   }
 
   &_data {
@@ -131,24 +117,27 @@ input[type="submit"]:hover {
     margin-bottom: 25px;
     resize: vertical;
     background-color: transparent;
-    
+    font-family: "Roboto";
+    font-size: 1.2rem;
+    color: $color-white;
 
     &_email {
-    width: 100%;
-    border-bottom: 1px $color-white solid;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    outline: none;
-    margin-bottom: 4.3rem;
-    resize: vertical;
-    background-color: transparent;
+      width: 100%;
+      border-bottom: 1px $color-white solid;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      outline: none;
+      margin-bottom: 4.3rem;
+      resize: vertical;
+      background-color: transparent;
+      font-family: "Roboto";
+      font-size: 1.2rem;
+      color: $color-white;
 
-    @include breakpoint(mobile--Small) {
-      margin-bottom: 2.6rem;
-
-    }
-
+      @include breakpoint(mobile--Small) {
+        margin-bottom: 2.6rem;
+      }
     }
 
     &_message {
@@ -163,7 +152,9 @@ input[type="submit"]:hover {
       background-color: transparent;
       max-height: 100px;
       min-height: 100px;
-      
+      font-family: "Roboto";
+    font-size: 1.2rem;
+    color: $color-white;
     }
   }
 
@@ -180,7 +171,7 @@ input[type="submit"]:hover {
       height: 23rem;
       padding-left: 0;
       margin-left: 6rem;
-      margin-bottom: .5rem;
+      margin-bottom: 0.5rem;
     }
   }
 }

@@ -230,9 +230,9 @@ input[type="text"] {
   height: 2.3rem;
   border: 1px solid $color-white;
   color: $color-white;
-  font-family: $font-tr;
+  font-family: $font-rb;
   border-radius: 1.3rem;
-  font-size: 1.9rem;
+  font-size: 1.1rem;
   background-color: transparent;
   transition: width 0.4s ease-in-out;
   -webkit-transition: width 0.4s ease-in-out;
@@ -247,7 +247,7 @@ input[type="text"] {
 /* When the input field gets focus, change its width to 100px */
 
 input[type="text"]:focus {
-  width: 10rem;
+  width: 12rem;
 
   @include breakpoint(mobile--Small) {
     display: none;
@@ -281,7 +281,7 @@ input[type="text"]:focus {
   }
 
   &_search-icon {
-    margin-bottom: 0.1rem;
+    margin-bottom: -.2rem;
 
     @include breakpoint(mobile--Small) {
       width: 2rem;
