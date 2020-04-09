@@ -395,7 +395,6 @@ input[type="text"]:focus {
   .search-box-mobile {
     display: block;
     margin-top: 1.8rem;
-    margin-right: -.5rem;
   }
 }
 
@@ -533,6 +532,13 @@ input[type="text"]:focus {
 }
 
 @media (max-width: 364px) {
+  .mobile-nav a:hover {
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 0.7rem;
+  }
+}
+
+@media (max-width: 364px) {
   button.subnavbtn.mrg-right:nth-of-type(1) {
     margin-bottom: 5rem;
   }
@@ -554,7 +560,7 @@ input[type="text"]:focus {
 /*  MOBILE NAVIGATION END */
 .languages-mobile {
   display: none;
-  margin-top: 23.5rem;
+  margin-top: 24rem;
 }
 
 @media (max-width: 364px) {
