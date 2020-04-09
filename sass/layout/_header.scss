@@ -77,8 +77,6 @@ header {
   @include breakpoint(tablet) {
     margin-top: 3rem;
   }
-
-  
 }
 
 /* Navigation links */
@@ -98,7 +96,6 @@ header {
     display: none;
   }
 }
-
 
 /* The subnavigation menu */
 .subnav {
@@ -164,7 +161,6 @@ header {
   @include breakpoint(mobile--Small) {
     background-color: transparent;
     margin-top: -5rem;
-    
   }
 }
 
@@ -174,7 +170,6 @@ header {
   color: white;
   text-decoration: none;
   margin-right: 0.5rem;
-
 }
 
 /* When you move the mouse over the subnav container, open the subnav content */
@@ -189,13 +184,13 @@ header {
   @include breakpoint(tablet) {
     margin-right: 1rem;
   }
-  
+
   &_border {
-    @include breakpoint (mobile--Small) {
+    @include breakpoint(mobile--Small) {
       margin-right: 5rem;
-    } 
-  } 
-  
+    }
+  }
+
   &_border:hover {
     background-color: rgba(255, 255, 255, 0.6);
     border-radius: 0.7rem;
@@ -281,7 +276,7 @@ input[type="text"]:focus {
   }
 
   &_search-icon {
-    margin-bottom: -.2rem;
+    margin-bottom: -0.2rem;
 
     @include breakpoint(mobile--Small) {
       width: 2rem;
@@ -299,7 +294,6 @@ input[type="text"]:focus {
   @include breakpoint(mobile--Small) {
     display: block;
     margin-top: 1.8rem;
-    
   }
 
   button {
@@ -330,11 +324,20 @@ input[type="text"]:focus {
   position: relative;
   top: 50%;
   width: 80%;
-  text-align: center;
-  margin-top: 30px;
   margin: auto;
-  
+  background-color: $color-footer-text;
+  border: 1px solid rgba(255, 255, 255, 0.9);
+  border-radius: 1.9rem;
+  padding: 0.6rem;
 
+  &_input {
+    background-color: $color-footer-text;
+    width: 90%;
+    border: none;
+    font-family: "Roboto";
+    font-size: 1.3rem;
+    color: $color-white;
+  }
 }
 
 .overlay .closebtn {
@@ -346,28 +349,13 @@ input[type="text"]:focus {
   color: $color-white;
 }
 
-.overlay input[type="text"] {
-  padding: 15px;
-  float: left;
-  width: 100%;
-  background: $color-footer-text;
-  border: 1px solid rgba(255, 255, 255, 0.9);
-  border-radius: 1.9rem;
-  font-family: "Roboto";
-  font-size: 1.3rem;
-  color: $color-white;
-}
 
 .overlay button {
-  float: left;
+  float: right;
   width: 10%;
   background: $color-footer-text;
-  padding-top: 0.5rem;
-  padding-bottom: 0.2rem;
   border: none;
   cursor: pointer;
-  margin-left: -3.8rem;
-  margin-top: 0.3rem;
 }
 
 .overlay-search-icon {
@@ -378,16 +366,14 @@ input[type="text"]:focus {
 /*  MOBILE NAVIGATION */
 
 .mobile-nav {
-  
   @include breakpoint(mobile--Small) {
     width: 205px;
     position: absolute;
     right: 0;
-    height: 682px;
+    height: 678px;
     float: right;
     background-color: $color-footer-text;
     z-index: 333;
-    
   }
 
   a {
@@ -401,12 +387,11 @@ input[type="text"]:focus {
       font-family: $font-tr-rg;
       text-transform: uppercase;
       margin-left: 2rem;
-    } 
-  } 
+    }
+  }
   a:first-of-type {
     margin-top: 1.8rem;
   }
-  
 
   div.subnav {
     @include breakpoint(mobile--Small) {
@@ -418,14 +403,12 @@ input[type="text"]:focus {
     @include breakpoint(mobile--Small) {
       margin-top: 5rem;
     }
-
   }
   div.subnav a {
     @include breakpoint(mobile--Small) {
       margin-top: 0;
       margin-left: 6rem;
       text-align: left;
-      
     }
   }
 
@@ -438,8 +421,6 @@ input[type="text"]:focus {
       font-size: 1.3rem;
       letter-spacing: 0.02rem;
       text-align: center;
-      
-      
     }
   }
 }
@@ -447,16 +428,12 @@ input[type="text"]:focus {
 .mobile-nav a:hover {
   @include breakpoint(mobile--Small) {
     background-color: transparent;
-    
   }
 }
 button.subnavbtn.mrg-right:nth-of-type(1) {
   @include breakpoint(mobile--Small) {
     margin-bottom: 5rem;
-    
   }
-
-
 }
 
 .mobile-nav-icon {
@@ -483,10 +460,7 @@ button.subnavbtn.mrg-right:nth-of-type(1) {
     @include breakpoint(mobile--Small) {
       margin-left: 2.5rem;
     }
-
-    
   }
-
 }
 
 .home-mobile {
@@ -495,7 +469,6 @@ button.subnavbtn.mrg-right:nth-of-type(1) {
   @include breakpoint(mobile--Small) {
     display: block;
   }
-
 }
 
 .languages-mobile a {
@@ -503,8 +476,4 @@ button.subnavbtn.mrg-right:nth-of-type(1) {
   margin-bottom: 1rem;
   float: left;
   padding-left: 0;
-  
-
-  
 }
-

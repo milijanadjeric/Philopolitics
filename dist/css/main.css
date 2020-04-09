@@ -375,7 +375,7 @@ input[type="text"]:focus {
 }
 
 .search-box_search-icon {
-  margin-bottom: -.2rem;
+  margin-bottom: -0.2rem;
 }
 
 @media (max-width: 364px) {
@@ -425,9 +425,20 @@ input[type="text"]:focus {
   position: relative;
   top: 50%;
   width: 80%;
-  text-align: center;
-  margin-top: 30px;
   margin: auto;
+  background-color: #322b6c;
+  border: 1px solid rgba(255, 255, 255, 0.9);
+  border-radius: 1.9rem;
+  padding: 0.6rem;
+}
+
+.overlay-content_input {
+  background-color: #322b6c;
+  width: 90%;
+  border: none;
+  font-family: "Roboto";
+  font-size: 1.3rem;
+  color: #FFFFFF;
 }
 
 .overlay .closebtn {
@@ -439,28 +450,12 @@ input[type="text"]:focus {
   color: #FFFFFF;
 }
 
-.overlay input[type="text"] {
-  padding: 15px;
-  float: left;
-  width: 100%;
-  background: #322b6c;
-  border: 1px solid rgba(255, 255, 255, 0.9);
-  border-radius: 1.9rem;
-  font-family: "Roboto";
-  font-size: 1.3rem;
-  color: #FFFFFF;
-}
-
 .overlay button {
-  float: left;
+  float: right;
   width: 10%;
   background: #322b6c;
-  padding-top: 0.5rem;
-  padding-bottom: 0.2rem;
   border: none;
   cursor: pointer;
-  margin-left: -3.8rem;
-  margin-top: 0.3rem;
 }
 
 .overlay-search-icon {
@@ -474,7 +469,7 @@ input[type="text"]:focus {
     width: 205px;
     position: absolute;
     right: 0;
-    height: 682px;
+    height: 678px;
     float: right;
     background-color: #322b6c;
     z-index: 333;
