@@ -160,12 +160,6 @@ header {
   }
 }
 
-@media (max-width: 364px) {
-  .navbar {
-    margin-top: 0;
-  }
-}
-
 /* Navigation links */
 .navbar a {
   float: left;
@@ -253,6 +247,7 @@ header {
 @media (max-width: 364px) {
   .subnav-content {
     background-color: transparent;
+    margin-top: -5rem;
   }
 }
 
@@ -277,6 +272,12 @@ header {
 @media (max-width: 1280px) {
   .mrg-right {
     margin-right: 1rem;
+  }
+}
+
+@media (max-width: 364px) {
+  .mrg-right_border {
+    margin-right: 5rem;
   }
 }
 
@@ -483,7 +484,7 @@ input[type="text"]:focus {
 @media (max-width: 364px) {
   .mobile-nav a {
     display: block;
-    margin-top: 33rem;
+    margin-top: 5rem;
     font-size: 1.1rem;
     color: #FFFFFF;
     padding: 0.5rem 1.2rem;
@@ -494,24 +495,27 @@ input[type="text"]:focus {
   }
 }
 
-@media (max-width: 364px) {
-  .mobile-nav a:last-of-type {
-    margin-top: 9rem;
-  }
+.mobile-nav a:first-of-type {
+  margin-top: 1.8rem;
 }
 
 @media (max-width: 364px) {
   .mobile-nav div.subnav {
     display: block;
-    margin-top: 9rem;
     margin-left: 2rem;
   }
 }
 
 @media (max-width: 364px) {
+  .mobile-nav div.subnav:first-of-type {
+    margin-top: 5rem;
+  }
+}
+
+@media (max-width: 364px) {
   .mobile-nav div.subnav a {
-    margin-top: 0.7rem;
-    margin-left: 4rem;
+    margin-top: 0;
+    margin-left: 6rem;
     text-align: left;
   }
 }
@@ -524,12 +528,18 @@ input[type="text"]:focus {
     font-family: "truenoregular";
     font-size: 1.3rem;
     letter-spacing: 0.02rem;
-    margin-left: 3.7rem;
+    text-align: center;
+  }
+}
+
+@media (max-width: 364px) {
+  button.subnavbtn.mrg-right:nth-of-type(1) {
+    margin-bottom: 5rem;
   }
 }
 
 .mobile-nav-icon {
-  margin-top: 1.7rem;
+  margin-top: 1.3rem;
   cursor: pointer;
   display: none;
   margin-right: 0.8rem;
@@ -544,29 +554,42 @@ input[type="text"]:focus {
 /*  MOBILE NAVIGATION END */
 .languages-mobile {
   display: none;
+  margin-top: 26rem;
 }
 
 @media (max-width: 364px) {
   .languages-mobile {
-    display: block;
-    margin-left: 1.3rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }
 
 @media (max-width: 364px) {
-  .languages-mobile p {
-    display: none;
+  .languages-mobile_img {
+    margin-left: 2.5rem;
+  }
+}
+
+.home-mobile {
+  display: none;
+}
+
+@media (max-width: 364px) {
+  .home-mobile {
+    display: block;
   }
 }
 
 .languages-mobile a {
-  margin-top: 140px;
+  margin-top: 1.8rem;
   margin-bottom: 1rem;
   float: left;
-}
-
-.languages-mobile:last-of-type a {
-  margin-top: 140px;
+  padding-left: 0;
 }
 
 .Networks {

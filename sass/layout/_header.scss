@@ -78,9 +78,7 @@ header {
     margin-top: 3rem;
   }
 
-  @include breakpoint(mobile--Small) {
-    margin-top: 0;
-  }
+  
 }
 
 /* Navigation links */
@@ -100,6 +98,7 @@ header {
     display: none;
   }
 }
+
 
 /* The subnavigation menu */
 .subnav {
@@ -164,6 +163,8 @@ header {
 
   @include breakpoint(mobile--Small) {
     background-color: transparent;
+    margin-top: -5rem;
+    
   }
 }
 
@@ -173,6 +174,7 @@ header {
   color: white;
   text-decoration: none;
   margin-right: 0.5rem;
+
 }
 
 /* When you move the mouse over the subnav container, open the subnav content */
@@ -187,7 +189,13 @@ header {
   @include breakpoint(tablet) {
     margin-right: 1rem;
   }
-
+  
+  &_border {
+    @include breakpoint (mobile--Small) {
+      margin-right: 5rem;
+    } 
+  } 
+  
   &_border:hover {
     background-color: rgba(255, 255, 255, 0.6);
     border-radius: 0.7rem;
@@ -367,7 +375,9 @@ input[type="text"]:focus {
 /*  MOBILE NAVIGATION */
 
 .mobile-nav {
+  
   @include breakpoint(mobile--Small) {
+   
     width: 205px;
     position: absolute;
     right: 0;
@@ -380,7 +390,7 @@ input[type="text"]:focus {
   a {
     @include breakpoint(mobile--Small) {
       display: block;
-      margin-top: 33rem;
+      margin-top: 5rem;
       font-size: 1.1rem;
       color: $color-white;
       padding: 0.5rem 1.2rem;
@@ -388,26 +398,31 @@ input[type="text"]:focus {
       font-family: $font-tr-rg;
       text-transform: uppercase;
       margin-left: 2rem;
-    }
-    &:last-of-type {
-      @include breakpoint(mobile--Small) {
-        margin-top: 9rem;
-      }
-    }
+    } 
+  } 
+  a:first-of-type {
+    margin-top: 1.8rem;
   }
+  
 
   div.subnav {
     @include breakpoint(mobile--Small) {
       display: block;
-      margin-top: 9rem;
       margin-left: 2rem;
     }
   }
+  div.subnav:first-of-type {
+    @include breakpoint(mobile--Small) {
+      margin-top: 5rem;
+    }
+
+  }
   div.subnav a {
     @include breakpoint(mobile--Small) {
-      margin-top: 0.7rem;
-      margin-left: 4rem;
+      margin-top: 0;
+      margin-left: 6rem;
       text-align: left;
+      
     }
   }
 
@@ -419,14 +434,22 @@ input[type="text"]:focus {
       font-family: $font-tr-rg;
       font-size: 1.3rem;
       letter-spacing: 0.02rem;
-      margin-left: 3.7rem;
+      text-align: center;
       
     }
   }
 }
+button.subnavbtn.mrg-right:nth-of-type(1) {
+  @include breakpoint(mobile--Small) {
+    margin-bottom: 5rem;
+    
+  }
+
+
+}
 
 .mobile-nav-icon {
-  margin-top: 1.7rem;
+  margin-top: 1.3rem;
   cursor: pointer;
   display: none;
   margin-right: 0.8rem;
@@ -439,31 +462,43 @@ input[type="text"]:focus {
 /*  MOBILE NAVIGATION END */
 .languages-mobile {
   display: none;
+  margin-top: 26rem;
 
   @include breakpoint(mobile--Small) {
-    display: block;
-    margin-left: 1.3rem;
+    display: flex;
+    flex-direction: column;
+  }
+  &_img {
+    @include breakpoint(mobile--Small) {
+      margin-left: 2.5rem;
+    }
+
     
   }
 
   p {
-    @include breakpoint(mobile--Small) {
-      display: none;
-    }
+    
   }
 
 
 }
 
+.home-mobile {
+  display: none;
+
+  @include breakpoint(mobile--Small) {
+    display: block;
+  }
+
+}
+
 .languages-mobile a {
-  margin-top: 140px;
+  margin-top: 1.8rem;
   margin-bottom: 1rem;
   float: left;
+  padding-left: 0;
   
 
   
 }
-.languages-mobile:last-of-type a {
- margin-top: 140px;
-  
-}
+
