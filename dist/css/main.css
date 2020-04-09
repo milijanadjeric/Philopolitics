@@ -533,8 +533,7 @@ input[type="text"]:focus {
 
 @media (max-width: 364px) {
   .mobile-nav a:hover {
-    background-color: rgba(255, 255, 255, 0.6);
-    border-radius: 0.7rem;
+    background-color: transparent;
   }
 }
 
