@@ -299,7 +299,7 @@ input[type="text"]:focus {
   @include breakpoint(mobile--Small) {
     display: block;
     margin-top: 1.8rem;
-    margin-right: -2rem;
+    margin-right: -.5rem;
   }
 
   button {
@@ -377,14 +377,14 @@ input[type="text"]:focus {
 .mobile-nav {
   
   @include breakpoint(mobile--Small) {
-   
     width: 205px;
     position: absolute;
     right: 0;
-    height: 697px;
+    height: 680px;
     float: right;
     background-color: $color-footer-text;
     z-index: 333;
+    
   }
 
   a {
@@ -435,7 +435,7 @@ input[type="text"]:focus {
       font-size: 1.3rem;
       letter-spacing: 0.02rem;
       text-align: center;
-      padding-bottom: 1rem;
+      
       
     }
   }
@@ -463,7 +463,7 @@ button.subnavbtn.mrg-right:nth-of-type(1) {
 /*  MOBILE NAVIGATION END */
 .languages-mobile {
   display: none;
-  margin-top: 26rem;
+  margin-top: 23.5rem;
 
   @include breakpoint(mobile--Small) {
     display: flex;
@@ -476,11 +476,6 @@ button.subnavbtn.mrg-right:nth-of-type(1) {
 
     
   }
-
-  p {
-    
-  }
-
 
 }
 

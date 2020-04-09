@@ -23,13 +23,13 @@
     left top,
     left bottom,
     color-stop(10%, #322b6c),
-    color-stop(70%, #131c6d),
+    color-stop(65%, #131c6d),
     color-stop(100%,#b1bff9)
   );
   background-image: linear-gradient(
     to bottom,
     #322b6c 10%,
-    #131c6d 70%,
+    #131c6d 65%,
     #b1bff9 100%
   );
   background-size: cover;
@@ -143,6 +143,11 @@ input[type="submit"]:hover {
     margin-bottom: 4.3rem;
     resize: vertical;
     background-color: transparent;
+
+    @include breakpoint(mobile--Small) {
+      margin-bottom: 2.5rem;
+
+    }
 
     }
 
