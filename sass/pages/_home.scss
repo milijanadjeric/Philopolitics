@@ -219,7 +219,7 @@
   display: flex;
   justify-content: space-around;
   color: $color-blue;
-  margin-top: 3rem;
+  margin-top: 1rem;
   margin-bottom: 1rem;
 
   @include breakpoint (mobile) {
@@ -284,29 +284,32 @@
     }
   }
 
+  &_img {
+
+    margin-top: -.5rem;
+
+    @include breakpoint (desktop)  {
+      margin-left: 3rem;
+    }
+
+  }
+
   a {
     padding-left: 1rem;
-    text-decoration: none;
 
     @include breakpoint(mobile--Small) {
       padding-left: 2rem;
-    }
-    
-    :hover {
-      fill: #2a245b;
-    }
-  }
-  img {
-    margin-top: -.5rem;
-  }
+    } 
+  }    
 }
+
 .socials-mobile {
  display: none;
 
   @include breakpoint(mobile--Small) {
     display: block;
     margin-top: 1rem;
-    margin-bottom: 3rem;
+    margin-bottom: 2.5rem;
     text-align: center;
     
     a {

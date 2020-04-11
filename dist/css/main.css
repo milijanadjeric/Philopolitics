@@ -681,19 +681,35 @@ input[type="text"]:focus {
   text-decoration: none;
 }
 
-.slidebox {
-  margin-left: 10rem;
+.autoplay .slick-list {
+  padding-right: 30rem;
+  padding-left: 9rem;
+}
+
+@media (max-width: 1323px) {
+  .autoplay .slick-list {
+    padding-right: 20rem;
+    padding-left: 10.5rem;
+  }
 }
 
 @media (max-width: 1282px) {
-  .slidebox {
-    margin-left: 7rem;
+  .autoplay .slick-list {
+    padding-right: 26rem;
+    padding-left: 7.5rem;
+  }
+}
+
+@media (max-width: 1280px) {
+  .autoplay .slick-list {
+    padding-right: 25rem;
   }
 }
 
 @media (max-width: 364px) {
-  .slidebox {
-    margin-left: .5rem;
+  .autoplay .slick-list {
+    padding-right: 0;
+    padding-left: 3rem;
   }
 }
 
@@ -701,7 +717,13 @@ input[type="text"]:focus {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 15rem;
+  height: 17rem;
+}
+
+@media (max-width: 364px) {
+  .slidebox_content {
+    height: 13.5rem;
+  }
 }
 
 .slidebox_circle {
@@ -711,12 +733,20 @@ input[type="text"]:focus {
   background-color: #FFFFFF;
   -webkit-box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.25);
           box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.25);
-  margin-top: 2.5rem;
+  margin-top: 3.5rem;
+}
+
+@media (max-width: 364px) {
+  .slidebox_circle {
+    width: 7rem;
+    height: 7rem;
+    margin-top: 2.5rem;
+  }
 }
 
 .slidebox_card {
-  width: 31rem;
-  height: 13rem;
+  width: 35rem;
+  height: 15rem;
   background-color: #7630E5;
   -webkit-box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.25);
           box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.25);
@@ -725,32 +755,65 @@ input[type="text"]:focus {
   z-index: -1;
 }
 
+@media (max-width: 364px) {
+  .slidebox_card {
+    width: 27rem;
+    height: 12rem;
+  }
+}
+
 .slidebox_card_heading {
   color: #FFFFFF;
   font-size: 1.7rem;
   font-family: "GilroyExtraBold";
-  padding: 2rem 0 1rem 5.5rem;
+  padding: 3rem 0 1rem 6.5rem;
+}
+
+@media (max-width: 364px) {
+  .slidebox_card_heading {
+    font-size: 1.5rem;
+    padding: 1.5rem 0 .5rem 6.5rem;
+  }
 }
 
 .slidebox_card_text-left {
   color: #DADADA;
   font-size: 1.3rem;
   font-family: "GilroyExtraBold";
-  padding: 0 1.7rem 0 5.7rem;
+  padding: 0 4.5rem 0 6.5rem;
+}
+
+@media (max-width: 364px) {
+  .slidebox_card_text-left {
+    font-size: 1.2rem;
+  }
 }
 
 .slidebox_card_text-center {
   color: #DADADA;
   font-size: 1.3rem;
   font-family: "GilroyExtraBold";
-  padding: 0 7rem 0 5.7rem;
+  padding: 0 9rem 0 6.5rem;
+}
+
+@media (max-width: 364px) {
+  .slidebox_card_text-center {
+    font-size: 1.2rem;
+    padding: 0 3rem 0 6.5rem;
+  }
 }
 
 .slidebox_card_text-right {
   color: #DADADA;
   font-size: 1.3rem;
   font-family: "GilroyExtraBold";
-  padding: 0 1.5rem 0 5.7rem;
+  padding: 0 5rem 0 6.5rem;
+}
+
+@media (max-width: 364px) {
+  .slidebox_card_text-right {
+    font-size: 1.2rem;
+  }
 }
 
 .btn_readmore {
@@ -2895,7 +2958,7 @@ input[type="submit"]:hover {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   color: #131C6D;
-  margin-top: 3rem;
+  margin-top: 1rem;
   margin-bottom: 1rem;
 }
 
@@ -2975,23 +3038,24 @@ input[type="submit"]:hover {
   }
 }
 
+.socials_img {
+  margin-top: -.5rem;
+}
+
+@media (max-width: 1323px) {
+  .socials_img {
+    margin-left: 3rem;
+  }
+}
+
 .socials a {
   padding-left: 1rem;
-  text-decoration: none;
 }
 
 @media (max-width: 364px) {
   .socials a {
     padding-left: 2rem;
   }
-}
-
-.socials a :hover {
-  fill: #2a245b;
-}
-
-.socials img {
-  margin-top: -.5rem;
 }
 
 .socials-mobile {
@@ -3002,7 +3066,7 @@ input[type="submit"]:hover {
   .socials-mobile {
     display: block;
     margin-top: 1rem;
-    margin-bottom: 3rem;
+    margin-bottom: 2.5rem;
     text-align: center;
   }
   .socials-mobile a {

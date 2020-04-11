@@ -97,7 +97,8 @@
         <!-- NAVIGATION -->
 
 
-        <nav class="navbar" class="mobile-nav" id="myMobile">
+        <div class="navbar" class="mobile-nav" id="myMobile">
+            <a class="home-mobile" href="index.html">home</a>
             <div class="subnav">
                 <button class="subnavbtn mrg-right">What we do<i class="subnav_down"></i></button>
                 <div class="subnav-content">
@@ -115,7 +116,17 @@
             </div>
             <a href="about-us.html" class="mrg-right mrg-right_border">About us</a>
             <a href="contact.html" class="mrg-right mrg-right_border">Contact</a>
-        </nav>
+
+            <div class="languages-mobile">
+                <div class="languages-mobile_img">
+                    <a href="404.html"><img src="img/SFRJ.svg" alt=""></a>
+                    <a href="404.html"><img src="img/UK.svg" alt=""></a>
+                </div>
+                <p>privacy policy</p>
+            </div>
+        </div>
+
+
         <!-- NAVIGATION  END -->
 
         <!-- SEARCH-BOX ON MOBILE DEVICE -->
@@ -123,29 +134,29 @@
             <span class="closebtn" onclick="closeSearch()" title="Close Overlay">×</span>
             <div class="overlay-content">
                 <form action="/action_page.php">
-                    <input type="text" placeholder="" name="search">
+                    <input class="overlay-content_input" placeholder="" name="search" maxlength="40">
                     <button type="submit"><svg class="overlay-search-icon" width="11" height="10" viewBox="0 0 11 10"
-                        fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path id="Vector"
-                            d="M8.10397 6.28931H7.65229L7.49219 6.13493C8.05251 5.48313 8.38985 4.63694 8.38985 3.71641C8.38985 1.66381 6.72604 0 4.67344 0C2.62084 0 0.957031 1.66381 0.957031 3.71641C0.957031 5.76901 2.62084 7.43282 4.67344 7.43282C5.59397 7.43282 6.44016 7.09548 7.09197 6.53516L7.24634 6.69525V7.14694L10.1051 10L10.957 9.14808L8.10397 6.28931ZM4.67344 6.28931C3.24977 6.28931 2.10054 5.14008 2.10054 3.71641C2.10054 2.29274 3.24977 1.14351 4.67344 1.14351C6.09711 1.14351 7.24634 2.29274 7.24634 3.71641C7.24634 5.14008 6.09711 6.28931 4.67344 6.28931Z"
-                            fill="white" fill-opacity="1" />
-                    </svg></button>
+                            fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path id="Vector"
+                                d="M8.10397 6.28931H7.65229L7.49219 6.13493C8.05251 5.48313 8.38985 4.63694 8.38985 3.71641C8.38985 1.66381 6.72604 0 4.67344 0C2.62084 0 0.957031 1.66381 0.957031 3.71641C0.957031 5.76901 2.62084 7.43282 4.67344 7.43282C5.59397 7.43282 6.44016 7.09548 7.09197 6.53516L7.24634 6.69525V7.14694L10.1051 10L10.957 9.14808L8.10397 6.28931ZM4.67344 6.28931C3.24977 6.28931 2.10054 5.14008 2.10054 3.71641C2.10054 2.29274 3.24977 1.14351 4.67344 1.14351C6.09711 1.14351 7.24634 2.29274 7.24634 3.71641C7.24634 5.14008 6.09711 6.28931 4.67344 6.28931Z"
+                                fill="white" fill-opacity="1" />
+                        </svg></button>
                 </form>
             </div>
         </div>
         <div class="search-box-mobile">
-                <button type="submit" onclick="openSearch()"><svg class="icon" width="11" height="10"
-                        viewBox="0 0 11 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path id="Vector"
-                            d="M8.10397 6.28931H7.65229L7.49219 6.13493C8.05251 5.48313 8.38985 4.63694 8.38985 3.71641C8.38985 1.66381 6.72604 0 4.67344 0C2.62084 0 0.957031 1.66381 0.957031 3.71641C0.957031 5.76901 2.62084 7.43282 4.67344 7.43282C5.59397 7.43282 6.44016 7.09548 7.09197 6.53516L7.24634 6.69525V7.14694L10.1051 10L10.957 9.14808L8.10397 6.28931ZM4.67344 6.28931C3.24977 6.28931 2.10054 5.14008 2.10054 3.71641C2.10054 2.29274 3.24977 1.14351 4.67344 1.14351C6.09711 1.14351 7.24634 2.29274 7.24634 3.71641C7.24634 5.14008 6.09711 6.28931 4.67344 6.28931Z"
-                            fill="white" fill-opacity="1" />
-                    </svg></button>
+            <button type="submit" onclick="openSearch()"><svg class="icon" width="11" height="10" viewBox="0 0 11 10"
+                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path id="Vector"
+                        d="M8.10397 6.28931H7.65229L7.49219 6.13493C8.05251 5.48313 8.38985 4.63694 8.38985 3.71641C8.38985 1.66381 6.72604 0 4.67344 0C2.62084 0 0.957031 1.66381 0.957031 3.71641C0.957031 5.76901 2.62084 7.43282 4.67344 7.43282C5.59397 7.43282 6.44016 7.09548 7.09197 6.53516L7.24634 6.69525V7.14694L10.1051 10L10.957 9.14808L8.10397 6.28931ZM4.67344 6.28931C3.24977 6.28931 2.10054 5.14008 2.10054 3.71641C2.10054 2.29274 3.24977 1.14351 4.67344 1.14351C6.09711 1.14351 7.24634 2.29274 7.24634 3.71641C7.24634 5.14008 6.09711 6.28931 4.67344 6.28931Z"
+                        fill="white" fill-opacity="1" />
+                </svg></button>
         </div>
         <!-- SEARCH-BOX ON MOBILE DEVICE  END -->
 
         <div class="search-box">
-            <form class="search-box_form" action="action_page.php">
-                <input type="text" name="search" placeholder="">
+            <form class="search-box_form" action="/action_page.php">
+                <input type="text" name="search" placeholder="" maxlength="19">
                 <button type="submit"><svg class="search-box_search-icon" width="11" height="10" viewBox="0 0 11 10"
                         fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path id="Vector"
@@ -157,8 +168,8 @@
 
         <div class="languages">
 
-            <a href="#"><img class="languages_img" src="img/SFRJ.svg" alt=""></a>
-            <a href="#"><img src="img/UK.svg" alt=""></a>
+            <a href="404.html"><img class="languages_img" src="img/SFRJ.svg" alt=""></a>
+            <a href="404.html"><img src="img/UK.svg" alt=""></a>
         </div>
 
         <a href="javascript:void(0);" onclick="myFunction()" class="mobile-nav-icon">
@@ -168,6 +179,7 @@
                     <path id="Vector" d="M3 18H21V16H3V18ZM3 13H21V11H3V13ZM3 6V8H21V6H3Z" fill="white"></path>
                 </g>
             </svg></a>
+
 
     </header>
 
@@ -282,7 +294,7 @@
         <p class="socials_policy">Privacy Policy</p>
         <p class="socials_followus">Pratite nas</p>
 
-        <div>
+        <div class="socials_img">
             <a href="#"><img src="img/Facebook_white.svg" alt=""></a>
             <a href="#"><img src="img/Instagram.svg" alt=""></a>
             <a href="#"><img src="img/Youtube.svg" alt=""></a>
@@ -328,7 +340,7 @@
         /*  SLICK SLIDER*/
 
         $('.autoplay').slick({
-            slidesToShow: 3,
+            slidesToShow: 2,
             slidesToScroll: 1,
             autoplaySpeed: 1500,
             arrows: false,
