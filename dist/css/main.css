@@ -3065,7 +3065,7 @@ input[type="submit"]:hover {
 @media (max-width: 360px) {
   .socials-mobile {
     display: block;
-    margin-top: 1.4rem;
+    margin-top: 1.5rem;
     margin-bottom: 2.5rem;
     text-align: center;
   }
