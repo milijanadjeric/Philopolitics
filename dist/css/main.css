@@ -2605,7 +2605,7 @@ input[type="submit"] {
 
 @media (max-width: 360px) {
   input[type="submit"] {
-    margin-bottom: 3.5rem;
+    margin-bottom: 3.7rem;
     font-size: 1.3rem;
   }
 }
@@ -2745,10 +2745,9 @@ input[type="submit"]:hover {
 
 @media (max-width: 360px) {
   .contact img {
-    width: 23rem;
-    height: 23rem;
+    width: 19.5rem;
     padding-left: 0;
-    margin-left: 6rem;
+    margin-left: 8.2rem;
     margin-bottom: 0.5rem;
   }
 }

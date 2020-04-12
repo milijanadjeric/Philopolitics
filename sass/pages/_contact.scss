@@ -54,7 +54,7 @@ input[type="submit"] {
     margin-bottom: 14.5rem;
   }
   @include breakpoint(mobile--Small) {
-    margin-bottom: 3.5rem;
+    margin-bottom: 3.7rem;
     font-size: 1.3rem;
   }
 }
@@ -167,10 +167,9 @@ input[type="submit"]:hover {
       width: 45rem;
     }
     @include breakpoint(mobile--Small) {
-      width: 23rem;
-      height: 23rem;
+      width: 19.5rem;
       padding-left: 0;
-      margin-left: 6rem;
+      margin-left: 8.2rem;
       margin-bottom: 0.5rem;
     }
   }
