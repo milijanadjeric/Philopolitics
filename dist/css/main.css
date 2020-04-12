@@ -1019,8 +1019,8 @@ input[type="text"]:focus {
 
 @media (max-width: 360px) {
   .gradient-effect-4 {
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(10%, #322b6c), color-stop(70%, #131c6d), to(#b1bff9));
-    background-image: linear-gradient(to bottom, #322b6c 10%, #131c6d 70%, #b1bff9 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(10%, #322b6c), color-stop(73%, #131c6d), to(#b1bff9));
+    background-image: linear-gradient(to bottom, #322b6c 10%, #131c6d 73%, #b1bff9 100%);
     background-size: cover;
     background-repeat: no-repeat;
   }
@@ -1068,7 +1068,7 @@ input[type="text"]:focus {
 @media (max-width: 360px) {
   .main_text {
     margin-top: 6.5rem;
-    margin-left: 3rem;
+    margin-left: 3.7rem;
   }
 }
 
@@ -1126,10 +1126,10 @@ input[type="text"]:focus {
 
 @media (max-width: 360px) {
   .main img {
-    width: 26rem;
+    width: 20rem;
     margin-top: 4rem;
-    margin-bottom: 6rem;
-    margin-left: 5rem;
+    margin-bottom: 6.1rem;
+    margin-left: 8rem;
   }
 }
 
