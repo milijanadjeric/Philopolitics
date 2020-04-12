@@ -95,6 +95,7 @@
                     fill="#322B6C" stroke="white" stroke-miterlimit="3"></path>
             </svg>
 
+
             <!-- LOGO END -->
 
             <p class="logo_text">nezavisni <br>istraživački <br>centar</p>
@@ -102,12 +103,14 @@
 
         <!-- NAVIGATION -->
 
+
         <div class="navbar" class="mobile-nav" id="myMobile">
+            <a class="home-mobile" href="index.html">home</a>
             <div class="subnav">
                 <button class="subnavbtn mrg-right">What we do<i class="subnav_down"></i></button>
                 <div class="subnav-content">
                     <a href="projects.html">Projects</a>
-                    <a href="#">Publications</a>
+                    <a href="publications.html">Publications</a>
                 </div>
             </div>
             <div class="subnav">
@@ -120,18 +123,25 @@
             </div>
             <a href="about-us.html" class="mrg-right mrg-right_border">About us</a>
             <a href="contact.html" class="mrg-right mrg-right_border">Contact</a>
+
+            <div class="languages-mobile">
+                <div class="languages-mobile_img">
+                    <a href="404.html"><img src="img/SFRJ.svg" alt=""></a>
+                    <a href="404.html"><img src="img/UK.svg" alt=""></a>
+                </div>
+                <p>privacy policy</p>
+            </div>
         </div>
 
+
         <!-- NAVIGATION  END -->
-
-
 
         <!-- SEARCH-BOX ON MOBILE DEVICE -->
         <div id="myOverlay" class="overlay">
             <span class="closebtn" onclick="closeSearch()" title="Close Overlay">×</span>
             <div class="overlay-content">
                 <form action="/action_page.php">
-                    <input type="text" placeholder="" name="search">
+                    <input class="overlay-content_input" placeholder="" name="search" maxlength="40">
                     <button type="submit"><svg class="overlay-search-icon" width="11" height="10" viewBox="0 0 11 10"
                             fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path id="Vector"
@@ -152,8 +162,8 @@
         <!-- SEARCH-BOX ON MOBILE DEVICE  END -->
 
         <div class="search-box">
-            <form class="search-box_form" action="action_page.php">
-                <input type="text" name="search" placeholder="">
+            <form class="search-box_form" action="/action_page.php">
+                <input type="text" name="search" placeholder="" maxlength="19">
                 <button type="submit"><svg class="search-box_search-icon" width="11" height="10" viewBox="0 0 11 10"
                         fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path id="Vector"
@@ -165,8 +175,8 @@
 
         <div class="languages">
 
-            <a href="#"><img class="languages_img" src="img/SFRJ.svg" alt=""></a>
-            <a href="#"><img src="img/UK.svg" alt=""></a>
+            <a href="404.html"><img class="languages_img" src="img/SFRJ.svg" alt=""></a>
+            <a href="404.html"><img src="img/UK.svg" alt=""></a>
         </div>
 
         <a href="javascript:void(0);" onclick="myFunction()" class="mobile-nav-icon">
@@ -176,8 +186,9 @@
                     <path id="Vector" d="M3 18H21V16H3V18ZM3 13H21V11H3V13ZM3 6V8H21V6H3Z" fill="white"></path>
                 </g>
             </svg></a>
-    </header>
 
+
+    </header>
 
     <section>
         <!-- SATURN -->
