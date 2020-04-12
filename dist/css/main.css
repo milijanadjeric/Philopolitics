@@ -1949,12 +1949,6 @@ input[type="text"]:focus {
   padding-bottom: 2rem;
 }
 
-@media (max-width: 360px) {
-  .Aleksandar_bio_text p {
-    padding-bottom: 1.5rem;
-  }
-}
-
 .tekstovi_autora {
   font-family: "TruenoBold";
   font-size: 1.8rem;
