@@ -38,6 +38,8 @@
     @include breakpoint(mobile--Small) {
       width: 6.2rem;
       margin-left: 15rem;
+      padding-top: .6rem;
+      padding-bottom: .6rem;
     }
   }
 
@@ -60,9 +62,7 @@
 
     p {
       padding-bottom: 2rem;
-      @include breakpoint(mobile--Small) {
-        padding-bottom: 2.2rem; 
-      }
+     
     }
   }
 }
