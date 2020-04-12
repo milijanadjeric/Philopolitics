@@ -60,9 +60,9 @@
 
     p {
       padding-bottom: 2rem;
-      // @include breakpoint(mobile--Small) {
-      //   padding-bottom: 1.9rem; 
-      // }
+      @include breakpoint(mobile--Small) {
+        padding-bottom: 2.2rem; 
+      }
     }
   }
 }
