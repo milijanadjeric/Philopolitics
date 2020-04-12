@@ -3091,7 +3091,7 @@ input[type="submit"]:hover {
 @media (max-width: 360px) {
   .main-section {
     display: block;
-    margin-top: 3.5rem;
+    margin-top: 3.1rem;
     margin-left: 3.1rem;
     margin-bottom: 8.6rem;
   }
