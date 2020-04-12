@@ -1904,7 +1904,7 @@ input[type="text"]:focus {
     padding-left: 0;
     padding-right: 0;
     padding-bottom: 0;
-    padding-top: 1.5rem;
+    padding-top: 1rem;
   }
 }
 
@@ -1947,12 +1947,6 @@ input[type="text"]:focus {
 
 .Aleksandar_bio_text p {
   padding-bottom: 2rem;
-}
-
-@media (max-width: 360px) {
-  .Aleksandar_bio_text p {
-    padding-bottom: 1.9rem;
-  }
 }
 
 .tekstovi_autora {
