@@ -328,14 +328,14 @@ input[type="text"]:focus {
   background-color: $color-footer-text;
   border: 1px solid rgba(255, 255, 255, 0.9);
   border-radius: 1.9rem;
-  padding: 0.6rem;
+  padding: 0.7rem;
 
   &_input {
     background-color: $color-footer-text;
     width: 90%;
     border: none;
     font-family: "Roboto";
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     color: $color-white;
   }
 }
@@ -361,6 +361,7 @@ input[type="text"]:focus {
 .overlay-search-icon {
   width: 1.6rem;
   height: 1.6rem;
+  margin-top: .2rem;
 }
 
 /*  MOBILE NAVIGATION */
