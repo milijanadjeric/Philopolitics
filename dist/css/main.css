@@ -555,7 +555,7 @@ input[type="text"]:focus {
 /*  MOBILE NAVIGATION END */
 .languages-mobile {
   display: none;
-  margin-top: 21rem;
+  margin-top: 20.5rem;
 }
 
 @media (max-width: 364px) {
@@ -3065,7 +3065,7 @@ input[type="submit"]:hover {
 @media (max-width: 364px) {
   .socials-mobile {
     display: block;
-    margin-top: 2rem;
+    margin-top: 1.5rem;
     margin-bottom: 2.5rem;
     text-align: center;
   }
