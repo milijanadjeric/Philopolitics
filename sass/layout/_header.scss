@@ -335,7 +335,7 @@ input[type="text"]:focus {
     width: 90%;
     border: none;
     font-family: "Roboto";
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     color: $color-white;
   }
 }
@@ -371,7 +371,6 @@ input[type="text"]:focus {
     width: 205px;
     position: absolute;
     right: 0;
-    
     float: right;
     background-color: $color-footer-text;
     z-index: 333;
