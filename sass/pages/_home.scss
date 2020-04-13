@@ -144,8 +144,8 @@
 
      
       @include breakpoint (desktop--Small) {
-        height: 42rem;
-        left: 70rem;
+        height: 44rem;
+        left: 68rem;
       } 
 
       @include breakpoint (tablet) {
@@ -182,8 +182,8 @@
       
 
       @include breakpoint (desktop--Small) {
-        left: 79rem;
-        height: 41rem;
+        left: 78rem;
+        height: 43rem;
       }
 
       @include breakpoint (tablet) {
@@ -215,8 +215,8 @@
   margin-bottom: 1rem;
 
   @include breakpoint (desktop--Small) {
-    margin-top: 2.5rem;
-    margin-bottom: 1.5rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
   }
 
   @include breakpoint (mobile) {
