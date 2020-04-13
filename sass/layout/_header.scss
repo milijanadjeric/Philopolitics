@@ -73,9 +73,6 @@ header {
   background-color: $color-footer-text;
   margin-top: 3.5rem;
   
-  @include breakpoint(tablet) {
-    margin-top: 3rem;
-  }
 }
 
 /* Navigation links */
@@ -180,10 +177,6 @@ header {
 .mrg-right {
   margin-right: 2.8rem;
 
-  @include breakpoint(tablet) {
-    margin-right: 1rem;
-  }
-
   &_border {
     @include breakpoint(mobile--Small) {
       margin-right: 5rem;
@@ -202,11 +195,10 @@ header {
   margin-top: 3.5rem;
   margin-right: -3.5rem;
 
-  @include breakpoint(tablet) {
-    margin-top: 3rem;
-  }
-
   img {
+    @include breakpoint(mobile) {
+      display: none;
+    }
     @include breakpoint(mobile--Small) {
       display: none;
     }
@@ -256,11 +248,10 @@ input[type="text"]:focus {
   @include breakpoint(desktop--Small) {
     margin-right: -15rem;
   }
-
-  @include breakpoint(tablet) {
-    margin-top: 3rem;
-    margin-right: -14rem;
+  @include breakpoint(mobile) {
+    display: none;
   }
+  
 
   @include breakpoint(mobile--Small) {
     display: none;

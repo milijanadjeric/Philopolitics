@@ -20,49 +20,46 @@
   background-size: cover;
   background-repeat: no-repeat;
 
-  @include breakpoint (mobile) {
+  @include breakpoint(mobile) {
     background-image: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    color-stop(10%, #322b6c),
-    color-stop(65%, #131c6d),
-    color-stop(100%, #b1bff9)
-  );
-  background-image: linear-gradient(
-    to bottom,
-    #322b6c 10%,
-    #131c6d 65%,
-    #b1bff9 100%
-  );
-  background-size: cover;
-  background-repeat: no-repeat;
+      linear,
+      left top,
+      left bottom,
+      color-stop(10%, #322b6c),
+      color-stop(65%, #131c6d),
+      color-stop(100%, #b1bff9)
+    );
+    background-image: linear-gradient(
+      to bottom,
+      #322b6c 10%,
+      #131c6d 65%,
+      #b1bff9 100%
+    );
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 
-  @include breakpoint (mobile-Small) {
+  @include breakpoint(mobile-Small) {
     background-image: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    color-stop(10%, #322b6c),
-    color-stop(70%, #131c6d),
-    color-stop(100%, #b1bff9)
-  );
-  background-image: linear-gradient(
-    to bottom,
-    #322b6c 10%,
-    #131c6d 70%,
-    #b1bff9 100%
-  );
-  background-size: cover;
-  background-repeat: no-repeat;
+      linear,
+      left top,
+      left bottom,
+      color-stop(10%, #322b6c),
+      color-stop(70%, #131c6d),
+      color-stop(100%, #b1bff9)
+    );
+    background-image: linear-gradient(
+      to bottom,
+      #322b6c 10%,
+      #131c6d 70%,
+      #b1bff9 100%
+    );
+    background-size: cover;
+    background-repeat: no-repeat;
   }
-
-  
 }
 
 .hero {
-  
   &_text {
     margin-top: 10rem;
     display: -webkit-box;
@@ -71,10 +68,9 @@
     -webkit-box-direction: normal;
     flex-direction: column;
 
-    @include breakpoint (mobile) {
-      margin-top: 2rem;
+    @include breakpoint(mobile) {
+      margin-top: 3rem;
     }
-
 
     &_heading {
       text-transform: uppercase;
@@ -85,25 +81,19 @@
       margin-left: 16rem;
       z-index: 12;
 
-
-      @include breakpoint (desktop--Small) {
+      @include breakpoint(desktop--Small) {
         margin-left: 10rem;
         margin-top: 5rem;
       }
 
-      @include breakpoint (tablet)  {
-        margin-left: 18rem;
+      @include breakpoint(mobile) {
+        margin-left: 14rem;
       }
 
-      @include breakpoint (mobile) {
-        margin-left: 4rem;
-      }
-
-      @include breakpoint (mobile--Small) {
+      @include breakpoint(mobile--Small) {
         font-size: 3.2rem;
         margin-left: 4.5rem;
       }
-
     }
     &_sub {
       font-family: $font-rb;
@@ -111,20 +101,15 @@
       color: $color-white;
       margin-top: 1rem;
       margin-left: 16.3rem;
-      
-      
-      @include breakpoint (desktop--Small) {
+
+      @include breakpoint(desktop--Small) {
         margin-left: 10.5rem;
       }
 
-      @include breakpoint (tablet)  {
-        margin-left: 18.2rem;
+      @include breakpoint(mobile) {
+        margin-left: 22rem;
       }
-
-      @include breakpoint (mobile) {
-        margin-left: 4rem;
-      }
-      @include breakpoint (mobile--Small) {
+      @include breakpoint(mobile--Small) {
         font-size: 1.3rem;
         margin-left: 7.3rem;
       }
@@ -134,27 +119,20 @@
     }
   }
 
-  &_img { 
-    
+  &_img {
     &_stars {
       position: absolute;
       height: 31rem;
       top: 8rem;
       left: 88rem;
 
-     
-      @include breakpoint (desktop--Small) {
+      @include breakpoint(desktop--Small) {
         height: 44rem;
         left: 68rem;
-      } 
-
-      @include breakpoint (tablet) {
-        left: 79rem;
       }
-      @include breakpoint (mobile) {
-        width: 46.4rem;
-        top: 17rem;
-        left: 32rem;
+
+      @include breakpoint(mobile) {
+        display: none;
       }
       @include breakpoint(mobile--Small) {
         display: none;
@@ -165,13 +143,10 @@
       display: none;
 
       @include breakpoint(mobile--Small) {
-       display: block;
-       margin: 2.5rem auto;
-       
-       
+        display: block;
+        margin: 2.5rem auto;
       }
     }
-    
 
     &_sun {
       position: absolute;
@@ -179,21 +154,15 @@
       top: 8rem;
       left: 95rem;
 
-      
-
-      @include breakpoint (desktop--Small) {
+      @include breakpoint(desktop--Small) {
         left: 78rem;
         height: 43rem;
       }
 
-      @include breakpoint (tablet) {
-        left: 88rem;
-      }
-
-      @include breakpoint (mobile) {
+      @include breakpoint(mobile) {
         width: 33.3rem;
-        top: 17rem;
-        left: 40rem;
+        top: 29rem;
+        left: 23rem;
       }
 
       @include breakpoint(mobile--Small) {
@@ -201,7 +170,6 @@
         left: 4.8rem;
         top: 11.3rem;
       }
-        
     }
   }
 }
@@ -214,31 +182,23 @@
   margin-top: 1rem;
   margin-bottom: 1rem;
 
-  @include breakpoint (desktop--Small) {
+  @include breakpoint(desktop--Small) {
     margin-top: 3rem;
     margin-bottom: 2rem;
   }
 
-  @include breakpoint (mobile) {
-    padding-bottom: 55rem;
-    margin-top: 10rem;
+  @include breakpoint(mobile) {
+    display: none;
+  }
 
-    @include breakpoint (mobile--Small) {
-      display: none;
-      
-      
-    }
+  @include breakpoint(mobile--Small) {
+    display: none;
   }
 
   &_copy {
     font-family: $font-tr-rg;
     font-size: 1.3rem;
     color: $color-blue;
-    
-
-    @include breakpoint (mobile) {
-      display: none;
-    }
   }
 
   &_policy {
@@ -246,18 +206,9 @@
     font-family: $font-tr-bd;
     font-size: 1.5rem;
     margin-left: 7rem;
-    
 
-    
-
-    @include breakpoint (desktop--Small) {
+    @include breakpoint(desktop--Small) {
       margin-left: 7rem;
-    }
-
-    
-
-    @include breakpoint (mobile) {
-      display: none;
     }
   }
 
@@ -267,47 +218,42 @@
     font-size: 1.5rem;
     margin-right: -24rem;
 
-   
-
-    @include breakpoint (desktop--Small) {
+    @include breakpoint(desktop--Small) {
       margin-right: -20rem;
-    }
-
-    @include breakpoint (mobile) {
-      display: none;
     }
   }
 
   &_img {
-    
-    margin-top: -.5rem;
-
+    margin-top: -0.5rem;
   }
 
   a {
-    padding-left: .5rem;
+    padding-left: 0.5rem;
 
     @include breakpoint(mobile--Small) {
       padding-left: 2rem;
-    } 
-  }    
+    }
+  }
 }
 
 .socials-mobile {
- display: none;
+  display: none;
+
+  @include breakpoint(mobile) {
+    display: block;
+    margin-top: 26rem;
+    margin-bottom: 7.1rem;
+    text-align: center;
+    
+  }
 
   @include breakpoint(mobile--Small) {
     display: block;
     margin-top: 1.5rem;
     margin-bottom: 2.5rem;
     text-align: center;
-    
-    a {
-      padding-left: 1.5rem;
-    }
   }
-
-  
+  a {
+    padding-left: 1.5rem;
+  }
 }
-
-

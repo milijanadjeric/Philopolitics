@@ -152,12 +152,6 @@ header {
   margin-top: 3.5rem;
 }
 
-@media (max-width: 1200px) {
-  .navbar {
-    margin-top: 3rem;
-  }
-}
-
 /* Navigation links */
 .navbar a {
   float: left;
@@ -267,12 +261,6 @@ header {
   margin-right: 2.8rem;
 }
 
-@media (max-width: 1200px) {
-  .mrg-right {
-    margin-right: 1rem;
-  }
-}
-
 @media (max-width: 360px) {
   .mrg-right_border {
     margin-right: 5rem;
@@ -290,9 +278,9 @@ header {
   margin-right: -3.5rem;
 }
 
-@media (max-width: 1200px) {
-  .languages {
-    margin-top: 3rem;
+@media (max-width: 800px) {
+  .languages img {
+    display: none;
   }
 }
 
@@ -351,10 +339,9 @@ input[type="text"]:focus {
   }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 800px) {
   .search-box {
-    margin-top: 3rem;
-    margin-right: -14rem;
+    display: none;
   }
 }
 
@@ -659,15 +646,9 @@ input[type="text"]:focus {
   }
 }
 
-@media (max-width: 1200px) {
-  .projects {
-    margin-top: 16rem;
-  }
-}
-
 @media (max-width: 800px) {
   .projects {
-    margin-top: 35rem;
+    margin-top: 50rem;
   }
 }
 
@@ -690,12 +671,6 @@ input[type="text"]:focus {
   .autoplay .slick-list {
     padding-right: 24rem;
     padding-left: 8rem;
-  }
-}
-
-@media (max-width: 1200px) {
-  .autoplay .slick-list {
-    padding-right: 25rem;
   }
 }
 
@@ -2769,7 +2744,7 @@ input[type="submit"]:hover {
 
 @media (max-width: 800px) {
   .hero_text {
-    margin-top: 2rem;
+    margin-top: 3rem;
   }
 }
 
@@ -2790,15 +2765,9 @@ input[type="submit"]:hover {
   }
 }
 
-@media (max-width: 1200px) {
-  .hero_text_heading {
-    margin-left: 18rem;
-  }
-}
-
 @media (max-width: 800px) {
   .hero_text_heading {
-    margin-left: 4rem;
+    margin-left: 14rem;
   }
 }
 
@@ -2823,15 +2792,9 @@ input[type="submit"]:hover {
   }
 }
 
-@media (max-width: 1200px) {
-  .hero_text_sub {
-    margin-left: 18.2rem;
-  }
-}
-
 @media (max-width: 800px) {
   .hero_text_sub {
-    margin-left: 4rem;
+    margin-left: 22rem;
   }
 }
 
@@ -2860,17 +2823,9 @@ input[type="submit"]:hover {
   }
 }
 
-@media (max-width: 1200px) {
-  .hero_img_stars {
-    left: 79rem;
-  }
-}
-
 @media (max-width: 800px) {
   .hero_img_stars {
-    width: 46.4rem;
-    top: 17rem;
-    left: 32rem;
+    display: none;
   }
 }
 
@@ -2905,17 +2860,11 @@ input[type="submit"]:hover {
   }
 }
 
-@media (max-width: 1200px) {
-  .hero_img_sun {
-    left: 88rem;
-  }
-}
-
 @media (max-width: 800px) {
   .hero_img_sun {
     width: 33.3rem;
-    top: 17rem;
-    left: 40rem;
+    top: 29rem;
+    left: 23rem;
   }
 }
 
@@ -2947,12 +2896,11 @@ input[type="submit"]:hover {
 
 @media (max-width: 800px) {
   .socials {
-    padding-bottom: 55rem;
-    margin-top: 10rem;
+    display: none;
   }
 }
 
-@media (max-width: 800px) and (max-width: 360px) {
+@media (max-width: 360px) {
   .socials {
     display: none;
   }
@@ -2962,12 +2910,6 @@ input[type="submit"]:hover {
   font-family: "truenoregular";
   font-size: 1.3rem;
   color: #131C6D;
-}
-
-@media (max-width: 800px) {
-  .socials_copy {
-    display: none;
-  }
 }
 
 .socials_policy {
@@ -2980,12 +2922,6 @@ input[type="submit"]:hover {
 @media (max-width: 1280px) {
   .socials_policy {
     margin-left: 7rem;
-  }
-}
-
-@media (max-width: 800px) {
-  .socials_policy {
-    display: none;
   }
 }
 
@@ -3002,18 +2938,12 @@ input[type="submit"]:hover {
   }
 }
 
-@media (max-width: 800px) {
-  .socials_followus {
-    display: none;
-  }
-}
-
 .socials_img {
-  margin-top: -.5rem;
+  margin-top: -0.5rem;
 }
 
 .socials a {
-  padding-left: .5rem;
+  padding-left: 0.5rem;
 }
 
 @media (max-width: 360px) {
@@ -3026,6 +2956,15 @@ input[type="submit"]:hover {
   display: none;
 }
 
+@media (max-width: 800px) {
+  .socials-mobile {
+    display: block;
+    margin-top: 26rem;
+    margin-bottom: 7.1rem;
+    text-align: center;
+  }
+}
+
 @media (max-width: 360px) {
   .socials-mobile {
     display: block;
@@ -3033,9 +2972,10 @@ input[type="submit"]:hover {
     margin-bottom: 2.5rem;
     text-align: center;
   }
-  .socials-mobile a {
-    padding-left: 1.5rem;
-  }
+}
+
+.socials-mobile a {
+  padding-left: 1.5rem;
 }
 
 .main-section {

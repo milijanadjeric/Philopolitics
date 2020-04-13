@@ -5,13 +5,8 @@
     margin-top: 19.5rem;
   }
 
-  @include breakpoint (tablet) {
-    margin-top: 16rem;
-  }
-  
-
   @include breakpoint (mobile) {
-    margin-top: 35rem;
+    margin-top: 50rem;
   }
 
   @include breakpoint (mobile--Small) {
@@ -35,9 +30,7 @@
     padding-right: 24rem;
     padding-left: 8rem;
   }
-  @include breakpoint (tablet) {
-    padding-right: 25rem;
-  }
+  
   @include breakpoint (mobile--Small) {
     
    padding-right: 0;
