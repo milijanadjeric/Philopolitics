@@ -195,10 +195,12 @@ header {
   margin-top: 3.5rem;
   margin-right: -3.5rem;
 
+  @include breakpoint(mobile) {
+    display: none;
+  }
+
   img {
-    @include breakpoint(mobile) {
-      display: none;
-    }
+    
     @include breakpoint(mobile--Small) {
       display: none;
     }

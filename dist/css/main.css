@@ -279,7 +279,7 @@ header {
 }
 
 @media (max-width: 800px) {
-  .languages img {
+  .languages {
     display: none;
   }
 }
@@ -648,7 +648,7 @@ input[type="text"]:focus {
 
 @media (max-width: 800px) {
   .projects {
-    margin-top: 50rem;
+    margin-top: 43rem;
   }
 }
 
@@ -2959,7 +2959,7 @@ input[type="submit"]:hover {
 @media (max-width: 800px) {
   .socials-mobile {
     display: block;
-    margin-top: 26rem;
+    margin-top: 24rem;
     margin-bottom: 7.1rem;
     text-align: center;
   }
