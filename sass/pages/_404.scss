@@ -47,6 +47,9 @@
     margin-top: 17rem;
 
   }
+  @include breakpoint(tablet) {
+    display: block;
+  }
 
   @include breakpoint (mobile--Small) {
     display: block;
@@ -66,7 +69,7 @@
     }
 
     @include breakpoint (tablet) {
-      margin-left: 20rem;
+      margin-left: 21rem;
     }
 
     @include breakpoint (mobile) {
@@ -123,6 +126,12 @@
     z-index: 2;
     margin-top: -7rem;
 
+    @include breakpoint(tablet) {
+     margin-top: 14rem;
+     margin-left: 17rem;
+     margin-bottom: 14.9rem;
+    }
+
     @include breakpoint (mobile--Small) {
       width: 20rem;
       margin-top: 4rem;
@@ -130,6 +139,7 @@
       margin-left: 8rem;
      
     }
+    
   }
 }
 
@@ -185,10 +195,10 @@
     margin-top: 9rem;
   }
   
-
-  @include breakpoint (tablet) {
-    margin-top: 5rem;
+  @include breakpoint(tablet) {
+    display: none;
   }
+
 
   @include breakpoint (mobile--Small)  {
     display: none;
@@ -212,9 +222,7 @@
       
     } 
 
-    @include breakpoint (tablet) {
-      margin-right: 12rem;
-    }
+   
     @include breakpoint (mobile) {
       margin-right: 6rem;
     }
@@ -228,9 +236,6 @@
       padding-bottom:  3.9rem;
     }
 
-    @include breakpoint (tablet) {
-      padding-bottom: 15rem;
-    }
 
     @include breakpoint (mobile) {
       padding-bottom: 58rem;
