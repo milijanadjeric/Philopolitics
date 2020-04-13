@@ -93,6 +93,7 @@
       @include breakpoint(mobile--Small) {
         font-size: 3.2rem;
         margin-left: 4.5rem;
+        margin-top: 0;
       }
     }
     &_sub {
@@ -168,7 +169,7 @@
       @include breakpoint(mobile--Small) {
         width: 27rem;
         left: 4.8rem;
-        top: 11.3rem;
+        top: 8rem;
       }
     }
   }

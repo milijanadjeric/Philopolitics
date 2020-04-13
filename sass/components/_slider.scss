@@ -35,13 +35,12 @@
     padding-right: 18rem;
     margin-left: 4rem;
   }
-
- 
   
   @include breakpoint (mobile--Small) {
     
    padding-right: 0;
    padding-left: 2.5rem;
+   margin-left: 0;
    
     
     

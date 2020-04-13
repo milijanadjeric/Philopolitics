@@ -671,6 +671,7 @@ input[type="text"]:focus {
   .autoplay .slick-list {
     padding-right: 0;
     padding-left: 2.5rem;
+    margin-left: 0;
   }
 }
 
@@ -2777,6 +2778,7 @@ input[type="submit"]:hover {
   .hero_text_heading {
     font-size: 3.2rem;
     margin-left: 4.5rem;
+    margin-top: 0;
   }
 }
 
@@ -2874,7 +2876,7 @@ input[type="submit"]:hover {
   .hero_img_sun {
     width: 27rem;
     left: 4.8rem;
-    top: 11.3rem;
+    top: 8rem;
   }
 }
 
