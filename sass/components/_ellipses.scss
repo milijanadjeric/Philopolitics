@@ -2,20 +2,19 @@
 // This file contains all styles related to the ellipses component.
 // -----------------------------------------------------------------------------
 
-
 .elipse {
   position: absolute;
-  
+
   left: 50%;
   transform: translate(-50%);
-  
+
   @include breakpoint(tablet) {
     display: none;
   }
 
   &_2 {
     position: absolute;
-    
+
     left: 50%;
     transform: translate(-50%);
 
@@ -23,10 +22,10 @@
       display: none;
     }
   }
-  
+
   &_3 {
     position: absolute;
-   
+
     left: 50%;
     transform: translate(-50%);
 
@@ -37,7 +36,7 @@
 
   &_4 {
     position: absolute;
-    
+
     left: 50%;
     transform: translate(-50%);
 
@@ -48,7 +47,7 @@
 
   &_5 {
     position: absolute;
-   
+
     left: 50%;
     transform: translate(-50%);
 
@@ -59,15 +58,14 @@
 
   &_6 {
     position: absolute;
-   
+
     width: 131rem;
     left: 50%;
     transform: translate(-50.5%);
 
     @include breakpoint(desktop--Small) {
       width: 126rem;
-     left: 50.5%;
-      
+      left: 50.5%;
     }
 
     @include breakpoint(tablet) {
@@ -76,27 +74,26 @@
   }
 
   &_7 {
-    position: absolute;
-  
-    width: 134.5rem;
-    left: 50%;
-    transform: translate(-50%);
-
+    display: none;
+    
+    @include breakpoint(desktop--Small) {
+      display: block;
+      position: absolute;
+      width: 128rem;
+      left: 50%;
+      transform: translate(-50%);
+    }
   }
 
   &_7-about-us {
-    position: absolute;
-    
-    width: 134.5rem;
-    left: 50%;
-    transform: translate(-50%);
-
-    @include breakpoint(desktop) {
-      width: 132rem;
-    }
+    display: none;
 
     @include breakpoint(desktop--Small) {
+      display: block;
       width: 128rem;
+      position: absolute;
+      left: 50%;
+      transform: translate(-50%);
     }
 
     @include breakpoint(mobile) {
