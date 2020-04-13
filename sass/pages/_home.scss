@@ -237,6 +237,7 @@
   }
 }
 
+
 .socials-mobile {
   display: none;
 
@@ -251,7 +252,7 @@
   @include breakpoint(mobile--Small) {
     display: block;
     margin-top: 1.5rem;
-    margin-bottom: 2.5rem;
+    margin-bottom: 1.5rem;
     text-align: center;
   }
   a {
