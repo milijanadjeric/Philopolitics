@@ -1,7 +1,7 @@
 .projects {
   margin-top: 10rem;
 
-  @include breakpoint (desktop) {
+  @include breakpoint (desktop--Small) {
     margin-top: 15rem;
   }
 
@@ -30,10 +30,7 @@
   padding-right:30rem;
   padding-left: 9rem;
 
-  @include breakpoint (desktop) {
-    padding-right: 20rem;
-    padding-left: 10.5rem;
-  }
+  
   @include breakpoint (desktop--Small) {
     padding-right: 26rem;
     padding-left: 7.5rem;
