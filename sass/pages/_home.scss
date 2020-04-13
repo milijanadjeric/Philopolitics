@@ -20,7 +20,7 @@
   background-size: cover;
   background-repeat: no-repeat;
 
-  @include breakpoint(mobile) {
+  @include breakpoint(tablet) {
     background-image: -webkit-gradient(
       linear,
       left top,
@@ -39,7 +39,7 @@
     background-repeat: no-repeat;
   }
 
-  @include breakpoint(mobile-Small) {
+  @include breakpoint(mobile--Small) {
     background-image: -webkit-gradient(
       linear,
       left top,
@@ -68,7 +68,7 @@
     -webkit-box-direction: normal;
     flex-direction: column;
 
-    @include breakpoint(mobile) {
+    @include breakpoint(tablet) {
       margin-top: 3rem;
     }
 
@@ -86,7 +86,7 @@
         margin-top: 5rem;
       }
 
-      @include breakpoint(mobile) {
+      @include breakpoint(tablet) {
         margin-left: 14rem;
       }
 
@@ -106,7 +106,7 @@
         margin-left: 10.5rem;
       }
 
-      @include breakpoint(mobile) {
+      @include breakpoint(tablet) {
         margin-left: 22rem;
       }
       @include breakpoint(mobile--Small) {
@@ -131,7 +131,7 @@
         left: 68rem;
       }
 
-      @include breakpoint(mobile) {
+      @include breakpoint(tablet) {
         display: none;
       }
       @include breakpoint(mobile--Small) {
@@ -159,7 +159,7 @@
         height: 43rem;
       }
 
-      @include breakpoint(mobile) {
+      @include breakpoint(tablet) {
         width: 33.3rem;
         top: 29rem;
         left: 23rem;
@@ -187,7 +187,7 @@
     margin-bottom: 2rem;
   }
 
-  @include breakpoint(mobile) {
+  @include breakpoint(tablet) {
     display: none;
   }
 
@@ -239,7 +239,7 @@
 .socials-mobile {
   display: none;
 
-  @include breakpoint(mobile) {
+  @include breakpoint(tablet) {
     display: block;
     margin-top: 31rem;
     margin-bottom: 7.1rem;
