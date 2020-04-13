@@ -1045,6 +1045,7 @@ input[type="text"]:focus {
 @media (max-width: 360px) {
   .main {
     display: block;
+    margin-top: 3rem;
   }
 }
 
@@ -1074,17 +1075,10 @@ input[type="text"]:focus {
   }
 }
 
-@media (max-width: 480px) {
-  .main_text {
-    margin-left: 6rem;
-    margin-right: 0;
-  }
-}
-
 @media (max-width: 360px) {
   .main_text {
-    margin-top: 6.5rem;
-    margin-left: 3.7rem;
+    margin-right: 0;
+    margin-left: 6rem;
   }
 }
 
@@ -1122,16 +1116,10 @@ input[type="text"]:focus {
   width: 40rem;
 }
 
-@media (max-width: 480px) {
-  .main_text_3 {
-    padding-right: 0;
-  }
-}
-
 @media (max-width: 360px) {
   .main_text_3 {
     font-size: 1.4rem;
-    padding-right: 2rem;
+    width: 30rem;
   }
 }
 
@@ -1142,22 +1130,22 @@ input[type="text"]:focus {
 
 @media (max-width: 800px) {
   .main img {
-    margin-top: 14rem;
+    margin-top: 13rem;
     margin-left: 17rem;
-    margin-bottom: 14.9rem;
+    margin-bottom: 15.8rem;
   }
 }
 
 @media (max-width: 360px) {
   .main img {
-    width: 20rem;
+    width: 21rem;
     margin-top: 4rem;
     margin-bottom: 6.2rem;
     margin-left: 8rem;
   }
 }
 
-.button_home {
+.main .button_home {
   text-decoration: none;
   color: #FFFFFF;
   font-family: "truenoregular";
@@ -1170,19 +1158,19 @@ input[type="text"]:focus {
 }
 
 @media (max-width: 480px) {
-  .button_home {
+  .main .button_home {
     padding: 1.5rem 2rem 1.3rem 2rem;
   }
 }
 
 @media (max-width: 360px) {
-  .button_home {
+  .main .button_home {
     padding: 1.5rem 3.5rem 1.3rem 3.5rem;
     font-size: 1.2rem;
   }
 }
 
-.button_back {
+.main .button_back {
   text-decoration: none;
   color: #FFFFFF;
   font-family: "truenoregular";
@@ -1194,13 +1182,13 @@ input[type="text"]:focus {
 }
 
 @media (max-width: 480px) {
-  .button_back {
+  .main .button_back {
     padding: 1.35rem 2rem 1.15rem 2rem;
   }
 }
 
 @media (max-width: 360px) {
-  .button_back {
+  .main .button_back {
     padding: 1.3rem 3.5rem 1.1rem 3.5rem;
     font-size: 1.2rem;
   }
@@ -1254,12 +1242,6 @@ input[type="text"]:focus {
   }
 }
 
-@media (max-width: 480px) {
-  .links_socials {
-    margin-right: 6rem;
-  }
-}
-
 .links img {
   padding-left: 1.5rem;
   padding-bottom: 2.4rem;
@@ -1268,12 +1250,6 @@ input[type="text"]:focus {
 @media (max-width: 1280px) {
   .links img {
     padding-bottom: 3.9rem;
-  }
-}
-
-@media (max-width: 480px) {
-  .links img {
-    padding-bottom: 58rem;
   }
 }
 

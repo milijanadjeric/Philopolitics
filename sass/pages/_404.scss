@@ -16,27 +16,24 @@
   background-size: cover;
   background-repeat: no-repeat;
 
-  @include breakpoint (mobile--Small) {
+  @include breakpoint(mobile--Small) {
     background-image: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    color-stop(10%, #322b6c),
-    color-stop(73%, #131c6d),
-    color-stop(100%, #b1bff9)
-  );
-  background-image: linear-gradient(
-    to bottom,
-    #322b6c 10%,
-    #131c6d 73%,
-    #b1bff9 100%
-  );
-  background-size: cover;
-  background-repeat: no-repeat;
-
+      linear,
+      left top,
+      left bottom,
+      color-stop(10%, #322b6c),
+      color-stop(73%, #131c6d),
+      color-stop(100%, #b1bff9)
+    );
+    background-image: linear-gradient(
+      to bottom,
+      #322b6c 10%,
+      #131c6d 73%,
+      #b1bff9 100%
+    );
+    background-size: cover;
+    background-repeat: no-repeat;
   }
-
-  
 }
 
 .main {
@@ -45,18 +42,17 @@
 
   @include breakpoint(desktop--Small) {
     margin-top: 17rem;
-
   }
   @include breakpoint(tablet) {
     display: block;
   }
 
-  @include breakpoint (mobile--Small) {
+  @include breakpoint(mobile--Small) {
     display: block;
+    margin-top: 3rem;
   }
 
   &_text {
-    
     display: flex;
     flex-direction: column;
     margin-left: 20rem;
@@ -68,19 +64,13 @@
       margin-right: 14rem;
     }
 
-    @include breakpoint (tablet) {
+    @include breakpoint(tablet) {
       margin-left: 21rem;
     }
 
-    @include breakpoint (mobile) {
-      margin-left: 6rem;
+    @include breakpoint(mobile--Small) {
       margin-right: 0;
-    }
-    @include breakpoint (mobile--Small) {
-      margin-top: 6.5rem;
-      margin-left: 3.7rem;
-      
-
+      margin-left: 6rem;
     }
 
     &_1 {
@@ -88,7 +78,7 @@
       font-family: $font-tr;
       font-size: 6.5rem;
 
-      @include breakpoint (mobile--Small) {
+      @include breakpoint(mobile--Small) {
         font-size: 3.5rem;
       }
     }
@@ -100,7 +90,7 @@
       font-size: 5rem;
       padding-bottom: 4rem;
 
-      @include breakpoint (mobile--Small) {
+      @include breakpoint(mobile--Small) {
         font-size: 3rem;
       }
     }
@@ -111,81 +101,71 @@
       padding-bottom: 5rem;
       width: 40rem;
 
-      @include breakpoint (mobile) {
-        padding-right: 0;
-      }
-      @include breakpoint (mobile--Small) {
+      @include breakpoint(mobile--Small) {
         font-size: 1.4rem;
-        padding-right: 2rem;
+        width: 30rem;
       }
     }
   }
-
   img {
-    
     z-index: 2;
     margin-top: -7rem;
 
     @include breakpoint(tablet) {
-     margin-top: 14rem;
-     margin-left: 17rem;
-     margin-bottom: 14.9rem;
+      margin-top: 13rem;
+      margin-left: 17rem;
+      margin-bottom: 15.8rem;
+     
     }
 
-    @include breakpoint (mobile--Small) {
-      width: 20rem;
+    @include breakpoint(mobile--Small) {
+      width: 21rem;
       margin-top: 4rem;
       margin-bottom: 6.2rem;
       margin-left: 8rem;
-     
-    }
-    
-  }
-}
-
-.button {
-  &_home {
-    text-decoration: none;
-    color: $color-white;
-    font-family: $font-tr-rg;
-    text-transform: uppercase;
-    font-size: 1.5rem;
-    background-color: $color-submit;
-    padding: 1.5rem 4rem 1.3rem 4rem;
-    border-radius: 0.2rem;
-    margin-right: 2.2rem;
-
-    @include breakpoint (mobile) {
-      padding: 1.5rem 2rem 1.3rem 2rem;
-      
-    }
-    @include breakpoint (mobile--Small) {
-      padding: 1.5rem 3.5rem 1.3rem 3.5rem;
-      font-size: 1.2rem;
     }
   }
+  .button {
+    &_home {
+      text-decoration: none;
+      color: $color-white;
+      font-family: $font-tr-rg;
+      text-transform: uppercase;
+      font-size: 1.5rem;
+      background-color: $color-submit;
+      padding: 1.5rem 4rem 1.3rem 4rem;
+      border-radius: 0.2rem;
+      margin-right: 2.2rem;
 
-  &_back {
-    text-decoration: none;
-    color: $color-white;
-    font-family: $font-tr-rg;
-    text-transform: uppercase;
-    font-size: 1.5rem;
-    padding: 1.35rem 4rem 1.15rem 4rem;
-    border: 0.2rem solid $color-submit;
-    border-radius: 0.2rem;
-
-    @include breakpoint (mobile) {
-      padding: 1.35rem 2rem 1.15rem 2rem;
-      
+      @include breakpoint(mobile) {
+        padding: 1.5rem 2rem 1.3rem 2rem;
+      }
+      @include breakpoint(mobile--Small) {
+        padding: 1.5rem 3.5rem 1.3rem 3.5rem;
+        font-size: 1.2rem;
+      }
     }
-    @include breakpoint (mobile--Small) {
-      padding: 1.3rem 3.5rem 1.1rem 3.5rem;
-      font-size: 1.2rem;
+
+    &_back {
+      text-decoration: none;
+      color: $color-white;
+      font-family: $font-tr-rg;
+      text-transform: uppercase;
+      font-size: 1.5rem;
+      padding: 1.35rem 4rem 1.15rem 4rem;
+      border: 0.2rem solid $color-submit;
+      border-radius: 0.2rem;
+
+      @include breakpoint(mobile) {
+        padding: 1.35rem 2rem 1.15rem 2rem;
+      }
+      @include breakpoint(mobile--Small) {
+        padding: 1.3rem 3.5rem 1.1rem 3.5rem;
+        font-size: 1.2rem;
+      }
     }
   }
 }
-
 .links {
   display: flex;
   justify-content: flex-end;
@@ -194,13 +174,12 @@
   @include breakpoint(desktop--Small) {
     margin-top: 9rem;
   }
-  
+
   @include breakpoint(tablet) {
     display: none;
   }
 
-
-  @include breakpoint (mobile--Small)  {
+  @include breakpoint(mobile--Small) {
     display: none;
   }
 
@@ -219,12 +198,6 @@
 
     @include breakpoint(desktop--Small) {
       margin-right: 9rem;
-      
-    } 
-
-   
-    @include breakpoint (mobile) {
-      margin-right: 6rem;
     }
   }
 
@@ -233,12 +206,9 @@
     padding-bottom: 2.4rem;
 
     @include breakpoint(desktop--Small) {
-      padding-bottom:  3.9rem;
+      padding-bottom: 3.9rem;
     }
 
-
-    @include breakpoint (mobile) {
-      padding-bottom: 58rem;
-    }
+    
   }
 }
