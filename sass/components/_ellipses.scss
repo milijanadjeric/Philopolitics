@@ -58,7 +58,6 @@
 
   &_6 {
     position: absolute;
-
     width: 131rem;
     left: 50%;
     transform: translate(-50.5%);
@@ -70,6 +69,18 @@
 
     @include breakpoint(tablet) {
       display: none;
+    }
+  }
+
+  &_6-contact {
+    display: none;
+
+    @include breakpoint(desktop--Small) {
+      display: block;
+      position: absolute;
+      width: 129rem;
+      left: 50%;
+      transform: translate(-50.5%);
     }
   }
 

@@ -938,6 +938,21 @@ input[type="text"]:focus {
   }
 }
 
+.elipse_6-contact {
+  display: none;
+}
+
+@media (max-width: 1280px) {
+  .elipse_6-contact {
+    display: block;
+    position: absolute;
+    width: 129rem;
+    left: 50%;
+    -webkit-transform: translate(-50.5%);
+            transform: translate(-50.5%);
+  }
+}
+
 .elipse_7 {
   display: none;
 }
@@ -1000,6 +1015,13 @@ input[type="text"]:focus {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-top: 8rem;
+}
+
+@media (max-width: 1280px) {
+  .main {
+    margin-top: 17rem;
+  }
 }
 
 @media (max-width: 360px) {
@@ -1009,7 +1031,6 @@ input[type="text"]:focus {
 }
 
 .main_text {
-  margin-top: 14rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1018,8 +1039,15 @@ input[type="text"]:focus {
       -ms-flex-direction: column;
           flex-direction: column;
   margin-left: 20rem;
-  margin-right: 12rem;
+  margin-right: 13rem;
   z-index: 2;
+}
+
+@media (max-width: 1280px) {
+  .main_text {
+    margin-left: 18rem;
+    margin-right: 14rem;
+  }
 }
 
 @media (max-width: 800px) {
@@ -1072,8 +1100,8 @@ input[type="text"]:focus {
   color: #FFFFFF;
   font-family: "Roboto";
   font-size: 1.8rem;
-  padding-right: 6rem;
   padding-bottom: 5rem;
+  width: 40rem;
 }
 
 @media (max-width: 480px) {
@@ -1090,8 +1118,8 @@ input[type="text"]:focus {
 }
 
 .main img {
-  margin-top: 7.3rem;
   z-index: 2;
+  margin-top: -7rem;
 }
 
 @media (max-width: 360px) {
@@ -1159,7 +1187,13 @@ input[type="text"]:focus {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  margin-top: 7rem;
+  margin-top: 2rem;
+}
+
+@media (max-width: 1280px) {
+  .links {
+    margin-top: 9rem;
+  }
 }
 
 @media (max-width: 800px) {
@@ -1184,8 +1218,14 @@ input[type="text"]:focus {
 }
 
 .links_socials {
-  margin-right: 15rem;
+  margin-right: 17rem;
   z-index: 2;
+}
+
+@media (max-width: 1280px) {
+  .links_socials {
+    margin-right: 9rem;
+  }
 }
 
 @media (max-width: 800px) {
@@ -1202,7 +1242,13 @@ input[type="text"]:focus {
 
 .links img {
   padding-left: 1.5rem;
-  padding-bottom: 4rem;
+  padding-bottom: 2.4rem;
+}
+
+@media (max-width: 1280px) {
+  .links img {
+    padding-bottom: 3.9rem;
+  }
 }
 
 @media (max-width: 800px) {

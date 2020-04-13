@@ -41,18 +41,29 @@
 
 .main {
   display: flex;
+  margin-top: 8rem;
+
+  @include breakpoint(desktop--Small) {
+    margin-top: 17rem;
+
+  }
 
   @include breakpoint (mobile--Small) {
     display: block;
   }
 
   &_text {
-    margin-top: 14rem;
+    
     display: flex;
     flex-direction: column;
     margin-left: 20rem;
-    margin-right: 12rem;
+    margin-right: 13rem;
     z-index: 2;
+
+    @include breakpoint(desktop--Small) {
+      margin-left: 18rem;
+      margin-right: 14rem;
+    }
 
     @include breakpoint (tablet) {
       margin-left: 20rem;
@@ -94,8 +105,8 @@
       color: $color-white;
       font-family: "Roboto";
       font-size: 1.8rem;
-      padding-right: 6rem;
       padding-bottom: 5rem;
+      width: 40rem;
 
       @include breakpoint (mobile) {
         padding-right: 0;
@@ -108,8 +119,9 @@
   }
 
   img {
-    margin-top: 7.3rem;
+    
     z-index: 2;
+    margin-top: -7rem;
 
     @include breakpoint (mobile--Small) {
       width: 20rem;
@@ -167,7 +179,12 @@
 .links {
   display: flex;
   justify-content: flex-end;
-  margin-top: 7rem;
+  margin-top: 2rem;
+
+  @include breakpoint(desktop--Small) {
+    margin-top: 9rem;
+  }
+  
 
   @include breakpoint (tablet) {
     margin-top: 5rem;
@@ -187,8 +204,13 @@
   }
 
   &_socials {
-    margin-right: 15rem;
+    margin-right: 17rem;
     z-index: 2;
+
+    @include breakpoint(desktop--Small) {
+      margin-right: 9rem;
+      
+    } 
 
     @include breakpoint (tablet) {
       margin-right: 12rem;
@@ -200,7 +222,11 @@
 
   img {
     padding-left: 1.5rem;
-    padding-bottom: 4rem;
+    padding-bottom: 2.4rem;
+
+    @include breakpoint(desktop--Small) {
+      padding-bottom:  3.9rem;
+    }
 
     @include breakpoint (tablet) {
       padding-bottom: 15rem;
