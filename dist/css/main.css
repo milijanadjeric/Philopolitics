@@ -655,7 +655,7 @@ input[type="text"]:focus {
 
 @media (max-width: 1280px) {
   .projects {
-    margin-top: 15rem;
+    margin-top: 25rem;
   }
 }
 
@@ -688,8 +688,8 @@ input[type="text"]:focus {
 
 @media (max-width: 1280px) {
   .autoplay .slick-list {
-    padding-right: 26rem;
-    padding-left: 7.5rem;
+    padding-right: 24rem;
+    padding-left: 8rem;
   }
 }
 
@@ -2784,7 +2784,8 @@ input[type="submit"]:hover {
 
 @media (max-width: 1280px) {
   .hero_text_heading {
-    margin-left: 14rem;
+    margin-left: 11rem;
+    margin-top: 5rem;
   }
 }
 
@@ -2817,7 +2818,7 @@ input[type="submit"]:hover {
 
 @media (max-width: 1280px) {
   .hero_text_sub {
-    margin-left: 14.5rem;
+    margin-left: 11.5rem;
   }
 }
 
@@ -2853,8 +2854,8 @@ input[type="submit"]:hover {
 
 @media (max-width: 1280px) {
   .hero_img_stars {
-    height: 35rem;
-    left: 79rem;
+    height: 42rem;
+    left: 70rem;
   }
 }
 
@@ -2898,8 +2899,8 @@ input[type="submit"]:hover {
 
 @media (max-width: 1280px) {
   .hero_img_sun {
-    left: 88rem;
-    height: 34rem;
+    left: 80rem;
+    height: 41rem;
   }
 }
 
@@ -2938,8 +2939,8 @@ input[type="submit"]:hover {
 
 @media (max-width: 1280px) {
   .socials {
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
+    margin-top: 2.5rem;
+    margin-bottom: 2rem;
   }
 }
 

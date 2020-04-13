@@ -2,7 +2,7 @@
   margin-top: 10rem;
 
   @include breakpoint (desktop--Small) {
-    margin-top: 15rem;
+    margin-top: 25rem;
   }
 
   @include breakpoint (tablet) {
@@ -32,8 +32,8 @@
 
   
   @include breakpoint (desktop--Small) {
-    padding-right: 26rem;
-    padding-left: 7.5rem;
+    padding-right: 24rem;
+    padding-left: 8rem;
   }
   @include breakpoint (tablet) {
     padding-right: 25rem;

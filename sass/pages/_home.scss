@@ -87,7 +87,8 @@
 
 
       @include breakpoint (desktop--Small) {
-        margin-left: 14rem;
+        margin-left: 11rem;
+        margin-top: 5rem;
       }
 
       @include breakpoint (tablet)  {
@@ -113,7 +114,7 @@
       
       
       @include breakpoint (desktop--Small) {
-        margin-left: 14.5rem;
+        margin-left: 11.5rem;
       }
 
       @include breakpoint (tablet)  {
@@ -143,8 +144,8 @@
 
      
       @include breakpoint (desktop--Small) {
-        height: 35rem;
-        left: 79rem;
+        height: 42rem;
+        left: 70rem;
       } 
 
       @include breakpoint (tablet) {
@@ -181,8 +182,8 @@
       
 
       @include breakpoint (desktop--Small) {
-        left: 88rem;
-        height: 34rem;
+        left: 80rem;
+        height: 41rem;
       }
 
       @include breakpoint (tablet) {
@@ -214,8 +215,8 @@
   margin-bottom: 1rem;
 
   @include breakpoint (desktop--Small) {
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
+    margin-top: 2.5rem;
+    margin-bottom: 2rem;
   }
 
   @include breakpoint (mobile) {
