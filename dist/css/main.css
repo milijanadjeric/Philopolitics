@@ -2736,6 +2736,7 @@ input[type="submit"]:hover {
     width: 19.5rem;
     padding-left: 0;
     margin-left: 8.2rem;
+    margin-top: 0;
     margin-bottom: 0.5rem;
   }
 }
