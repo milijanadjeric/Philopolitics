@@ -70,7 +70,7 @@
 
     @include breakpoint(mobile--Small) {
       margin-right: 0;
-      margin-left: 6rem;
+      margin-left: 4rem;
     }
 
     &_1 {
@@ -120,8 +120,8 @@
 
     @include breakpoint(mobile--Small) {
       width: 21rem;
-      margin-top: 4rem;
-      margin-bottom: 6.2rem;
+      margin-top: 6.5rem;
+      margin-bottom: 6.1rem;
       margin-left: 8rem;
     }
   }

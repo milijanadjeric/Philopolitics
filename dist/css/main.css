@@ -1078,7 +1078,7 @@ input[type="text"]:focus {
 @media (max-width: 360px) {
   .main_text {
     margin-right: 0;
-    margin-left: 6rem;
+    margin-left: 4rem;
   }
 }
 
@@ -1139,8 +1139,8 @@ input[type="text"]:focus {
 @media (max-width: 360px) {
   .main img {
     width: 21rem;
-    margin-top: 4rem;
-    margin-bottom: 6.2rem;
+    margin-top: 6.5rem;
+    margin-bottom: 6.1rem;
     margin-left: 8rem;
   }
 }
