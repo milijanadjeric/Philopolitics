@@ -54,9 +54,7 @@ input[type="submit"] {
     margin-bottom: 16.3rem;
   }
 
-  @include breakpoint(tablet) {
-    margin-bottom: 14.5rem;
-  }
+ 
   @include breakpoint(mobile--Small) {
     margin-bottom: 3.7rem;
     font-size: 1.3rem;
@@ -76,10 +74,12 @@ input[type="submit"]:hover {
     margin-top: 14rem;
   }
 
-  @include breakpoint(mobile) {
-    margin-left: 10rem;
-    margin-bottom: 55rem;
+  @include breakpoint(tablet) {
+    flex-direction: column-reverse;
+    margin: 0;
   }
+
+  
   @include breakpoint(mobile--Small) {
     flex-direction: column-reverse;
     margin: 0;
@@ -94,10 +94,17 @@ input[type="submit"]:hover {
     font-family: "Roboto";
     font-size: 1.2rem;
 
+    @include breakpoint(tablet) {
+      width: 50%;
+      margin: 9rem auto;
+    }
+
     @include breakpoint(mobile--Small) {
       width: 70%;
       margin: 0 auto;
     }
+
+   
   }
 
   &_heading {
@@ -175,11 +182,12 @@ input[type="submit"]:hover {
       padding-left: 17rem;
       margin-top: -18rem;
     }
-
-    @include breakpoint(mobile) {
-      padding-left: 6rem;
-      width: 45rem;
+    @include breakpoint(tablet) {
+      margin-top: 2rem;
+      padding-left: 0;
     }
+
+   
     @include breakpoint(mobile--Small) {
       width: 19.5rem;
       padding-left: 0;

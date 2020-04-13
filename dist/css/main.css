@@ -953,6 +953,12 @@ input[type="text"]:focus {
   }
 }
 
+@media (max-width: 800px) {
+  .elipse_7 {
+    display: none;
+  }
+}
+
 .elipse_7-about-us {
   display: none;
 }
@@ -2562,12 +2568,6 @@ input[type="submit"] {
   }
 }
 
-@media (max-width: 800px) {
-  input[type="submit"] {
-    margin-bottom: 14.5rem;
-  }
-}
-
 @media (max-width: 360px) {
   input[type="submit"] {
     margin-bottom: 3.7rem;
@@ -2593,10 +2593,13 @@ input[type="submit"]:hover {
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 800px) {
   .contact {
-    margin-left: 10rem;
-    margin-bottom: 55rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    margin: 0;
   }
 }
 
@@ -2623,6 +2626,13 @@ input[type="submit"]:hover {
   color: rgba(255, 255, 255, 0.5);
   font-family: "Roboto";
   font-size: 1.2rem;
+}
+
+@media (max-width: 800px) {
+  .contact_container {
+    width: 50%;
+    margin: 9rem auto;
+  }
 }
 
 @media (max-width: 360px) {
@@ -2714,10 +2724,10 @@ input[type="submit"]:hover {
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 800px) {
   .contact img {
-    padding-left: 6rem;
-    width: 45rem;
+    margin-top: 2rem;
+    padding-left: 0;
   }
 }
 

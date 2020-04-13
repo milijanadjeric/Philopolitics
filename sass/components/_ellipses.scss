@@ -75,13 +75,16 @@
 
   &_7 {
     display: none;
-    
+
     @include breakpoint(desktop--Small) {
       display: block;
       position: absolute;
       width: 128rem;
       left: 50%;
       transform: translate(-50%);
+    }
+    @include breakpoint(tablet) {
+      display: none;
     }
   }
 
