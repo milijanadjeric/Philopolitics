@@ -655,7 +655,7 @@ input[type="text"]:focus {
 
 @media (max-width: 1280px) {
   .projects {
-    margin-top: 25rem;
+    margin-top: 20rem;
   }
 }
 
@@ -2784,7 +2784,7 @@ input[type="submit"]:hover {
 
 @media (max-width: 1280px) {
   .hero_text_heading {
-    margin-left: 11rem;
+    margin-left: 10rem;
     margin-top: 5rem;
   }
 }
@@ -2818,7 +2818,7 @@ input[type="submit"]:hover {
 
 @media (max-width: 1280px) {
   .hero_text_sub {
-    margin-left: 11.5rem;
+    margin-left: 10.5rem;
   }
 }
 
@@ -2854,8 +2854,8 @@ input[type="submit"]:hover {
 
 @media (max-width: 1280px) {
   .hero_img_stars {
-    height: 42rem;
-    left: 70rem;
+    height: 43rem;
+    left: 69rem;
   }
 }
 
@@ -2899,8 +2899,8 @@ input[type="submit"]:hover {
 
 @media (max-width: 1280px) {
   .hero_img_sun {
-    left: 80rem;
-    height: 41rem;
+    left: 79rem;
+    height: 42rem;
   }
 }
 
