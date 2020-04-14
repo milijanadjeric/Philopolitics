@@ -78,6 +78,10 @@
       padding-bottom: 3rem;
     }
 
+    @include breakpoint(mobile--Small)  {
+      padding-bottom: 2.5rem;
+    }
+
     
   }
 
