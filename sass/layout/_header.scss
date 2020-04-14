@@ -281,7 +281,7 @@ input[type="text"]:focus {
 
   @include breakpoint(mobile--Small) {
     display: block;
-    margin-top: 1.8rem;
+    margin-top: 2.1rem;
     margin-right: -1rem;
   }
 
@@ -356,6 +356,7 @@ input[type="text"]:focus {
 /*  MOBILE NAVIGATION */
 
 .mobile-nav {
+  
   @include breakpoint(mobile--Small) {
     width: 205px;
     position: absolute;
@@ -428,7 +429,7 @@ button.subnavbtn.mrg-right:nth-of-type(1) {
 }
 
 .mobile-nav-icon {
-  margin-top: 1.3rem;
+  margin-top: 1.7rem;
   cursor: pointer;
   display: none;
   margin-right: 1.8rem;
