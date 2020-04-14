@@ -101,6 +101,7 @@ header {
 @media (max-width: 800px) {
   .logo {
     margin-left: 6rem;
+    margin-top: 2rem;
   }
 }
 
@@ -142,6 +143,12 @@ header {
   overflow: hidden;
   background-color: #322b6c;
   margin-top: 3.5rem;
+}
+
+@media (max-width: 800px) {
+  .navbar {
+    margin-top: 3rem;
+  }
 }
 
 /* Navigation links */
