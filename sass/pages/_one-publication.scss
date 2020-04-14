@@ -1,6 +1,10 @@
 .main-section {
   display: flex;
-  margin: 11.7rem 0 41.2rem 16rem;
+  margin: 11rem 0 41.2rem 12rem;
+
+  @include breakpoint(desktop--Small) {
+    margin: 9rem 0 30rem 10rem;
+  }
 
   @include breakpoint(tablet) {
     margin: 8rem 0 25rem 18rem;
@@ -30,8 +34,12 @@
 .div {
   display: flex;
   flex-direction: column;
-  margin-left: 12rem;
+  margin-left: 11rem;
   width: 37.8rem;
+
+  @include breakpoint(desktop--Small) {
+    margin-left: 9rem;
+  }
 
   @include breakpoint(tablet) {
     margin-left: 6rem;
