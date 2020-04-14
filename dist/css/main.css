@@ -3275,6 +3275,12 @@ input[type="submit"]:hover {
   padding-bottom: 1.3rem;
 }
 
+@media (max-width: 360px) {
+  .div_name {
+    padding-bottom: 1rem;
+  }
+}
+
 .div_author {
   font-family: "Roboto";
   font-size: 1.6rem;

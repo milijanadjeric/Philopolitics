@@ -64,6 +64,10 @@
     color: $color-footer-text;
     padding-bottom: 1.3rem;
 
+    @include breakpoint(mobile--Small) {
+      padding-bottom: 1rem;
+    }
+
     
   }
 
