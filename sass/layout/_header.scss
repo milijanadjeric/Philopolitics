@@ -26,7 +26,7 @@ header {
   }
 
   @include breakpoint(mobile--Small) {
-    margin-left: 1.5rem;
+    margin-left: 1rem;
     margin-top: 1.5rem;
   }
 
@@ -283,6 +283,9 @@ input[type="text"]:focus {
     display: block;
     margin-top: 2.1rem;
     margin-right: -1rem;
+  }
+  @include breakpoint(mobile--Smallest) {
+    margin-top: 2.3rem;
   }
 
   button {
