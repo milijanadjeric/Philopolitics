@@ -54,10 +54,12 @@ input[type="submit"] {
     margin-bottom: 16.3rem;
   }
 
- 
   @include breakpoint(mobile--Small) {
     margin-bottom: 3.7rem;
     font-size: 1.3rem;
+  }
+  @include breakpoint(mobile--Smallest) {
+    margin-bottom: 2rem;
   }
 }
 
@@ -79,7 +81,6 @@ input[type="submit"]:hover {
     margin: 0;
   }
 
-  
   @include breakpoint(mobile--Small) {
     flex-direction: column-reverse;
     margin: 0;
@@ -103,8 +104,6 @@ input[type="submit"]:hover {
       width: 70%;
       margin: 0 auto;
     }
-
-   
   }
 
   &_heading {
@@ -118,6 +117,9 @@ input[type="submit"]:hover {
       padding-top: 0;
       padding-bottom: 3rem;
       font-size: 1.8rem;
+    }
+    @include breakpoint(mobile--Smallest) {
+      padding-bottom: 1.5rem;
     }
   }
 
@@ -135,6 +137,10 @@ input[type="submit"]:hover {
     font-size: 1.2rem;
     color: $color-white;
 
+    @include breakpoint(mobile--Smallest) {
+      margin-bottom: 18px;
+    }
+
     &_email {
       width: 100%;
       border-bottom: 1px $color-white solid;
@@ -151,6 +157,9 @@ input[type="submit"]:hover {
 
       @include breakpoint(mobile--Small) {
         margin-bottom: 2.6rem;
+      }
+      @include breakpoint(mobile--Smallest) {
+        margin-bottom: 18px;
       }
     }
 
@@ -170,6 +179,22 @@ input[type="submit"]:hover {
       font-size: 1.2rem;
       color: $color-white;
 
+      @include breakpoint(mobile--Smallest) {
+        width: 100%;
+        border-bottom: 1px $color-white solid;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        outline: none;
+        margin-bottom: 2rem;
+        resize: vertical;
+        background-color: transparent;
+        max-height: 70px;
+        min-height: 70px;
+        font-family: "Roboto";
+        font-size: 1.2rem;
+        color: $color-white;
+      }
     }
   }
 
@@ -187,7 +212,6 @@ input[type="submit"]:hover {
       padding-left: 0;
     }
 
-   
     @include breakpoint(mobile--Small) {
       width: 19.5rem;
       padding-left: 0;
@@ -195,5 +219,11 @@ input[type="submit"]:hover {
       margin-top: 0;
       margin-bottom: 0.5rem;
     }
+
+    @include breakpoint(mobile--Smallest) {
+      width: 16.2rem;
+      margin-left: 9.9rem;
+    }
+    
   }
 }

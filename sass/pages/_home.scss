@@ -71,6 +71,9 @@
     @include breakpoint(tablet) {
       margin-top: 3rem;
     }
+    @include breakpoint(mobile--Smallest) {
+      margin-top: 0.9rem;
+    }
 
     &_heading {
       text-transform: uppercase;
@@ -95,6 +98,10 @@
         margin-left: 4.5rem;
         margin-top: 0;
       }
+      @include breakpoint(mobile--Smallest) {
+        font-size: 2.8rem;
+        margin: 0 auto;
+      }
     }
     &_sub {
       font-family: $font-rb;
@@ -113,6 +120,9 @@
       @include breakpoint(mobile--Small) {
         font-size: 1.3rem;
         margin-left: 7.3rem;
+      }
+      @include breakpoint(mobile--Smallest) {
+        margin-top: 0.5rem;
       }
     }
     &_sub-span {
@@ -147,6 +157,11 @@
         display: block;
         margin: 2.5rem auto;
       }
+      @include breakpoint(mobile--Smallest) {
+        width: 26rem;
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+      }
     }
 
     &_sun {
@@ -170,6 +185,11 @@
         width: 27rem;
         left: 4.8rem;
         top: 8rem;
+      }
+      @include breakpoint(mobile--Smallest) {
+        width: 23rem;
+        top: 2.5rem;
+        left: 6.5rem;
       }
     }
   }
@@ -237,7 +257,6 @@
   }
 }
 
-
 .socials-mobile {
   display: none;
 
@@ -246,7 +265,6 @@
     margin-top: 31rem;
     margin-bottom: 7.1rem;
     text-align: center;
-    
   }
 
   @include breakpoint(mobile--Small) {
@@ -255,7 +273,17 @@
     margin-bottom: 1.5rem;
     text-align: center;
   }
+  @include breakpoint(mobile--Smallest) {
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
   a {
     padding-left: 1.5rem;
+    @include breakpoint(mobile--Smallest)  {
+      padding-left: 1rem;
+      
+    }
+    
+  
   }
 }

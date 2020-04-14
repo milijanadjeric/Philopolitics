@@ -93,6 +93,9 @@
       @include breakpoint(mobile--Small) {
         font-size: 3rem;
       }
+      @include breakpoint(mobile--Smallest) {
+        padding-bottom: 2rem;
+      }
     }
     &_3 {
       color: $color-white;
@@ -123,6 +126,10 @@
       margin-top: 6.5rem;
       margin-bottom: 6.1rem;
       margin-left: 8rem;
+    }
+    @include breakpoint(mobile--Smallest) {
+      margin-top: 2rem;
+      margin-bottom: 2.6rem;
     }
   }
   .button {
