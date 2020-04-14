@@ -7,7 +7,7 @@
   }
 
   @include breakpoint(tablet) {
-    margin: 8rem 0 25rem 18rem;
+    margin: 5rem 0 0 5rem;
   }
 
   @include breakpoint(mobile) {
@@ -22,6 +22,10 @@
   }
 
   &_img {
+
+    @include breakpoint(tablet)  {
+      width: 35rem;
+    }
     @include breakpoint(mobile--Small) {
       width: 30rem;
       
@@ -42,7 +46,9 @@
   }
 
   @include breakpoint(tablet) {
-    margin-left: 6rem;
+    margin-left: 5rem;
+    width: 31rem;
+    
   }
 
   @include breakpoint(mobile) {
@@ -63,6 +69,8 @@
     text-transform: uppercase;
     color: $color-footer-text;
     padding-bottom: 1.3rem;
+
+    
   }
 
   &_author {
@@ -71,6 +79,10 @@
     text-transform: capitalize;
     color: $color-black;
     padding-bottom: 5.2rem;
+
+    @include breakpoint(tablet) {
+      padding-bottom: 3rem;
+    }
 
     @include breakpoint(mobile--Small) {
       padding-bottom: 2rem;
