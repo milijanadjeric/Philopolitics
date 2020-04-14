@@ -213,6 +213,10 @@
         padding-right: 1rem;
        
       }
+
+      @include breakpoint(mobile--Smallest){
+        padding-right: 1.5rem;
+      }
     }
   }
 
@@ -489,6 +493,9 @@
       margin-right: 0;
     
     }
+    @include breakpoint(mobile--Smallest) {
+      margin-right: 1rem;
+    }
 
     &_name {
       color: $color-white;
@@ -502,6 +509,9 @@
       @include breakpoint(mobile--Small) {
         font-size: 1.1rem;
       }
+      @include breakpoint(mobile--Smallest) {
+        padding-left: 1rem;
+      }
     }
     &_title {
       color: rgba(255, 255, 255, 0.7);
@@ -512,6 +522,9 @@
 
       @include breakpoint(mobile--Small)  {
         font-size: .9rem;
+      }
+      @include breakpoint(mobile--Smallest) {
+        padding-left: 1rem;
       }
     }
   }
