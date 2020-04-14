@@ -10,10 +10,6 @@
     margin: 5rem 0 0 5rem;
   }
 
-  @include breakpoint(mobile) {
-    margin: 6rem 1.5rem 25rem 6rem;
-  }
-
   @include breakpoint(mobile--Small) {
     display: block;
     margin-top: 3.1rem;
@@ -51,9 +47,7 @@
     
   }
 
-  @include breakpoint(mobile) {
-    margin-left: 4rem;
-  }
+
   @include breakpoint(mobile--Small) {
     margin-left: 0;
     margin-top: 2rem;
@@ -84,9 +78,7 @@
       padding-bottom: 3rem;
     }
 
-    @include breakpoint(mobile--Small) {
-      padding-bottom: 2rem;
-    }
+    
   }
 
   &_parag {
@@ -96,5 +88,9 @@
     color: $color-black;
     line-height: 1.7rem;
     padding-bottom: 2rem;
+
+    @include breakpoint(mobile--Small) {
+      padding-right: 2.3rem;
+    }
   }
 }
