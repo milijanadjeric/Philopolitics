@@ -18,7 +18,8 @@
 
 
 <body>
-    <header class="header">
+
+    <header>
         <!-- LOGO -->
 
         <div class="logo">
@@ -61,7 +62,9 @@
 
         <!-- NAVIGATION -->
 
+
         <div class="navbar" class="mobile-nav" id="myMobile">
+            <a class="home-mobile" href="index.html">home</a>
             <div class="subnav">
                 <button class="subnavbtn mrg-right">What we do<i class="subnav_down"></i></button>
                 <div class="subnav-content">
@@ -79,7 +82,16 @@
             </div>
             <a href="about-us.html" class="mrg-right mrg-right_border">About us</a>
             <a href="contact.html" class="mrg-right mrg-right_border">Contact</a>
+
+            <div class="languages-mobile">
+                <div class="languages-mobile_img">
+                    <a href="404.html"><img src="img/SFRJ.svg" alt=""></a>
+                    <a href="404.html"><img src="img/UK.svg" alt=""></a>
+                </div>
+                <p>privacy policy</p>
+            </div>
         </div>
+
 
         <!-- NAVIGATION  END -->
 
@@ -88,7 +100,7 @@
             <span class="closebtn" onclick="closeSearch()" title="Close Overlay">×</span>
             <div class="overlay-content">
                 <form action="/action_page.php">
-                    <input type="text" placeholder="" name="search">
+                    <input class="overlay-content_input" placeholder="" name="search" maxlength="40">
                     <button type="submit"><svg class="overlay-search-icon" width="11" height="10" viewBox="0 0 11 10"
                             fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path id="Vector"
@@ -109,8 +121,8 @@
         <!-- SEARCH-BOX ON MOBILE DEVICE  END -->
 
         <div class="search-box">
-            <form class="search-box_form" action="action_page.php">
-                <input type="text" name="search" placeholder="">
+            <form class="search-box_form" action="/action_page.php">
+                <input type="text" name="search" placeholder="" maxlength="19">
                 <button type="submit"><svg class="search-box_search-icon" width="11" height="10" viewBox="0 0 11 10"
                         fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path id="Vector"
@@ -122,8 +134,8 @@
 
         <div class="languages">
 
-            <a href="#"><img class="languages_img" src="img/SFRJ.svg" alt=""></a>
-            <a href="#"><img src="img/UK.svg" alt=""></a>
+            <a href="404.html"><img class="languages_img" src="img/SFRJ.svg" alt=""></a>
+            <a href="404.html"><img src="img/UK.svg" alt=""></a>
         </div>
 
         <a href="javascript:void(0);" onclick="myFunction()" class="mobile-nav-icon">
@@ -133,6 +145,8 @@
                     <path id="Vector" d="M3 18H21V16H3V18ZM3 13H21V11H3V13ZM3 6V8H21V6H3Z" fill="white"></path>
                 </g>
             </svg></a>
+
+
     </header>
 
 
@@ -387,7 +401,7 @@
 
 
 
-    
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
@@ -422,6 +436,9 @@
 
         $('.container_projekti').slick({
             infinite: false,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: true,
 
             responsive: [
                 {
@@ -434,23 +451,48 @@
             ]
         });
 
+        /* Slick needs no get Reinitialized on window Resize after it was destroyed */
+        $(window).on('load resize orientationchange', function () {
+            $('.container_projekti').each(function () {
+                var $carousel = $(this);
+                /* Initializes a slick carousel only on mobile screens */
+                // slick on mobile
+                if ($(window).width() <= 360) {
+                    if ($carousel.hasClass('slick-initialized')) {
+                        $carousel.slick('unslick');
+                    }
+                }
+                else {
+                    if (!$carousel.hasClass('slick-initialized')) {
+                        $carousel.slick({
+                            infinite: false,
+                            slidesToShow: 1,
+                            slidesToScroll: 1,
+                            arrows: true,
+                            mobileFirst: true,
+                        });
+                    }
+                }
+            });
+        });
+
         /*  JQUERY -  TOGGLE BETWEEN LOAD MORE/LOAD LESS ON MOBILE DEVICE */
 
         $(document).ready(function () {
             $("#loadmore").click(function () {
-                
+
                 $(".hidden").toggle();
             });
         });
 
         $(document).ready(function () {
             $("#loadless").click(function () {
-                
+
                 $(".hidden").toggle();
             });
         });
 
-        
+
 
     </script>
 </body>

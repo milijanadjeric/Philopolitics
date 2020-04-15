@@ -31,20 +31,12 @@
   right: 600px;
   top: 1320px;
 
-  @include breakpoint(desktop) {
-    right: 570px;
-  }
+ 
 
   @include breakpoint(desktop--Small) {
-    right: 530px;
+    right: 550px;
   }
-  @include breakpoint(tablet) {
-    right: 500px;
-  }
-
-  @include breakpoint(mobile) {
-    right: 110px;
-  }
+ 
 }
 
 .slider-projects {
@@ -55,13 +47,6 @@
     margin-left: 13rem;
   }
 
-  @include breakpoint(tablet) {
-    margin-left: 18rem;
-  }
-
-  @include breakpoint(mobile) {
-    margin-left: 9rem;
-  }
 
   @include breakpoint(mobile--Small) {
     margin-left: 0;

@@ -19,7 +19,6 @@
     margin-top: 3.5rem;
 
   }
-
 }
 
 .naslov {
@@ -41,9 +40,6 @@
 .container_tekstovi .slick-prev {
   left: 915px;
 
-  @include breakpoint (desktop) {
-    left: 890px;
-  }
 
   @include breakpoint (desktop--Small) {
     left: 880px;
@@ -55,18 +51,12 @@
 .container_tekstovi .slick-next {
   right: 145px;
 
-  @include breakpoint (desktop) {
-    right: 140px;
-  }
+ 
 
   @include breakpoint (desktop--Small)  {
     right: 130px;
   }
 
-
-  @include breakpoint(mobile)  {
-    right: 75px;
-  }
 }
 
 
@@ -80,10 +70,6 @@
     display: flex;
     flex-direction: column;
 
-  
-    @include breakpoint (tablet)  {
-      margin-right: 7rem;
-    }
 
     @include breakpoint (mobile--Small) {
       margin-bottom: 3.5rem;
