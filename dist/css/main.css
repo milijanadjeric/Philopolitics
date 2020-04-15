@@ -1758,7 +1758,7 @@ input[type="text"]:focus {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding-bottom: 8rem;
+  padding-bottom: 9rem;
 }
 
 @media (max-width: 360px) {
@@ -1974,13 +1974,12 @@ input[type="text"]:focus {
   display: -ms-flexbox;
   display: flex;
   background-color: #322b6c;
-  padding: 5rem 25rem 3rem 25rem;
+  padding: 5rem 25rem 1rem 25rem;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 1280px) {
   .Aleksandar_bio {
-    padding-left: 7rem;
-    padding-right: 7rem;
+    padding: 8.2rem 20rem 7rem 24rem;
   }
 }
 
@@ -2026,6 +2025,13 @@ input[type="text"]:focus {
   text-align: justify;
 }
 
+@media (max-width: 1280px) {
+  .Aleksandar_bio_text {
+    padding-left: 4rem;
+    padding-right: 9rem;
+  }
+}
+
 @media (max-width: 360px) {
   .Aleksandar_bio_text {
     font-size: 1.3rem;
@@ -2037,6 +2043,13 @@ input[type="text"]:focus {
 
 .Aleksandar_bio_text p {
   padding-bottom: 2rem;
+}
+
+@media (max-width: 1280px) {
+  .Aleksandar_bio_text p {
+    padding-bottom: 2.8rem;
+    line-height: 2.4rem;
+  }
 }
 
 .tekstovi_autora {
@@ -2064,21 +2077,9 @@ input[type="text"]:focus {
   height: 66rem;
 }
 
-@media (max-width: 1323px) {
-  .slider-biography {
-    margin-left: 12rem;
-  }
-}
-
 @media (max-width: 1280px) {
   .slider-biography {
     margin-left: 10.5rem;
-  }
-}
-
-@media (max-width: 480px) {
-  .slider-biography {
-    margin-left: 9.5rem;
   }
 }
 
@@ -2093,21 +2094,9 @@ input[type="text"]:focus {
   right: 125px;
 }
 
-@media (max-width: 1323px) {
-  .container_tekstovi-2 .slick-next {
-    right: 120px;
-  }
-}
-
 @media (max-width: 1280px) {
   .container_tekstovi-2 .slick-next {
     right: 105px;
-  }
-}
-
-@media (max-width: 480px) {
-  .container_tekstovi-2 .slick-next {
-    right: 90px;
   }
 }
 
@@ -2115,21 +2104,9 @@ input[type="text"]:focus {
   left: 960px;
 }
 
-@media (max-width: 1323px) {
-  .container_tekstovi-2 .slick-prev {
-    left: 940px;
-  }
-}
-
 @media (max-width: 1280px) {
   .container_tekstovi-2 .slick-prev {
     left: 930px;
-  }
-}
-
-@media (max-width: 480px) {
-  .container_tekstovi-2 .slick-prev {
-    left: 475px;
   }
 }
 
@@ -2320,22 +2297,9 @@ input[type="text"]:focus {
   margin-left: 12.8rem;
 }
 
-@media (max-width: 1323px) {
-  .line {
-    width: 107rem;
-  }
-}
-
 @media (max-width: 1280px) {
   .line {
     width: 104rem;
-  }
-}
-
-@media (max-width: 480px) {
-  .line {
-    width: 60rem;
-    margin-left: 10rem;
   }
 }
 

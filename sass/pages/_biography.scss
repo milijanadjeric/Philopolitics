@@ -1,13 +1,14 @@
 .Aleksandar_bio {
   display: flex;
   background-color: $color-footer-text;
-  padding: 5rem 25rem 3rem 25rem;
+  padding: 5rem 25rem 1rem 25rem;
 
-  @include breakpoint(mobile) {
-    padding-left: 7rem;
-    padding-right: 7rem;
+  @include breakpoint(desktop--Small) {
+    padding: 8.2rem 20rem 7rem 24rem;
   }
+  
 
+  
   @include breakpoint(mobile--Small) {
     background-image: -webkit-gradient(
       linear,
@@ -34,6 +35,7 @@
 
   img {
     align-self: flex-start;
+    
 
     @include breakpoint(mobile--Small) {
       width: 6.2rem;
@@ -53,6 +55,12 @@
     padding-right: 9rem;
     text-align: justify;
 
+    @include breakpoint(desktop--Small) {
+      padding-left: 4rem;
+      padding-right: 9rem;
+    }
+    
+
     @include breakpoint(mobile--Small) {
       font-size: 1.3rem;
       padding-left: 3.1rem;
@@ -62,6 +70,10 @@
 
     p {
       padding-bottom: 2rem;
+      @include breakpoint(desktop--Small) {
+        padding-bottom: 2.8rem;
+        line-height: 2.4rem;
+      }
      
     }
   }
@@ -91,16 +103,11 @@
   margin-top: 4.8rem;
   height: 66rem;
 
-  @include breakpoint(desktop) {
-    margin-left: 12rem;
-  }
 
   @include breakpoint(desktop--Small) {
     margin-left: 10.5rem;
   }
-  @include breakpoint(mobile) {
-    margin-left: 9.5rem;
-  }
+  
   @include breakpoint(mobile--Small) {
     margin-left: 0;
     margin-top: 0;
@@ -110,31 +117,23 @@
 .container_tekstovi-2 .slick-next {
   right: 125px;
 
-  @include breakpoint(desktop) {
-    right: 120px;
-  }
+  
   @include breakpoint(desktop--Small) {
     right: 105px;
   }
 
-  @include breakpoint(mobile) {
-    right: 90px;
-  }
+  
 }
 
 .container_tekstovi-2 .slick-prev {
   left: 960px;
 
-  @include breakpoint(desktop) {
-    left: 940px;
-  }
+  
   @include breakpoint(desktop--Small) {
     left: 930px;
   }
 
-  @include breakpoint(mobile) {
-    left: 475px;
-  }
+  
 }
 
 .div-1 {
@@ -156,6 +155,7 @@
       position: absolute;
       margin-top: -4.8rem;
       background: transparent;
+
       @include breakpoint(mobile--Small) {
         margin-top: -7rem;
       }
@@ -168,6 +168,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+
         @include breakpoint(mobile--Small) {
           width: 8.5rem;
           height: 7rem;
@@ -271,18 +272,11 @@
   margin-top: 25rem;
   margin-left: 12.8rem;
 
-  @include breakpoint(desktop) {
-    width: 107rem;
-  }
 
   @include breakpoint(desktop--Small) {
     width: 104rem;
   }
 
-  @include breakpoint(mobile) {
-    width: 60rem;
-    margin-left: 10rem;
-  }
 
   @include breakpoint(mobile--Small) {
     display: none;
