@@ -1,6 +1,8 @@
 
 
 //  STYLE FOR PAGES BLOG, PRESS RELEASE, AND IN THE MEDIA
+
+
 //    SLIDER
 
 .slider-blog {
@@ -8,16 +10,11 @@
     margin-top: 4.8rem;
     height: 105rem;
   
-    @include breakpoint(desktop) {
-      margin-left: 12rem;
-    }
   
     @include breakpoint(desktop--Small) {
       margin-left: 10.5rem;
     }
-    @include breakpoint(mobile) {
-      margin-left: 9.5rem;
-    }
+    
     @include breakpoint(mobile--Small) {
       margin-left: 0;
       margin-top: 0;
@@ -37,33 +34,21 @@
     top: 1080px;
    
   
-    @include breakpoint(desktop) {
-      right: 120px;
-    }
     @include breakpoint(desktop--Small) {
       right: 105px;
     }
   
-    @include breakpoint(mobile) {
-      right: 90px;
-    }
   }
   
   .container_tekstovi-1 .slick-prev {
     left: 960px;
     top: 1080px;
    
-  
-    @include breakpoint(desktop) {
-      left: 940px;
-    }
+
     @include breakpoint(desktop--Small) {
       left: 930px;
     }
   
-    @include breakpoint(mobile) {
-      left: 475px;
-    }
   }
   
   .div-1 {
@@ -85,6 +70,7 @@
         position: absolute;
         margin-top: -4.8rem;
         background: transparent;
+
         @include breakpoint(mobile--Small) {
           margin-top: -7rem;
         }
@@ -157,6 +143,7 @@
           @include breakpoint(mobile--Small) {
             width: 33rem;
           }
+          
   
           &_heading {
             font-family: "Roboto";
@@ -166,6 +153,7 @@
             padding-left: 8rem;
             padding-top: 1.6rem;
             padding-bottom: 1.2rem;
+
             @include breakpoint(mobile--Small) {
               font-size: 1.6rem;
               padding-left: 10.5rem;
@@ -188,6 +176,11 @@
         @include breakpoint(mobile--Small) {
           width: 36rem;
         }
+
+        @include breakpoint(mobile--Smallest) {
+          width: 36.4rem;
+        }
+        
       }
     }
   }
@@ -199,19 +192,12 @@
     width: 109rem;
     margin-top: 15rem;
     margin-left: 12.8rem;
-  
-    @include breakpoint(desktop) {
-      width: 107rem;
-    }
+
   
     @include breakpoint(desktop--Small) {
       width: 104rem;
     }
-  
-    @include breakpoint(mobile) {
-      width: 60rem;
-      margin-left: 10rem;
-    }
+
   
     @include breakpoint(mobile--Small) {
       display: none;
