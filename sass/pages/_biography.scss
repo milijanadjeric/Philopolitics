@@ -277,6 +277,9 @@
       @include breakpoint(mobile--Small) {
         width: 36rem;
       }
+      @include breakpoint(mobile--Smallest) {
+        width: 36.4rem;
+      }
     }
   }
 }

@@ -2316,6 +2316,12 @@ input[type="text"]:focus {
   }
 }
 
+@media (max-width: 320px) {
+  .div-1_wrap img {
+    width: 36.4rem;
+  }
+}
+
 .line {
   border: 0.625339px solid #e5e5e5;
   width: 109rem;
