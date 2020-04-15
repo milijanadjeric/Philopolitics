@@ -70,6 +70,7 @@
 
     p {
       padding-bottom: 2rem;
+      
       @include breakpoint(desktop--Small) {
         padding-bottom: 2.8rem;
         line-height: 2.4rem;

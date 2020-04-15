@@ -388,6 +388,10 @@
   justify-content: center;
   padding-bottom: 9rem;
 
+  @include breakpoint(desktop--Small) {
+    padding-bottom: 8rem;
+  }
+
   @include breakpoint(mobile--Small) {
     flex-direction: column;
     padding-bottom: 5rem;
