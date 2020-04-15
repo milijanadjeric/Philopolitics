@@ -1989,6 +1989,12 @@ input[type="text"]:focus {
   }
 }
 
+@media (max-width: 800px) {
+  .Aleksandar_bio {
+    padding: 3rem 10rem 5rem 10rem;
+  }
+}
+
 @media (max-width: 360px) {
   .Aleksandar_bio {
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(10%, #322b6c), color-stop(70%, #131c6d), to(#b1bff9));
@@ -2038,6 +2044,13 @@ input[type="text"]:focus {
   }
 }
 
+@media (max-width: 800px) {
+  .Aleksandar_bio_text {
+    padding-left: 4rem;
+    padding-right: 3rem;
+  }
+}
+
 @media (max-width: 360px) {
   .Aleksandar_bio_text {
     font-size: 1.3rem;
@@ -2055,6 +2068,13 @@ input[type="text"]:focus {
   .Aleksandar_bio_text p {
     padding-bottom: 2.8rem;
     line-height: 2.4rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .Aleksandar_bio_text p {
+    padding-bottom: 2rem;
+    line-height: normal;
   }
 }
 
