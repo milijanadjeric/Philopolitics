@@ -18,7 +18,7 @@
 
 
 <body>
-    
+
     <header>
         <!-- LOGO -->
 
@@ -383,42 +383,42 @@
         });
 
         /* Slick needs no get Reinitialized on window Resize after it was destroyed */
-    $(window).on('load resize orientationchange', function() {
-        $('.container_tekstovi').each(function(){
-            var $carousel = $(this);
-            /* Initializes a slick carousel only on mobile screens */
-            // slick on mobile
-            if ($(window).width() <= 360) {
-                if ($carousel.hasClass('slick-initialized')) {
-                    $carousel.slick('unslick');
+        $(window).on('load resize orientationchange', function () {
+            $('.container_tekstovi').each(function () {
+                var $carousel = $(this);
+                /* Initializes a slick carousel only on mobile screens */
+                // slick on mobile
+                if ($(window).width() <= 360) {
+                    if ($carousel.hasClass('slick-initialized')) {
+                        $carousel.slick('unslick');
+                    }
                 }
-            }
-            else{
-                if (!$carousel.hasClass('slick-initialized')) {
-                    $carousel.slick({
-                        infinite: false,
-                        slidesToShow: 3,
-                        slidesToScroll: 3,
-                        arrows: true,
-                        mobileFirst: true,
-                    });
+                else {
+                    if (!$carousel.hasClass('slick-initialized')) {
+                        $carousel.slick({
+                            infinite: false,
+                            slidesToShow: 3,
+                            slidesToScroll: 3,
+                            arrows: true,
+                            mobileFirst: true,
+                        });
+                    }
                 }
-            }
+            });
         });
-    });
-        
+
         /*  JQUERY -  TOGGLE BETWEEN LOAD MORE/LOAD LESS ON MOBILE DEVICE */
 
         $(document).ready(function () {
             $("#loadmore").click(function () {
-                
+
                 $(".hidden").toggle();
             });
         });
 
         $(document).ready(function () {
             $("#loadless").click(function () {
-                
+
                 $(".hidden").toggle();
             });
         });
@@ -426,4 +426,5 @@
     </script>
 
 </body>
+
 </html>
