@@ -9,7 +9,7 @@
     left bottom,
     color-stop(20%, #322b6c),
     color-stop(75%, #131c6d),
-    color-stop(100%, #b1bff9)
+    to(#b1bff9)
   );
   background-image: linear-gradient(
     to bottom,
@@ -27,7 +27,7 @@
       left bottom,
       color-stop(10%, #322b6c),
       color-stop(65%, #131c6d),
-      color-stop(100%, #b1bff9)
+      to(#b1bff9)
     );
     background-image: linear-gradient(
       to bottom,
@@ -46,7 +46,7 @@
       left bottom,
       color-stop(10%, #322b6c),
       color-stop(70%, #131c6d),
-      color-stop(100%, #b1bff9)
+      to(#b1bff9)
     );
     background-image: linear-gradient(
       to bottom,
@@ -63,9 +63,11 @@
   &_text {
     margin-top: 10rem;
     display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
 
     @include breakpoint(tablet) {
@@ -197,7 +199,9 @@
 
 .socials {
   display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-pack: distribute;
   justify-content: space-around;
   color: $color-blue;
   margin-top: 1rem;
@@ -279,11 +283,8 @@
   }
   a {
     padding-left: 1.5rem;
-    @include breakpoint(mobile--Smallest)  {
+    @include breakpoint(mobile--Smallest) {
       padding-left: 1rem;
-      
     }
-    
-  
   }
 }
