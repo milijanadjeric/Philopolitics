@@ -1,11 +1,10 @@
 .gradient-effect-3 {
   background-image: -webkit-gradient(
     linear,
-    left top,
-    left bottom,
+    left top, left bottom,
     color-stop(20%, #322b6c),
     color-stop(53%, #131c6d),
-    color-stop(100%, #b1bff9)
+    to(#b1bff9)
   );
   background-image: linear-gradient(
     to bottom,
@@ -19,11 +18,10 @@
   @include breakpoint(mobile--Small) {
     background-image: -webkit-gradient(
       linear,
-      left top,
-      left bottom,
+      left top, left bottom,
       color-stop(10%, #322b6c),
       color-stop(65%, #131c6d),
-      color-stop(100%, #b1bff9)
+      to(#b1bff9)
     );
     background-image: linear-gradient(
       to bottom,
@@ -68,6 +66,8 @@ input[type="submit"]:hover {
 }
 
 .contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin-left: 19rem;
   margin-top: 6.8rem;
@@ -77,18 +77,29 @@ input[type="submit"]:hover {
   }
 
   @include breakpoint(tablet) {
-    flex-direction: column-reverse;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
     margin: 0;
   }
 
   @include breakpoint(mobile--Small) {
-    flex-direction: column-reverse;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
     margin: 0;
   }
 
   &_container {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     z-index: 1;
     width: 30%;
     color: rgba(255, 255, 255, 0.5);

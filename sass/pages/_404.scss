@@ -1,11 +1,10 @@
 .gradient-effect-4 {
   background-image: -webkit-gradient(
     linear,
-    left top,
-    left bottom,
+    left top, left bottom,
     color-stop(20%, #322b6c),
     color-stop(45%, #131c6d),
-    color-stop(100%, #b1bff9)
+    to(#b1bff9)
   );
   background-image: linear-gradient(
     to bottom,
@@ -19,11 +18,10 @@
   @include breakpoint(mobile--Small) {
     background-image: -webkit-gradient(
       linear,
-      left top,
-      left bottom,
+      left top, left bottom,
       color-stop(10%, #322b6c),
       color-stop(73%, #131c6d),
-      color-stop(100%, #b1bff9)
+      to(#b1bff9)
     );
     background-image: linear-gradient(
       to bottom,
@@ -37,6 +35,8 @@
 }
 
 .main {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin-top: 8rem;
 
@@ -53,8 +53,13 @@
   }
 
   &_text {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     margin-left: 20rem;
     margin-right: 13rem;
     z-index: 2;
@@ -174,8 +179,12 @@
   }
 }
 .links {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: flex-end;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
   margin-top: 2rem;
 
   @include breakpoint(desktop--Small) {

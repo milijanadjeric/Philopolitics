@@ -3,8 +3,12 @@
 // -----------------------------------------------------------------------------
 
 .Networks {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   padding-top: 3rem;
   padding-bottom: 1.8rem;
   padding-left: 1rem;
@@ -22,8 +26,12 @@
   }
 }
 .privacy {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   padding-bottom: 3rem;
 
   @include breakpoint(mobile--Small) {

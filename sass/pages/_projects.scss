@@ -61,12 +61,20 @@
 }
 
 .div-11 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 
   &_wrap {
     margin-bottom: 6rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 
     @include breakpoint(mobile--Small) {
@@ -122,12 +130,20 @@
   }
 }
 .div-22 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 
   &_wrap {
     margin-bottom: 6rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 
     @include breakpoint(mobile--Small) {
@@ -184,12 +200,20 @@
 }
 
 .div-33 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 
   &_wrap {
     margin-bottom: 6rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 
     @include breakpoint(mobile--Small) {

@@ -1,4 +1,6 @@
 .Aleksandar_bio {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   background-color: $color-footer-text;
   padding: 5rem 25rem 1rem 25rem;
@@ -16,11 +18,10 @@
   @include breakpoint(mobile--Small) {
     background-image: -webkit-gradient(
       linear,
-      left top,
-      left bottom,
+      left top, left bottom,
       color-stop(10%, #322b6c),
       color-stop(70%, #131c6d),
-      color-stop(100%, #b1bff9)
+      to(#b1bff9)
     );
     background-image: linear-gradient(
       to bottom,
@@ -38,7 +39,8 @@
   }
 
   img {
-    align-self: flex-start;
+    -ms-flex-item-align: start;
+        align-self: flex-start;
     
 
     @include breakpoint(mobile--Small) {
@@ -50,8 +52,13 @@
   }
 
   &_text {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     font-family: "Roboto";
     font-size: 1.8rem;
     color: $color-white;
@@ -154,17 +161,28 @@
 }
 
 .div-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 
   a {
     text-decoration: none;
   }
 
   &_wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     margin-bottom: 5rem;
     position: relative;
 
@@ -181,10 +199,19 @@
         width: 5.8rem;
         height: 4.8rem;
         background-color: $color-violet-transparent;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
 
         @include breakpoint(mobile--Small) {
           width: 8.5rem;
@@ -217,9 +244,15 @@
         color: $color-white;
         font-family: $font-tr-rg;
         text-transform: uppercase;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        justify-content: center;
-        align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
         @include breakpoint(mobile--Small) {
           width: 8.5rem;
           height: 2.8rem;

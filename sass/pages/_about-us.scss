@@ -5,11 +5,10 @@
 .gradient-effect-2 {
   background-image: -webkit-gradient(
     linear,
-    left top,
-    left bottom,
+    left top, left bottom,
     color-stop(20%, #322b6c),
     color-stop(65%, #131c6d),
-    color-stop(100%, #b1bff9)
+    to(#b1bff9)
   );
   background-image: linear-gradient(
     to bottom,
@@ -22,6 +21,8 @@
 }
 
 .main_div-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   padding-top: 16rem;
   margin-left: 25rem;
@@ -31,12 +32,18 @@
 
   }
   @include breakpoint(tablet) {
-    flex-direction: column-reverse;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
     margin-left: 1rem;
   }
 
   @include breakpoint(mobile--Small) {
-    flex-direction: column-reverse;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
     padding-top: 5rem;
     padding-bottom: 3rem;
     margin-left: 0;
@@ -44,8 +51,13 @@
 
 
   &_box {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     padding-top: 4rem;
     padding-right: 7rem;
 
@@ -107,25 +119,38 @@
 }
 
 .main_div-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   padding-top: 8rem;
   margin-left: 14rem;
 
 
   @include breakpoint(tablet) {
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 
   @include breakpoint(mobile--Small) {
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     padding-top: 0;
     margin-left: 0;
   }
 
 
   &_box {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
 
 
     @include breakpoint(mobile--Small) {
@@ -238,6 +263,8 @@
 }
 
 .main_div-3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin-left: 24rem;
   padding-bottom: 27rem;
@@ -247,14 +274,20 @@
   }
 
   @include breakpoint(tablet) {
-    flex-direction: column-reverse;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
     margin-top: 4rem;
     padding-bottom: 24rem;
     
   }
 
   @include breakpoint(mobile--Small) {
-    flex-direction: column-reverse;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
     margin-top: 5rem;
     margin-left: 0;
     padding-bottom: 10rem;
@@ -263,8 +296,13 @@
 
   &_box {
     padding-right: 11rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
 
     @include breakpoint(tablet) {
       margin-top: 3rem;
@@ -331,9 +369,13 @@
     }
 
     &_ellipsebox {
+      display: -webkit-box;
+      display: -ms-flexbox;
       display: flex;
       margin-left: 28rem;
-      align-items: center;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
       padding-top: 1.5rem;
 
       @include breakpoint(mobile--Small) {
@@ -384,8 +426,12 @@
 }
 
 .Our-team {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   padding-bottom: 9rem;
 
   @include breakpoint(desktop--Small) {
@@ -393,7 +439,10 @@
   }
 
   @include breakpoint(mobile--Small) {
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     padding-bottom: 5rem;
   }
 
@@ -403,7 +452,8 @@
     font-family: $font-tr-bd;
     font-size: 5.5rem;
     padding-left: 7rem;
-    align-self: center;
+    -ms-flex-item-align: center;
+        align-self: center;
     letter-spacing: 0.02rem;
 
     @include breakpoint(mobile--Small)  {
@@ -428,8 +478,12 @@
 }
 
 .Team-members {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-evenly;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   margin-bottom: 17rem;
 
   @include breakpoint(mobile--Small)  {
@@ -437,10 +491,19 @@
   }
 
   &_Aleksandar {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin-left: 22rem;
 
     @include breakpoint(tablet) {
@@ -483,10 +546,19 @@
   }
 
   &_Milena {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin-right: 24rem;
 
     @include breakpoint(tablet) {
