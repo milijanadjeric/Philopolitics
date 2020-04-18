@@ -230,7 +230,7 @@
                                 veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequa
                             </p>
                             <a href=""><img src="img/read-more.svg" alt=""></a>
-                            <button id="loadmore" class="btnLoad">Load more</button>
+                            <button id="loadmore" class="btnLoad btnLoadmargin-left">Load more</button>
                         </div>
                     </div>
                 </div>
@@ -447,7 +447,7 @@
                 var $carousel = $(this);
                 /* Initializes a slick carousel only on mobile screens */
                 // slick on mobile
-                if ($(window).width() <= 360) {
+                if ($(window).width() <= 375) {
                     if ($carousel.hasClass('slick-initialized')) {
                         $carousel.slick('unslick');
                     }

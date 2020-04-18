@@ -13,7 +13,7 @@
   padding-bottom: 1.8rem;
   padding-left: 1rem;
 
-  @include breakpoint(mobile--Small) {
+  @include breakpoint(mobile) {
     padding-left: 0;
   }
 
@@ -34,7 +34,7 @@
           justify-content: center;
   padding-bottom: 3rem;
 
-  @include breakpoint(mobile--Small) {
+  @include breakpoint(mobile) {
     display: none;
   }
 

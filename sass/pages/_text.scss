@@ -28,9 +28,12 @@
     font-size: 4rem;
     margin: 0 auto;
 
-    @include breakpoint(mobile--Small) {
+    @include breakpoint(mobile) {
       font-size: 2rem;
       line-height: 3rem;
+      padding-left: 4rem;
+    }
+    @include breakpoint(mobile--Small) {
       padding-left: 3rem;
     }
   }
@@ -41,11 +44,15 @@
     margin-top: 2.3rem;
     margin-bottom: 1rem;
 
-    @include breakpoint(mobile--Small) {
+    @include breakpoint(mobile) {
       border: 0.3px solid rgba(255, 255, 255, 0.3);
+      width: 29.7rem;
+      margin-left: 3.8rem;
+      margin-top: 1rem;
+    }
+    @include breakpoint(mobile--Small) {
       width: 30rem;
       margin-left: 3rem;
-      margin-top: 1rem;
     }
     @include breakpoint(mobile--Smallest) {
       border: 0.5px solid rgba(255, 255, 255, 0.3);
@@ -61,6 +68,10 @@
         -ms-flex-pack: justify;
             justify-content: space-between;
 
+    @include breakpoint(mobile) {
+      padding-left: 3.8rem;
+      padding-right: 3.8rem;
+    }
     @include breakpoint(mobile--Small) {
       padding-left: 3rem;
       padding-right: 3rem;
@@ -74,7 +85,7 @@
     letter-spacing: 0.01rem;
     margin-bottom: 0.3rem;
 
-    @include breakpoint(mobile--Small) {
+    @include breakpoint(mobile) {
       font-size: 1.2rem;
     }
   }
@@ -98,7 +109,7 @@
 
   &_links-marginright {
     margin-right: 1.5rem;
-    @include breakpoint(mobile--Small) {
+    @include breakpoint(mobile) {
       margin-right: 0;
     }
   }
@@ -123,14 +134,14 @@
           align-items: center;
   margin-bottom: 6rem;
 
-  @include breakpoint(mobile--Small) {
+  @include breakpoint(mobile) {
     margin-bottom: 7rem;
   }
 
   img {
     position: relative;
 
-    @include breakpoint(mobile--Small) {
+    @include breakpoint(mobile) {
       width: 30rem;
       margin-bottom: 2rem;
     }
@@ -141,7 +152,7 @@
     top: -3.6rem;
     left: 25.9rem;
 
-    @include breakpoint(mobile--Small) {
+    @include breakpoint(mobile) {
       display: none;
     }
   }
@@ -161,7 +172,7 @@
       font-size: 1.9rem;
     }
 
-    @include breakpoint(mobile--Small) {
+    @include breakpoint(mobile) {
       font-size: 1.4rem;
       width: 36.4rem;
       padding-left: 3rem;
@@ -184,7 +195,7 @@
     @include breakpoint(desktop--Small) {
       font-size: 1.9rem;
     }
-    @include breakpoint(mobile--Small) {
+    @include breakpoint(mobile) {
       font-size: 1.4rem;
       width: 36.4rem;
       padding-left: 3rem;
@@ -207,7 +218,7 @@
     @include breakpoint(desktop--Small) {
       font-size: 1.9rem;
     }
-    @include breakpoint(mobile--Small) {
+    @include breakpoint(mobile) {
       font-size: 1.4rem;
       width: 36.4rem;
       padding-left: 3rem;
@@ -235,13 +246,13 @@
 }
 
 .Networks-nodisplay {
-  @include breakpoint(mobile--Small) {
+  @include breakpoint(mobile) {
     display: none;
   }
 }
 
 .mobile-displaynone {
-  @include breakpoint(mobile--Small) {
+  @include breakpoint(mobile) {
     display: none;
   }
 }

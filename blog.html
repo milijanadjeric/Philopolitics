@@ -306,7 +306,7 @@
                                     a sustainable rate of innovation isn’t necessarily a straightforward exercise.</p>
                             </div>
                         </a>
-                        <button id="loadmore" class="btnLoad btnLoadMarginLeft">Load more</button>
+                        <button id="loadmore" class="btnLoad">Load more</button>
                     </div>
                 </div>
             </div>
@@ -969,7 +969,7 @@
             var $carousel = $(this);
             /* Initializes a slick carousel only on mobile screens */
             // slick on mobile
-            if ($(window).width() <= 360) {
+            if ($(window).width() <= 375) {
                 if ($carousel.hasClass('slick-initialized')) {
                     $carousel.slick('unslick');
                 }
