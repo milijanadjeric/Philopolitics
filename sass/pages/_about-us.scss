@@ -489,6 +489,9 @@
   @include breakpoint(mobile--Small)  {
     margin-bottom: 18.5rem;
   }
+  @include breakpoint(mobile--Smallest)  {
+    margin-bottom: 9rem;
+  }
 
   &_Aleksandar {
     display: -webkit-box;

@@ -1827,6 +1827,12 @@ input[type="text"]:focus {
   }
 }
 
+@media (max-width: 320px) {
+  .Team-members {
+    margin-bottom: 9rem;
+  }
+}
+
 .Team-members_Aleksandar {
   display: -webkit-box;
   display: -ms-flexbox;
