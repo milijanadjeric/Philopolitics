@@ -3163,7 +3163,7 @@ input[type="submit"]:hover {
 @media (max-width: 360px) {
   .socials-mobile {
     display: block;
-    margin-top: 2.5rem;
+    margin-top: 3rem;
     margin-bottom: 2rem;
     text-align: center;
   }
