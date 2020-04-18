@@ -116,6 +116,9 @@ input[type="submit"]:hover {
       width: 70%;
       margin: 1rem auto;
     }
+    @include breakpoint(mobile--Smallest)  {
+      margin: 0 auto;
+    }
   }
 
   &_heading {
@@ -198,7 +201,7 @@ input[type="submit"]:hover {
         border-left: none;
         border-right: none;
         outline: none;
-        margin-bottom: 2rem;
+        margin-bottom: 0;
         resize: vertical;
         background-color: transparent;
         max-height: 70px;
@@ -235,6 +238,8 @@ input[type="submit"]:hover {
     @include breakpoint(mobile--Smallest) {
       width: 16.2rem;
       margin-left: 9.9rem;
+      margin-top: 0;
+      margin-bottom: .5rem;
     }
     
   }

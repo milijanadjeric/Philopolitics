@@ -1084,7 +1084,7 @@ input[type="text"]:focus {
 @media (max-width: 360px) {
   .main {
     display: block;
-    margin-top: 3rem;
+    margin-top: 10rem;
   }
 }
 
@@ -1144,6 +1144,7 @@ input[type="text"]:focus {
 @media (max-width: 360px) {
   .main_text_2 {
     font-size: 3rem;
+    padding-bottom: 2rem;
   }
 }
 
@@ -1165,6 +1166,7 @@ input[type="text"]:focus {
   .main_text_3 {
     font-size: 1.4rem;
     width: 30rem;
+    margin-bottom: 1.5rem;
   }
 }
 
@@ -1184,8 +1186,8 @@ input[type="text"]:focus {
 @media (max-width: 360px) {
   .main img {
     width: 21rem;
-    margin-top: 6.5rem;
-    margin-bottom: 6.1rem;
+    margin-top: 6.6rem;
+    margin-bottom: 8rem;
     margin-left: 8rem;
   }
 }
@@ -1207,12 +1209,6 @@ input[type="text"]:focus {
   padding: 1.5rem 4rem 1.3rem 4rem;
   border-radius: 0.2rem;
   margin-right: 2.2rem;
-}
-
-@media (max-width: 480px) {
-  .main .button_home {
-    padding: 1.5rem 2rem 1.3rem 2rem;
-  }
 }
 
 @media (max-width: 360px) {
@@ -2723,6 +2719,12 @@ input[type="submit"]:hover {
   }
 }
 
+@media (max-width: 320px) {
+  .contact_container {
+    margin: 0 auto;
+  }
+}
+
 .contact_heading {
   text-transform: uppercase;
   font-family: "TruenoBold";
@@ -2818,7 +2820,7 @@ input[type="submit"]:hover {
     border-left: none;
     border-right: none;
     outline: none;
-    margin-bottom: 2rem;
+    margin-bottom: 0;
     resize: vertical;
     background-color: transparent;
     max-height: 70px;
@@ -2863,6 +2865,8 @@ input[type="submit"]:hover {
   .contact img {
     width: 16.2rem;
     margin-left: 9.9rem;
+    margin-top: 0;
+    margin-bottom: .5rem;
   }
 }
 
