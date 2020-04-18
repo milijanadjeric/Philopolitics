@@ -2644,6 +2644,7 @@ input[type="submit"] {
 
 @media (max-width: 360px) {
   input[type="submit"] {
+    margin-top: 2rem;
     margin-bottom: 3.7rem;
     font-size: 1.3rem;
   }
@@ -2718,7 +2719,7 @@ input[type="submit"]:hover {
 @media (max-width: 360px) {
   .contact_container {
     width: 70%;
-    margin: 0 auto;
+    margin: 1rem auto;
   }
 }
 
@@ -2853,8 +2854,8 @@ input[type="submit"]:hover {
     width: 19.5rem;
     padding-left: 0;
     margin-left: 8.2rem;
-    margin-top: 0;
-    margin-bottom: 0.5rem;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
   }
 }
 
