@@ -2484,6 +2484,12 @@ input[type="text"]:focus {
   }
 }
 
+@media (max-width: 800px) {
+  .container_tekstovi-1 .slick-next {
+    right: 50px;
+  }
+}
+
 .container_tekstovi-1 .slick-prev {
   left: 960px;
   top: 1080px;
@@ -2492,6 +2498,12 @@ input[type="text"]:focus {
 @media (max-width: 1280px) {
   .container_tekstovi-1 .slick-prev {
     left: 930px;
+  }
+}
+
+@media (max-width: 800px) {
+  .container_tekstovi-1 .slick-prev {
+    left: 500px;
   }
 }
 
@@ -2697,6 +2709,12 @@ input[type="text"]:focus {
 @media (max-width: 1280px) {
   .line-1 {
     width: 104rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .line-1 {
+    width: 60rem;
   }
 }
 

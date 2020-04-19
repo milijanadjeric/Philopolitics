@@ -15,6 +15,7 @@
       margin-left: 10.5rem;
     }
     
+    
     @include breakpoint(mobile) {
       margin-left: 0;
       margin-top: 0;
@@ -37,6 +38,9 @@
     @include breakpoint(desktop--Small) {
       right: 105px;
     }
+    @include breakpoint(tablet) {
+      right: 50px;
+    }
   
   }
   
@@ -47,6 +51,10 @@
 
     @include breakpoint(desktop--Small) {
       left: 930px;
+    }
+
+    @include breakpoint(tablet) {
+      left: 500px;
     }
   
   }
@@ -173,6 +181,8 @@
         }
       }
       img {
+
+        
         @include breakpoint(mobile) {
           width: 37.5rem;
         }
@@ -199,6 +209,10 @@
   
     @include breakpoint(desktop--Small) {
       width: 104rem;
+    }
+
+    @include breakpoint(tablet) {
+      width: 60rem;
     }
 
   
