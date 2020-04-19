@@ -13,6 +13,9 @@
   @include breakpoint (desktop--Small) {
     margin-left: 13rem;
   }
+  @include breakpoint(tablet) {
+    margin-left: 10rem;
+  }
 
   @include breakpoint (mobile) {
     margin-left: 3.8rem;
@@ -50,6 +53,9 @@
   @include breakpoint (desktop--Small) {
     left: 880px;
   }
+  @include breakpoint(tablet) {
+    left: 465px;
+  }
 
 }
 
@@ -61,6 +67,9 @@
 
   @include breakpoint (desktop--Small)  {
     right: 130px;
+  }
+  @include breakpoint(tablet) {
+    right: 99px;
   }
 
 }

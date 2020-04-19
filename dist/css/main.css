@@ -3855,6 +3855,12 @@ input[type="submit"]:hover {
   }
 }
 
+@media (max-width: 800px) {
+  .slider-publications {
+    margin-left: 10rem;
+  }
+}
+
 @media (max-width: 375px) {
   .slider-publications {
     margin-left: 3.8rem;
@@ -3900,6 +3906,12 @@ input[type="submit"]:hover {
   }
 }
 
+@media (max-width: 800px) {
+  .container_tekstovi .slick-prev {
+    left: 465px;
+  }
+}
+
 .container_tekstovi .slick-next {
   right: 145px;
 }
@@ -3907,6 +3919,12 @@ input[type="submit"]:hover {
 @media (max-width: 1280px) {
   .container_tekstovi .slick-next {
     right: 130px;
+  }
+}
+
+@media (max-width: 800px) {
+  .container_tekstovi .slick-next {
+    right: 99px;
   }
 }
 
