@@ -2210,6 +2210,12 @@ input[type="text"]:focus {
   }
 }
 
+@media (max-width: 800px) {
+  .slider-biography {
+    margin-left: 2rem;
+  }
+}
+
 @media (max-width: 375px) {
   .slider-biography {
     margin-left: 0;

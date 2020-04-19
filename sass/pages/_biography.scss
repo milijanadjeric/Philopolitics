@@ -131,6 +131,9 @@
   @include breakpoint(desktop--Small) {
     margin-left: 10.5rem;
   }
+  @include breakpoint(tablet) {
+    margin-left: 2rem;
+  }
 
   
   
