@@ -2212,7 +2212,7 @@ input[type="text"]:focus {
 
 @media (max-width: 800px) {
   .slider-biography {
-    margin-left: 2rem;
+    margin-left: 7.5rem;
   }
 }
 
@@ -2233,6 +2233,12 @@ input[type="text"]:focus {
   }
 }
 
+@media (max-width: 800px) {
+  .container_tekstovi-2 .slick-next {
+    right: 75px;
+  }
+}
+
 .container_tekstovi-2 .slick-prev {
   left: 960px;
 }
@@ -2240,6 +2246,12 @@ input[type="text"]:focus {
 @media (max-width: 1280px) {
   .container_tekstovi-2 .slick-prev {
     left: 930px;
+  }
+}
+
+@media (max-width: 800px) {
+  .container_tekstovi-2 .slick-prev {
+    left: 510px;
   }
 }
 
@@ -2439,6 +2451,13 @@ input[type="text"]:focus {
 @media (max-width: 1280px) {
   .line {
     width: 104rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .line {
+    width: 63rem;
+    margin-left: 8.5rem;
   }
 }
 

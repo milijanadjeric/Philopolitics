@@ -132,7 +132,7 @@
     margin-left: 10.5rem;
   }
   @include breakpoint(tablet) {
-    margin-left: 2rem;
+    margin-left: 7.5rem;
   }
 
   
@@ -150,6 +150,9 @@
   @include breakpoint(desktop--Small) {
     right: 105px;
   }
+  @include breakpoint(tablet) {
+    right: 75px;
+  }
 
   
 }
@@ -160,6 +163,9 @@
   
   @include breakpoint(desktop--Small) {
     left: 930px;
+  }
+  @include breakpoint(tablet) {
+    left: 510px;
   }
   
 
@@ -336,10 +342,16 @@
     width: 104rem;
   }
 
+  @include breakpoint(tablet) {
+    width: 63rem;
+    margin-left: 8.5rem;
+  }
+
 
   @include breakpoint(mobile) {
     display: none;
   }
+  
 }
 
 .hidden {
