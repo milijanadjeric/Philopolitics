@@ -724,7 +724,7 @@ input[type="text"]:focus {
 
 @media (max-width: 800px) {
   .autoplay .slick-list {
-    padding-right: 25rem;
+    padding-right: 24.5rem;
     margin-left: 0;
   }
 }
@@ -3340,7 +3340,7 @@ input[type="submit"]:hover {
 
 @media (max-width: 800px) {
   .main-section {
-    margin: 5rem 0 0 5rem;
+    margin: 5rem 0 10rem 5rem;
   }
 }
 
