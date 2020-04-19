@@ -2720,8 +2720,8 @@ input[type="text"]:focus {
 
 @media (max-width: 800px) {
   .line-1 {
-    width: 60rem;
-    margin-left: 10rem;
+    width: 63rem;
+    margin-left: 8.5rem;
   }
 }
 
