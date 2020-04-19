@@ -957,41 +957,53 @@
 
 
 
-        /*  SLICK SLIDER*/
+         /*  SLICK SLIDER*/
+
+        /* Slick needs to get Reinitialized on window Resize after it was destroyed */
+        $(window).on('load resize orientationchange', function () {
+            $('.container_tekstovi-1').each(function () {
+                var $carousel = $(this);
+                /* Initializes a slick carousel only on mobile screens */
+                // slick on mobile
+                if ($(window).width() <= 375) {
+                    if ($carousel.hasClass('slick-initialized')) {
+                        $carousel.slick('unslick');
+                    }
+                }
+                else {
+                    if (!$carousel.hasClass('slick-initialized')) {
+                        $carousel.slick({
+                            infinite: false,
+                            slidesToShow: 3,
+                            slidesToScroll: 3,
+                            arrows: true,
+                            mobileFirst: true,
+
+                        });
+                    }
+                }
+            });
+        });
 
         $('.container_tekstovi-1').slick({
             infinite: false,
             slidesToShow: 3,
             slidesToScroll: 3,
             arrows: true,
+            responsive: [
 
-        });
-
-         /* Slick needs no get Reinitialized on window Resize after it was destroyed */
-    $(window).on('load resize orientationchange', function() {
-        $('.container_tekstovi-1').each(function(){
-            var $carousel = $(this);
-            /* Initializes a slick carousel only on mobile screens */
-            // slick on mobile
-            if ($(window).width() <= 375) {
-                if ($carousel.hasClass('slick-initialized')) {
-                    $carousel.slick('unslick');
-                }
-            }
-            else{
-                if (!$carousel.hasClass('slick-initialized')) {
-                    $carousel.slick({
+                {
+                    breakpoint: 1024,
+                    settings: {
                         infinite: false,
-                        slidesToShow: 3,
-                        slidesToScroll: 3,
-                        arrows: true,
-                        mobileFirst: true,
-                    });
+                        slidesToShow: 2,
+                        slidesToScroll: 2,
+                        arrows: true
+                    }
                 }
-            }
+                
+            ]
         });
-    });
-
 
         /*  JQUERY -  TOGGLE BETWEEN LOAD MORE/LOAD LESS ON MOBILE DEVICE */
 

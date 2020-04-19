@@ -955,10 +955,7 @@
 
         /*  SLICK SLIDER*/
 
-
-       
-
-        /* Slick needs no get Reinitialized on window Resize after it was destroyed */
+        /* Slick needs to get Reinitialized on window Resize after it was destroyed */
         $(window).on('load resize orientationchange', function () {
             $('.container_tekstovi-1').each(function () {
                 var $carousel = $(this);

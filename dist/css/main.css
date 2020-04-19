@@ -2460,6 +2460,12 @@ input[type="text"]:focus {
   }
 }
 
+@media (max-width: 800px) {
+  .slider-blog {
+    margin-left: 7.8rem;
+  }
+}
+
 @media (max-width: 375px) {
   .slider-blog {
     margin-left: 0;
@@ -2486,7 +2492,7 @@ input[type="text"]:focus {
 
 @media (max-width: 800px) {
   .container_tekstovi-1 .slick-next {
-    right: 50px;
+    right: 75px;
   }
 }
 
@@ -2503,7 +2509,7 @@ input[type="text"]:focus {
 
 @media (max-width: 800px) {
   .container_tekstovi-1 .slick-prev {
-    left: 500px;
+    left: 510px;
   }
 }
 
@@ -2715,6 +2721,7 @@ input[type="text"]:focus {
 @media (max-width: 800px) {
   .line-1 {
     width: 60rem;
+    margin-left: 10rem;
   }
 }
 
