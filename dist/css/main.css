@@ -684,7 +684,7 @@ input[type="text"]:focus {
 
 @media (max-width: 800px) {
   .projects {
-    margin-top: 43rem;
+    margin-top: 46rem;
   }
 }
 
@@ -3287,7 +3287,7 @@ input[type="submit"]:hover {
   .socials-mobile {
     display: block;
     margin-top: 31rem;
-    margin-bottom: 5.1rem;
+    margin-bottom: 2.1rem;
     text-align: center;
   }
 }
