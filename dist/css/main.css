@@ -32,6 +32,7 @@ html {
   -moz-box-sizing: border-box;
   font-size: 62.5%;
   /*  1rem = 10px   10/16px= 62.5%   */
+  scroll-behavior: smooth;
 }
 
 @media (max-width: 320px) {
@@ -919,7 +920,14 @@ input[type="text"]:focus {
   .btnLoad {
     display: block;
     margin-top: 6rem;
-    margin-left: 0;
+    margin-bottom: 2rem;
+    margin-left: -.1rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .btnLoadmargin {
+    margin: 5rem auto;
   }
 }
 

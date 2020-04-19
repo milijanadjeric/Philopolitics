@@ -59,11 +59,22 @@
   @include breakpoint(mobile) {
     display: block;
     margin-top: 6rem;
-    margin-left: 0;
+    margin-bottom: 2rem;
+    margin-left: -.1rem;
   }
-  
-  
+
 }
 
+.btnLoadmargin {
 
+  @include breakpoint(mobile) {
+    margin: 5rem auto;
+    
+
+  }
+  @include breakpoint(mobile--Small) {
+
+  }
+  
+}
 
