@@ -39,8 +39,8 @@
   }
 
   @include breakpoint(tablet) {
-    padding-right: 18rem;
-    margin-left: 4rem;
+    padding-right: 25rem;
+    margin-left: 0;
   }
 
   @include breakpoint (mobile) {

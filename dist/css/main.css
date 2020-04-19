@@ -724,8 +724,8 @@ input[type="text"]:focus {
 
 @media (max-width: 800px) {
   .autoplay .slick-list {
-    padding-right: 18rem;
-    margin-left: 4rem;
+    padding-right: 25rem;
+    margin-left: 0;
   }
 }
 
@@ -3287,7 +3287,7 @@ input[type="submit"]:hover {
   .socials-mobile {
     display: block;
     margin-top: 31rem;
-    margin-bottom: 7.1rem;
+    margin-bottom: 5.1rem;
     text-align: center;
   }
 }
