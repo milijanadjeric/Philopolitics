@@ -107,7 +107,7 @@ input[type="submit"]:hover {
 
     @include breakpoint(tablet) {
       width: 50%;
-      margin: 9rem auto;
+      margin: 6rem auto;
     }
 
     @include breakpoint(mobile) {
@@ -221,7 +221,7 @@ input[type="submit"]:hover {
       margin-top: -18rem;
     }
     @include breakpoint(tablet) {
-      margin-top: 2rem;
+      margin-top: 6rem;
       padding-left: 0;
     }
 
