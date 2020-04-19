@@ -50,6 +50,7 @@
     }
     @include breakpoint(mobile--Small) {
       margin-left: 15rem;
+      margin-top: .5rem;
     }
   }
 

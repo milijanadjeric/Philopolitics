@@ -2110,6 +2110,7 @@ input[type="text"]:focus {
 @media (max-width: 360px) {
   .Aleksandar_bio img {
     margin-left: 15rem;
+    margin-top: .5rem;
   }
 }
 
