@@ -13,6 +13,9 @@
   @include breakpoint (desktop--Small) {
     margin-left: 13rem;
   }
+  @include breakpoint (ipad--Landscape) {
+    margin-left: 7rem;
+  }
   @include breakpoint(tablet) {
     margin-left: 10rem;
   }
@@ -53,6 +56,9 @@
   @include breakpoint (desktop--Small) {
     left: 880px;
   }
+  @include breakpoint (ipad--Landscape) {
+    left: 740px;
+  }
   @include breakpoint(tablet) {
     left: 465px;
   }
@@ -67,6 +73,9 @@
 
   @include breakpoint (desktop--Small)  {
     right: 130px;
+  }
+  @include breakpoint (ipad--Landscape) {
+    right: 70px;
   }
   @include breakpoint(tablet) {
     right: 99px;
