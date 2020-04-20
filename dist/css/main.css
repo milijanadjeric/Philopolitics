@@ -2228,7 +2228,7 @@ input[type="text"]:focus {
 
 @media (max-width: 800px) {
   .Aleksandar_bio {
-    padding: 3rem 10rem 5rem 10rem;
+    padding: 6rem 8rem 2rem 7rem;
   }
 }
 
@@ -2298,7 +2298,7 @@ input[type="text"]:focus {
 @media (max-width: 800px) {
   .Aleksandar_bio_text {
     padding-left: 4rem;
-    padding-right: 3rem;
+    padding-right: 0;
   }
 }
 
