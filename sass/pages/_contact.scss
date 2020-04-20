@@ -81,6 +81,10 @@ input[type="submit"]:hover {
   @include breakpoint(desktop--Small) {
     margin-top: 11.54rem;
   }
+  @include breakpoint (ipad--Landscape) {
+    margin-top: 10.8rem;
+    margin-left: 13.5rem;
+  }
 
   @include breakpoint(tablet) {
     -webkit-box-orient: vertical;
@@ -104,6 +108,10 @@ input[type="submit"]:hover {
     color: rgba(255, 255, 255, 0.5);
     font-family: "Roboto";
     font-size: 1.2rem;
+
+    @include breakpoint (ipad--Landscape) {
+      width: 40%;
+    }
 
     @include breakpoint(tablet) {
       width: 50%;
@@ -219,6 +227,9 @@ input[type="submit"]:hover {
     @include breakpoint(desktop) {
       padding-left: 17rem;
       margin-top: -18rem;
+    }
+    @include breakpoint (ipad--Landscape) {
+      padding-left: 5rem;
     }
     @include breakpoint(tablet) {
       margin-top: 6rem;

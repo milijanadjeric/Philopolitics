@@ -37,7 +37,7 @@ html {
 
 @media (max-width: 320px) {
   html {
-    font-size: 55%;
+    font-size: 50%;
   }
 }
 
@@ -284,6 +284,12 @@ header {
   margin-right: -3.5rem;
 }
 
+@media (max-width: 1024px) {
+  .languages {
+    margin-right: 0;
+  }
+}
+
 @media (max-width: 800px) {
   .languages {
     display: none;
@@ -342,6 +348,12 @@ input[type="text"]:focus {
 @media (max-width: 1280px) {
   .search-box {
     margin-right: -15rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .search-box {
+    margin-right: -6rem;
   }
 }
 
@@ -990,6 +1002,12 @@ input[type="text"]:focus {
           transform: translate(-50%);
 }
 
+@media (max-width: 1024px) {
+  .elipse_5 {
+    width: 101.5rem;
+  }
+}
+
 @media (max-width: 800px) {
   .elipse_5 {
     display: none;
@@ -1008,6 +1026,12 @@ input[type="text"]:focus {
   .elipse_6 {
     width: 126rem;
     left: 50.5%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .elipse_6 {
+    width: 101.5rem;
   }
 }
 
@@ -1050,6 +1074,12 @@ input[type="text"]:focus {
     left: 50%;
     -webkit-transform: translate(-50%);
             transform: translate(-50%);
+  }
+}
+
+@media (max-width: 1024px) {
+  .elipse_7 {
+    width: 101.5rem;
   }
 }
 
@@ -2838,6 +2868,13 @@ input[type="submit"]:hover {
   }
 }
 
+@media (max-width: 1024px) {
+  .contact {
+    margin-top: 10.8rem;
+    margin-left: 13.5rem;
+  }
+}
+
 @media (max-width: 800px) {
   .contact {
     -webkit-box-orient: vertical;
@@ -2861,6 +2898,12 @@ input[type="submit"]:hover {
   color: rgba(255, 255, 255, 0.5);
   font-family: "Roboto";
   font-size: 1.2rem;
+}
+
+@media (max-width: 1024px) {
+  .contact_container {
+    width: 40%;
+  }
 }
 
 @media (max-width: 800px) {
@@ -2999,6 +3042,12 @@ input[type="submit"]:hover {
   .contact img {
     padding-left: 17rem;
     margin-top: -18rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .contact img {
+    padding-left: 5rem;
   }
 }
 

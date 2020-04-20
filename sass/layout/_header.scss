@@ -198,6 +198,10 @@ header {
   margin-top: 3.5rem;
   margin-right: -3.5rem;
 
+  @include breakpoint (ipad--Landscape) {
+    margin-right: 0;
+  }
+
   @include breakpoint(tablet) {
     display: none;
   }
@@ -254,6 +258,9 @@ input[type="text"]:focus {
 
   @include breakpoint(desktop--Small) {
     margin-right: -15rem;
+  }
+  @include breakpoint (ipad--Landscape) {
+    margin-right: -6rem;
   }
   @include breakpoint(tablet) {
     display: none;

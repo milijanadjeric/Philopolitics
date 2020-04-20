@@ -51,6 +51,10 @@
     left: 50%;
     transform: translate(-50%);
 
+    @include breakpoint (ipad--Landscape) {
+      width: 101.5rem;
+    }
+
     @include breakpoint(tablet) {
       display: none;
     }
@@ -65,6 +69,9 @@
     @include breakpoint(desktop--Small) {
       width: 126rem;
       left: 50.5%;
+    }
+    @include breakpoint (ipad--Landscape) {
+      width: 101.5rem;
     }
 
     @include breakpoint(tablet) {
@@ -82,6 +89,7 @@
       left: 50%;
       transform: translate(-50.5%);
     }
+    
     @include breakpoint(tablet) {
       display: none;
     }
@@ -96,6 +104,9 @@
       width: 128rem;
       left: 50%;
       transform: translate(-50%);
+    }
+    @include breakpoint (ipad--Landscape) {
+      width: 101.5rem;
     }
     @include breakpoint(tablet) {
       display: none;
