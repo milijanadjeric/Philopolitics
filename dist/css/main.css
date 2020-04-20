@@ -1205,6 +1205,7 @@ input[type="text"]:focus {
 @media (max-width: 800px) {
   .main {
     display: block;
+    margin-top: 14.5rem;
   }
 }
 
@@ -3830,6 +3831,12 @@ input[type="submit"]:hover {
 @media (max-width: 1024px) {
   .slider-projects {
     margin-left: 7rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .slider-projects {
+    margin-left: 10rem;
   }
 }
 

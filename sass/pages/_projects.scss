@@ -55,9 +55,9 @@
   @include breakpoint (ipad--Landscape) {
     margin-left: 7rem;
   }
-
-  
-
+  @include breakpoint(tablet) {
+    margin-left: 10rem;
+  }
 
   @include breakpoint(mobile) {
     margin-left: 0;
