@@ -4302,11 +4302,24 @@ input[type="submit"]:hover {
   margin-bottom: 1rem;
 }
 
+@media (max-width: 800px) {
+  .banner {
+    width: 50rem;
+    margin-top: 6rem;
+  }
+}
+
 .banner_heading {
   color: #FFFFFF;
   font-family: "truenolight";
   font-size: 4rem;
   margin: 0 auto;
+}
+
+@media (max-width: 800px) {
+  .banner_heading {
+    font-size: 3.5rem;
+  }
 }
 
 @media (max-width: 375px) {
@@ -4328,6 +4341,12 @@ input[type="submit"]:hover {
   width: 57.5rem;
   margin-top: 2.3rem;
   margin-bottom: 1rem;
+}
+
+@media (max-width: 800px) {
+  .banner_line-2 {
+    width: 50rem;
+  }
 }
 
 @media (max-width: 375px) {
@@ -4443,6 +4462,12 @@ input[type="submit"]:hover {
   position: relative;
 }
 
+@media (max-width: 800px) {
+  .text img {
+    width: 50rem;
+  }
+}
+
 @media (max-width: 375px) {
   .text img {
     width: 30rem;
@@ -4454,6 +4479,12 @@ input[type="submit"]:hover {
   position: absolute;
   top: -3.6rem;
   left: 25.9rem;
+}
+
+@media (max-width: 800px) {
+  .text_info {
+    display: none;
+  }
 }
 
 @media (max-width: 375px) {
@@ -4475,6 +4506,14 @@ input[type="submit"]:hover {
 @media (max-width: 1280px) {
   .text_paragraph-onespace {
     font-size: 1.9rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .text_paragraph-onespace {
+    padding-right: 4rem;
+    padding-left: 4rem;
+    font-size: 1.7rem;
   }
 }
 
@@ -4505,6 +4544,14 @@ input[type="submit"]:hover {
   }
 }
 
+@media (max-width: 800px) {
+  .text_paragraph-doublespace {
+    padding-right: 4rem;
+    padding-left: 4rem;
+    font-size: 1.7rem;
+  }
+}
+
 @media (max-width: 375px) {
   .text_paragraph-doublespace {
     font-size: 1.4rem;
@@ -4529,6 +4576,14 @@ input[type="submit"]:hover {
 @media (max-width: 1280px) {
   .text_paragraph-nospace {
     font-size: 1.9rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .text_paragraph-nospace {
+    padding-right: 4rem;
+    padding-left: 4rem;
+    font-size: 1.7rem;
   }
 }
 
@@ -4557,6 +4612,14 @@ input[type="submit"]:hover {
 @media (max-width: 1280px) {
   .text_paragraph-topbottomspace {
     font-size: 1.9rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .text_paragraph-topbottomspace {
+    padding-right: 4rem;
+    padding-left: 4rem;
+    font-size: 1.7rem;
   }
 }
 
