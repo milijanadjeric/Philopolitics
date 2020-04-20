@@ -126,6 +126,9 @@
       left: 50%;
       transform: translate(-50%);
     }
+    @include breakpoint (ipad--Landscape) {
+      width: 101.5rem;
+    }
     @include breakpoint(tablet) {
       display: none;
     }

@@ -1117,6 +1117,12 @@ input[type="text"]:focus {
   }
 }
 
+@media (max-width: 1024px) {
+  .elipse_7-about-us {
+    width: 101.5rem;
+  }
+}
+
 @media (max-width: 800px) {
   .elipse_7-about-us {
     display: none;
@@ -1443,6 +1449,12 @@ input[type="text"]:focus {
   }
 }
 
+@media (max-width: 1024px) {
+  .main_div-1 {
+    margin-left: 8.5rem;
+  }
+}
+
 @media (max-width: 800px) {
   .main_div-1 {
     -webkit-box-orient: vertical;
@@ -1556,6 +1568,12 @@ input[type="text"]:focus {
   margin-left: 14rem;
 }
 
+@media (max-width: 1024px) {
+  .main_div-2 {
+    margin-left: 0;
+  }
+}
+
 @media (max-width: 800px) {
   .main_div-2 {
     -webkit-box-orient: vertical;
@@ -1651,6 +1669,18 @@ input[type="text"]:focus {
   padding-right: 32rem;
 }
 
+@media (max-width: 1280px) {
+  .main_div-2_box_text-1 {
+    padding-right: 24rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .main_div-2_box_text-1 {
+    padding-right: 12rem;
+  }
+}
+
 @media (max-width: 375px) {
   .main_div-2_box_text-1 {
     font-size: 1.3rem;
@@ -1672,6 +1702,12 @@ input[type="text"]:focus {
 @media (max-width: 1280px) {
   .main_div-2_box_text-2 {
     padding-right: 25rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .main_div-2_box_text-2 {
+    padding-right: 12rem;
   }
 }
 
@@ -1719,6 +1755,12 @@ input[type="text"]:focus {
 @media (max-width: 1280px) {
   .main_div-3 {
     margin-left: 20rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .main_div-3 {
+    margin-left: 6rem;
   }
 }
 
@@ -1775,7 +1817,7 @@ input[type="text"]:focus {
   font-family: "truenoregular";
   font-size: 3rem;
   padding-bottom: 1.5rem;
-  padding-left: 2.1rem;
+  padding-left: 5.9rem;
   text-align: left;
   letter-spacing: 0.02rem;
 }
@@ -1961,6 +2003,12 @@ input[type="text"]:focus {
   -ms-flex-pack: space-evenly;
   justify-content: space-evenly;
   margin-bottom: 17rem;
+}
+
+@media (max-width: 1024px) {
+  .Team-members {
+    margin-bottom: 15rem;
+  }
 }
 
 @media (max-width: 375px) {
