@@ -90,6 +90,11 @@
         margin-left: 10rem;
         margin-top: 5rem;
       }
+      @include breakpoint (ipad--Landscape) {
+        margin-top: 4rem;
+        margin-left: 6rem;
+        font-size: 5.2rem;
+      }
 
       @include breakpoint(tablet) {
         margin-left: 14rem;
@@ -121,6 +126,11 @@
       @include breakpoint(desktop--Small) {
         margin-left: 10.5rem;
       }
+      @include breakpoint(ipad--Landscape) {
+        margin-left: 6.5rem;
+        
+      }
+
 
       @include breakpoint(tablet) {
         margin-left: 22rem;
@@ -149,6 +159,10 @@
       @include breakpoint(desktop--Small) {
         height: 44rem;
         left: 68rem;
+      }
+      @include breakpoint(ipad--Landscape) {
+        height: 40rem;
+        left: 48rem;
       }
 
       @include breakpoint(tablet) {
@@ -184,6 +198,11 @@
       @include breakpoint(desktop--Small) {
         left: 78rem;
         height: 43rem;
+      }
+      @include breakpoint(ipad--Landscape) {
+        left: 57rem;
+        height: 40rem;
+        
       }
 
       @include breakpoint(tablet) {
@@ -227,6 +246,10 @@
     margin-top: 1.5rem;
     margin-bottom: 1rem;
   }
+  @include breakpoint (ipad--Landscape) {
+    margin-top: 2.5rem;
+    margin-bottom: 1.7rem;
+  }
 
   @include breakpoint(tablet) {
     display: none;
@@ -249,8 +272,9 @@
     margin-left: 7rem;
 
     @include breakpoint(desktop--Small) {
-      margin-left: 7rem;
+      margin-left: 0;
     }
+    
   }
 
   &_followus {
@@ -261,6 +285,9 @@
 
     @include breakpoint(desktop--Small) {
       margin-right: -20rem;
+    }
+    @include breakpoint (ipad--Landscape) {
+      margin-right: -10rem;
     }
   }
 

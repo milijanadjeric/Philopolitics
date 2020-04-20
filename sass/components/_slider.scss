@@ -37,6 +37,10 @@
     padding-right: 24rem;
     padding-left: 8rem;
   }
+  @include breakpoint(ipad--Landscape) {
+    padding-right: 15rem;
+    padding-left: 2.5rem;
+  }
 
   @include breakpoint(tablet) {
     padding-right: 24.5rem;
