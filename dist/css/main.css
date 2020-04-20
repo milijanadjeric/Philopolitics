@@ -3662,6 +3662,12 @@ input[type="submit"]:hover {
   }
 }
 
+@media (max-width: 1024px) {
+  .container_projekti .slick-next {
+    right: 320px;
+  }
+}
+
 @media (max-width: 800px) {
   .container_projekti .slick-next {
     right: 100px;
@@ -3678,7 +3684,7 @@ input[type="submit"]:hover {
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1024px) {
   .slider-projects {
     margin-left: 10rem;
   }
