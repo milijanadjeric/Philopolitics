@@ -6,6 +6,10 @@
   margin-left: 21rem;
   margin-top: 4rem;
 
+  @include breakpoint(tablet) {
+    margin-left: 16rem;
+  }
+
   @include breakpoint(mobile) {
     display: none;
   }
