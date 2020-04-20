@@ -43,6 +43,10 @@
   @include breakpoint(desktop--Small) {
     margin-top: 14.5rem;
   }
+  @include breakpoint (ipad--Landscape) {
+    margin-top: 13.8rem;
+   
+  }
   @include breakpoint(tablet) {
     display: block;
   }
@@ -74,6 +78,10 @@
     @include breakpoint(desktop--Small) {
       margin-left: 18rem;
       margin-right: 14rem;
+    }
+    @include breakpoint (ipad--Landscape) {
+      margin-left: 13.5rem;
+      margin-right: 0;
     }
 
     @include breakpoint(tablet) {
@@ -133,6 +141,7 @@
   img {
     z-index: 2;
     margin-top: -7rem;
+ 
 
     @include breakpoint(tablet) {
       margin-top: 13rem;
@@ -140,6 +149,7 @@
       margin-bottom: 16.4rem;
      
     }
+    
 
     @include breakpoint(mobile) {
       width: 21rem;

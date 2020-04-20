@@ -1056,6 +1056,12 @@ input[type="text"]:focus {
   }
 }
 
+@media (max-width: 1024px) {
+  .elipse_6-contact {
+    width: 101.5rem;
+  }
+}
+
 @media (max-width: 800px) {
   .elipse_6-contact {
     display: none;
@@ -1145,6 +1151,12 @@ input[type="text"]:focus {
   }
 }
 
+@media (max-width: 1024px) {
+  .main {
+    margin-top: 13.8rem;
+  }
+}
+
 @media (max-width: 800px) {
   .main {
     display: block;
@@ -1187,6 +1199,13 @@ input[type="text"]:focus {
   .main_text {
     margin-left: 18rem;
     margin-right: 14rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .main_text {
+    margin-left: 13.5rem;
+    margin-right: 0;
   }
 }
 
