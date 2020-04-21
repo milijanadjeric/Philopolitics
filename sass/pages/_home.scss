@@ -172,6 +172,7 @@
         left: 8rem;
         
       }
+      
       @include breakpoint(mobile) {
         display: none;
       }

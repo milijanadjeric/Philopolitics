@@ -262,6 +262,10 @@ input[type="text"] {
   -moz-transition: width 0.4s ease-in-out;
   -o-transition: width 0.4s ease-in-out;
 
+  @include breakpoint (ipad--Landscape) {
+    font-size: 1.3rem;
+  }
+
   @include breakpoint(mobile) {
     border: none;
   }
@@ -272,6 +276,7 @@ input[type="text"] {
 
 input[type="text"]:focus {
   width: 12rem;
+  
 
   @include breakpoint(mobile) {
     display: none;
@@ -288,11 +293,15 @@ input[type="text"]:focus {
   }
   @include breakpoint (ipad--Landscape) {
     margin-right: -6rem;
+    
   }
   @include breakpoint(tablet) {
     margin-top: 2.8rem;
-    margin-right: -1rem;
-    
+    margin-right: -1rem; 
+
+  }
+  @include breakpoint(ipad)  {
+    margin-right: -.3rem;
   }
 
   @include breakpoint(mobile) {
@@ -310,6 +319,10 @@ input[type="text"]:focus {
 
   &_search-icon {
     margin-bottom: -0.2rem;
+
+    @include breakpoint(ipad) {
+      margin-bottom: -0.1rem;
+    }
 
     @include breakpoint(mobile) {
       width: 2rem;

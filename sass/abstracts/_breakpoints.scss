@@ -17,7 +17,7 @@
     @if $point == desktop {//max-width = 1440px
         @media (max-width: $desktop)                        { @content; }
     }
-    @if $point == desktop--Small {//max-width = 1200px
+    @if $point == desktop--Small {//max-width = 1280px
         @media (max-width: $desktop--Small)                 { @content; }
     }
     @else if $point == ipad--Landscape {//max-width = 1024px
@@ -26,10 +26,13 @@
     @else if $point == tablet {//max-width = 1023px
         @media (max-width: $tablet)                         { @content; }
     }
-    @else if $point == mobile {//max-width = 767px
+     @else if $point == ipad {//max-width = 768px
+        @media (max-width: $ipad)                         { @content; }
+    }
+    @else if $point == mobile {//max-width = 375px
         @media (max-width: $mobile)                         { @content; }
     }
-    @else if $point == mobile--Small {//max-width = 364px
+    @else if $point == mobile--Small {//max-width = 360px
         @media (max-width: $mobile--Small)                  { @content; }
     }
     @else if $point == mobile--Smallest {//max-width = 320px
@@ -41,13 +44,14 @@
 }
 
 
-//------MEDIA QUERIES   1rem - 16px
+//------MEDIA QUERIES   1rem - 10px
 
 
 $desktop--Large   : 1700px;    //   1700 / 16px = 106.25rem
 $desktop          : 1323px;    //   1440 / 16px = 90rem
 $desktop--Small   : 1280px;    //   1200 / 16px = 75rem
 $ipad--Landscape  : 1024px;
+$ipad             : 768px;
 $tablet           : 800px;    //   1023 / 16px = 64rem
 $mobile           : 375px;     //   767 / 16px = 48rem
 $mobile--Small    : 360px;     //   360 / 16px = 22.5rem

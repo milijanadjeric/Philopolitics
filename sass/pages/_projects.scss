@@ -16,6 +16,10 @@
 
 .projectss {
   height: 121rem;
+
+  @include breakpoint(ipad) {
+    height: 123rem;
+  }
 }
 
 // *** this is to move buttons prev and next to left side on page projects ***
@@ -24,7 +28,12 @@
   left: 460px;
   margin-bottom: 10rem;
   top: 1320px;
+
+  @include breakpoint(ipad) {
+    left: 450px;
+  }
 }
+
 
 
 .container_projekti .slick-next {
@@ -42,6 +51,9 @@
   @include breakpoint(tablet) {
     right: 100px;
   }
+  @include breakpoint(ipad) {
+    right: 85px;
+  }
  
 }
 
@@ -57,6 +69,9 @@
   }
   @include breakpoint(tablet) {
     margin-left: 10rem;
+  }
+  @include breakpoint(ipad) {
+    margin-left: 9.5rem;
   }
 
   @include breakpoint(mobile) {
@@ -75,6 +90,10 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+
+          @include breakpoint(ipad) {
+            margin-left: 1.5rem;
+          }
 
   &_wrap {
     margin-bottom: 6rem;
@@ -152,6 +171,10 @@
       -ms-flex-direction: column;
           flex-direction: column;
 
+          @include breakpoint(ipad) {
+            margin-left: 1.5rem;
+          }
+
   &_wrap {
     margin-bottom: 6rem;
     display: -webkit-box;
@@ -225,6 +248,10 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+
+          @include breakpoint(ipad) {
+            margin-left: 1.5rem;
+          }
 
   &_wrap {
     margin-bottom: 6rem;

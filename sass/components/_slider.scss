@@ -44,7 +44,13 @@
 
   @include breakpoint(tablet) {
     padding-right: 25rem;
-    padding-left: 8em;
+    padding-left: 8rem;
+  }
+  @include breakpoint(ipad) {
+    padding-left: 6rem; 
+    
+        
+
   }
 
   @include breakpoint (mobile) {
@@ -53,6 +59,7 @@
     padding-left: 2.7rem;
     margin-left: 0;
   }
+
   
   @include breakpoint(mobile--Smallest) {
     padding-left: 3.3rem;

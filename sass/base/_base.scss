@@ -33,6 +33,15 @@
   font-size: 62.5%; /*  1rem = 10px   10/16px= 62.5%   */
   scroll-behavior: smooth;
 
+  @include breakpoint(ipad) {
+    font-size: 60%;
+  }
+
+  @include breakpoint(mobile) {
+    font-size: 62.5%;
+  }
+  
+
   @include breakpoint(mobile--Smallest) {
     font-size: 55%;
   }

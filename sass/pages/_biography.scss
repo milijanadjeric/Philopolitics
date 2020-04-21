@@ -144,6 +144,10 @@
   @include breakpoint(tablet) {
     margin-left: 7.5rem;
   }
+  @include breakpoint(ipad) {
+    height: 70rem;
+    margin-left: 7rem;
+  }
   
   @include breakpoint(mobile) {
     margin-left: 0;
@@ -164,6 +168,9 @@
   @include breakpoint(tablet) {
     right: 75px;
   }
+  @include breakpoint(ipad) {
+    right: 70px;
+  }
 
   
 }
@@ -182,8 +189,9 @@
   @include breakpoint(tablet) {
     left: 510px;
   }
-  
-
+  @include breakpoint(ipad) {
+    left: 490px;
+  }
   
 }
 
