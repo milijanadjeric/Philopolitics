@@ -3543,6 +3543,12 @@ input[type="submit"]:hover {
   }
 }
 
+@media (max-width: 768px) {
+  .hero_text_heading {
+    margin-left: 17rem;
+  }
+}
+
 @media (max-width: 375px) {
   .hero_text_heading {
     font-size: 3.2rem;
@@ -3591,6 +3597,12 @@ input[type="submit"]:hover {
   }
 }
 
+@media (max-width: 768px) {
+  .hero_text_sub {
+    margin-left: 21rem;
+  }
+}
+
 @media (max-width: 375px) {
   .hero_text_sub {
     font-size: 1.3rem;
@@ -3634,6 +3646,12 @@ input[type="submit"]:hover {
     height: 44rem;
     top: 32rem;
     left: 8rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero_img_stars {
+    left: 6.5rem;
   }
 }
 
@@ -3688,6 +3706,12 @@ input[type="submit"]:hover {
     height: 43rem;
     top: 32rem;
     left: 17.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero_img_sun {
+    left: 16rem;
   }
 }
 
@@ -3868,6 +3892,12 @@ input[type="submit"]:hover {
   }
 }
 
+@media (max-width: 768px) {
+  .main-section {
+    margin: 4rem 0 10rem 4rem;
+  }
+}
+
 @media (max-width: 375px) {
   .main-section {
     display: block;
@@ -3923,6 +3953,12 @@ input[type="submit"]:hover {
   .div {
     margin-left: 5rem;
     width: 31rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .div {
+    margin-left: 4rem;
   }
 }
 

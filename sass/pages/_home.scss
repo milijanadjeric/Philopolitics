@@ -100,6 +100,9 @@
         margin-top: 5rem;
         margin-left: 18.5rem;
       }
+      @include breakpoint(ipad) {
+        margin-left: 17rem;
+      }
 
       @include breakpoint(mobile) {
         font-size: 3.2rem;
@@ -132,9 +135,11 @@
         
       }
 
-
       @include breakpoint(tablet) {
         margin-left: 22.5rem;
+      }
+      @include breakpoint(ipad) {
+        margin-left: 21rem;
       }
       @include breakpoint(mobile) {
         font-size: 1.3rem;
@@ -171,6 +176,9 @@
         top: 32rem;
         left: 8rem;
         
+      }
+      @include breakpoint(ipad) {
+        left: 6.5rem;
       }
       
       @include breakpoint(mobile) {
@@ -215,6 +223,9 @@
         top: 32rem;
         left: 17.5rem;
       }
+      @include breakpoint(ipad) {
+        left: 16rem;
+      }
 
       @include breakpoint(mobile) {
         width: 28rem;
@@ -255,6 +266,7 @@
     margin-top: 2.5rem;
     margin-bottom: 1.7rem;
   }
+  
 
   @include breakpoint(tablet) {
     display: none;
@@ -294,10 +306,13 @@
     @include breakpoint (ipad--Landscape) {
       margin-right: -10rem;
     }
+    
   }
 
   &_img {
     margin-top: -0.5rem;
+
+    
   }
 
   a {
@@ -318,6 +333,7 @@
     margin-bottom: 4rem;
     text-align: center;
   }
+  
 
   @include breakpoint(mobile) {
     display: block;

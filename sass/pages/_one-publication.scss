@@ -11,6 +11,9 @@
   @include breakpoint(tablet) {
     margin: 5rem 0 10rem 5rem;
   }
+  @include breakpoint(ipad) {
+    margin: 4rem 0 10rem 4rem;
+  }
 
   @include breakpoint(mobile) {
     display: block;
@@ -58,6 +61,9 @@
     margin-left: 5rem;
     width: 31rem;
     
+  }
+  @include breakpoint(ipad) {
+    margin-left: 4rem;
   }
 
   @include breakpoint(mobile) {
