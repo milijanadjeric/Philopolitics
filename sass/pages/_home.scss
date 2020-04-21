@@ -97,7 +97,8 @@
       }
 
       @include breakpoint(tablet) {
-        margin-left: 14rem;
+        margin-top: 5rem;
+        margin-left: 18.5rem;
       }
 
       @include breakpoint(mobile) {
@@ -133,7 +134,7 @@
 
 
       @include breakpoint(tablet) {
-        margin-left: 22rem;
+        margin-left: 22.5rem;
       }
       @include breakpoint(mobile) {
         font-size: 1.3rem;
@@ -166,7 +167,10 @@
       }
 
       @include breakpoint(tablet) {
-        display: none;
+        height: 44rem;
+        top: 32rem;
+        left: 8rem;
+        
       }
       @include breakpoint(mobile) {
         display: none;
@@ -206,9 +210,9 @@
       }
 
       @include breakpoint(tablet) {
-        width: 33.3rem;
-        top: 29rem;
-        left: 23rem;
+        height: 43rem;
+        top: 32rem;
+        left: 17.5rem;
       }
 
       @include breakpoint(mobile) {
@@ -309,8 +313,8 @@
 
   @include breakpoint(tablet) {
     display: block;
-    margin-top: 31rem;
-    margin-bottom: 2.1rem;
+    margin-top: 20.5rem;
+    margin-bottom: 4rem;
     text-align: center;
   }
 
