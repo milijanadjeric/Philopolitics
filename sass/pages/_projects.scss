@@ -29,9 +29,7 @@
   margin-bottom: 10rem;
   top: 1320px;
 
-  @include breakpoint(ipad) {
-    left: 450px;
-  }
+  
 }
 
 
@@ -52,7 +50,7 @@
     right: 100px;
   }
   @include breakpoint(ipad) {
-    right: 85px;
+    right: 70px;
   }
  
 }
@@ -70,10 +68,7 @@
   @include breakpoint(tablet) {
     margin-left: 10rem;
   }
-  @include breakpoint(ipad) {
-    margin-left: 9.5rem;
-  }
-
+  
   @include breakpoint(mobile) {
     margin-left: 0;
     margin-top: 3rem;
@@ -91,9 +86,7 @@
       -ms-flex-direction: column;
           flex-direction: column;
 
-          @include breakpoint(ipad) {
-            margin-left: 1.5rem;
-          }
+          
 
   &_wrap {
     margin-bottom: 6rem;
@@ -171,9 +164,7 @@
       -ms-flex-direction: column;
           flex-direction: column;
 
-          @include breakpoint(ipad) {
-            margin-left: 1.5rem;
-          }
+         
 
   &_wrap {
     margin-bottom: 6rem;
@@ -249,9 +240,7 @@
       -ms-flex-direction: column;
           flex-direction: column;
 
-          @include breakpoint(ipad) {
-            margin-left: 1.5rem;
-          }
+          
 
   &_wrap {
     margin-bottom: 6rem;

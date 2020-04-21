@@ -373,6 +373,9 @@
     width: 63rem;
     margin-left: 8.5rem;
   }
+  @include breakpoint(ipad) {
+    margin-left: 7rem;
+  }
 
 
   @include breakpoint(mobile) {

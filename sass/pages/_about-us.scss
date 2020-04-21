@@ -37,6 +37,9 @@
   @include breakpoint(tablet) {
     margin-left: 6rem;
   }
+  @include breakpoint(ipad) {
+    margin-left: 4.5rem;
+  }
 
   @include breakpoint(mobile) {
     -webkit-box-orient: vertical;
@@ -288,6 +291,9 @@
       margin-right: 0;
       margin-left: -4rem;
     }
+    @include breakpoint(ipad) {
+      margin-left: -6rem;
+    }
     @include breakpoint(mobile) {
       margin-bottom: -5rem;
       margin-right: 0;
@@ -342,6 +348,9 @@
       margin-top: 3rem;
       padding-right: 5rem;
       margin-left: 2rem;
+    }
+    @include breakpoint(ipad) {
+      margin-left: 0;
     }
 
     @include breakpoint(mobile) {
