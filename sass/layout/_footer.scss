@@ -15,6 +15,11 @@
 
   @include breakpoint(mobile) {
     padding-left: 0;
+    padding-right: 1.5rem;
+  }
+  @include breakpoint(mobile--Small) {
+    padding-right: 1rem;
+
   }
 
   a {

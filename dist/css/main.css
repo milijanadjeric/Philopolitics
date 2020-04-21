@@ -37,7 +37,7 @@ html {
 
 @media (max-width: 320px) {
   html {
-    font-size: 50%;
+    font-size: 55%;
   }
 }
 
@@ -675,6 +675,13 @@ input[type="text"]:focus {
 @media (max-width: 375px) {
   .Networks {
     padding-left: 0;
+    padding-right: 1.5rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .Networks {
+    padding-right: 1rem;
   }
 }
 
@@ -1819,6 +1826,13 @@ input[type="text"]:focus {
   }
 }
 
+@media (max-width: 375px) {
+  .main_div-2 img {
+    margin-top: -14rem;
+    margin-bottom: -10rem;
+  }
+}
+
 .main_div-3 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1921,7 +1935,13 @@ input[type="text"]:focus {
 @media (max-width: 375px) {
   .main_div-3_box_heading-mobile {
     display: block;
-    padding-left: 6rem;
+    padding-left: 4rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .main_div-3_box_heading-mobile {
+    padding-left: 3rem;
   }
 }
 
@@ -1976,14 +1996,14 @@ input[type="text"]:focus {
 
 @media (max-width: 375px) {
   .main_div-3_box_ellipsebox {
-    margin-left: 24.3rem;
+    margin-left: 22.5rem;
     padding-top: 0.5rem;
   }
 }
 
 @media (max-width: 360px) {
   .main_div-3_box_ellipsebox {
-    margin-left: 23rem;
+    margin-left: 20.7rem;
   }
 }
 
@@ -2208,13 +2228,13 @@ input[type="text"]:focus {
 
 @media (max-width: 375px) {
   .Team-members_Milena {
-    margin-right: 0;
+    margin-right: 1.3rem;
   }
 }
 
 @media (max-width: 320px) {
   .Team-members_Milena {
-    margin-right: 1rem;
+    margin-right: 1.5rem;
   }
 }
 
