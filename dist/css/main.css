@@ -421,20 +421,12 @@ input[type="text"]:focus {
 
 .search-box_form button {
   border: none;
-  background: transparent;
-  margin-left: -2.8rem;
-  width: 1.7rem;
-  height: 1.7rem;
+  background: #322b6c;
+  margin-left: -2.5rem;
 }
 
 .search-box_search-icon {
   margin-bottom: -0.2rem;
-}
-
-@media (max-width: 1280px) {
-  .search-box_search-icon {
-    margin-left: .8rem;
-  }
 }
 
 @media (max-width: 1024px) {
@@ -522,18 +514,11 @@ input[type="text"]:focus {
 
 .overlay .closebtn {
   position: absolute;
-  top: 11px;
-  right: 40px;
+  top: 8px;
+  right: 37px;
   font-size: 30px;
   cursor: pointer;
   color: #FFFFFF;
-}
-
-@media (max-width: 320px) {
-  .overlay .closebtn {
-    top: 10px;
-    right: 36px;
-  }
 }
 
 .overlay button {
@@ -1119,7 +1104,7 @@ input[type="text"]:focus {
 .elipse_6 {
   position: absolute;
   width: 131rem;
-  left: 50%;
+  left: 50.5%;
   -webkit-transform: translate(-50.5%);
           transform: translate(-50.5%);
 }
@@ -1127,72 +1112,11 @@ input[type="text"]:focus {
 @media (max-width: 1280px) {
   .elipse_6 {
     width: 126rem;
-    left: 50.5%;
   }
 }
 
 @media (max-width: 1024px) {
   .elipse_6 {
-    width: 101.5rem;
-  }
-}
-
-@media (max-width: 800px) {
-  .elipse_6 {
-    display: none;
-  }
-}
-
-.elipse_6-contact {
-  display: none;
-}
-
-@media (max-width: 1280px) {
-  .elipse_6-contact {
-    display: block;
-    position: absolute;
-    width: 129rem;
-    left: 50%;
-    -webkit-transform: translate(-50.5%);
-            transform: translate(-50.5%);
-  }
-}
-
-@media (max-width: 1024px) {
-  .elipse_6-contact {
-    width: 101.5rem;
-  }
-}
-
-@media (max-width: 800px) {
-  .elipse_6-contact {
-    display: none;
-  }
-}
-
-.elipse_7 {
-  display: none;
-}
-
-@media (max-width: 1280px) {
-  .elipse_7 {
-    display: block;
-    position: absolute;
-    width: 128rem;
-    left: 50%;
-    -webkit-transform: translate(-50%);
-            transform: translate(-50%);
-  }
-}
-
-@media (max-width: 1024px) {
-  .elipse_7 {
-    width: 101.5rem;
-  }
-}
-
-@media (max-width: 800px) {
-  .elipse_7 {
     display: none;
   }
 }

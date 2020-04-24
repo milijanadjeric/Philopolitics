@@ -314,23 +314,19 @@ input[type="text"]:focus {
 
   &_form button {
     border: none;
-    background: transparent;
-    margin-left: -2.8rem;
-    width: 1.7rem;
-    height: 1.7rem;
+    background: $color-footer-text;
+    margin-left: -2.5rem;
+    
   }
 
   &_search-icon {
     margin-bottom: -0.2rem;
-    
-    @include breakpoint (desktop--Small) {
-      margin-left: .8rem;
-    }
 
-    @include breakpoint(ipad--Landscape) {
+    @include breakpoint (ipad--Landscape) {
       margin-bottom: -0.1rem;
-
     }
+
+   
 
     @include breakpoint(mobile) {
       width: 2rem;
@@ -407,16 +403,11 @@ input[type="text"]:focus {
 
 .overlay .closebtn {
   position: absolute;
-  top: 11px;
-  right: 40px;
+  top: 8px;
+  right: 37px;
   font-size: 30px;
   cursor: pointer;
   color: $color-white;
-
-  @include breakpoint(mobile--Smallest)  {
-    top: 10px;
-    right: 36px;
-  }
 }
 
 
