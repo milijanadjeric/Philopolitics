@@ -108,14 +108,20 @@ header {
 
 @media (max-width: 375px) {
   .logo {
-    margin-left: 0;
+    margin-left: -1rem;
     margin-top: 1.5rem;
   }
 }
 
 @media (max-width: 360px) {
   .logo {
-    margin-left: 1rem;
+    margin-left: .5rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .logo {
+    margin-left: 0;
   }
 }
 
@@ -454,20 +460,20 @@ input[type="text"]:focus {
   .search-box-mobile {
     display: block;
     margin-top: 2.1rem;
-    margin-right: -14rem;
+    margin-right: -16rem;
   }
 }
 
 @media (max-width: 360px) {
   .search-box-mobile {
-    margin-right: -8rem;
+    margin-right: -10rem;
   }
 }
 
 @media (max-width: 320px) {
   .search-box-mobile {
     margin-top: 2.3rem;
-    margin-right: -9rem;
+    margin-right: -11rem;
   }
 }
 
@@ -640,7 +646,7 @@ input[type="text"]:focus {
 
 @media (max-width: 360px) {
   .mobile-nav-icon {
-    margin-right: 1.8rem;
+    margin-right: 1rem;
   }
 }
 
@@ -705,6 +711,7 @@ input[type="text"]:focus {
 
 @media (max-width: 375px) {
   .Networks {
+    margin-right: 0;
     padding-left: 0;
     padding-right: 1.5rem;
   }
@@ -772,7 +779,7 @@ input[type="text"]:focus {
 
 @media (max-width: 375px) {
   .projects {
-    margin-top: 3rem;
+    margin-top: 4.5rem;
   }
 }
 
@@ -784,7 +791,7 @@ input[type="text"]:focus {
 
 @media (max-width: 320px) {
   .projects {
-    margin-top: 0;
+    margin-top: 2.7rem;
   }
 }
 
@@ -1631,7 +1638,7 @@ input[type="text"]:focus {
 
 @media (max-width: 360px) {
   .main_div-1_box_heading {
-    padding-left: 3.5rem;
+    padding-left: 3.4rem;
   }
 }
 
@@ -3530,9 +3537,15 @@ input[type="submit"]:hover {
   }
 }
 
+@media (max-width: 375px) {
+  .hero_text {
+    margin-top: 5rem;
+  }
+}
+
 @media (max-width: 320px) {
   .hero_text {
-    margin-top: 0.9rem;
+    margin-top: 3rem;
   }
 }
 
@@ -3585,7 +3598,7 @@ input[type="submit"]:hover {
 @media (max-width: 360px) {
   .hero_text_heading {
     margin-left: 4.5rem;
-    margin-top: 2rem;
+    margin-top: 0;
   }
 }
 
@@ -3693,6 +3706,12 @@ input[type="submit"]:hover {
 @media (max-width: 375px) {
   .hero_img_stars-mobile {
     display: block;
+    margin: 4rem auto;
+  }
+}
+
+@media (max-width: 360px) {
+  .hero_img_stars-mobile {
     margin: 3rem auto;
   }
 }
@@ -3700,7 +3719,7 @@ input[type="submit"]:hover {
 @media (max-width: 320px) {
   .hero_img_stars-mobile {
     width: 26rem;
-    margin-top: 1.5rem;
+    margin-top: 2.2rem;
     margin-bottom: 1.5rem;
   }
 }
@@ -3744,7 +3763,7 @@ input[type="submit"]:hover {
   .hero_img_sun {
     width: 28rem;
     left: 4.8rem;
-    top: 9rem;
+    top: 12rem;
   }
 }
 
@@ -3758,8 +3777,8 @@ input[type="submit"]:hover {
 @media (max-width: 320px) {
   .hero_img_sun {
     width: 23rem;
-    top: 2.5rem;
-    left: 6.5rem;
+    top: 5.5rem;
+    left: 6.7rem;
   }
 }
 
@@ -3866,8 +3885,8 @@ input[type="submit"]:hover {
 @media (max-width: 375px) {
   .socials-mobile {
     display: block;
-    margin-top: 2.2rem;
-    margin-bottom: 2rem;
+    margin-top: 10.2rem;
+    margin-bottom: 4rem;
     text-align: center;
   }
 }
@@ -3881,8 +3900,8 @@ input[type="submit"]:hover {
 
 @media (max-width: 320px) {
   .socials-mobile {
-    margin-top: 0;
-    margin-bottom: 1rem;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
   }
 }
 

@@ -28,12 +28,15 @@ header {
     margin-left: 1rem;
   }
   @include breakpoint(mobile) {
-    margin-left: 0;
+    margin-left: -1rem;
     margin-top: 1.5rem;
   }
 
   @include breakpoint(mobile--Small) {
-    margin-left: 1rem;
+    margin-left: .5rem;
+  }
+  @include breakpoint(mobile--Smallest) {
+    margin-left: 0;
   }
 
   &_picture {
@@ -347,15 +350,15 @@ input[type="text"]:focus {
   @include breakpoint(mobile) {
     display: block;
     margin-top: 2.1rem;
-    margin-right: -14rem;
+    margin-right: -16rem;
   }
 
   @include breakpoint(mobile--Small) {
-    margin-right: -8rem;
+    margin-right: -10rem;
   }
   @include breakpoint(mobile--Smallest) {
     margin-top: 2.3rem;
-    margin-right: -9rem;
+    margin-right: -11rem;
   }
 
   button {
@@ -537,7 +540,7 @@ button.subnavbtn.mrg-right:nth-of-type(1) {
   }
 
   @include breakpoint(mobile--Small) {
-    margin-right: 1.8rem;
+    margin-right: 1rem;
   }
 }
 
