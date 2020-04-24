@@ -94,6 +94,9 @@
         padding-left: 4.5rem;
       }
       @include breakpoint(mobile--Small) {
+        padding-left: 3.5rem;
+      }
+      @include breakpoint(mobile--Smallest) {
         padding-left: 3.8rem;
       }
     }
@@ -389,12 +392,14 @@
 
       @include breakpoint(mobile) {
         display: block;
-        padding-left: 4rem;
+        padding-left: 6rem;
       }
 
       @include breakpoint(mobile--Small) {
-        padding-left: 3rem;
-
+        padding-left: 5rem;
+      }
+      @include breakpoint(mobile--Smallest) {
+        padding-left: 5.3rem;
       }
     }
     &_heading-mobilefirst {
@@ -441,11 +446,14 @@
       }
 
       @include breakpoint(mobile) {
-        margin-left: 22.5rem;
+        margin-left: 24.5rem;
         padding-top: 0.5rem;
       }
       @include breakpoint(mobile--Small) {
-        margin-left: 20.7rem;
+        margin-left: 22.7rem;
+      }
+      @include breakpoint(mobile--Smallest) {
+        margin-left: 23rem;
       }
     }
 
