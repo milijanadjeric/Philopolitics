@@ -467,13 +467,14 @@ input[type="text"]:focus {
 
 @media (max-width: 360px) {
   .search-box-mobile {
-    margin-right: -1rem;
+    margin-right: -8rem;
   }
 }
 
 @media (max-width: 320px) {
   .search-box-mobile {
     margin-top: 2.3rem;
+    margin-right: -9rem;
   }
 }
 

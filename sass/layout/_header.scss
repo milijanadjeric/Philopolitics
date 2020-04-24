@@ -356,10 +356,11 @@ input[type="text"]:focus {
   }
 
   @include breakpoint(mobile--Small) {
-    margin-right: -1rem;
+    margin-right: -8rem;
   }
   @include breakpoint(mobile--Smallest) {
     margin-top: 2.3rem;
+    margin-right: -9rem;
   }
 
   button {
