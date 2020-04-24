@@ -3539,7 +3539,7 @@ input[type="submit"]:hover {
 
 @media (max-width: 375px) {
   .hero_text {
-    margin-top: 5rem;
+    margin-top: 4rem;
   }
 }
 
@@ -3770,7 +3770,7 @@ input[type="submit"]:hover {
 @media (max-width: 360px) {
   .hero_img_sun {
     left: 4.2rem;
-    top: 11rem;
+    top: 10.2rem;
   }
 }
 
@@ -3893,8 +3893,8 @@ input[type="submit"]:hover {
 
 @media (max-width: 360px) {
   .socials-mobile {
-    margin-top: 4rem;
-    margin-bottom: 3rem;
+    margin-top: 4.5rem;
+    margin-bottom: 3.5rem;
   }
 }
 
