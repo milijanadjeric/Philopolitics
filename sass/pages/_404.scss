@@ -54,14 +54,14 @@
 
   @include breakpoint(mobile) {
     display: block;
-    margin-top: 8rem;
+    margin-top: 11rem;
   }
   @include breakpoint(mobile--Small) {
     margin-top: 10rem
   }
 
   @include breakpoint(mobile--Smallest) {
-    margin-top: 3rem;
+    margin-top: 5.1rem;
   }
 
   &_text {
@@ -123,9 +123,7 @@
         font-size: 3rem;
         padding-bottom: 2rem;
       }
-      @include breakpoint(mobile--Smallest) {
-        padding-bottom: 1.5rem;
-      }
+      
     }
     &_3 {
       color: $color-white;
@@ -137,11 +135,12 @@
       @include breakpoint(mobile) {
         font-size: 1.4rem;
         width: 30rem;
+        margin-bottom: 3rem;
+      }
+      @include breakpoint (mobile--Small) {
         margin-bottom: 1.5rem;
       }
-      @include breakpoint(mobile--Smallest) {
-        margin-bottom: 0;
-      }
+     
     }
   }
   img {
@@ -161,8 +160,8 @@
 
     @include breakpoint(mobile) {
       width: 21rem;
-      margin-top: 5rem;
-      margin-bottom: 5.3rem;
+      margin-top: 10rem;
+      margin-bottom: 10.3rem;
       margin-left: 8rem;
     }
     @include breakpoint(mobile--Small) {
@@ -171,8 +170,8 @@
 
     }
     @include breakpoint(mobile--Smallest) {
-      margin-top: 2.5rem;
-      margin-bottom: 2.6rem;
+      margin-top: 5rem;
+      margin-bottom: 6rem;
     }
   }
   .button {
