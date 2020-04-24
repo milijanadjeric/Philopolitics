@@ -522,11 +522,18 @@ input[type="text"]:focus {
 
 .overlay .closebtn {
   position: absolute;
-  top: 8px;
-  right: 37px;
+  top: 11px;
+  right: 40px;
   font-size: 30px;
   cursor: pointer;
   color: #FFFFFF;
+}
+
+@media (max-width: 320px) {
+  .overlay .closebtn {
+    top: 10px;
+    right: 36px;
+  }
 }
 
 .overlay button {
@@ -3244,22 +3251,23 @@ input[type="submit"] {
 
 @media (max-width: 375px) {
   input[type="submit"] {
-    margin-top: 0;
-    margin-bottom: 2rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
     font-size: 1.3rem;
   }
 }
 
 @media (max-width: 360px) {
   input[type="submit"] {
-    margin-top: 2rem;
-    margin-bottom: 3.7rem;
+    margin-top: 2.5rem;
+    margin-bottom: 3.3rem;
   }
 }
 
 @media (max-width: 320px) {
   input[type="submit"] {
-    margin-bottom: 2rem;
+    margin-top: 4rem;
+    margin-bottom: 3.9rem;
   }
 }
 
@@ -3329,6 +3337,13 @@ input[type="submit"]:hover {
 @media (max-width: 375px) {
   .contact_container {
     width: 70%;
+    margin: 3rem auto;
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .contact_container {
     margin: 1rem auto;
   }
 }
@@ -3357,7 +3372,7 @@ input[type="submit"]:hover {
 
 @media (max-width: 320px) {
   .contact_heading {
-    padding-bottom: 1.5rem;
+    padding-bottom: 2.5rem;
   }
 }
 
@@ -3399,7 +3414,7 @@ input[type="submit"]:hover {
 
 @media (max-width: 375px) {
   .contact_data_email {
-    margin-bottom: 2.6rem;
+    margin-bottom: 3rem;
   }
 }
 
@@ -3437,8 +3452,8 @@ input[type="submit"]:hover {
     margin-bottom: 0;
     resize: vertical;
     background-color: transparent;
-    max-height: 70px;
-    min-height: 70px;
+    max-height: 90px;
+    min-height: 90px;
     font-family: "Roboto";
     font-size: 1.2rem;
     color: #FFFFFF;
@@ -3475,7 +3490,7 @@ input[type="submit"]:hover {
   .contact img {
     width: 19.5rem;
     margin-left: 8.2rem;
-    margin-top: 1.4rem;
+    margin-top: 5rem;
     margin-bottom: 1rem;
   }
 }
@@ -3483,6 +3498,7 @@ input[type="submit"]:hover {
 @media (max-width: 360px) {
   .contact img {
     margin-top: 4rem;
+    margin-bottom: 0;
   }
 }
 
@@ -3490,8 +3506,8 @@ input[type="submit"]:hover {
   .contact img {
     width: 16.2rem;
     margin-left: 9.9rem;
-    margin-top: 0;
-    margin-bottom: .7rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
   }
 }
 
