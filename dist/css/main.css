@@ -454,7 +454,7 @@ input[type="text"]:focus {
   .search-box-mobile {
     display: block;
     margin-top: 2.1rem;
-    margin-right: -4rem;
+    margin-right: -14rem;
   }
 }
 
