@@ -266,13 +266,12 @@
     margin-top: 2.5rem;
     margin-bottom: 1.7rem;
   }
-  
-
-  @include breakpoint(tablet) {
-    display: none;
-  }
+  @include breakpoint (tablet) {
+    margin-top: 19.9rem;
+    margin-bottom: 3rem;
+  }  
  
-  @include breakpoint(mobile--Small) {
+  @include breakpoint(mobile) {
     display: none;
   }
 
@@ -306,6 +305,9 @@
     @include breakpoint (ipad--Landscape) {
       margin-right: -10rem;
     }
+    @include breakpoint (tablet) {
+      display: none;
+    }
     
   }
 
@@ -326,14 +328,7 @@
 
 .socials-mobile {
   display: none;
-
-  @include breakpoint(tablet) {
-    display: block;
-    margin-top: 20.5rem;
-    margin-bottom: 4rem;
-    text-align: center;
-  }
-  
+ 
 
   @include breakpoint(mobile) {
     display: block;
