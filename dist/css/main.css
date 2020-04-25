@@ -406,7 +406,7 @@ input[type="text"] {
 @media (min-width: 1536px) {
   input[type="text"] {
     width: 3.5rem;
-    height: 1.9rem;
+    height: 2rem;
     font-size: 1.2rem;
     border-radius: 1.2rem;
   }
