@@ -4,6 +4,9 @@
   @include breakpoint(ipad) {
     height: 122rem;
   }
+  @include breakpoint (desktop) {
+    height:  140rem;
+  }
 }
 
 //    SLIDER
@@ -37,6 +40,14 @@
   }
   @include breakpoint (mobile--Smallest) {
     margin-left: 3.2rem;
+  }
+  @include breakpoint (desktop) {
+    margin-left: 11.5rem;
+    
+  }
+  @include breakpoint (desktop--Large) {
+    margin-left: 10.7rem;
+    
   }
 }
 
@@ -72,6 +83,14 @@
   @include breakpoint(ipad) {
     left: 450px;
   }
+  @include breakpoint (desktop) {
+    top: 1600px;
+    left: 1050px;
+  }
+  @include breakpoint (desktop--Large) {
+    top: 1750px;
+    left: 1140px;
+  }
 
 }
 
@@ -92,6 +111,14 @@
   }
   @include breakpoint(ipad) {
     right: 90px;
+  }
+  @include breakpoint (desktop) {
+    top: 1600px;
+    right: 125px;
+  }
+  @include breakpoint (desktop--Large) {
+    top: 1750px;
+    right: 130px;
   }
 
 }
@@ -145,6 +172,9 @@
     img {
       @include breakpoint (mobile) {
         width: 30rem;
+      }
+      @include breakpoint (desktop) {
+        width: 29rem;
       }
     }
     a {

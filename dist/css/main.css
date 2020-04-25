@@ -4029,6 +4029,12 @@ input[type="submit"]:hover {
   }
 }
 
+@media (min-width: 1440px) {
+  .main-section {
+    margin-left: 11rem;
+  }
+}
+
 @media (max-width: 800px) {
   .main-section_img {
     width: 35rem;
@@ -4038,6 +4044,12 @@ input[type="submit"]:hover {
 @media (max-width: 375px) {
   .main-section_img {
     width: 30rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .main-section_img {
+    width: 41rem;
   }
 }
 
@@ -4129,6 +4141,18 @@ input[type="submit"]:hover {
   }
 }
 
+@media (min-width: 1440px) {
+  .div_parag {
+    padding-bottom: 3.4rem;
+  }
+}
+
+@media (min-width: 1536px) {
+  .div_parag {
+    padding-bottom: 3.2rem;
+  }
+}
+
 .title {
   font-family: "TruenoBold";
   font-size: 1.8rem;
@@ -4161,6 +4185,20 @@ input[type="submit"]:hover {
   top: 1320px;
 }
 
+@media (min-width: 1440px) {
+  .container_projekti .slick-prev {
+    top: 1400px;
+    left: 490px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .container_projekti .slick-prev {
+    top: 1510px;
+    left: 525px;
+  }
+}
+
 .container_projekti .slick-next {
   right: 600px;
   top: 1320px;
@@ -4190,6 +4228,20 @@ input[type="submit"]:hover {
   }
 }
 
+@media (min-width: 1440px) {
+  .container_projekti .slick-next {
+    top: 1400px;
+    right: 680px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .container_projekti .slick-next {
+    top: 1510px;
+    right: 740px;
+  }
+}
+
 .slider-projects {
   margin-left: 15rem;
 }
@@ -4216,6 +4268,18 @@ input[type="submit"]:hover {
   .slider-projects {
     margin-left: 0;
     margin-top: 3rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .slider-projects {
+    margin-left: 11.5rem;
+  }
+}
+
+@media (min-width: 1536px) {
+  .slider-projects {
+    margin-left: 10.7rem;
   }
 }
 
@@ -4493,6 +4557,12 @@ input[type="submit"]:hover {
   }
 }
 
+@media (min-width: 1440px) {
+  .texts-2 {
+    height: 140rem;
+  }
+}
+
 .slider-publications {
   margin-left: 15rem;
   margin-top: 4rem;
@@ -4542,6 +4612,18 @@ input[type="submit"]:hover {
   }
 }
 
+@media (min-width: 1440px) {
+  .slider-publications {
+    margin-left: 11.5rem;
+  }
+}
+
+@media (min-width: 1536px) {
+  .slider-publications {
+    margin-left: 10.7rem;
+  }
+}
+
 .naslov {
   font-family: "TruenoBold";
   font-size: 1.8rem;
@@ -4586,6 +4668,20 @@ input[type="submit"]:hover {
   }
 }
 
+@media (min-width: 1440px) {
+  .container_tekstovi .slick-prev {
+    top: 1600px;
+    left: 1050px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .container_tekstovi .slick-prev {
+    top: 1750px;
+    left: 1140px;
+  }
+}
+
 .container_tekstovi .slick-next {
   right: 145px;
 }
@@ -4611,6 +4707,20 @@ input[type="submit"]:hover {
 @media (max-width: 768px) {
   .container_tekstovi .slick-next {
     right: 90px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .container_tekstovi .slick-next {
+    top: 1600px;
+    right: 125px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .container_tekstovi .slick-next {
+    top: 1750px;
+    right: 130px;
   }
 }
 
@@ -4662,6 +4772,12 @@ input[type="submit"]:hover {
 @media (max-width: 375px) {
   .div-111_wrap img {
     width: 30rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .div-111_wrap img {
+    width: 29rem;
   }
 }
 
