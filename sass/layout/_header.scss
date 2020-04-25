@@ -284,6 +284,11 @@ input[type="text"] {
     border: none;
   }
 
+  @include breakpoint (desktop--Large) {
+    height: 2rem;
+    font-size: 1.2rem;
+  }
+
 }
 
 /* When the input field gets focus, change its width to 100px */
@@ -333,6 +338,10 @@ input[type="text"]:focus {
     border: none;
     background: $color-footer-text;
     margin-left: -2.5rem;
+
+    @include breakpoint (desktop--Large) {
+      margin-left: -2.3rem;
+    }
     
   }
 

@@ -48,6 +48,12 @@ html {
   }
 }
 
+@media (min-width: 1536px) {
+  html {
+    font-size: 74%;
+  }
+}
+
 @font-face {
   font-family: 'GilroyExtraBold';
   src: url("../../fonts/GilroyExtraBold.eot");
@@ -391,6 +397,13 @@ input[type="text"] {
   }
 }
 
+@media (min-width: 1536px) {
+  input[type="text"] {
+    height: 2rem;
+    font-size: 1.2rem;
+  }
+}
+
 /* When the input field gets focus, change its width to 100px */
 input[type="text"]:focus {
   width: 12rem;
@@ -449,6 +462,12 @@ input[type="text"]:focus {
   border: none;
   background: #322b6c;
   margin-left: -2.5rem;
+}
+
+@media (min-width: 1536px) {
+  .search-box_form button {
+    margin-left: -2.3rem;
+  }
 }
 
 .search-box_search-icon {
@@ -999,6 +1018,12 @@ input[type="text"]:focus {
 @media (min-width: 1440px) {
   .btn_readmore {
     margin-left: 23rem;
+  }
+}
+
+@media (min-width: 1536px) {
+  .btn_readmore {
+    margin-left: 25rem;
   }
 }
 
