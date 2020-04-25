@@ -5,8 +5,8 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   background-color: $color-footer-text;
 }
 
@@ -16,8 +16,8 @@
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   width: 57.5rem;
   margin-top: 5.6rem;
   margin-bottom: 1rem;
@@ -25,7 +25,6 @@
   @include breakpoint(tablet) {
     width: 50rem;
     margin-top: 6rem;
-      
   }
 
   &_heading {
@@ -36,7 +35,6 @@
 
     @include breakpoint(tablet) {
       font-size: 3.5rem;
-     
     }
 
     @include breakpoint(mobile) {
@@ -71,7 +69,6 @@
     }
     @include breakpoint(mobile--Smallest) {
       border: 0.5px solid rgba(255, 255, 255, 0.3);
-
     }
   }
 
@@ -80,8 +77,8 @@
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
 
     @include breakpoint(mobile) {
       padding-left: 3.8rem;
@@ -115,7 +112,13 @@
 
   &_links {
     fill: $color-white;
-    margin-left: 2rem;
+    margin-left: 2rem;  
+    margin-top: .5rem;  
+
+    @include breakpoint (desktop) {
+      width: 2.5rem;
+      height: 2.3rem;
+    }
 
     &:hover {
       fill-opacity: 0.7;
@@ -124,38 +127,45 @@
 
   &_links-marginright {
     margin-right: 1.5rem;
+
     @include breakpoint(mobile) {
       margin-right: 0;
     }
+    @include breakpoint (desktop) {
+      margin-right: 1rem;
+
+    }
   }
 
+  a {
+    text-decoration: none;
+  }
 }
 
 //  TEXT
 
 .text {
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   margin-bottom: 6rem;
 
   @include breakpoint(mobile) {
     margin-bottom: 7rem;
   }
 
-  img {
-    position: relative;
-
+  &_flag {
     @include breakpoint(tablet) {
       width: 50rem;
     }
@@ -164,20 +174,38 @@
       width: 30rem;
       margin-bottom: 2rem;
     }
+    @include breakpoint(desktop) {
+      width: 57.6rem;
+    }
   }
 
   &_info {
     position: absolute;
-    top: -3.6rem;
-    left: 25.9rem;
+    top: 23rem;
+    left: 92.2rem;
 
-    @include breakpoint(tablet) {
-      display: none;
-
+    @include breakpoint(desktop--Small) {
+      left: 89rem;
     }
-
+    @include breakpoint(ipad--Landscape) {
+      left: 76rem;
+    }
+    @include breakpoint(tablet) {
+      top: 20rem;
+      left: 61.5rem;
+    }
+    @include breakpoint(ipad) {
+      left: 60rem;
+    }
     @include breakpoint(mobile) {
       display: none;
+    }
+    @include breakpoint(desktop) {
+      width: 2.7rem;
+      left: 91rem;
+    }
+    @include breakpoint(desktop--Large) {
+      left: 89.5rem;
     }
   }
 
@@ -189,8 +217,6 @@
     text-align: justify;
     letter-spacing: 0.01rem;
     padding-bottom: 2rem;
-
-    
 
     @include breakpoint(desktop--Small) {
       font-size: 1.9rem;
@@ -220,7 +246,6 @@
     letter-spacing: 0.01rem;
     padding-bottom: 4rem;
 
-   
     @include breakpoint(desktop--Small) {
       font-size: 1.9rem;
     }
@@ -249,7 +274,6 @@
     text-align: justify;
     letter-spacing: 0.01rem;
 
-   
     @include breakpoint(desktop--Small) {
       font-size: 1.9rem;
     }
@@ -279,7 +303,6 @@
     padding-top: 2rem;
     padding-bottom: 2rem;
 
-    
     @include breakpoint(desktop--Small) {
       font-size: 1.9rem;
     }
