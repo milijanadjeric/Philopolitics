@@ -283,10 +283,15 @@ input[type="text"] {
   @include breakpoint(mobile) {
     border: none;
   }
+  @include breakpoint (desktop) {
+    height: 2.2rem;
+  }
 
   @include breakpoint (desktop--Large) {
-    height: 2rem;
+    width: 3.5rem;
+    height: 1.9rem;
     font-size: 1.2rem;
+    border-radius: 1.2rem;
   }
 
 }
@@ -341,6 +346,9 @@ input[type="text"]:focus {
 
     @include breakpoint (desktop) {
       margin-left: -2.4rem;
+    }
+    @include breakpoint (desktop--Large) {
+      margin-left: -2.2rem;
     }
     
     
