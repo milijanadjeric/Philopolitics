@@ -470,6 +470,12 @@ input[type="text"]:focus {
   }
 }
 
+@media (min-width: 1536px) {
+  .search-box_form button {
+    margin-left: -2.4rem;
+  }
+}
+
 .search-box_search-icon {
   margin-bottom: -0.2rem;
 }
