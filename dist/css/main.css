@@ -5068,6 +5068,7 @@ input[type="submit"]:hover {
   text-align: justify;
   letter-spacing: 0.01rem;
   padding-bottom: 2rem;
+  padding-top: 1.5rem;
 }
 
 @media (max-width: 1280px) {

@@ -217,6 +217,7 @@
     text-align: justify;
     letter-spacing: 0.01rem;
     padding-bottom: 2rem;
+    padding-top: 1.5rem;
 
     @include breakpoint(desktop--Small) {
       font-size: 1.9rem;
