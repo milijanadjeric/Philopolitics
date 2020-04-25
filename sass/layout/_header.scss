@@ -364,6 +364,10 @@ input[type="text"]:focus {
       margin-bottom: -0.1rem;
     }
 
+    @include breakpoint (desktop--Large) {
+      margin-bottom: 0;
+    }
+
 
   }
 }

@@ -494,6 +494,12 @@ input[type="text"]:focus {
   }
 }
 
+@media (min-width: 1536px) {
+  .search-box_search-icon {
+    margin-bottom: 0;
+  }
+}
+
 /*  MOBILE SEARCH BOX */
 .search-box-mobile {
   display: none;
@@ -1187,6 +1193,16 @@ input[type="text"]:focus {
 @media (max-width: 1024px) {
   .elipse_6 {
     display: none;
+  }
+}
+
+@media (min-width: 1536px) {
+  .elipse_6 {
+    position: absolute;
+    width: 120rem;
+    left: 50.5%;
+    -webkit-transform: translate(-50.5%);
+            transform: translate(-50.5%);
   }
 }
 

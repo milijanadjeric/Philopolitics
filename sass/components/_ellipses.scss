@@ -78,6 +78,14 @@
       display: none;
     }
 
+    @include breakpoint (desktop--Large) {
+    position: absolute;
+    width: 120rem;
+    left: 50.5%;
+    transform: translate(-50.5%);
+
+    }
+
   }
 
 
