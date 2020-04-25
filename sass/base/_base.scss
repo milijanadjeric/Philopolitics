@@ -26,6 +26,7 @@
 /**
  * This defines what 1 rem is
  */
+
  html {
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -34,10 +35,14 @@
   scroll-behavior: smooth;
 
   
+  @include breakpoint(mobile--Smallest) {
+    font-size: 55%; /* 1rem = 8.75   8.75/16px=  55% */
+  }
+  @include breakpoint (desktop) {
+    font-size: 68%;
+  }
   
 
-  @include breakpoint(mobile--Smallest) {
-    font-size: 55%;
-  }
+  
 }
 

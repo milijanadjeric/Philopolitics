@@ -66,6 +66,10 @@
     left: 50.5%;
     transform: translate(-50.5%);
 
+    @include breakpoint (desktop) {
+      left: 50%;
+    }
+
     @include breakpoint(desktop--Small) {
       width: 126rem;
       
@@ -96,6 +100,14 @@
 
     @include breakpoint(mobile) {
       display: none;
+    }
+
+    @include breakpoint (desktop) {
+      display: block;
+      width: 128rem;
+      position: absolute;
+      left: 50%;
+      transform: translate(-50%);
     }
   }
 }

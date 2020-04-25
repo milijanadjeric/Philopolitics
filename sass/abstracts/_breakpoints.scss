@@ -12,10 +12,10 @@
 
 @mixin breakpoint($point) {
     @if $point == desktop--Large {//max-width = 1700px
-        @media (max-width: $desktop--Large)                 { @content; }
+        @media (min-width: $desktop--Large)                 { @content; }
     }
     @if $point == desktop {//max-width = 1440px
-        @media (max-width: $desktop)                        { @content; }
+        @media (min-width: $desktop)                        { @content; }
     }
     @if $point == desktop--Small {//max-width = 1280px
         @media (max-width: $desktop--Small)                 { @content; }
@@ -47,8 +47,8 @@
 //------MEDIA QUERIES   1rem - 10px
 
 
-$desktop--Large   : 1700px;    //   1700 / 16px = 106.25rem
-$desktop          : 1323px;    //   1440 / 16px = 90rem
+$desktop--Large   : 1600px;    //   1700 / 16px = 106.25rem
+$desktop          : 1440px;    //   1440 / 16px = 90rem
 $desktop--Small   : 1280px;    //   1200 / 16px = 75rem
 $ipad--Landscape  : 1024px;
 $ipad             : 768px;

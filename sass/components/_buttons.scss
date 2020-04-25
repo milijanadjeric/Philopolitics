@@ -13,6 +13,9 @@
   @include breakpoint(mobile) {
     display: none;
   }
+  @include breakpoint (desktop) {
+    margin-left: 23rem;
+  }
 }
 
 //  *** button on page one-publication  ***  //
