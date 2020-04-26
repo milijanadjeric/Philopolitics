@@ -204,7 +204,7 @@ header {
 
 @media (min-width: 1536px) {
   .navbar {
-    margin-top: 4rem;
+    margin-top: 3.7rem;
   }
 }
 
@@ -2540,6 +2540,18 @@ input[type="text"]:focus {
   }
 }
 
+@media (min-width: 1440px) {
+  .Aleksandar_bio {
+    padding: 5rem 22rem 5rem 26rem;
+  }
+}
+
+@media (min-width: 1536px) {
+  .Aleksandar_bio {
+    padding: 5rem 20rem 5rem 27rem;
+  }
+}
+
 .Aleksandar_bio img {
   -ms-flex-item-align: start;
   align-self: flex-start;
@@ -2549,14 +2561,14 @@ input[type="text"]:focus {
   .Aleksandar_bio img {
     width: 6.2rem;
     margin-left: 15.5rem;
-    padding-top: .5rem;
+    padding-top: 0.5rem;
   }
 }
 
 @media (max-width: 360px) {
   .Aleksandar_bio img {
     margin-left: 15rem;
-    margin-top: .5rem;
+    margin-top: 0.5rem;
   }
 }
 
@@ -2603,6 +2615,19 @@ input[type="text"]:focus {
     padding-left: 3.1rem;
     padding-right: 3.1rem;
     padding-top: 1.3rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .Aleksandar_bio_text {
+    padding-right: 11rem;
+    padding-left: 4rem;
+  }
+}
+
+@media (min-width: 1536px) {
+  .Aleksandar_bio_text {
+    padding-right: 9.5rem;
   }
 }
 
@@ -2681,6 +2706,12 @@ input[type="text"]:focus {
   }
 }
 
+@media (min-width: 1440px) {
+  .slider-biography {
+    margin-left: 11.5rem;
+  }
+}
+
 .container_tekstovi-2 .slick-next {
   right: 125px;
 }
@@ -2709,6 +2740,20 @@ input[type="text"]:focus {
   }
 }
 
+@media (min-width: 1440px) {
+  .container_tekstovi-2 .slick-next {
+    top: 800px;
+    right: 130px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .container_tekstovi-2 .slick-next {
+    top: 870px;
+    right: 140px;
+  }
+}
+
 .container_tekstovi-2 .slick-prev {
   left: 960px;
 }
@@ -2734,6 +2779,20 @@ input[type="text"]:focus {
 @media (max-width: 768px) {
   .container_tekstovi-2 .slick-prev {
     left: 490px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .container_tekstovi-2 .slick-prev {
+    top: 800px;
+    left: 1035px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .container_tekstovi-2 .slick-prev {
+    top: 870px;
+    left: 1105px;
   }
 }
 
@@ -2959,6 +3018,13 @@ input[type="text"]:focus {
 @media (max-width: 375px) {
   .line {
     display: none;
+  }
+}
+
+@media (min-width: 1440px) {
+  .line {
+    width: 106rem;
+    margin-top: 30rem;
   }
 }
 
