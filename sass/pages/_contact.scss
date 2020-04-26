@@ -95,6 +95,10 @@ input[type="submit"]:hover {
     margin: 0;
   }
 
+  @include breakpoint(desktop) {
+    margin-top: 17rem;
+  }
+
 
   &_container {
     display: -webkit-box;
@@ -229,7 +233,7 @@ input[type="submit"]:hover {
     z-index: 2;
     margin-top: -6rem;
 
-    @include breakpoint(desktop) {
+    @include breakpoint(desktop--Small) {
       padding-left: 17rem;
       margin-top: -18rem;
     }
@@ -259,6 +263,8 @@ input[type="submit"]:hover {
       margin-top: 2rem;
       margin-bottom: 1rem;
     }
+
+    
     
   }
 }

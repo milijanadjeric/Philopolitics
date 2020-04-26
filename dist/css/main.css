@@ -3600,6 +3600,12 @@ input[type="submit"]:hover {
   }
 }
 
+@media (min-width: 1440px) {
+  .contact {
+    margin-top: 17rem;
+  }
+}
+
 .contact_container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3760,7 +3766,7 @@ input[type="submit"]:hover {
   margin-top: -6rem;
 }
 
-@media (min-width: 1440px) {
+@media (max-width: 1280px) {
   .contact img {
     padding-left: 17rem;
     margin-top: -18rem;
