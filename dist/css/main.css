@@ -972,7 +972,7 @@ input[type="text"]:focus {
 
 @media (min-width: 1536px) {
   .autoplay .slick-list {
-    padding-left: 8.5rem;
+    padding-left: 8rem;
   }
 }
 
