@@ -66,6 +66,13 @@ input[type="submit"] {
     margin-top: 4rem;
     margin-bottom: 3.9rem;
   }
+
+  @include breakpoint(desktop) {
+    margin-bottom: 13rem;
+  }
+  @include breakpoint(desktop--Large) {
+    margin-bottom: 10rem;
+  }
 }
 
 input[type="submit"]:hover {
@@ -96,7 +103,10 @@ input[type="submit"]:hover {
   }
 
   @include breakpoint(desktop) {
-    margin-top: 17rem;
+    margin-top: 17.2rem;
+  }
+  @include breakpoint(desktop--Large) {
+    margin-top: 11rem;
   }
 
 
@@ -150,6 +160,9 @@ input[type="submit"]:hover {
     }
     @include breakpoint(mobile--Smallest) {
       padding-bottom: 2.5rem;
+    }
+    @include breakpoint(desktop) {
+      padding-bottom: 7rem;
     }
   }
 
@@ -225,24 +238,27 @@ input[type="submit"]:hover {
         font-size: 1.2rem;
         color: $color-white;
       }
+      @include breakpoint(desktop) {
+        margin-bottom: 5rem;
+      }
     }
   }
 
   img {
-    padding-left: 20rem;
+   margin-left: 20rem;
     z-index: 2;
     margin-top: -6rem;
 
     @include breakpoint(desktop--Small) {
-      padding-left: 17rem;
+      margin-left: 17rem;
       margin-top: -18rem;
     }
     @include breakpoint (ipad--Landscape) {
-      padding-left: 5rem;
+      margin-left: 5rem;
     }
     @include breakpoint(tablet) {
       margin-top: 6rem;
-      padding-left: 0;
+      margin-left: 0;
     }
 
     @include breakpoint(mobile) {
@@ -263,6 +279,16 @@ input[type="submit"]:hover {
       margin-top: 2rem;
       margin-bottom: 1rem;
     }
+
+    @include breakpoint(desktop) {
+      width: 49rem;
+      margin-top: -13rem;
+      margin-left: 16rem;
+    }
+    @include breakpoint(desktop--Large) {
+      margin-left: 15rem;
+    }
+    
 
     
     

@@ -3565,6 +3565,18 @@ input[type="submit"] {
   }
 }
 
+@media (min-width: 1440px) {
+  input[type="submit"] {
+    margin-bottom: 13rem;
+  }
+}
+
+@media (min-width: 1536px) {
+  input[type="submit"] {
+    margin-bottom: 10rem;
+  }
+}
+
 input[type="submit"]:hover {
   background-color: #00afb8;
 }
@@ -3602,7 +3614,13 @@ input[type="submit"]:hover {
 
 @media (min-width: 1440px) {
   .contact {
-    margin-top: 17rem;
+    margin-top: 17.2rem;
+  }
+}
+
+@media (min-width: 1536px) {
+  .contact {
+    margin-top: 11rem;
   }
 }
 
@@ -3673,6 +3691,12 @@ input[type="submit"]:hover {
 @media (max-width: 320px) {
   .contact_heading {
     padding-bottom: 2.5rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .contact_heading {
+    padding-bottom: 7rem;
   }
 }
 
@@ -3760,29 +3784,35 @@ input[type="submit"]:hover {
   }
 }
 
+@media (min-width: 1440px) {
+  .contact_data_message {
+    margin-bottom: 5rem;
+  }
+}
+
 .contact img {
-  padding-left: 20rem;
+  margin-left: 20rem;
   z-index: 2;
   margin-top: -6rem;
 }
 
 @media (max-width: 1280px) {
   .contact img {
-    padding-left: 17rem;
+    margin-left: 17rem;
     margin-top: -18rem;
   }
 }
 
 @media (max-width: 1024px) {
   .contact img {
-    padding-left: 5rem;
+    margin-left: 5rem;
   }
 }
 
 @media (max-width: 800px) {
   .contact img {
     margin-top: 6rem;
-    padding-left: 0;
+    margin-left: 0;
   }
 }
 
@@ -3808,6 +3838,20 @@ input[type="submit"]:hover {
     margin-left: 9.9rem;
     margin-top: 2rem;
     margin-bottom: 1rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .contact img {
+    width: 49rem;
+    margin-top: -13rem;
+    margin-left: 16rem;
+  }
+}
+
+@media (min-width: 1536px) {
+  .contact img {
+    margin-left: 15rem;
   }
 }
 
