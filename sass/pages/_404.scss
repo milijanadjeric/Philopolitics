@@ -63,6 +63,12 @@
   @include breakpoint(mobile--Smallest) {
     margin-top: 5.1rem;
   }
+  @include breakpoint (desktop) {
+    margin-top: 16rem;
+  }
+  @include breakpoint (desktop--Large) {
+    margin-top: 13rem;
+  }
 
   &_text {
     display: -webkit-box;
@@ -101,6 +107,9 @@
     @include breakpoint(mobile--Small) {
       margin-left: 4rem;
     }
+    @include breakpoint (desktop) {
+      margin-right: 9rem;
+     }
 
     &_1 {
       color: $color-white;
@@ -123,6 +132,9 @@
         font-size: 3rem;
         padding-bottom: 2rem;
       }
+      @include breakpoint (desktop) {
+        padding-bottom: 5rem;
+      }
       
     }
     &_3 {
@@ -140,6 +152,7 @@
       @include breakpoint (mobile--Small) {
         margin-bottom: 1.5rem;
       }
+     
      
     }
   }
@@ -173,8 +186,16 @@
       margin-top: 5rem;
       margin-bottom: 6rem;
     }
+    @include breakpoint (desktop) {
+      width: 49rem;
+     }
   }
   .button {
+
+    @include breakpoint (desktop) {
+      margin-top: 3rem;
+     }
+
     &_home {
       text-decoration: none;
       color: $color-white;
@@ -193,6 +214,7 @@
         font-size: 1.2rem;
         
       }
+      
     }
 
     &_back {
@@ -233,6 +255,12 @@
   @include breakpoint(mobile) {
     display: none;
   }
+  @include breakpoint (desktop) {
+    margin-top: 6.8rem;
+  }
+  @include breakpoint (desktop--Large) {
+    margin-top: 3.4rem;
+  }
 
   &_followus {
     color: rgba(242, 242, 242, 0.9);
@@ -250,6 +278,10 @@
     @include breakpoint(desktop--Small) {
       margin-right: 9rem;
     }
+
+    @include breakpoint (desktop) {
+      margin-right: 14rem;
+    }
   }
 
   img {
@@ -259,6 +291,9 @@
     @include breakpoint(desktop--Small) {
       padding-bottom: 3.9rem;
     }
+    @include breakpoint (desktop) {
+     padding-left: 1rem;
+     }
 
     
   }

@@ -112,10 +112,13 @@
 
     @include breakpoint (desktop) {
       display: block;
-      width: 128rem;
+      width: 132rem;
       position: absolute;
       left: 50%;
       transform: translate(-50%);
+    }
+    @include breakpoint (desktop--Large) {
+      width: 129rem;
     }
   }
 }
