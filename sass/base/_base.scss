@@ -44,6 +44,9 @@
   @include breakpoint (desktop--Large) {
     font-size: 74%;
   }
+  @include breakpoint (desktop--Larger) {
+    font-size: 85%;
+  }
   
 
   

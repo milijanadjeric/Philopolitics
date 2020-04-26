@@ -11,6 +11,9 @@
 
 
 @mixin breakpoint($point) {
+    @if $point == desktop--Larger {//max-width = 1700px
+        @media (min-width: $desktop--Larger)                 { @content; }
+    }
     @if $point == desktop--Large {//max-width = 1700px
         @media (min-width: $desktop--Large)                 { @content; }
     }
@@ -46,7 +49,7 @@
 
 //------MEDIA QUERIES   1rem - 10px
 
-
+$desktop--Larger  : 1920px;
 $desktop--Large   : 1536px;    //   1700 / 16px = 106.25rem
 $desktop          : 1440px;    //   1440 / 16px = 90rem
 $desktop--Small   : 1280px;    //   1200 / 16px = 75rem

@@ -51,6 +51,7 @@
     margin-bottom: 17rem;
     
   }
+  
 }
 
 .naslov {
@@ -87,7 +88,7 @@
   }
   @include breakpoint (desktop) {
     top: 1600px;
-    left: 1050px;
+    left: 1040px;
   }
   @include breakpoint (desktop--Large) {
     top: 1720px;
