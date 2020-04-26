@@ -3091,6 +3091,12 @@ input[type="text"]:focus {
   }
 }
 
+@media (min-width: 1536px) {
+  .line {
+    width: 104rem;
+  }
+}
+
 @media (max-width: 375px) {
   .hidden {
     display: none;

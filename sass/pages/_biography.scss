@@ -406,6 +406,9 @@
     width: 106rem;
     margin-top: 30rem;
   }
+  @include breakpoint (desktop--Large) {
+    width: 104rem;
+  }
 }
 
 .hidden {
