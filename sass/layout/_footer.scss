@@ -26,12 +26,19 @@
     padding-right: 1rem;
 
   }
+  @include breakpoint (desktop) {
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+  }
 
   a {
     padding-left: 1.3rem;
-
+    
     :hover {
       fill: #2a245b;
+    }
+    @include breakpoint (desktop) {
+      padding-left: .8rem;
     }
   }
 }

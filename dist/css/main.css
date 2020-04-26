@@ -202,6 +202,12 @@ header {
   }
 }
 
+@media (min-width: 1536px) {
+  .navbar {
+    margin-top: 4rem;
+  }
+}
+
 /* Navigation links */
 .navbar a {
   float: left;
@@ -365,6 +371,12 @@ header {
   }
 }
 
+@media (min-width: 1536px) {
+  .languages {
+    margin-top: 4rem;
+  }
+}
+
 @media (max-width: 375px) {
   .languages img {
     display: none;
@@ -469,6 +481,12 @@ input[type="text"]:focus {
 @media (min-width: 1440px) {
   .search-box {
     margin-right: -17rem;
+  }
+}
+
+@media (min-width: 1536px) {
+  .search-box {
+    margin-top: 4rem;
   }
 }
 
@@ -792,12 +810,25 @@ input[type="text"]:focus {
   }
 }
 
+@media (min-width: 1440px) {
+  .Networks {
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+  }
+}
+
 .Networks a {
   padding-left: 1.3rem;
 }
 
 .Networks a :hover {
   fill: #2a245b;
+}
+
+@media (min-width: 1440px) {
+  .Networks a {
+    padding-left: .8rem;
+  }
 }
 
 .privacy {
