@@ -4065,14 +4065,14 @@ input[type="submit"]:hover {
 @media (min-width: 1440px) {
   .hero_img_stars {
     height: 44rem;
-    left: 71rem;
+    left: 70rem;
   }
 }
 
 @media (min-width: 1536px) {
   .hero_img_stars {
     height: 41rem;
-    left: 72rem;
+    left: 71rem;
   }
 }
 
