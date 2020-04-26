@@ -68,10 +68,10 @@ input[type="submit"] {
   }
 
   @include breakpoint(desktop) {
-    margin-bottom: 13rem;
+    margin-bottom: 17.2rem;
   }
   @include breakpoint(desktop--Large) {
-    margin-bottom: 10rem;
+    margin-bottom: 11rem;
   }
 }
 
@@ -103,10 +103,10 @@ input[type="submit"]:hover {
   }
 
   @include breakpoint(desktop) {
-    margin-top: 17.2rem;
+    margin-top: 13rem;
   }
   @include breakpoint(desktop--Large) {
-    margin-top: 11rem;
+    margin-top: 10rem;
   }
 
 
