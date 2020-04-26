@@ -201,10 +201,12 @@
       display: none;
     }
     @include breakpoint(desktop) {
-      width: 2.5rem;
-      left: 90.5rem;
+      width: 2.3rem;
+      left: 90.6rem;
     }
     @include breakpoint(desktop--Large) {
+      top: 23.5rem;
+      width: 2.1rem;
       left: 89.2rem;
     }
   }
