@@ -116,8 +116,8 @@
     margin-top: .5rem;  
 
     @include breakpoint (desktop) {
-      width: 2.4rem;
-      height: 2.2rem;
+      width: 2.2rem;
+      height: 2rem;
     }
 
     &:hover {
@@ -201,11 +201,11 @@
       display: none;
     }
     @include breakpoint(desktop) {
-      width: 2.7rem;
-      left: 91rem;
+      width: 2.5rem;
+      left: 90.7rem;
     }
     @include breakpoint(desktop--Large) {
-      left: 89.5rem;
+      left: 89.4rem;
     }
   }
 

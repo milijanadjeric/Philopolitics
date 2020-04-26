@@ -5005,8 +5005,8 @@ input[type="submit"]:hover {
 
 @media (min-width: 1440px) {
   .banner_links {
-    width: 2.4rem;
-    height: 2.2rem;
+    width: 2.2rem;
+    height: 2rem;
   }
 }
 
@@ -5116,14 +5116,14 @@ input[type="submit"]:hover {
 
 @media (min-width: 1440px) {
   .text_info {
-    width: 2.7rem;
-    left: 91rem;
+    width: 2.5rem;
+    left: 90.7rem;
   }
 }
 
 @media (min-width: 1536px) {
   .text_info {
-    left: 89.5rem;
+    left: 89.4rem;
   }
 }
 
