@@ -66,14 +66,12 @@
     left: 50.5%;
     transform: translate(-50.5%);
 
-    @include breakpoint (desktop) {
+    @include breakpoint (desktop--Small) {
       left: 50%;
+      width: 126rem;
     }
 
-    @include breakpoint(desktop--Small) {
-      width: 126rem;
-      
-    }
+   
     @include breakpoint (ipad--Landscape) {
       display: none;
     }
@@ -92,30 +90,14 @@
   &_7-about-us {
     display: none;
 
-    @include breakpoint(desktop--Small) {
-      display: block;
-      width: 128rem;
-      position: absolute;
-      left: 50%;
-      transform: translate(-50%);
-    }
-    @include breakpoint (ipad--Landscape) {
-      width: 101.5rem;
-    }
-    @include breakpoint(tablet) {
-      display: none;
-    }
-
-    @include breakpoint(mobile) {
-      display: none;
-    }
+    
 
     @include breakpoint (desktop) {
       display: block;
       width: 132rem;
       position: absolute;
-      left: 50%;
-      transform: translate(-50%);
+      left: 45%;
+      transform: translate(-45%);
     }
     @include breakpoint (desktop--Large) {
       width: 129rem;

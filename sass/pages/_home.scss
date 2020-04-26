@@ -60,6 +60,7 @@
 }
 
 .hero {
+
   &_text {
     margin-top: 10rem;
     display: -webkit-box;
@@ -78,6 +79,12 @@
     }
     @include breakpoint(mobile--Smallest) {
       margin-top: 3rem;
+    }
+    @include breakpoint(desktop) {
+      margin-top: 14rem;
+    }
+    @include breakpoint(desktop--Large) {
+      margin-top: 9.6rem;
     }
 
     &_heading {
@@ -187,6 +194,14 @@
       @include breakpoint(mobile) {
         display: none;
       }
+      @include breakpoint(desktop) {
+        height: 44rem;
+        left: 71rem;
+      }  
+      @include breakpoint(desktop--Large) {
+        height: 41rem;
+        left: 72rem;
+      }
       
     }
 
@@ -249,6 +264,15 @@
         top: 5.5rem;
         left: 6.7rem;
       }
+      @include breakpoint(desktop) {
+        height: 43rem;
+        left: 81rem;
+      }
+      @include breakpoint(desktop--Large) {
+        height: 39rem;
+        left: 81rem;
+      }
+      
     }
   }
 }
@@ -279,6 +303,14 @@
   @include breakpoint(mobile) {
     display: none;
   }
+  @include breakpoint(desktop) {
+    margin-top: 5rem;
+    margin-bottom: 2.3rem;
+  }
+  @include breakpoint(desktop--Large) {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
 
   &_copy {
     font-family: $font-tr-rg;
@@ -293,6 +325,9 @@
     margin-left: 7rem;
 
     @include breakpoint(desktop--Small) {
+      margin-left: 0;
+    }
+    @include breakpoint(desktop) {
       margin-left: 0;
     }
     
@@ -312,6 +347,9 @@
     }
     @include breakpoint (tablet) {
       display: none;
+    }
+    @include breakpoint(desktop) {
+      margin-right: -20rem;
     }
     
   }
