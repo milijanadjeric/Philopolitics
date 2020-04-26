@@ -5220,13 +5220,13 @@ input[type="submit"]:hover {
 @media (min-width: 1440px) {
   .text_info {
     width: 2.5rem;
-    left: 90.7rem;
+    left: 90.5rem;
   }
 }
 
 @media (min-width: 1536px) {
   .text_info {
-    left: 89.4rem;
+    left: 89.2rem;
   }
 }
 
