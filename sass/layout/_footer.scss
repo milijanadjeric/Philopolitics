@@ -47,6 +47,9 @@
   @include breakpoint(mobile) {
     display: none;
   }
+  @include breakpoint (desktop) {
+    padding-bottom: 1.5rem;
+  }
 
   &_copy {
     font-family: $font-tr-rg;

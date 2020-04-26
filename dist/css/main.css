@@ -816,6 +816,12 @@ input[type="text"]:focus {
   }
 }
 
+@media (min-width: 1440px) {
+  .privacy {
+    padding-bottom: 1.5rem;
+  }
+}
+
 .privacy_copy {
   font-family: "truenoregular";
   font-size: 1.4rem;
