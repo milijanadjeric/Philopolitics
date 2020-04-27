@@ -318,7 +318,8 @@ input[type="text"] {
     border: none;
   }
   @include breakpoint (desktop) {
-    height: 2.2rem;
+    width: 3.8rem;
+    height: 2.15rem;
   }
 
   @include breakpoint (desktop--Large) {
@@ -326,6 +327,11 @@ input[type="text"] {
     height: 2rem;
     font-size: 1.2rem;
     border-radius: 1.2rem;
+  }
+  @include breakpoint (desktop--Big) {
+    width: 3.33rem;
+    height: 1.88rem;
+    
   }
   @include breakpoint (desktop--Biggest) {
     width: 2.75rem;
@@ -379,7 +385,7 @@ input[type="text"]:focus {
     margin-top: 3.2rem;
   }
   @include breakpoint (desktop--Big) {
-    margin-right: -19rem;
+    margin-right: -17.5rem;
   }
   @include breakpoint (desktop--Biggest) {
     margin-top: 2.6rem;
@@ -399,6 +405,9 @@ input[type="text"]:focus {
     }
     @include breakpoint (desktop--Large) {
       margin-left: -2.2rem;
+    }
+    @include breakpoint (desktop--Big) {
+      margin-left: -2rem;
     }
     @include breakpoint (desktop--Biggest) {
       

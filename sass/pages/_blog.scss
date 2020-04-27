@@ -70,6 +70,10 @@
       top: 1290px;
       right: 140px;
     }
+    @include breakpoint (desktop--Big) {
+      top: 1310px;
+      right: 150px;
+    }
   
   }
   
@@ -99,6 +103,10 @@
     @include breakpoint (desktop--Large) {
       top: 1290px;
       left: 1105px;
+    }
+    @include breakpoint (desktop--Big) {
+      top: 1310px;
+      left: 1150px;
     }
   
   }

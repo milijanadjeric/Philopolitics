@@ -38,7 +38,7 @@
   justify-content: center;
   align-items: center;
   border-radius: 0.2rem;
-  margin-top: 7.5rem;
+  margin-top: 7rem;
 
   @include breakpoint(tablet) {
     margin-top: 0.5rem;
@@ -47,6 +47,16 @@
   @include breakpoint(mobile) {
     margin-top: 2rem;
   }
+  @include breakpoint (desktop) {
+    margin-top: 7.4rem;
+  }
+  @include breakpoint (desktop--Large) {
+    margin-top: 7.7rem;
+  }
+  @include breakpoint (desktop--Big) {
+    margin-top: 8.4rem;
+  }
+  
 
   img {
     padding-left: 0.5rem;

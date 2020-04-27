@@ -104,6 +104,9 @@
     @include breakpoint (desktop--Large) {
       padding-right: 9.5rem;
     }
+    @include breakpoint (desktop--Big) {
+      padding-left: 5rem;
+    }
 
     p {
       padding-bottom: 2rem;
@@ -165,6 +168,9 @@
   @include breakpoint(desktop) {
     margin-left: 11.5rem;
   }
+  @include breakpoint (desktop--Big) {
+    margin-left: 11rem;
+  }
 }
 
 .container_tekstovi-2 .slick-next {
@@ -189,6 +195,10 @@
   @include breakpoint (desktop--Large) {
     top: 870px;
     right: 140px;
+  }
+  @include breakpoint (desktop--Big) {
+    top: 890px;
+    right: 150px;
   }
 }
 
@@ -215,6 +225,10 @@
   @include breakpoint (desktop--Large) {
     top: 870px;
     left: 1105px;
+  }
+  @include breakpoint (desktop--Big) {
+    top: 890px;
+    left: 1150px;
   }
 }
 
