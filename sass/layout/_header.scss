@@ -17,6 +17,9 @@ header {
   @include breakpoint(mobile) {
     height: 6rem;
   }
+  @include breakpoint(desktop--Large) {
+    height: 8.5rem !important;
+  }
 }
 
 //  -----LOG0 -----//
@@ -37,6 +40,10 @@ header {
   }
   @include breakpoint(mobile--Smallest) {
     margin-left: 0;
+  }
+
+  @include breakpoint (desktop--Large) {
+    margin-top: 2.1rem;
   }
 
   &_picture {
@@ -93,8 +100,12 @@ header {
     margin-top: 3rem;
     
   }
-  @include breakpoint (desktop--Large) {
+  @include breakpoint (desktop) {
     margin-top: 3.7rem;
+  }
+
+  @include breakpoint (desktop--Large) {
+    margin-top: 3rem;
   }
   
   
@@ -249,8 +260,11 @@ header {
     margin-top: 2.8rem;
     margin-right: 1.5rem;
   }
+  @include breakpoint (desktop) {
+    margin-top: 3.9rem;
+  }
   @include breakpoint (desktop--Large) {
-    margin-top: 4rem;
+    margin-top: 3.2rem;
   }
 
 
@@ -342,8 +356,14 @@ input[type="text"]:focus {
   @include breakpoint (desktop) {
     margin-right: -17rem;
   }
+  @include breakpoint (desktop) {
+    margin-top: 3.9rem;
+  }
   @include breakpoint (desktop--Large) {
-    margin-top: 4rem;
+    margin-top: 3.2rem;
+  }
+  @include breakpoint (desktop--Big) {
+    margin-right: -19rem;
   }
 
   

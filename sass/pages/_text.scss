@@ -164,6 +164,9 @@
   @include breakpoint(mobile) {
     margin-bottom: 7rem;
   }
+  @include breakpoint(desktop--Big) {
+    margin-bottom: 9rem;
+  }
 
   &_flag {
 
@@ -186,7 +189,7 @@
     left: 91.9rem;
 
     @include breakpoint(desktop--Small) {
-      left: 88.3rem;
+      left: 88.4rem;
     }
     @include breakpoint(ipad--Landscape) {
       left: 75.6rem;
@@ -206,9 +209,12 @@
       left: 90.6rem;
     }
     @include breakpoint(desktop--Large) {
-      top: 23.5rem;
+      top: 23.3rem;
       width: 2.2rem;
       left: 89.1rem;
+    }
+    @include breakpoint(desktop--Big) {
+      left: 91.8rem;
     }
   }
 
