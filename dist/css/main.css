@@ -120,6 +120,12 @@ header {
   }
 }
 
+@media (min-width: 1920px) {
+  header {
+    height: 7.5rem !important;
+  }
+}
+
 .logo {
   margin-top: 2.8rem;
 }
@@ -153,6 +159,12 @@ header {
 @media (min-width: 1536px) {
   .logo {
     margin-top: 2.1rem;
+  }
+}
+
+@media (min-width: 1920px) {
+  .logo {
+    margin-top: 1.6rem;
   }
 }
 
@@ -223,6 +235,12 @@ header {
 @media (min-width: 1536px) {
   .navbar {
     margin-top: 3rem;
+  }
+}
+
+@media (min-width: 1920px) {
+  .navbar {
+    margin-top: 2.4rem;
   }
 }
 
@@ -401,6 +419,12 @@ header {
   }
 }
 
+@media (min-width: 1920px) {
+  .languages {
+    margin-top: 2.6rem;
+  }
+}
+
 @media (max-width: 375px) {
   .languages img {
     display: none;
@@ -454,6 +478,13 @@ input[type="text"] {
   }
 }
 
+@media (min-width: 1920px) {
+  input[type="text"] {
+    width: 2.75rem;
+    height: 1.55rem;
+  }
+}
+
 /* When the input field gets focus, change its width to 100px */
 input[type="text"]:focus {
   width: 12rem;
@@ -504,13 +535,8 @@ input[type="text"]:focus {
 
 @media (min-width: 1440px) {
   .search-box {
-    margin-right: -17rem;
-  }
-}
-
-@media (min-width: 1440px) {
-  .search-box {
     margin-top: 3.9rem;
+    margin-right: -17rem;
   }
 }
 
@@ -523,6 +549,13 @@ input[type="text"]:focus {
 @media (min-width: 1600px) {
   .search-box {
     margin-right: -19rem;
+  }
+}
+
+@media (min-width: 1920px) {
+  .search-box {
+    margin-top: 2.6rem;
+    margin-right: -18rem;
   }
 }
 
@@ -541,6 +574,12 @@ input[type="text"]:focus {
 @media (min-width: 1536px) {
   .search-box_form button {
     margin-left: -2.2rem;
+  }
+}
+
+@media (min-width: 1920px) {
+  .search-box_form button {
+    margin-left: -1.7rem;
   }
 }
 

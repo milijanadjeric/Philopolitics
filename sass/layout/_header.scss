@@ -20,6 +20,9 @@ header {
   @include breakpoint(desktop--Large) {
     height: 8.5rem !important;
   }
+  @include breakpoint (desktop--Biggest) {
+    height: 7.5rem !important;
+  }
 }
 
 //  -----LOG0 -----//
@@ -44,6 +47,10 @@ header {
 
   @include breakpoint (desktop--Large) {
     margin-top: 2.1rem;
+  }
+
+  @include breakpoint (desktop--Biggest) {
+    margin-top: 1.6rem;
   }
 
   &_picture {
@@ -106,6 +113,9 @@ header {
 
   @include breakpoint (desktop--Large) {
     margin-top: 3rem;
+  }
+  @include breakpoint (desktop--Biggest) {
+    margin-top: 2.4rem;
   }
   
   
@@ -266,6 +276,9 @@ header {
   @include breakpoint (desktop--Large) {
     margin-top: 3.2rem;
   }
+  @include breakpoint (desktop--Biggest) {
+    margin-top: 2.6rem;
+  }
 
 
   img {
@@ -314,6 +327,10 @@ input[type="text"] {
     font-size: 1.2rem;
     border-radius: 1.2rem;
   }
+  @include breakpoint (desktop--Biggest) {
+    width: 2.75rem;
+    height: 1.55rem;
+  }
 
 }
 
@@ -354,16 +371,19 @@ input[type="text"]:focus {
   }
 
   @include breakpoint (desktop) {
+    margin-top: 3.9rem;
     margin-right: -17rem;
   }
-  @include breakpoint (desktop) {
-    margin-top: 3.9rem;
-  }
+  
   @include breakpoint (desktop--Large) {
     margin-top: 3.2rem;
   }
   @include breakpoint (desktop--Big) {
     margin-right: -19rem;
+  }
+  @include breakpoint (desktop--Biggest) {
+    margin-top: 2.6rem;
+    margin-right: -18rem;
   }
 
   
@@ -380,6 +400,10 @@ input[type="text"]:focus {
     @include breakpoint (desktop--Large) {
       margin-left: -2.2rem;
     }
+    @include breakpoint (desktop--Biggest) {
+      
+      margin-left: -1.7rem;
+    }
     
     
   }
@@ -390,8 +414,7 @@ input[type="text"]:focus {
     @include breakpoint (ipad--Landscape) {
       margin-bottom: -0.1rem;
     }
-
-   
+       
 
     @include breakpoint(mobile) {
       width: 2rem;
