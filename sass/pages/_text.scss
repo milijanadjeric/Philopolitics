@@ -159,13 +159,14 @@
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  margin-bottom: 6rem;
+  margin-bottom: 8rem;
 
   @include breakpoint(mobile) {
     margin-bottom: 7rem;
   }
 
   &_flag {
+
     @include breakpoint(tablet) {
       width: 50rem;
     }
@@ -182,20 +183,20 @@
   &_info {
     position: absolute;
     top: 23rem;
-    left: 92.2rem;
+    left: 91.9rem;
 
     @include breakpoint(desktop--Small) {
-      left: 89rem;
+      left: 88.3rem;
     }
     @include breakpoint(ipad--Landscape) {
-      left: 76rem;
+      left: 75.6rem;
     }
     @include breakpoint(tablet) {
-      top: 20rem;
-      left: 61.5rem;
+      top: 19.7rem;
+      left: 61.3rem;
     }
     @include breakpoint(ipad) {
-      left: 60rem;
+      left: 59.7rem;
     }
     @include breakpoint(mobile) {
       display: none;
@@ -206,28 +207,26 @@
     }
     @include breakpoint(desktop--Large) {
       top: 23.5rem;
-      width: 2.1rem;
-      left: 89.2rem;
+      width: 2.2rem;
+      left: 89.1rem;
     }
   }
 
   &_paragraph-onespace {
     font-family: "Roboto";
     font-size: 1.5rem;
-    width: 57.5rem;
+    width: 57.1rem;
     color: rgba(103, 103, 103, 0.9);
     text-align: justify;
     letter-spacing: 0.01rem;
     padding-bottom: 2rem;
     padding-top: 1.5rem;
-
-    @include breakpoint(desktop--Small) {
-      font-size: 1.9rem;
-    }
+    
+    
     @include breakpoint(tablet) {
-      padding-right: 4rem;
-      padding-left: 4rem;
-      font-size: 1.7rem;
+      padding-right: 3.5rem;
+      padding-left: 3.5rem;
+      
     }
 
     @include breakpoint(mobile) {
@@ -243,20 +242,18 @@
   &_paragraph-doublespace {
     font-family: "Roboto";
     font-size: 1.5rem;
-    width: 57.5rem;
+    width: 57.1rem;
     color: rgba(103, 103, 103, 0.9);
     text-align: justify;
     letter-spacing: 0.01rem;
     padding-bottom: 4rem;
 
-    @include breakpoint(desktop--Small) {
-      font-size: 1.9rem;
-    }
+   
 
     @include breakpoint(tablet) {
-      padding-right: 4rem;
-      padding-left: 4rem;
-      font-size: 1.7rem;
+      padding-right: 3.5rem;
+      padding-left: 3.5rem;
+      
     }
     @include breakpoint(mobile) {
       font-size: 1.4rem;
@@ -272,19 +269,16 @@
   &_paragraph-nospace {
     font-family: "Roboto";
     font-size: 1.5rem;
-    width: 57.5rem;
+    width: 57.1rem;
     color: rgba(103, 103, 103, 0.9);
     text-align: justify;
     letter-spacing: 0.01rem;
 
-    @include breakpoint(desktop--Small) {
-      font-size: 1.9rem;
-    }
 
     @include breakpoint(tablet) {
-      padding-right: 4rem;
-      padding-left: 4rem;
-      font-size: 1.7rem;
+      padding-right: 3.5rem;
+      padding-left: 3.5rem;
+      
     }
     @include breakpoint(mobile) {
       font-size: 1.4rem;
@@ -299,21 +293,18 @@
   &_paragraph-topbottomspace {
     font-family: "Roboto";
     font-size: 1.5rem;
-    width: 57.5rem;
+    width: 57.1rem;
     color: rgba(103, 103, 103, 0.9);
     text-align: justify;
     letter-spacing: 0.01rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
 
-    @include breakpoint(desktop--Small) {
-      font-size: 1.9rem;
-    }
 
     @include breakpoint(tablet) {
-      padding-right: 4rem;
-      padding-left: 4rem;
-      font-size: 1.7rem;
+      padding-right: 3.5rem;
+      padding-left: 3.5rem;
+      
     }
   }
 }

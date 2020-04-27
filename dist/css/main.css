@@ -54,12 +54,6 @@ html {
   }
 }
 
-@media (min-width: 1920px) {
-  html {
-    font-size: 85%;
-  }
-}
-
 @font-face {
   font-family: 'GilroyExtraBold';
   src: url("../../fonts/GilroyExtraBold.eot");
@@ -5337,7 +5331,7 @@ input[type="submit"]:hover {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  margin-bottom: 6rem;
+  margin-bottom: 8rem;
 }
 
 @media (max-width: 375px) {
@@ -5368,31 +5362,31 @@ input[type="submit"]:hover {
 .text_info {
   position: absolute;
   top: 23rem;
-  left: 92.2rem;
+  left: 91.9rem;
 }
 
 @media (max-width: 1280px) {
   .text_info {
-    left: 89rem;
+    left: 88.3rem;
   }
 }
 
 @media (max-width: 1024px) {
   .text_info {
-    left: 76rem;
+    left: 75.6rem;
   }
 }
 
 @media (max-width: 800px) {
   .text_info {
-    top: 20rem;
-    left: 61.5rem;
+    top: 19.7rem;
+    left: 61.3rem;
   }
 }
 
 @media (max-width: 768px) {
   .text_info {
-    left: 60rem;
+    left: 59.7rem;
   }
 }
 
@@ -5412,15 +5406,15 @@ input[type="submit"]:hover {
 @media (min-width: 1536px) {
   .text_info {
     top: 23.5rem;
-    width: 2.1rem;
-    left: 89.2rem;
+    width: 2.2rem;
+    left: 89.1rem;
   }
 }
 
 .text_paragraph-onespace {
   font-family: "Roboto";
   font-size: 1.5rem;
-  width: 57.5rem;
+  width: 57.1rem;
   color: rgba(103, 103, 103, 0.9);
   text-align: justify;
   letter-spacing: 0.01rem;
@@ -5428,17 +5422,10 @@ input[type="submit"]:hover {
   padding-top: 1.5rem;
 }
 
-@media (max-width: 1280px) {
-  .text_paragraph-onespace {
-    font-size: 1.9rem;
-  }
-}
-
 @media (max-width: 800px) {
   .text_paragraph-onespace {
-    padding-right: 4rem;
-    padding-left: 4rem;
-    font-size: 1.7rem;
+    padding-right: 3.5rem;
+    padding-left: 3.5rem;
   }
 }
 
@@ -5456,24 +5443,17 @@ input[type="submit"]:hover {
 .text_paragraph-doublespace {
   font-family: "Roboto";
   font-size: 1.5rem;
-  width: 57.5rem;
+  width: 57.1rem;
   color: rgba(103, 103, 103, 0.9);
   text-align: justify;
   letter-spacing: 0.01rem;
   padding-bottom: 4rem;
 }
 
-@media (max-width: 1280px) {
-  .text_paragraph-doublespace {
-    font-size: 1.9rem;
-  }
-}
-
 @media (max-width: 800px) {
   .text_paragraph-doublespace {
-    padding-right: 4rem;
-    padding-left: 4rem;
-    font-size: 1.7rem;
+    padding-right: 3.5rem;
+    padding-left: 3.5rem;
   }
 }
 
@@ -5492,23 +5472,16 @@ input[type="submit"]:hover {
 .text_paragraph-nospace {
   font-family: "Roboto";
   font-size: 1.5rem;
-  width: 57.5rem;
+  width: 57.1rem;
   color: rgba(103, 103, 103, 0.9);
   text-align: justify;
   letter-spacing: 0.01rem;
 }
 
-@media (max-width: 1280px) {
-  .text_paragraph-nospace {
-    font-size: 1.9rem;
-  }
-}
-
 @media (max-width: 800px) {
   .text_paragraph-nospace {
-    padding-right: 4rem;
-    padding-left: 4rem;
-    font-size: 1.7rem;
+    padding-right: 3.5rem;
+    padding-left: 3.5rem;
   }
 }
 
@@ -5526,7 +5499,7 @@ input[type="submit"]:hover {
 .text_paragraph-topbottomspace {
   font-family: "Roboto";
   font-size: 1.5rem;
-  width: 57.5rem;
+  width: 57.1rem;
   color: rgba(103, 103, 103, 0.9);
   text-align: justify;
   letter-spacing: 0.01rem;
@@ -5534,17 +5507,10 @@ input[type="submit"]:hover {
   padding-bottom: 2rem;
 }
 
-@media (max-width: 1280px) {
-  .text_paragraph-topbottomspace {
-    font-size: 1.9rem;
-  }
-}
-
 @media (max-width: 800px) {
   .text_paragraph-topbottomspace {
-    padding-right: 4rem;
-    padding-left: 4rem;
-    font-size: 1.7rem;
+    padding-right: 3.5rem;
+    padding-left: 3.5rem;
   }
 }
 
