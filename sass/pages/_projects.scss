@@ -30,6 +30,13 @@
   margin-bottom: 10rem;
   top: 1320px;
 
+  @include breakpoint(desktop--Small) {
+    left: 450px;
+  }
+  @include breakpoint(ipad) {
+    left: 455px;
+  }
+  
   @include breakpoint (desktop) {
     top: 1400px;
     left: 485px;
@@ -55,13 +62,13 @@
     
   }
   @include breakpoint (ipad--Landscape) {
-    right: 350px;
+    right: 360px;
   }
   @include breakpoint(tablet) {
-    right: 100px;
+    right: 120px;
   }
   @include breakpoint(ipad) {
-    right: 70px;
+    right: 95px;
   }
   @include breakpoint (desktop) {
     top: 1400px;
@@ -83,10 +90,13 @@
     margin-left: 9.6rem;
   }
   @include breakpoint (ipad--Landscape) {
-    margin-left: 7rem;
+    margin-left: 6rem;
   }
   @include breakpoint(tablet) {
-    margin-left: 10rem;
+    margin-left: 8rem;
+  }
+  @include breakpoint(ipad) {
+    margin-left: 7rem;
   }
   
   @include breakpoint(mobile) {
