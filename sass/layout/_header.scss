@@ -14,12 +14,7 @@ header {
   @include breakpoint(mobile) {
     height: 6rem;
   }
-  @include breakpoint(desktop--Large) {
-    height: 8.5rem !important;
-  }
-  @include breakpoint (desktop--Biggest) {
-    height: 7.5rem !important;
-  }
+  
 }
 
 //  -----LOG0 -----//

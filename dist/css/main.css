@@ -114,18 +114,6 @@ header {
   }
 }
 
-@media (min-width: 1536px) {
-  header {
-    height: 8.5rem !important;
-  }
-}
-
-@media (min-width: 1920px) {
-  header {
-    height: 7.5rem !important;
-  }
-}
-
 .logo {
   margin-top: 1.75rem;
 }
