@@ -8,11 +8,8 @@ header {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   background-color: $color-footer-text;
-  height: 10rem;
+  height: 8rem;
 
-  @include breakpoint(tablet) {
-    height: 8rem;
-  }
 
   @include breakpoint(mobile) {
     height: 6rem;
@@ -27,7 +24,7 @@ header {
 
 //  -----LOG0 -----//
 .logo {
-  margin-top: 2.8rem;
+  margin-top: 1.75rem;
 
   @include breakpoint(tablet) {
     margin-top: 2rem;
@@ -101,7 +98,7 @@ header {
 .navbar {
   overflow: hidden;
   background-color: $color-footer-text;
-  margin-top: 3.5rem;
+  margin-top: 2.7rem;
 
   @include breakpoint(tablet) {
     margin-top: 3rem;
@@ -259,7 +256,7 @@ header {
 //  -----LANGUAGES-----//
 .languages {
   z-index: 222;
-  margin-top: 3.5rem;
+  margin-top: 2.9rem;
   margin-right: -3.5rem;
 
   @include breakpoint (ipad--Landscape) {
@@ -353,7 +350,7 @@ input[type="text"]:focus {
 
 .search-box {
   z-index: 222;
-  margin-top: 3.5rem;
+  margin-top: 2.9rem;
   margin-right: -18rem;
 
   @include breakpoint(desktop--Small) {

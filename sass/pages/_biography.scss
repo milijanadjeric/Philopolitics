@@ -75,11 +75,13 @@
     color: $color-white;
     padding-left: 5rem;
     padding-right: 9rem;
+    padding-bottom: 1rem;
     text-align: justify;
 
     @include breakpoint(desktop--Small) {
       padding-left: 4rem;
       padding-right: 9rem;
+      padding-bottom: 0;
     }
     @include breakpoint(ipad--Landscape) {
       padding-left: 3rem;

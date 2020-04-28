@@ -105,13 +105,7 @@ header {
   -ms-flex-pack: distribute;
   justify-content: space-around;
   background-color: #322b6c;
-  height: 10rem;
-}
-
-@media (max-width: 800px) {
-  header {
-    height: 8rem;
-  }
+  height: 8rem;
 }
 
 @media (max-width: 375px) {
@@ -133,7 +127,7 @@ header {
 }
 
 .logo {
-  margin-top: 2.8rem;
+  margin-top: 1.75rem;
 }
 
 @media (max-width: 800px) {
@@ -223,7 +217,7 @@ header {
 .navbar {
   overflow: hidden;
   background-color: #322b6c;
-  margin-top: 3.5rem;
+  margin-top: 2.7rem;
 }
 
 @media (max-width: 800px) {
@@ -396,7 +390,7 @@ header {
 
 .languages {
   z-index: 222;
-  margin-top: 3.5rem;
+  margin-top: 2.9rem;
   margin-right: -3.5rem;
 }
 
@@ -512,7 +506,7 @@ input[type="text"]:focus {
 
 .search-box {
   z-index: 222;
-  margin-top: 3.5rem;
+  margin-top: 2.9rem;
   margin-right: -18rem;
 }
 
@@ -2812,6 +2806,7 @@ input[type="text"]:focus {
   color: #FFFFFF;
   padding-left: 5rem;
   padding-right: 9rem;
+  padding-bottom: 1rem;
   text-align: justify;
 }
 
@@ -2819,6 +2814,7 @@ input[type="text"]:focus {
   .Aleksandar_bio_text {
     padding-left: 4rem;
     padding-right: 9rem;
+    padding-bottom: 0;
   }
 }
 
@@ -4724,8 +4720,8 @@ input[type="submit"]:hover {
   letter-spacing: 0.01rem;
   text-transform: uppercase;
   color: #322b6c;
-  margin-top: 4rem;
-  margin-bottom: 4rem;
+  margin-top: 3.5rem;
+  margin-bottom: 3.5rem;
 }
 
 @media (max-width: 375px) {
@@ -4745,7 +4741,7 @@ input[type="submit"]:hover {
 }
 
 .container_projekti .slick-prev {
-  left: 460px;
+  left: 455px;
   margin-bottom: 10rem;
   top: 1320px;
 }
@@ -4765,7 +4761,7 @@ input[type="submit"]:hover {
 }
 
 .container_projekti .slick-next {
-  right: 600px;
+  right: 645px;
   top: 1320px;
 }
 
@@ -4808,7 +4804,8 @@ input[type="submit"]:hover {
 }
 
 .slider-projects {
-  margin-left: 15rem;
+  margin-top: 4rem;
+  margin-left: 11rem;
 }
 
 @media (max-width: 1280px) {
@@ -4929,7 +4926,7 @@ input[type="submit"]:hover {
   font-size: 1.3rem;
   color: #000;
   line-height: 2.2rem;
-  padding-bottom: 2rem;
+  padding-bottom: 1.5rem;
 }
 
 @media (max-width: 375px) {
@@ -5013,7 +5010,7 @@ input[type="submit"]:hover {
   font-size: 1.3rem;
   color: #000;
   line-height: 2.2rem;
-  padding-bottom: 2rem;
+  padding-bottom: 1.5rem;
 }
 
 @media (max-width: 375px) {
@@ -5097,7 +5094,7 @@ input[type="submit"]:hover {
   font-size: 1.3rem;
   color: #000;
   line-height: 2.2rem;
-  padding-bottom: 2rem;
+  padding-bottom: 1.5rem;
 }
 
 @media (max-width: 375px) {
@@ -5113,7 +5110,7 @@ input[type="submit"]:hover {
 }
 
 .texts-2 {
-  height: 119rem;
+  height: 137rem;
 }
 
 @media (max-width: 768px) {
@@ -5129,14 +5126,13 @@ input[type="submit"]:hover {
 }
 
 .slider-publications {
-  margin-left: 15rem;
+  margin-left: 11rem;
   margin-top: 4rem;
-  margin-bottom: 21rem;
 }
 
 @media (max-width: 1280px) {
   .slider-publications {
-    margin-left: 13rem;
+    margin-left: 10rem;
   }
 }
 
@@ -5197,8 +5193,8 @@ input[type="submit"]:hover {
   letter-spacing: 0.01rem;
   text-transform: uppercase;
   color: #322b6c;
-  margin-top: 3.9rem;
-  margin-bottom: 4.3rem;
+  margin-top: 3.5rem;
+  margin-bottom: 3.5rem;
 }
 
 @media (max-width: 375px) {
@@ -5208,7 +5204,9 @@ input[type="submit"]:hover {
 }
 
 .container_tekstovi .slick-prev {
-  left: 915px;
+  top: 1470px;
+  left: 985px;
+  margin-bottom: 6rem;
 }
 
 @media (max-width: 1280px) {
@@ -5250,7 +5248,9 @@ input[type="submit"]:hover {
 }
 
 .container_tekstovi .slick-next {
-  right: 145px;
+  top: 1470px;
+  right: 115px;
+  margin-bottom: 6rem;
 }
 
 @media (max-width: 1280px) {
@@ -5334,6 +5334,10 @@ input[type="submit"]:hover {
   text-transform: capitalize;
   color: #000;
   font-size: 1.2rem;
+}
+
+.div-111_wrap img {
+  width: 30rem;
 }
 
 @media (max-width: 375px) {

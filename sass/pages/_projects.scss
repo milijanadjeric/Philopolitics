@@ -4,8 +4,8 @@
   letter-spacing: 0.01rem;
   text-transform: uppercase;
   color: $color-footer-text;
-  margin-top: 4rem;
-  margin-bottom: 4rem;
+  margin-top: 3.5rem;
+  margin-bottom: 3.5rem;
 
   @include breakpoint(mobile) {
     display: none;
@@ -26,7 +26,7 @@
 // *** this is to move buttons prev and next to left side on page projects ***
 
 .container_projekti .slick-prev {
-  left: 460px;
+  left: 455px;
   margin-bottom: 10rem;
   top: 1320px;
 
@@ -46,7 +46,7 @@
 
 
 .container_projekti .slick-next {
-  right: 600px;
+  right: 645px;
   top: 1320px;
 
 
@@ -75,7 +75,8 @@
 }
 
 .slider-projects {
-  margin-left: 15rem;
+  margin-top: 4rem;
+  margin-left: 11rem;
   
 
   @include breakpoint(desktop--Small) {
@@ -169,7 +170,7 @@
         font-size: 1.3rem;
         color: $color-black;
         line-height: 2.2rem;
-        padding-bottom: 2rem;
+        padding-bottom: 1.5rem;
 
         @include breakpoint(mobile) {
           line-height: 2rem;
@@ -244,7 +245,7 @@
         font-size: 1.3rem;
         color: $color-black;
         line-height: 2.2rem;
-        padding-bottom: 2rem;
+        padding-bottom: 1.5rem;
 
         @include breakpoint(mobile) {
           line-height: 2rem;
@@ -320,7 +321,7 @@
         font-size: 1.3rem;
         color: $color-black;
         line-height: 2.2rem;
-        padding-bottom: 2rem;
+        padding-bottom: 1.5rem;
 
         @include breakpoint(mobile) {
           line-height: 2rem;
