@@ -178,6 +178,7 @@
 
     img {
       width: 30rem;
+      
       @include breakpoint (mobile) {
         width: 30rem;
       }

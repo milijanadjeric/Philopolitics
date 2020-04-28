@@ -4767,7 +4767,7 @@ input[type="submit"]:hover {
 
 @media (max-width: 1280px) {
   .container_projekti .slick-next {
-    right: 550px;
+    right: 585px;
   }
 }
 
@@ -4810,7 +4810,7 @@ input[type="submit"]:hover {
 
 @media (max-width: 1280px) {
   .slider-projects {
-    margin-left: 13rem;
+    margin-left: 9.6rem;
   }
 }
 

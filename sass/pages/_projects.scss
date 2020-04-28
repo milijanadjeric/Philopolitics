@@ -51,7 +51,7 @@
 
 
   @include breakpoint(desktop--Small) {
-    right: 550px;
+    right: 585px;
     
   }
   @include breakpoint (ipad--Landscape) {
@@ -80,7 +80,7 @@
   
 
   @include breakpoint(desktop--Small) {
-    margin-left: 13rem;
+    margin-left: 9.6rem;
   }
   @include breakpoint (ipad--Landscape) {
     margin-left: 7rem;
