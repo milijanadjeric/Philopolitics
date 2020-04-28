@@ -33,8 +33,9 @@
   @include breakpoint(desktop--Small) {
     left: 450px;
   }
-  @include breakpoint(ipad) {
-    left: 455px;
+  
+  @include breakpoint (tablet) {
+    left: 455px; 
   }
   
   @include breakpoint (desktop) {

@@ -4740,7 +4740,7 @@ input[type="submit"]:hover {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   .container_projekti .slick-prev {
     left: 455px;
   }
@@ -5231,7 +5231,7 @@ input[type="submit"]:hover {
 @media (max-width: 800px) {
   .container_tekstovi .slick-prev {
     top: 1400px;
-    left: 490px;
+    left: 495px;
   }
 }
 
