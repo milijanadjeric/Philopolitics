@@ -21,7 +21,7 @@
     height: 123rem;
   }
 
-  @include breakpoint (desktop) {
+  @include breakpoint(desktop) {
     height: 125rem;
   }
   
@@ -37,36 +37,33 @@
   @include breakpoint(desktop--Small) {
     left: 450px;
   }
-  
-  @include breakpoint (tablet) {
-    left: 455px; 
+
+  @include breakpoint(tablet) {
+    left: 455px;
   }
-  
-  @include breakpoint (desktop) {
+
+  @include breakpoint(desktop) {
     top: 1450px;
     left: 510px;
   }
-  @include breakpoint (desktop--Large) {
+  @include breakpoint(desktop--Large) {
     top: 1580px;
     left: 565px;
   }
-
-  
+  @include breakpoint(desktop--Big) {
+    top: 1650px;
+    left: 590px;
+  }
 }
-
-
-
 
 .container_projekti .slick-next {
   right: 645px;
   top: 1320px;
 
-
   @include breakpoint(desktop--Small) {
     right: 585px;
-    
   }
-  @include breakpoint (ipad--Landscape) {
+  @include breakpoint(ipad--Landscape) {
     right: 360px;
   }
   @include breakpoint(tablet) {
@@ -75,26 +72,28 @@
   @include breakpoint(ipad) {
     right: 95px;
   }
-  @include breakpoint (desktop) {
+  @include breakpoint(desktop) {
     top: 1450px;
     right: 655px;
   }
-  @include breakpoint (desktop--Large) {
+  @include breakpoint(desktop--Large) {
     top: 1580px;
     right: 690px;
   }
- 
+  @include breakpoint(desktop--Big) {
+    top: 1650px;
+    right: 720px;
+  }
 }
 
 .slider-projects {
   margin-top: 4rem;
   margin-left: 11rem;
-  
 
   @include breakpoint(desktop--Small) {
     margin-left: 9.6rem;
   }
-  @include breakpoint (ipad--Landscape) {
+  @include breakpoint(ipad--Landscape) {
     margin-left: 6rem;
   }
   @include breakpoint(tablet) {
@@ -103,15 +102,15 @@
   @include breakpoint(ipad) {
     margin-left: 7rem;
   }
-  
+
   @include breakpoint(mobile) {
     margin-left: 0;
     margin-top: 3rem;
   }
-  @include breakpoint (desktop) {
+  @include breakpoint(desktop) {
     margin-left: 11.2rem;
-  } 
-  @include breakpoint (desktop--Large) {
+  }
+  @include breakpoint(desktop--Large) {
     margin-left: 10.7rem;
   }
 }
@@ -121,13 +120,11 @@
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-
-          
+  -ms-flex-direction: column;
+  flex-direction: column;
 
   &_wrap {
     margin-bottom: 6rem;
@@ -141,7 +138,6 @@
     }
 
     &_circle {
-
       @include breakpoint(mobile) {
         width: 30rem;
         height: 30rem;
@@ -151,7 +147,7 @@
       @include breakpoint(mobile--Small) {
         margin-left: 3.1rem;
       }
-      @include breakpoint (desktop) {
+      @include breakpoint(desktop) {
         width: 20rem;
       }
     }
@@ -165,7 +161,6 @@
         margin-left: 3.7rem;
       }
       @include breakpoint(mobile--Small) {
-        
         margin-left: 3.4rem;
       }
 
@@ -194,7 +189,7 @@
         @include breakpoint(mobile) {
           line-height: 2rem;
         }
-        @include breakpoint (desktop) {
+        @include breakpoint(desktop) {
           padding-bottom: 3rem;
         }
       }
@@ -206,13 +201,11 @@
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-
-         
+  -ms-flex-direction: column;
+  flex-direction: column;
 
   &_wrap {
     margin-bottom: 6rem;
@@ -243,7 +236,6 @@
         margin-left: 3.7rem;
       }
       @include breakpoint(mobile--Small) {
-        
         margin-left: 3.4rem;
       }
 
@@ -282,13 +274,11 @@
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-
-          
+  -ms-flex-direction: column;
+  flex-direction: column;
 
   &_wrap {
     margin-bottom: 6rem;
@@ -319,7 +309,6 @@
         margin-left: 3.7rem;
       }
       @include breakpoint(mobile--Small) {
-        
         margin-left: 3.4rem;
       }
 
@@ -355,12 +344,10 @@
 
 //   SLIDER - END
 
-
 //  LOAD MORE ON MOBILE DEVICE //@include
 
 .hidden {
   @include breakpoint(mobile) {
     display: none;
   }
-
 }
