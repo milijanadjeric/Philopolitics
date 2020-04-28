@@ -5132,7 +5132,7 @@ input[type="submit"]:hover {
 
 @media (max-width: 1280px) {
   .slider-publications {
-    margin-left: 10rem;
+    margin-left: 9.6rem;
   }
 }
 
@@ -5211,7 +5211,7 @@ input[type="submit"]:hover {
 
 @media (max-width: 1280px) {
   .container_tekstovi .slick-prev {
-    left: 880px;
+    left: 940px;
   }
 }
 
@@ -5255,7 +5255,7 @@ input[type="submit"]:hover {
 
 @media (max-width: 1280px) {
   .container_tekstovi .slick-next {
-    right: 130px;
+    right: 100px;
   }
 }
 
