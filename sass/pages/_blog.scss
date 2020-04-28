@@ -192,6 +192,7 @@
           text-align: right;
           padding-top: 0.9rem;
           color: $color-black;
+
           @include breakpoint(mobile) {
             font-size: 1.3rem;
             width: 8.5rem;
@@ -200,8 +201,12 @@
   
         &_text {
           width: 29rem;
+
           @include breakpoint(mobile) {
-            width: 33rem;
+            width: 35rem;
+          }
+          @include breakpoint(mobile--Small) {
+            width: 34rem;
           }
           
   
@@ -216,7 +221,10 @@
 
             @include breakpoint(mobile) {
               font-size: 1.6rem;
-              padding-left: 10.5rem;
+              padding-left: 12rem;
+            }
+            @include breakpoint(mobile--Small) {
+              padding-left: 11rem;
             }
           }
   
@@ -225,9 +233,13 @@
             color: $color-darkgrey-text;
             font-size: 1.05rem;
             padding-left: 8rem;
+
             @include breakpoint(mobile) {
               font-size: 1.3rem;
-              padding-left: 10.5rem;
+              padding-left: 12rem;
+            }
+            @include breakpoint(mobile--Small) {
+              padding-left: 11rem;
             }
           }
         }

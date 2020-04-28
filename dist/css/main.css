@@ -62,7 +62,7 @@ html {
 
 @media (min-width: 1920px) {
   html {
-    font-size: 93%;
+    font-size: 92%;
   }
 }
 
@@ -150,12 +150,6 @@ header {
   }
 }
 
-@media (min-width: 1920px) {
-  .logo {
-    margin-top: 1.6rem;
-  }
-}
-
 @media (max-width: 375px) {
   .logo_picture {
     width: 2.7rem;
@@ -217,12 +211,6 @@ header {
 @media (min-width: 1536px) {
   .navbar {
     margin-top: 2.7rem;
-  }
-}
-
-@media (min-width: 1920px) {
-  .navbar {
-    margin-top: 2.4rem;
   }
 }
 
@@ -395,12 +383,6 @@ header {
   }
 }
 
-@media (min-width: 1920px) {
-  .languages {
-    margin-top: 2.6rem;
-  }
-}
-
 @media (max-width: 375px) {
   .languages img {
     display: none;
@@ -532,8 +514,7 @@ input[type="text"]:focus {
 
 @media (min-width: 1920px) {
   .search-box {
-    margin-top: 2.6rem;
-    margin-right: -18rem;
+    margin-right: -18.5rem;
   }
 }
 
@@ -3555,7 +3536,13 @@ input[type="text"]:focus {
 
 @media (max-width: 375px) {
   .div-1_wrap_block_text {
-    width: 33rem;
+    width: 35rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .div-1_wrap_block_text {
+    width: 34rem;
   }
 }
 
@@ -3572,7 +3559,13 @@ input[type="text"]:focus {
 @media (max-width: 375px) {
   .div-1_wrap_block_text_heading {
     font-size: 1.6rem;
-    padding-left: 10.5rem;
+    padding-left: 12rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .div-1_wrap_block_text_heading {
+    padding-left: 11rem;
   }
 }
 
@@ -3586,7 +3579,13 @@ input[type="text"]:focus {
 @media (max-width: 375px) {
   .div-1_wrap_block_text_par {
     font-size: 1.3rem;
-    padding-left: 10.5rem;
+    padding-left: 12rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .div-1_wrap_block_text_par {
+    padding-left: 11rem;
   }
 }
 
@@ -4738,6 +4737,7 @@ input[type="submit"]:hover {
   .container_projekti .slick-prev {
     top: 1450px;
     left: 510px;
+    margin-bottom: 6rem;
   }
 }
 
@@ -4752,6 +4752,13 @@ input[type="submit"]:hover {
   .container_projekti .slick-prev {
     top: 1650px;
     left: 590px;
+  }
+}
+
+@media (min-width: 1920px) {
+  .container_projekti .slick-prev {
+    top: 1940px;
+    left: 730px;
   }
 }
 
@@ -4802,6 +4809,13 @@ input[type="submit"]:hover {
   .container_projekti .slick-next {
     top: 1650px;
     right: 720px;
+  }
+}
+
+@media (min-width: 1920px) {
+  .container_projekti .slick-next {
+    top: 1940px;
+    right: 870px;
   }
 }
 
@@ -4955,6 +4969,12 @@ input[type="submit"]:hover {
   }
 }
 
+@media (min-width: 1920px) {
+  .div-11_wrap_block_par {
+    padding-bottom: 3.7rem;
+  }
+}
+
 .div-22 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -4987,6 +5007,18 @@ input[type="submit"]:hover {
     height: 30rem;
     margin-left: 3.2rem;
     margin-bottom: 3.5rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .div-22_wrap_circle {
+    margin-left: 3.1rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .div-22_wrap_circle {
+    width: 20rem;
   }
 }
 
@@ -5039,6 +5071,18 @@ input[type="submit"]:hover {
   }
 }
 
+@media (min-width: 1440px) {
+  .div-22_wrap_block_par {
+    padding-bottom: 3rem;
+  }
+}
+
+@media (min-width: 1920px) {
+  .div-22_wrap_block_par {
+    padding-bottom: 3.7rem;
+  }
+}
+
 .div-33 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -5071,6 +5115,18 @@ input[type="submit"]:hover {
     height: 30rem;
     margin-left: 3.2rem;
     margin-bottom: 3.5rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .div-33_wrap_circle {
+    margin-left: 3.1rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .div-33_wrap_circle {
+    width: 20rem;
   }
 }
 
@@ -5120,6 +5176,18 @@ input[type="submit"]:hover {
 @media (max-width: 375px) {
   .div-33_wrap_block_par {
     line-height: 2rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .div-33_wrap_block_par {
+    padding-bottom: 3rem;
+  }
+}
+
+@media (min-width: 1920px) {
+  .div-33_wrap_block_par {
+    padding-bottom: 3.7rem;
   }
 }
 
@@ -5274,6 +5342,13 @@ input[type="submit"]:hover {
   }
 }
 
+@media (min-width: 1920px) {
+  .container_tekstovi .slick-prev {
+    top: 2070px;
+    left: 1430px;
+  }
+}
+
 .container_tekstovi .slick-next {
   top: 1470px;
   right: 115px;
@@ -5324,6 +5399,13 @@ input[type="submit"]:hover {
   .container_tekstovi .slick-next {
     top: 1740px;
     right: 140px;
+  }
+}
+
+@media (min-width: 1920px) {
+  .container_tekstovi .slick-next {
+    top: 2070px;
+    right: 170px;
   }
 }
 

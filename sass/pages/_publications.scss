@@ -94,6 +94,10 @@
     top: 1740px;
     left: 1170px;
   }
+  @include breakpoint (desktop--Biggest) {
+    top: 2070px;
+    left: 1430px;
+  }
 }
 
 .container_tekstovi .slick-next {
@@ -126,6 +130,10 @@
   @include breakpoint(desktop--Big) {
     top: 1740px;
     right: 140px;
+  }
+  @include breakpoint (desktop--Biggest) {
+    top: 2070px;
+    right: 170px;
   }
 }
 

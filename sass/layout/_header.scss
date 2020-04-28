@@ -41,9 +41,6 @@ header {
     margin-top: 1.8rem;
   }
 
-  @include breakpoint (desktop--Biggest) {
-    margin-top: 1.6rem;
-  }
 
   &_picture {
     @include breakpoint(mobile) {
@@ -103,9 +100,6 @@ header {
 
   @include breakpoint (desktop--Large) {
     margin-top: 2.7rem;
-  }
-  @include breakpoint (desktop--Biggest) {
-    margin-top: 2.4rem;
   }
   
   
@@ -264,9 +258,7 @@ header {
   @include breakpoint (desktop--Large) {
     margin-top: 3rem;
   }
-  @include breakpoint (desktop--Biggest) {
-    margin-top: 2.6rem;
-  }
+  
 
 
   img {
@@ -374,11 +366,9 @@ input[type="text"]:focus {
     margin-right: -17.5rem;
   }
   @include breakpoint (desktop--Biggest) {
-    margin-top: 2.6rem;
-    margin-right: -18rem;
+    margin-right: -18.5rem;
+    
   }
-
-  
 
 
   &_form button {
