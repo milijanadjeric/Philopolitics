@@ -20,6 +20,10 @@
   @include breakpoint(ipad) {
     height: 123rem;
   }
+
+  @include breakpoint (desktop) {
+    height: 125rem;
+  }
   
 }
 
@@ -39,12 +43,12 @@
   }
   
   @include breakpoint (desktop) {
-    top: 1400px;
-    left: 485px;
+    top: 1450px;
+    left: 510px;
   }
   @include breakpoint (desktop--Large) {
-    top: 1510px;
-    left: 515px;
+    top: 1580px;
+    left: 565px;
   }
 
   
@@ -72,12 +76,12 @@
     right: 95px;
   }
   @include breakpoint (desktop) {
-    top: 1400px;
-    right: 680px;
+    top: 1450px;
+    right: 655px;
   }
   @include breakpoint (desktop--Large) {
-    top: 1510px;
-    right: 740px;
+    top: 1580px;
+    right: 690px;
   }
  
 }
@@ -105,7 +109,7 @@
     margin-top: 3rem;
   }
   @include breakpoint (desktop) {
-    margin-left: 11.5rem;
+    margin-left: 11.2rem;
   } 
   @include breakpoint (desktop--Large) {
     margin-left: 10.7rem;
@@ -137,6 +141,7 @@
     }
 
     &_circle {
+
       @include breakpoint(mobile) {
         width: 30rem;
         height: 30rem;
@@ -145,6 +150,9 @@
       }
       @include breakpoint(mobile--Small) {
         margin-left: 3.1rem;
+      }
+      @include breakpoint (desktop) {
+        width: 20rem;
       }
     }
 
@@ -185,6 +193,9 @@
 
         @include breakpoint(mobile) {
           line-height: 2rem;
+        }
+        @include breakpoint (desktop) {
+          padding-bottom: 3rem;
         }
       }
     }

@@ -38,7 +38,7 @@ header {
   }
 
   @include breakpoint (desktop--Large) {
-    margin-top: 2.1rem;
+    margin-top: 1.8rem;
   }
 
   @include breakpoint (desktop--Biggest) {
@@ -99,12 +99,10 @@ header {
     margin-top: 3rem;
     
   }
-  @include breakpoint (desktop) {
-    margin-top: 3.7rem;
-  }
+  
 
   @include breakpoint (desktop--Large) {
-    margin-top: 3rem;
+    margin-top: 2.7rem;
   }
   @include breakpoint (desktop--Biggest) {
     margin-top: 2.4rem;
@@ -262,11 +260,9 @@ header {
     margin-top: 2.8rem;
     margin-right: 1.5rem;
   }
-  @include breakpoint (desktop) {
-    margin-top: 3.9rem;
-  }
+  
   @include breakpoint (desktop--Large) {
-    margin-top: 3.2rem;
+    margin-top: 3rem;
   }
   @include breakpoint (desktop--Biggest) {
     margin-top: 2.6rem;
@@ -368,13 +364,11 @@ input[type="text"]:focus {
     display: none;
   }
 
-  @include breakpoint (desktop) {
-    margin-top: 3.9rem;
-    margin-right: -17rem;
-  }
+
   
   @include breakpoint (desktop--Large) {
-    margin-top: 3.2rem;
+    margin-top: 3rem;
+    margin-right: -17rem;
   }
   @include breakpoint (desktop--Big) {
     margin-right: -17.5rem;

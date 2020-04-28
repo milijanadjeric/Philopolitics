@@ -146,7 +146,7 @@ header {
 
 @media (min-width: 1536px) {
   .logo {
-    margin-top: 2.1rem;
+    margin-top: 1.8rem;
   }
 }
 
@@ -214,15 +214,9 @@ header {
   }
 }
 
-@media (min-width: 1440px) {
-  .navbar {
-    margin-top: 3.7rem;
-  }
-}
-
 @media (min-width: 1536px) {
   .navbar {
-    margin-top: 3rem;
+    margin-top: 2.7rem;
   }
 }
 
@@ -395,15 +389,9 @@ header {
   }
 }
 
-@media (min-width: 1440px) {
-  .languages {
-    margin-top: 3.9rem;
-  }
-}
-
 @media (min-width: 1536px) {
   .languages {
-    margin-top: 3.2rem;
+    margin-top: 3rem;
   }
 }
 
@@ -529,16 +517,10 @@ input[type="text"]:focus {
   }
 }
 
-@media (min-width: 1440px) {
-  .search-box {
-    margin-top: 3.9rem;
-    margin-right: -17rem;
-  }
-}
-
 @media (min-width: 1536px) {
   .search-box {
-    margin-top: 3.2rem;
+    margin-top: 3rem;
+    margin-right: -17rem;
   }
 }
 
@@ -4728,6 +4710,12 @@ input[type="submit"]:hover {
   }
 }
 
+@media (min-width: 1440px) {
+  .projectss {
+    height: 125rem;
+  }
+}
+
 .container_projekti .slick-prev {
   left: 455px;
   margin-bottom: 10rem;
@@ -4748,15 +4736,15 @@ input[type="submit"]:hover {
 
 @media (min-width: 1440px) {
   .container_projekti .slick-prev {
-    top: 1400px;
-    left: 485px;
+    top: 1450px;
+    left: 510px;
   }
 }
 
 @media (min-width: 1536px) {
   .container_projekti .slick-prev {
-    top: 1510px;
-    left: 515px;
+    top: 1580px;
+    left: 565px;
   }
 }
 
@@ -4791,15 +4779,15 @@ input[type="submit"]:hover {
 
 @media (min-width: 1440px) {
   .container_projekti .slick-next {
-    top: 1400px;
-    right: 680px;
+    top: 1450px;
+    right: 655px;
   }
 }
 
 @media (min-width: 1536px) {
   .container_projekti .slick-next {
-    top: 1510px;
-    right: 740px;
+    top: 1580px;
+    right: 690px;
   }
 }
 
@@ -4841,7 +4829,7 @@ input[type="submit"]:hover {
 
 @media (min-width: 1440px) {
   .slider-projects {
-    margin-left: 11.5rem;
+    margin-left: 11.2rem;
   }
 }
 
@@ -4892,6 +4880,12 @@ input[type="submit"]:hover {
   }
 }
 
+@media (min-width: 1440px) {
+  .div-11_wrap_circle {
+    width: 20rem;
+  }
+}
+
 .div-11_wrap_block {
   width: 38rem;
   margin-left: 4rem;
@@ -4938,6 +4932,12 @@ input[type="submit"]:hover {
 @media (max-width: 375px) {
   .div-11_wrap_block_par {
     line-height: 2rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .div-11_wrap_block_par {
+    padding-bottom: 3rem;
   }
 }
 
@@ -5181,7 +5181,7 @@ input[type="submit"]:hover {
 
 @media (min-width: 1440px) {
   .slider-publications {
-    margin-left: 11.5rem;
+    margin-left: 11.2rem;
     margin-bottom: 19rem;
   }
 }
