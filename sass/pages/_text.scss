@@ -216,6 +216,9 @@
     @include breakpoint(desktop--Big) {
       left: 89.3rem;
     }
+    @include breakpoint (desktop--Biggest) {
+      left: 89.5rem;
+    }
   }
 
   &_paragraph-onespace {

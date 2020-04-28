@@ -11,11 +11,7 @@
           justify-content: center;
   padding-top: 3rem;
   padding-bottom: 1.8rem;
-  margin-right: 2rem;
-
-  @include breakpoint (ipad--Landscape) {
-    margin-right: 1rem;
-  }
+  margin-right: 1rem;
 
   @include breakpoint(mobile) {
     margin-right: 0;
@@ -30,6 +26,10 @@
     padding-top: 2rem;
     padding-bottom: 1.5rem;
   }
+  @include breakpoint (desktop--Big) {
+    margin-right: 0;
+  }
+  
 
   a {
     padding-left: 1.3rem;
