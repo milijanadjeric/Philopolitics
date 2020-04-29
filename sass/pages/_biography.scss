@@ -3,7 +3,7 @@
   display: -ms-flexbox;
   display: flex;
   background-color: $color-footer-text;
-  padding: 5rem 25rem 1rem 25rem;
+  padding: 5rem 25rem 1rem 26rem;
 
   @include breakpoint(desktop--Small) {
     padding: 8.2rem 20rem 7rem 24rem;
@@ -74,7 +74,7 @@
     font-size: 1.8rem;
     color: $color-white;
     padding-left: 5rem;
-    padding-right: 9rem;
+    padding-right: 8rem;
     padding-bottom: 1rem;
     text-align: justify;
 
@@ -131,8 +131,8 @@
   letter-spacing: 0.01rem;
   text-transform: uppercase;
   color: $color-footer-text;
-  margin-top: 3.9rem;
-  margin-bottom: 4.3rem;
+  margin-top: 3.5rem;
+  margin-bottom: 3.5rem;
 
   @include breakpoint(mobile) {
     font-size: 1.3rem;
@@ -146,21 +146,20 @@
 
 .slider-biography {
   margin-left: 12.5rem;
-  margin-top: 4.8rem;
-  height: 66rem;
+  height: 68rem;
 
   @include breakpoint(desktop--Small) {
     margin-left: 10.5rem;
   }
   @include breakpoint(ipad--Landscape) {
-    margin-left: 4.4rem;
+    margin-left: 5.1rem;
   }
   @include breakpoint(tablet) {
-    margin-left: 7.5rem;
+    margin-left: 8.5rem;
   }
   @include breakpoint(ipad) {
-    height: 70rem;
-    margin-left: 7rem;
+    
+    margin-left: 7.7rem;
   }
 
   @include breakpoint(mobile) {
@@ -170,25 +169,29 @@
   @include breakpoint(desktop) {
     margin-left: 11.5rem;
   }
-  @include breakpoint (desktop--Big) {
+  @include breakpoint (desktop--Large) {
+    margin-left: 10.7rem;
+  }
+  @include breakpoint (desktop--Biggest) {
     margin-left: 11rem;
   }
 }
 
 .container_tekstovi-2 .slick-next {
-  right: 125px;
+  right: 115px;
 
   @include breakpoint(desktop--Small) {
-    right: 105px;
+    right: 100px;
   }
   @include breakpoint(ipad--Landscape) {
-    right: 45px;
+    right: 60px;
   }
   @include breakpoint(tablet) {
-    right: 75px;
+    top: 710px;
+    right: 95px;
   }
   @include breakpoint(ipad) {
-    right: 70px;
+    right: 85px;
   }
   @include breakpoint(desktop) {
    top: 800px;
@@ -202,23 +205,28 @@
     top: 890px;
     right: 150px;
   }
+  @include breakpoint (desktop--Biggest) {
+    top: 1070px;
+    right: 170px;
+  }
 }
 
 .container_tekstovi-2 .slick-prev {
-  left: 960px;
+  left: 970px;
 
   @include breakpoint(desktop--Small) {
     left: 930px;
   }
   @include breakpoint(ipad--Landscape) {
-    left: 790px;
+    left: 770px;
   }
 
   @include breakpoint(tablet) {
-    left: 510px;
+    top: 710px;
+    left: 480px;
   }
   @include breakpoint(ipad) {
-    left: 490px;
+    left: 460px;
   }
   @include breakpoint(desktop) {
     top: 800px;
@@ -232,17 +240,15 @@
     top: 890px;
     left: 1150px;
   }
+  @include breakpoint (desktop--Biggest) {
+    top: 1070px;
+    left: 1420px;
+  }
 }
 
 .div-1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
   flex-direction: column;
 
   a {
@@ -250,12 +256,7 @@
   }
 
   &_wrap {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
     flex-direction: column;
     margin-bottom: 5rem;
     position: relative;
@@ -273,18 +274,9 @@
         width: 5.8rem;
         height: 4.8rem;
         background-color: $color-violet-transparent;
-        display: -webkit-box;
-        display: -ms-flexbox;
         display: flex;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-        -ms-flex-direction: column;
         flex-direction: column;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
         justify-content: center;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
         align-items: center;
 
         @include breakpoint(mobile) {
@@ -318,15 +310,10 @@
         color: $color-white;
         font-family: $font-tr-rg;
         text-transform: uppercase;
-        display: -webkit-box;
-        display: -ms-flexbox;
         display: flex;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
         justify-content: center;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
         align-items: center;
+
         @include breakpoint(mobile) {
           width: 8.5rem;
           height: 2.8rem;
@@ -342,6 +329,7 @@
         text-align: right;
         padding-top: 0.9rem;
         color: $color-black;
+
         @include breakpoint(mobile) {
           font-size: 1.3rem;
           width: 8.5rem;
@@ -349,22 +337,44 @@
       }
 
       &_text {
-        width: 29rem;
-        @include breakpoint(mobile) {
-          width: 33rem;
+        width: 30rem;
+
+        @include breakpoint(ipad--Landscape)  {
+          width: 27.5rem;
+
         }
+
+        @include breakpoint(mobile) {
+          width: 35rem;
+        }
+        @include breakpoint(mobile--Small) {
+          width: 34rem;
+        }
+        
 
         &_heading {
           font-family: "Roboto";
           font-weight: 500;
           color: $color-footer-text;
           font-size: 1.4rem;
-          padding-left: 8rem;
+          padding-left: 9rem;
           padding-top: 1.6rem;
           padding-bottom: 1.2rem;
+
+          @include breakpoint(ipad--Landscape)  {
+            font-size: 1.3rem;
+            padding-left: 7.5rem;
+          }
+
           @include breakpoint(mobile) {
             font-size: 1.6rem;
-            padding-left: 10.5rem;
+            padding-left: 12rem;
+          }
+          @include breakpoint(mobile--Small) {
+            padding-left: 11rem;
+          }
+          @include breakpoint (desktop) {
+            padding-left: 8rem;
           }
         }
 
@@ -372,21 +382,47 @@
           font-family: "Roboto";
           color: $color-darkgrey-text;
           font-size: 1.05rem;
-          padding-left: 8rem;
+          padding-left: 9rem;
+
+          @include breakpoint(ipad--Landscape)  {
+            padding-left: 7.5rem;
+          }
+
           @include breakpoint(mobile) {
             font-size: 1.3rem;
-            padding-left: 10.5rem;
+            padding-left: 12rem;
+          }
+          @include breakpoint(mobile--Small) {
+            padding-left: 11rem;
+          }
+          @include breakpoint (desktop) {
+            padding-left: 8rem;
           }
         }
       }
     }
     img {
+      width: 30rem;
+      
+      @include breakpoint(ipad--Landscape) {
+        width: 27rem;
+      }
+
       @include breakpoint(mobile) {
+        width: 37.5rem;
+      }
+      @include breakpoint(mobile--Small) {
         width: 36rem;
       }
+      
       @include breakpoint(mobile--Smallest) {
         width: 36.4rem;
       }
+
+      @include breakpoint (desktop) {
+        width: 29rem;
+      }
+      
     }
   }
 }
@@ -401,6 +437,7 @@
 
   @include breakpoint(desktop--Small) {
     width: 104rem;
+    margin-left: 12rem;
   }
   @include breakpoint(ipad--Landscape) {
     width: 90rem;
@@ -408,6 +445,7 @@
   }
 
   @include breakpoint(tablet) {
+    margin-top: 20rem;
     width: 63rem;
     margin-left: 8.5rem;
   }
@@ -420,10 +458,13 @@
   }
   @include breakpoint(desktop) {
     width: 106rem;
-    margin-top: 30rem;
+    margin-top: 25rem;
   }
   @include breakpoint (desktop--Large) {
     width: 104rem;
+  }
+  @include breakpoint (desktop--Biggest) {
+    width: 105rem;
   }
 }
 
