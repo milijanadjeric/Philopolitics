@@ -6,22 +6,22 @@
 //    SLIDER
 
 .slider-blog {
-    margin-left: 12.5rem;
+    margin-left: 11.1rem;
     margin-top: 4.8rem;
     height: 105rem;
   
   
     @include breakpoint(desktop--Small) {
-      margin-left: 10.5rem;
+      margin-left: 9.6rem;
     }
     @include breakpoint (ipad--Landscape) {
-      margin-left: 4.4rem;
+      margin-left: 5.2rem;
     }
     @include breakpoint(tablet) {
-      margin-left: 7.8rem;
+      margin-left: 8.3rem;
     }
     @include breakpoint(ipad) {
-      margin-left: 7rem;
+      margin-left: 7.3rem;
     }
     @include breakpoint(mobile) {
       margin-left: 0;
@@ -48,22 +48,22 @@
   }
   
   .container_tekstovi-1 .slick-next {
-    right: 125px;
-    top: 1080px;
+    right: 115px;
+    top: 1110px;
    
   
     @include breakpoint(desktop--Small) {
-      top: 1090px;
-      right: 105px;
+      right: 100px;
     }
     @include breakpoint (ipad--Landscape) {
-      right: 45px;
+      top: 1050px;
+      right: 60px;
     }
     @include breakpoint(tablet) {
-      right: 75px;
+      right: 90px;
     }
     @include breakpoint(ipad) {
-      right: 70px;
+      right: 80px;
     }
     @include breakpoint(desktop) {
       top: 1190px;
@@ -85,23 +85,24 @@
   }
   
   .container_tekstovi-1 .slick-prev {
-    left: 960px;
-    top: 1080px;
+    left: 985px;
+    top: 1110px;
    
 
     @include breakpoint(desktop--Small) {
-      top: 1090px;
-      left: 930px;
+      
+      left: 940px;
     }
     @include breakpoint (ipad--Landscape) {
-      left: 790px;
+      top: 1050px;
+      left: 770px;
     }
 
     @include breakpoint(tablet) {
-      left: 510px;
+      left: 485px;
     }
     @include breakpoint(ipad) {
-      left: 490px;
+      left: 470px;
     }
     @include breakpoint(desktop) {
       top: 1190px;
@@ -188,6 +189,7 @@
           display: flex;
           justify-content: center;
           align-items: center;
+
           @include breakpoint(mobile) {
             width: 8.5rem;
             height: 2.8rem;
@@ -211,7 +213,12 @@
         }
   
         &_text {
-          width: 29rem;
+          width: 30rem;
+
+          @include breakpoint(ipad--Landscape)  {
+            width: 27.5rem;
+
+          }
 
           @include breakpoint(mobile) {
             width: 35rem;
@@ -226,9 +233,14 @@
             font-weight: 500;
             color: $color-footer-text;
             font-size: 1.4rem;
-            padding-left: 8rem;
+            padding-left: 9rem;
             padding-top: 1.6rem;
             padding-bottom: 1.2rem;
+
+            @include breakpoint(ipad--Landscape)  {
+              font-size: 1.3rem;
+              padding-left: 7.5rem;
+            }
 
             @include breakpoint(mobile) {
               font-size: 1.6rem;
@@ -243,7 +255,11 @@
             font-family: "Roboto";
             color: $color-darkgrey-text;
             font-size: 1.05rem;
-            padding-left: 8rem;
+            padding-left: 9rem;
+
+            @include breakpoint(ipad--Landscape)  {
+              padding-left: 7.5rem;
+            }
 
             @include breakpoint(mobile) {
               font-size: 1.3rem;
@@ -256,6 +272,11 @@
         }
       }
       img {
+        width: 30rem;
+
+        @include breakpoint(ipad--Landscape) {
+          width: 27rem;
+        }
 
         @include breakpoint(mobile) {
           width: 37.5rem;
@@ -281,17 +302,18 @@
   .line-1 {
     border: 0.625339px solid #e5e5e5;
     width: 109rem;
-    margin-top: 15rem;
+    margin-top: 20rem;
     margin-left: 12.8rem;
 
   
     @include breakpoint(desktop--Small) {
-      width: 104rem;
+      width: 102rem;
       margin-top: 19rem;
     }
     @include breakpoint (ipad--Landscape) {
       width: 90rem;
-      margin-left: 6rem; 
+      margin-top: 12rem;
+      margin-left: 6.3rem; 
     }
 
     @include breakpoint(tablet) {

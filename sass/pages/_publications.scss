@@ -72,7 +72,7 @@
   }
   @include breakpoint(ipad--Landscape) {
     top: 1330px;
-    left: 740px;
+    left: 750px;
   }
   @include breakpoint(tablet) {
     top: 1400px;
@@ -181,7 +181,9 @@
     }
 
     img {
+
       width: 30rem;
+
       @include breakpoint(ipad--Landscape) {
         width: 26rem;
       }
