@@ -145,21 +145,21 @@
 //    SLIDER
 
 .slider-biography {
-  margin-left: 12.5rem;
+  margin-left: 11.1rem;
   height: 68rem;
 
   @include breakpoint(desktop--Small) {
-    margin-left: 10.5rem;
+    margin-left: 9.6rem;
   }
   @include breakpoint(ipad--Landscape) {
-    margin-left: 5.1rem;
+    margin-left: 5.2rem;
   }
   @include breakpoint(tablet) {
-    margin-left: 8.5rem;
+    margin-left: 8.3rem;
   }
   @include breakpoint(ipad) {
     
-    margin-left: 7.7rem;
+    margin-left: 7.5rem;
   }
 
   @include breakpoint(mobile) {
@@ -167,10 +167,10 @@
     margin-top: 0;
   }
   @include breakpoint(desktop) {
-    margin-left: 11.5rem;
+    margin-left: 11.2rem;
   }
   @include breakpoint (desktop--Large) {
-    margin-left: 10.7rem;
+    margin-left: 11.3rem;
   }
   @include breakpoint (desktop--Biggest) {
     margin-left: 11rem;

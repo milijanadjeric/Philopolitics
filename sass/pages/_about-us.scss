@@ -53,6 +53,7 @@
 
   @include breakpoint (desktop) {
     margin-left: 29rem;
+    margin-bottom: 5rem;
   }
   @include breakpoint (desktop--Large) {
     margin-left: 27rem;
@@ -334,6 +335,13 @@
       margin-top: -14rem;
       margin-bottom: -10rem;
     }
+    @include breakpoint (desktop) {
+      margin-top: -10rem;
+    }
+    @include breakpoint (desktop--Big) {
+      margin-top: -8rem;
+    }
+
   }
 }
 
