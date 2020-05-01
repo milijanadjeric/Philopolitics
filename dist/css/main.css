@@ -1773,8 +1773,7 @@ input[type="text"]:focus {
     -webkit-box-direction: reverse;
     -ms-flex-direction: column-reverse;
     flex-direction: column-reverse;
-    padding-top: 5rem;
-    padding-bottom: 3rem;
+    padding-top: 7rem;
     margin-left: 0;
   }
 }
@@ -1819,7 +1818,8 @@ input[type="text"]:focus {
 
 @media (max-width: 375px) {
   .main_div-1_box {
-    padding-right: 3.9rem;
+    padding-right: 4.5rem;
+    padding-bottom: 3rem;
   }
 }
 
@@ -1850,7 +1850,7 @@ input[type="text"]:focus {
     font-size: 2rem;
     text-align: left;
     padding-bottom: 0.5rem;
-    padding-left: 4.5rem;
+    padding-left: 4rem;
   }
 }
 
@@ -1906,7 +1906,7 @@ input[type="text"]:focus {
   }
 }
 
-@media (min-width: 1536px) {
+@media (min-width: 1440px) {
   .main_div-1 img {
     width: 38rem;
   }
@@ -1956,6 +1956,7 @@ input[type="text"]:focus {
     padding-top: 0;
     margin-left: 1em;
     padding-right: 1rem;
+    padding-bottom: 0;
   }
 }
 
@@ -2003,7 +2004,6 @@ input[type="text"]:focus {
 @media (max-width: 375px) {
   .main_div-2_box {
     margin-left: 0;
-    padding-right: 0;
   }
 }
 
@@ -2126,7 +2126,7 @@ input[type="text"]:focus {
   .main_div-2_box_text-2 {
     font-size: 1.3rem;
     line-height: 1.8rem;
-    padding-right: 1rem;
+    padding-right: 3rem;
   }
 }
 
@@ -2156,22 +2156,16 @@ input[type="text"]:focus {
 
 @media (max-width: 375px) {
   .main_div-2 img {
-    margin-bottom: -5rem;
-    margin-right: 0;
-    margin-left: 0;
-  }
-}
-
-@media (max-width: 375px) {
-  .main_div-2 img {
-    margin-top: -14rem;
-    margin-bottom: -10rem;
+    width: 20rem;
+    margin: 0 auto;
+    padding-right: 0;
+    padding-bottom: 5rem;
   }
 }
 
 @media (min-width: 1440px) {
   .main_div-2 img {
-    margin-top: -9rem;
+    width: 38rem;
   }
 }
 
