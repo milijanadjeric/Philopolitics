@@ -6,18 +6,21 @@
   margin-left: 21rem;
   margin-top: 4rem;
 
-  @include breakpoint(tablet) {
-    margin-left: 16rem;
+  @include breakpoint (tablet) {
+    margin-top: 3rem;
   }
-
   @include breakpoint(mobile) {
     display: none;
   }
   @include breakpoint (desktop) {
     margin-left: 23rem;
   }
-  @include breakpoint (desktop--Large) {
-    margin-left: 25rem;
+  @include breakpoint (desktop) {
+    width: 21rem;
+  }
+  
+  @include breakpoint (desktop--Biggest) {
+    margin-left: 29rem;
   }
   
 }

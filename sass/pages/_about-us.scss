@@ -168,7 +168,7 @@
   }
   @include breakpoint (tablet){
     margin-left: 7rem;
-    padding-bottom: 6rem;
+    
   }
   @include breakpoint (ipad) {
     margin-left: 11rem;
@@ -189,11 +189,9 @@
     padding-right: 0;
   }
 
+ 
   @include breakpoint (desktop) {
-    margin-left: 20rem;
-  }
-  @include breakpoint (desktop--Big) {
-    margin-left: 22rem;
+    margin-left: 25rem;
   }
 
   &_box {
@@ -204,6 +202,7 @@
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
+    padding-left: 5rem;
 
     @include breakpoint(tablet) {
       margin-left: -3.5rem;
@@ -215,6 +214,7 @@
 
     @include breakpoint(mobile) {
       margin-left: 0;
+      padding-left: 0;
       
     }
 
@@ -288,6 +288,14 @@
         padding-bottom: 1rem;
         padding-right: 0.5rem;
       }
+
+      @include breakpoint(desktop) {
+        padding-right: 25rem;
+      }
+      @include breakpoint (desktop--Large) {
+        padding-right: 22rem;
+      }
+      
       
     }
 
@@ -323,15 +331,21 @@
       }
 
       @include breakpoint (desktop) {
-        padding-right: 24rem;
+        padding-right: 25rem;
+      }
+      @include breakpoint (desktop--Large) {
+        padding-right: 20rem;
+      }
+      @include breakpoint (desktop--Big) {
+        padding-right: 21rem;
       }
     }
   }
 
   img {
     margin-top: -3rem;
-    padding-right: 5rem;
     z-index: 2;
+
 
     @include breakpoint(ipad) {
       margin-left: -6rem;
@@ -339,18 +353,13 @@
     @include breakpoint(mobile) {
       width: 20rem;
       margin: 0 auto;
-      padding-right: 0;
       padding-bottom: 5rem;
     }
    
     @include breakpoint (desktop) {
-        width: 38rem;
-    }
-    @include breakpoint (desktop--Big) {
-      margin-top: -8rem;
+      width: 80rem;
     }
     
-
   }
 }
 
@@ -370,7 +379,7 @@
   }
   @include breakpoint(tablet) {
     
-    margin-left: 0;
+    margin-left: -3rem;
     
   }
 
@@ -386,10 +395,13 @@
 
   @include breakpoint (desktop) {
     padding-top: 7rem;
-    
+   
   }
   @include breakpoint (desktop--Large) {
     padding-top: 9rem;
+  }
+  @include breakpoint (desktop--Biggest) {
+    margin-left: 13rem;
   }
 
 
@@ -413,12 +425,13 @@
     }
 
     @include breakpoint(tablet) {
-      margin-top: 5rem;
-      padding-right: 5rem;
-      margin-left: 2rem;
+      padding-right: 7rem;
+     
+      
     }
     @include breakpoint(ipad) {
       margin-left: 0;
+      padding-right: 5rem;
     }
 
     @include breakpoint(mobile) {
@@ -437,10 +450,17 @@
 
       @include breakpoint(tablet) {
         font-size: 2.5rem;
+        padding-left: 11rem;
       }
 
       @include breakpoint(mobile) {
         display: none;
+      }
+      @include breakpoint (desktop) {
+        padding-left: 8.5rem;
+      }
+      @include breakpoint (desktop--Biggest) {
+        padding-left: 14.5rem;
       }
     }
 
@@ -486,6 +506,7 @@
       @include breakpoint(tablet) {
         font-size: 1.5rem;
         line-height: 2rem;
+       
         
       }
 
@@ -506,8 +527,8 @@
       align-items: center;
       padding-top: 1.5rem;
 
-      @include breakpoint(tablet) {
-        margin-left:  26.2rem;
+      @include breakpoint (tablet) {
+        margin-left: 31rem;
       }
 
       @include breakpoint(mobile) {
@@ -520,6 +541,14 @@
       @include breakpoint(mobile--Smallest) {
         margin-left: 23rem;
       }
+      @include breakpoint (desktop) {
+        margin-left: 30rem;
+      }
+      @include breakpoint (desktop--Biggest)  {
+        margin-left: 36.5rem;
+      }
+     
+
     }
 
     &_ellipse {
@@ -552,19 +581,17 @@
     }
   }
 
-  img {
+  img.martian {
 
     @include breakpoint(tablet) {
-      width: 29rem;
-      margin-top: 6rem;
-      
+      width: 28rem;
     }
-  
+
     @include breakpoint(mobile) {
       width: 20rem;
       margin: 0 auto;
     }
-    @include breakpoint (desktop--Large) {
+    @include breakpoint (desktop) {
       width: 34rem;
     }
   }
@@ -614,6 +641,9 @@
   }
 
   img {
+
+    width: 15rem;
+    
     @include breakpoint(mobile) {
       width: 12rem;
       margin: 0 auto;
@@ -700,9 +730,12 @@
     }
 
     img {
+      width: 15rem;
+
       @include breakpoint(mobile) {
         width: 8rem;
       }
+      
     }
   }
 
@@ -777,6 +810,8 @@
   }
 
   img {
+    width: 15rem;
+
     @include breakpoint(mobile) {
       width: 8rem;
     }
