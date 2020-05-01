@@ -25,14 +25,14 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding-top: 16rem;
+  padding-top: 9.5rem;
   margin-left: 30rem;
 
   @include breakpoint(desktop--Small) {
     margin-left: 25rem;
   }
   @include breakpoint(ipad--Landscape) {
-    margin-left: 8.5rem;
+    margin-left: 13rem;
   }
   @include breakpoint(tablet) {
     margin-left: 6rem;
@@ -71,7 +71,7 @@
     -ms-flex-direction: column;
     flex-direction: column;
     padding-top: 4rem;
-    padding-right: 7rem;
+    padding-right: 6rem;
 
     @include breakpoint(tablet) {
       padding-right: 4rem;
@@ -118,7 +118,7 @@
       font-size: 1.8rem;
       letter-spacing: 0.02rem;
       text-align: right;
-      line-height: 2.5rem;
+      line-height: 2.6rem;
 
       @include breakpoint(tablet) {
         font-size: 1.5rem;
@@ -134,7 +134,7 @@
   }
   img {
     z-index: 2;
-
+    
     @include breakpoint(tablet) {
       width: 30rem;
     }
@@ -143,6 +143,10 @@
       width: 20rem;
       margin: 0 auto;
     }
+
+    @include breakpoint (desktop--Large) {
+      width: 38rem;
+    }
   }
 }
 
@@ -150,16 +154,24 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding-top: 8rem;
-  margin-left: 19rem;
+  padding-top: 10rem;
+  margin-left: 30rem;
+  padding-bottom: 12rem;
 
   @include breakpoint(desktop--Small) {
     padding-top: 11rem;
-    margin-left: 15rem;
+    margin-left: 26rem;
   }
 
   @include breakpoint(ipad--Landscape) {
-    margin-left: 0;
+    margin-left: 11rem;
+  }
+  @include breakpoint (tablet){
+    margin-left: 7rem;
+    padding-bottom: 6rem;
+  }
+  @include breakpoint (ipad) {
+    margin-left: 11rem;
   }
 
   @include breakpoint(mobile) {
@@ -209,7 +221,7 @@
       color: $color-white;
       font-family: $font-tr-rg;
       font-size: 3rem;
-      padding-bottom: 2rem;
+      padding-bottom: 1.6rem;
       letter-spacing: 0.2rem;
       text-align: left;
 
@@ -252,7 +264,7 @@
       font-family: "Roboto";
       font-size: 1.8rem;
       letter-spacing: 0.02rem;
-      line-height: 2.5rem;
+      line-height: 2.3rem;
       padding-right: 26rem;
 
       @include breakpoint(desktop--Small) {
@@ -284,7 +296,7 @@
       font-size: 1.8rem;
       letter-spacing: 0.02rem;
       padding-right: 27rem;
-      line-height: 2.5rem;
+      line-height: 2.6rem;
 
       @include breakpoint(desktop--Small) {
         padding-right: 21rem;
@@ -316,13 +328,10 @@
   }
 
   img {
-    margin-top: -12rem;
+    margin-top: -3rem;
+    padding-right: 5rem;
     z-index: 2;
 
-    @include breakpoint(tablet) {
-      margin-right: 0;
-      margin-left: -4rem;
-    }
     @include breakpoint(ipad) {
       margin-left: -6rem;
     }
@@ -336,11 +345,12 @@
       margin-bottom: -10rem;
     }
     @include breakpoint (desktop) {
-      margin-top: -10rem;
+      margin-top: -9rem;
     }
     @include breakpoint (desktop--Big) {
       margin-top: -8rem;
     }
+    
 
   }
 }
@@ -353,16 +363,16 @@
   padding-bottom: 27rem; 
 
   @include breakpoint(desktop--Small) {
-    margin-top: 7rem;
-    margin-left: 20rem;
+    
+    margin-left: 22rem;
   }
   @include breakpoint(ipad--Landscape) {
-    margin-left: 6rem;
+    margin-left: 9rem;
   }
   @include breakpoint(tablet) {
-    margin-top: 4rem;
+    
     margin-left: 0;
-    padding-bottom: 18.5rem;
+    
   }
 
   @include breakpoint(mobile) {
@@ -395,8 +405,16 @@
     -ms-flex-direction: column;
     flex-direction: column;
 
+    @include breakpoint (desktop--Small) {
+      padding-right: 10rem;
+    }
+
+    @include breakpoint(ipad--Landscape) {
+      padding-right: 9rem;
+    }
+
     @include breakpoint(tablet) {
-      margin-top: 3rem;
+      margin-top: 5rem;
       padding-right: 5rem;
       margin-left: 2rem;
     }
@@ -464,7 +482,7 @@
       font-size: 1.8rem;
       letter-spacing: 0.02rem;
       text-align: right;
-      line-height: 2.5rem;
+      line-height: 2.6rem;
 
       @include breakpoint(tablet) {
         font-size: 1.5rem;
@@ -538,13 +556,17 @@
   img {
 
     @include breakpoint(tablet) {
-      width: 30rem;
+      width: 29rem;
+      margin-top: 6rem;
       
     }
   
     @include breakpoint(mobile) {
       width: 20rem;
       margin: 0 auto;
+    }
+    @include breakpoint (desktop--Large) {
+      width: 34rem;
     }
   }
 }
