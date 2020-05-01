@@ -13,22 +13,12 @@
   padding-bottom: 1.8rem;
   
 
-  @include breakpoint(mobile) {
-    margin-right: 0;
-    padding-left: 0;
-    padding-right: 1.5rem;
-  }
-  @include breakpoint(mobile--Small) {
-    padding-right: 1rem;
-
-  }
+ 
   @include breakpoint (desktop) {
     padding-top: 2rem;
     padding-bottom: 1.5rem;
   }
-  @include breakpoint (desktop--Big) {
-    margin-right: 0;
-  }
+  
 
   img {
     width: 2.7rem;
