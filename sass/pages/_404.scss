@@ -236,10 +236,10 @@
   margin-top: 2rem;
 
   @include breakpoint(desktop--Small) {
-    margin-top: 9rem;
+    margin-top: 10.99rem;
   }
 
-  
+
   @include breakpoint(mobile) {
     display: none;
   }
@@ -267,7 +267,7 @@
       margin-right: 9rem;
     }
 
-    @include breakpoint(desktop) {
+    @include breakpoint(desktop--Large) {
       margin-right: 14rem;
     }
   }
