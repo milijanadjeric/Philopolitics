@@ -1610,6 +1610,7 @@ input[type="text"]:focus {
   -webkit-box-pack: end;
   -ms-flex-pack: end;
   justify-content: flex-end;
+  margin-right: 4rem;
 }
 
 @media (max-width: 1280px) {
