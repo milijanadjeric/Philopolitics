@@ -1598,6 +1598,12 @@ input[type="text"]:focus {
   }
 }
 
+@media (min-width: 1536px) {
+  .links {
+    margin-top: -2rem;
+  }
+}
+
 .links_followus {
   color: rgba(242, 242, 242, 0.9);
   text-transform: uppercase;

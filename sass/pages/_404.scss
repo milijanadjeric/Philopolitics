@@ -224,12 +224,12 @@
     margin-top: -1rem;
   }
  
-
-  
-
-
   @include breakpoint(mobile) {
     display: none;
+  }
+
+  @include breakpoint (desktop--Large) {
+    margin-top: -2rem;
   }
 
   
