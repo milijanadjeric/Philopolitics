@@ -1404,18 +1404,6 @@ input[type="text"]:focus {
   }
 }
 
-@media (min-width: 1440px) {
-  .main {
-    margin-top: 21rem;
-  }
-}
-
-@media (min-width: 1536px) {
-  .main {
-    margin-top: 10rem;
-  }
-}
-
 .tekst {
   display: -webkit-box;
   display: -ms-flexbox;

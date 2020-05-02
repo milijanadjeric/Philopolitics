@@ -66,13 +66,6 @@
   @include breakpoint (mobile--Smallest) {
     margin-top: 3rem;
   }
-
-  @include breakpoint(desktop) {
-    margin-top: 21rem;
-  }
-  @include breakpoint(desktop--Large) {
-    margin-top: 10rem;
-  }
 }
 
 .tekst {
