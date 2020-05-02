@@ -42,13 +42,11 @@
   display: flex;
   margin-top: 8rem;
 
-  
   @include breakpoint(tablet) {
     display: block;
     
   }
   
-
   @include breakpoint(mobile) {
     display: block;
     margin-top: 5rem;
@@ -221,14 +219,13 @@
   -webkit-box-pack: end;
   -ms-flex-pack: end;
   justify-content: flex-end;
-  margin-right: 4rem;
 
-  @include breakpoint (desktop--Small) {
-    margin-right: 0;
-  }
   @include breakpoint (ipad--Landscape) {
-    margin-right: -7rem;
+    margin-top: -1rem;
   }
+ 
+
+  
 
 
   @include breakpoint(mobile) {
