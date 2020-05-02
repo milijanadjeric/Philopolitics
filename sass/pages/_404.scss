@@ -40,7 +40,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 5rem;
+  margin-top: 10rem;
   
 
   @include breakpoint(desktop--Small) {
@@ -68,7 +68,7 @@
   }
 
   @include breakpoint(desktop) {
-    margin-top: 12rem;
+    margin-top: 21rem;
   }
   @include breakpoint(desktop--Large) {
     margin-top: 10rem;
@@ -163,7 +163,7 @@
 
 .astronaut {
   z-index: 2;
-  margin-top: -4rem;
+  margin-top: -5rem;
   
 
   @include breakpoint(tablet) {
@@ -186,8 +186,6 @@
     margin-top: 4rem;
   }
 
- 
-  
   @include breakpoint(desktop) {
     width: 49rem;
   }
@@ -240,7 +238,7 @@
   -webkit-box-pack: end;
   -ms-flex-pack: end;
   justify-content: flex-end;
-  margin-top: 3rem;
+  
   
   
 
@@ -261,9 +259,7 @@
   @include breakpoint(mobile) {
     display: none;
   }
-  @include breakpoint(desktop) {
-    margin-top: 10rem;
-  }
+  
   @include breakpoint(desktop--Large) {
     margin-top: 5rem;
   }
@@ -287,9 +283,6 @@
       margin-right: 9rem;
     }
 
-    @include breakpoint(desktop--Large) {
-      margin-right: 14rem;
-    }
 
     &_img {
       
