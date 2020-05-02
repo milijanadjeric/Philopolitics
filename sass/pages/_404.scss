@@ -239,10 +239,7 @@
     margin-top: 9rem;
   }
 
-  @include breakpoint(tablet) {
-    display: none;
-  }
-
+  
   @include breakpoint(mobile) {
     display: none;
   }

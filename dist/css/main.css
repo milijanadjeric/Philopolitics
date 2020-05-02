@@ -1637,12 +1637,6 @@ input[type="text"]:focus {
   }
 }
 
-@media (max-width: 800px) {
-  .links {
-    display: none;
-  }
-}
-
 @media (max-width: 375px) {
   .links {
     display: none;
