@@ -1366,12 +1366,6 @@ input[type="text"]:focus {
   margin-top: 8rem;
 }
 
-@media (max-width: 1280px) {
-  .main {
-    margin-top: 9rem;
-  }
-}
-
 @media (max-width: 1024px) {
   .main {
     margin-top: 5rem;
@@ -1611,12 +1605,6 @@ input[type="text"]:focus {
   -ms-flex-pack: end;
   justify-content: flex-end;
   margin-right: 4rem;
-}
-
-@media (max-width: 1280px) {
-  .links {
-    margin-top: 8rem;
-  }
 }
 
 @media (max-width: 1024px) {

@@ -43,9 +43,7 @@
   margin-top: 8rem;
   
 
-  @include breakpoint(desktop--Small) {
-    margin-top: 9rem;
-  }
+  
   @include breakpoint (ipad--Landscape) {
     margin-top: 5rem;
   }
@@ -234,13 +232,6 @@
   -ms-flex-pack: end;
   justify-content: flex-end;
   margin-right: 4rem;
-  
-  
-  
-
-  @include breakpoint(desktop--Small) {
-    margin-top: 8rem;
-  }
 
   @include breakpoint(ipad--Landscape) {
     margin-top: 0;
