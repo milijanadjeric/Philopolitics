@@ -788,7 +788,7 @@ input[type="text"]:focus {
         -ms-flex-align: center;
             align-items: center;
     position: absolute;
-    bottom: 2rem;
+    bottom: 3rem;
     width: 100%;
   }
 }
