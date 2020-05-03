@@ -174,7 +174,7 @@ header {
 
   @include breakpoint(mobile) {
     background-color: transparent;
-    margin-top: -5rem;
+    margin-top: -7rem;
   }
 }
 
@@ -535,11 +535,14 @@ button.subnavbtn.mrg-right:nth-of-type(1) {
   }
 }
 button.subnavbtn.mrg-right:hover {
+
+  @include breakpoint (mobile) {
   background-color: rgba(255, 255, 255, 0.6);
   border-top-left-radius: 0.7rem;
   border-top-right-radius: 0.7rem;
   border-bottom-left-radius: 0.7rem;
   border-bottom-right-radius: 0.7rem;
+}
 }
 
 .mobile-nav-icon {

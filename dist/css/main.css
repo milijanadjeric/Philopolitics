@@ -306,7 +306,7 @@ header {
 @media (max-width: 375px) {
   .subnav-content {
     background-color: transparent;
-    margin-top: -5rem;
+    margin-top: -7rem;
   }
 }
 
@@ -735,12 +735,14 @@ input[type="text"]:focus {
   }
 }
 
-button.subnavbtn.mrg-right:hover {
-  background-color: rgba(255, 255, 255, 0.6);
-  border-top-left-radius: 0.7rem;
-  border-top-right-radius: 0.7rem;
-  border-bottom-left-radius: 0.7rem;
-  border-bottom-right-radius: 0.7rem;
+@media (max-width: 375px) {
+  button.subnavbtn.mrg-right:hover {
+    background-color: rgba(255, 255, 255, 0.6);
+    border-top-left-radius: 0.7rem;
+    border-top-right-radius: 0.7rem;
+    border-bottom-left-radius: 0.7rem;
+    border-bottom-right-radius: 0.7rem;
+  }
 }
 
 .mobile-nav-icon {
