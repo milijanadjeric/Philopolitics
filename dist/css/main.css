@@ -3918,6 +3918,18 @@ input[type="submit"]:hover {
   }
 }
 
+@media (min-width: 1440px) {
+  .contact {
+    margin-top: 16rem;
+  }
+}
+
+@media (min-width: 1536px) {
+  .contact {
+    margin-top: 12rem;
+  }
+}
+
 .contact_container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3981,6 +3993,13 @@ input[type="submit"]:hover {
   }
 }
 
+@media (min-width: 1440px) {
+  .contact_container {
+    width: 29%;
+    margin-right: 12rem;
+  }
+}
+
 .contact_heading {
   text-transform: uppercase;
   font-family: "TruenoBold";
@@ -4007,12 +4026,6 @@ input[type="submit"]:hover {
 @media (max-width: 320px) {
   .contact_heading {
     padding-bottom: 2.5rem;
-  }
-}
-
-@media (min-width: 1440px) {
-  .contact_heading {
-    padding-bottom: 7rem;
   }
 }
 

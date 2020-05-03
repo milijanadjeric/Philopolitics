@@ -84,6 +84,13 @@ input[type="submit"]:hover {
     margin: 0;
   }
 
+  @include breakpoint (desktop) {
+    margin-top: 16rem;
+  }
+  @include breakpoint (desktop--Large) {
+    margin-top: 12rem;
+  }
+
   &_container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -118,8 +125,6 @@ input[type="submit"]:hover {
       margin: 3rem auto;
     }
 
-
-
     @include breakpoint(mobile) {
       width: 70%;
       margin: 1rem auto;
@@ -130,6 +135,10 @@ input[type="submit"]:hover {
     }
     @include breakpoint(mobile--Smallest)  {
       margin: 0 auto;
+    }
+    @include breakpoint (desktop) {
+      width: 29%;
+      margin-right: 12rem;
     }
   }
 
@@ -154,9 +163,8 @@ input[type="submit"]:hover {
     @include breakpoint(mobile--Smallest) {
       padding-bottom: 2.5rem;
     }
-    @include breakpoint(desktop) {
-      padding-bottom: 7rem;
-    }
+
+    
   }
 
   &_data {
