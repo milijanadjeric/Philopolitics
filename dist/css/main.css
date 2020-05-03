@@ -310,6 +310,12 @@ header {
   }
 }
 
+@media (max-width: 375px) {
+  .subnav-content {
+    margin-top: -9rem;
+  }
+}
+
 /* Style the subnav links */
 .subnav-content a {
   float: left;
@@ -732,6 +738,12 @@ input[type="text"]:focus {
   button.subnavbtn.mrg-right:nth-of-type(1) {
     margin-bottom: 7rem;
     font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 320px) {
+  button.subnavbtn.mrg-right:nth-of-type(1) {
+    margin-bottom: 9rem;
   }
 }
 
