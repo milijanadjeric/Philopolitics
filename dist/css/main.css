@@ -310,7 +310,7 @@ header {
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 320px) {
   .subnav-content {
     margin-top: -9rem;
   }
@@ -724,7 +724,7 @@ input[type="text"]:focus {
   text-transform: uppercase;
   font-family: "truenoregular";
   font-size: 1.3rem;
-  letter-spacing: 0.02rem;
+  letter-spacing: 0.03rem;
   margin-left: 1rem;
 }
 
@@ -784,13 +784,12 @@ input[type="text"]:focus {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    visibility: hidden;
+    position: absolute;
+    bottom: 2rem;
+    width: 100%;
   }
 }
 
@@ -811,7 +810,7 @@ input[type="text"]:focus {
 
 .languages-mobile a {
   margin-top: 1.8rem;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   float: left;
   padding-left: 0;
 }
