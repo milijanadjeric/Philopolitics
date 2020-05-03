@@ -50,17 +50,10 @@ input[type="submit"] {
   @include breakpoint(mobile) {    
     font-size: 1.3rem;
   }
-  @include breakpoint(mobile--Small) {
-    margin-top: 2.5rem;
-    margin-bottom: 3.3rem;
-
+  @include breakpoint (mobile--Smallest) {
+    margin-top: 1rem;
   }
-  @include breakpoint(mobile--Smallest) {
-    margin-top: 4rem;
-    margin-bottom: 3.9rem;
-  }
-
-
+  
 }
 
 input[type="submit"]:hover {
@@ -90,11 +83,6 @@ input[type="submit"]:hover {
             flex-direction: column-reverse;
     margin: 0;
   }
-
-
-
-
-
 
   &_container {
     display: -webkit-box;
@@ -126,9 +114,15 @@ input[type="submit"]:hover {
       margin: 6rem auto;
     }
 
+    @include breakpoint (ipad) {
+      margin: 3rem auto;
+    }
+
+
+
     @include breakpoint(mobile) {
       width: 70%;
-      margin: 3rem auto;
+      margin: 1rem auto;
       font-size: 1.3rem;
     }
     @include breakpoint(mobile--Small) {
@@ -146,6 +140,11 @@ input[type="submit"]:hover {
     color: $color-white;
     padding-bottom: 5rem;
     letter-spacing: 0.1rem;
+
+    @include breakpoint (ipad) {
+      font-size: 2.6rem;
+     
+    }
 
     @include breakpoint(mobile) {
       padding-top: 0;
@@ -251,32 +250,30 @@ input[type="submit"]:hover {
     @include breakpoint(tablet) {
       width: 40rem;
       margin: 4rem auto;
-      
+    }
+    @include breakpoint (ipad) {
+      margin: 2rem auto;
     }
 
     @include breakpoint(mobile) {
       width: 19.5rem;
-      margin-left: 8.2rem;
-      margin-top: 5rem;
-      margin-bottom: 1rem;
-    }
-    @include breakpoint(mobile--Small) {
-      margin-top: 4rem;
-      margin-bottom: 0;
+      margin: 0 auto;
       
     }
 
-    @include breakpoint(mobile--Smallest) {
+    @include breakpoint(mobile--Small) {
       width: 16.2rem;
-      margin-left: 9.9rem;
-      margin-top: 2rem;
-      margin-bottom: 1rem;
+    }
+
+    @include breakpoint (mobile--Smallest) {
+      width: 14rem;
     }
 
     @include breakpoint(desktop) {
       width: 49rem;
-      
     }
+
+    
     
     
 
