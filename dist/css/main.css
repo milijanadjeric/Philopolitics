@@ -3911,6 +3911,7 @@ input[type="submit"]:hover {
 
 @media (max-width: 1024px) {
   .contact {
+    margin-top: 5rem;
     margin-left: 11rem;
   }
 }
@@ -3951,13 +3952,13 @@ input[type="submit"]:hover {
 @media (max-width: 1024px) {
   .contact_container {
     width: 34%;
-    margin-right: 7rem;
+    margin-right: 9rem;
   }
 }
 
 @media (max-width: 800px) {
   .contact_container {
-    width: 50%;
+    width: 39%;
     margin: 6rem auto;
   }
 }
@@ -4107,9 +4108,16 @@ input[type="submit"]:hover {
   margin-top: -3rem;
 }
 
+@media (max-width: 1024px) {
+  .contact img {
+    width: 43rem;
+  }
+}
+
 @media (max-width: 800px) {
   .contact img {
-    margin: 2rem auto;
+    width: 40rem;
+    margin: 4rem auto;
   }
 }
 

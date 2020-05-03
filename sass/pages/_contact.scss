@@ -79,6 +79,7 @@ input[type="submit"]:hover {
   }
 
   @include breakpoint (ipad--Landscape) {
+    margin-top: 5rem;
     margin-left: 11rem;
   }
 
@@ -117,11 +118,11 @@ input[type="submit"]:hover {
 
     @include breakpoint (ipad--Landscape) {
       width: 34%;
-      margin-right: 7rem;
+      margin-right: 9rem;
     }
 
     @include breakpoint(tablet) {
-      width: 50%;
+      width: 39%;
       margin: 6rem auto;
     }
 
@@ -242,12 +243,14 @@ input[type="submit"]:hover {
     z-index: 2;
     margin-top: -3rem;
 
-    @include breakpoint(desktop--Small) {
-     
+    @include breakpoint (ipad--Landscape) {
+      width: 43rem;
     }
+
     
     @include breakpoint(tablet) {
-      margin: 2rem auto;
+      width: 40rem;
+      margin: 4rem auto;
       
     }
 
