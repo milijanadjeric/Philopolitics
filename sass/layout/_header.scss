@@ -384,7 +384,7 @@ input[type="text"]:focus {
   @include breakpoint(mobile) {
     display: block;
     margin-top: 2.1rem;
-    margin-right: -12rem;
+    margin-right: -14rem;
   }
 
   @include breakpoint(mobile--Smallest) {
