@@ -1366,13 +1366,20 @@ input[type="text"]:focus {
 
 @media (max-width: 1024px) {
   .main {
-    margin-top: 15rem;
+    margin-top: 4rem;
   }
 }
 
 @media (max-width: 800px) {
   .main {
+    margin-top: 16rem;
     display: block;
+  }
+}
+
+@media (max-width: 768px) {
+  .main {
+    margin-top: 9rem;
   }
 }
 

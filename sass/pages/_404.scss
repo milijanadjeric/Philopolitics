@@ -48,12 +48,17 @@
   }
 
   @include breakpoint (ipad--Landscape) {
-    margin-top: 15rem;
+    margin-top: 4rem;
   }
 
   @include breakpoint(tablet) {
+    margin-top: 16rem;
     display: block;
     
+  }
+
+  @include breakpoint (ipad) {
+    margin-top: 9rem;
   }
   
   @include breakpoint(mobile) {
