@@ -42,6 +42,15 @@
   display: flex;
   margin-top: 8rem;
 
+  @include breakpoint (desktop--Small) {
+    margin-top: 12rem;
+
+  }
+
+  @include breakpoint (ipad--Landscape) {
+    margin-top: 15rem;
+  }
+
   @include breakpoint(tablet) {
     display: block;
     
@@ -149,7 +158,6 @@
 .astronaut {
   z-index: 2;
   margin-top: -5rem;
-  
 
   @include breakpoint(tablet) {
     margin-top: 8rem;

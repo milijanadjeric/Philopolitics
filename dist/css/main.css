@@ -1358,6 +1358,18 @@ input[type="text"]:focus {
   margin-top: 8rem;
 }
 
+@media (max-width: 1280px) {
+  .main {
+    margin-top: 12rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .main {
+    margin-top: 15rem;
+  }
+}
+
 @media (max-width: 800px) {
   .main {
     display: block;
@@ -3884,6 +3896,12 @@ input[type="submit"]:hover {
   margin-top: 8rem;
 }
 
+@media (max-width: 1280px) {
+  .contact {
+    margin-top: 13rem;
+  }
+}
+
 @media (max-width: 1024px) {
   .contact {
     margin-left: 11rem;
@@ -3919,6 +3937,7 @@ input[type="submit"]:hover {
 @media (max-width: 1280px) {
   .contact_container {
     width: 29%;
+    margin-right: 13rem;
   }
 }
 
