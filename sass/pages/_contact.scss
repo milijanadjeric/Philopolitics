@@ -45,16 +45,9 @@ input[type="submit"] {
   padding: 1.3rem 0rem;
   border: none;
   border-radius: 0.2rem;
-  margin-bottom: 6rem;
   cursor: pointer;
 
-  @include breakpoint(desktop--Small) {
-    margin-bottom: 16.3rem;
-  }
-
-  @include breakpoint(mobile) {
-    margin-top: 4rem;
-    margin-bottom: 4rem;
+  @include breakpoint(mobile) {    
     font-size: 1.3rem;
   }
   @include breakpoint(mobile--Small) {
@@ -67,12 +60,7 @@ input[type="submit"] {
     margin-bottom: 3.9rem;
   }
 
-  @include breakpoint(desktop) {
-    margin-bottom: 17.2rem;
-  }
-  @include breakpoint(desktop--Large) {
-    margin-bottom: 11rem;
-  }
+
 }
 
 input[type="submit"]:hover {
@@ -83,15 +71,11 @@ input[type="submit"]:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-left: 19rem;
-  margin-top: 6.8rem;
+  margin-left: 21rem;
+  margin-top: 8rem;
 
-  @include breakpoint(desktop--Small) {
-    margin-top: 11.54rem;
-  }
   @include breakpoint (ipad--Landscape) {
-    margin-top: 10.8rem;
-    margin-left: 13.5rem;
+    margin-left: 11rem;
   }
 
   @include breakpoint(tablet) {
@@ -102,12 +86,9 @@ input[type="submit"]:hover {
     margin: 0;
   }
 
-  @include breakpoint(desktop) {
-    margin-top: 13rem;
-  }
-  @include breakpoint(desktop--Large) {
-    margin-top: 10rem;
-  }
+
+
+
 
 
   &_container {
@@ -119,13 +100,19 @@ input[type="submit"]:hover {
         -ms-flex-direction: column;
             flex-direction: column;
     z-index: 1;
-    width: 30%;
+    width: 27%;
     color: rgba(255, 255, 255, 0.5);
     font-family: "Roboto";
     font-size: 1.2rem;
+    margin-right: 16rem;
+
+    @include breakpoint (desktop--Small) {
+      width: 29%;
+    }
 
     @include breakpoint (ipad--Landscape) {
-      width: 40%;
+      width: 34%;
+      margin-right: 7rem;
     }
 
     @include breakpoint(tablet) {
@@ -149,9 +136,10 @@ input[type="submit"]:hover {
   &_heading {
     text-transform: uppercase;
     font-family: $font-tr-bd;
-    font-size: 2.5rem;
+    font-size: 2.7rem;
     color: $color-white;
     padding-bottom: 5rem;
+    letter-spacing: 0.1rem;
 
     @include breakpoint(mobile) {
       padding-top: 0;
@@ -245,20 +233,17 @@ input[type="submit"]:hover {
   }
 
   img {
-   margin-left: 20rem;
+    width: 48rem;
     z-index: 2;
-    margin-top: -6rem;
+    margin-top: -3rem;
 
     @include breakpoint(desktop--Small) {
-      margin-left: 17rem;
-      margin-top: -18rem;
+     
     }
-    @include breakpoint (ipad--Landscape) {
-      margin-left: 5rem;
-    }
+    
     @include breakpoint(tablet) {
-      margin-top: 6rem;
-      margin-left: 0;
+      margin: 2rem auto;
+      
     }
 
     @include breakpoint(mobile) {
@@ -282,12 +267,9 @@ input[type="submit"]:hover {
 
     @include breakpoint(desktop) {
       width: 49rem;
-      margin-top: -13rem;
-      margin-left: 16rem;
+      
     }
-    @include breakpoint(desktop--Large) {
-      margin-left: 15rem;
-    }
+    
     
 
     

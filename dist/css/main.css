@@ -3849,20 +3849,11 @@ input[type="submit"] {
   padding: 1.3rem 0rem;
   border: none;
   border-radius: 0.2rem;
-  margin-bottom: 6rem;
   cursor: pointer;
-}
-
-@media (max-width: 1280px) {
-  input[type="submit"] {
-    margin-bottom: 16.3rem;
-  }
 }
 
 @media (max-width: 375px) {
   input[type="submit"] {
-    margin-top: 4rem;
-    margin-bottom: 4rem;
     font-size: 1.3rem;
   }
 }
@@ -3881,18 +3872,6 @@ input[type="submit"] {
   }
 }
 
-@media (min-width: 1440px) {
-  input[type="submit"] {
-    margin-bottom: 17.2rem;
-  }
-}
-
-@media (min-width: 1536px) {
-  input[type="submit"] {
-    margin-bottom: 11rem;
-  }
-}
-
 input[type="submit"]:hover {
   background-color: #00afb8;
 }
@@ -3901,20 +3880,13 @@ input[type="submit"]:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-left: 19rem;
-  margin-top: 6.8rem;
-}
-
-@media (max-width: 1280px) {
-  .contact {
-    margin-top: 11.54rem;
-  }
+  margin-left: 21rem;
+  margin-top: 8rem;
 }
 
 @media (max-width: 1024px) {
   .contact {
-    margin-top: 10.8rem;
-    margin-left: 13.5rem;
+    margin-left: 11rem;
   }
 }
 
@@ -3928,18 +3900,6 @@ input[type="submit"]:hover {
   }
 }
 
-@media (min-width: 1440px) {
-  .contact {
-    margin-top: 13rem;
-  }
-}
-
-@media (min-width: 1536px) {
-  .contact {
-    margin-top: 10rem;
-  }
-}
-
 .contact_container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3949,15 +3909,23 @@ input[type="submit"]:hover {
   -ms-flex-direction: column;
   flex-direction: column;
   z-index: 1;
-  width: 30%;
+  width: 27%;
   color: rgba(255, 255, 255, 0.5);
   font-family: "Roboto";
   font-size: 1.2rem;
+  margin-right: 16rem;
+}
+
+@media (max-width: 1280px) {
+  .contact_container {
+    width: 29%;
+  }
 }
 
 @media (max-width: 1024px) {
   .contact_container {
-    width: 40%;
+    width: 34%;
+    margin-right: 7rem;
   }
 }
 
@@ -3991,9 +3959,10 @@ input[type="submit"]:hover {
 .contact_heading {
   text-transform: uppercase;
   font-family: "TruenoBold";
-  font-size: 2.5rem;
+  font-size: 2.7rem;
   color: #FFFFFF;
   padding-bottom: 5rem;
+  letter-spacing: 0.1rem;
 }
 
 @media (max-width: 375px) {
@@ -4107,28 +4076,14 @@ input[type="submit"]:hover {
 }
 
 .contact img {
-  margin-left: 20rem;
+  width: 48rem;
   z-index: 2;
-  margin-top: -6rem;
-}
-
-@media (max-width: 1280px) {
-  .contact img {
-    margin-left: 17rem;
-    margin-top: -18rem;
-  }
-}
-
-@media (max-width: 1024px) {
-  .contact img {
-    margin-left: 5rem;
-  }
+  margin-top: -3rem;
 }
 
 @media (max-width: 800px) {
   .contact img {
-    margin-top: 6rem;
-    margin-left: 0;
+    margin: 2rem auto;
   }
 }
 
@@ -4160,14 +4115,6 @@ input[type="submit"]:hover {
 @media (min-width: 1440px) {
   .contact img {
     width: 49rem;
-    margin-top: -13rem;
-    margin-left: 16rem;
-  }
-}
-
-@media (min-width: 1536px) {
-  .contact img {
-    margin-left: 15rem;
   }
 }
 
