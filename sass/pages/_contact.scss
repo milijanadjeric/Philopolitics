@@ -85,10 +85,10 @@ input[type="submit"]:hover {
   }
 
   @include breakpoint (desktop) {
-    margin-top: 16rem;
+    margin-top: 12rem;
   }
   @include breakpoint (desktop--Large) {
-    margin-top: 12rem;
+    margin-top: 8rem;
   }
 
   &_container {
