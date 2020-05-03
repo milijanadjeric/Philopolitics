@@ -21,14 +21,14 @@
       linear,
       left top,
       left bottom,
-      color-stop(10%, #322b6c),
-      color-stop(73%, #131c6d),
+      color-stop(30%, #322b6c),
+      color-stop(70%, #131c6d),
       to(#b1bff9)
     );
     background-image: linear-gradient(
       to bottom,
-      #322b6c 10%,
-      #131c6d 73%,
+      #322b6c 30%,
+      #131c6d 70%,
       #b1bff9 100%
     );
     background-size: cover;
@@ -157,18 +157,20 @@
     
   }
   @include breakpoint(ipad) {
-    
+    margin-top: 2rem;
     margin-left: 16rem;
   }
 
   @include breakpoint(mobile) {
-    margin-top: 8rem;
+    margin-top: 7rem;
     width: 21rem;
     margin-left: 8rem;
   }
 
   @include breakpoint (mobile--Smallest) {
-    margin-top: 4rem;
+    width: 19rem;
+    margin-top: 3rem;
+    margin-left: 9rem;
   }
 
   @include breakpoint(desktop) {

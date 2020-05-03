@@ -26,14 +26,7 @@ header {
     margin-left: 1rem;
   }
   @include breakpoint(mobile) {
-    margin-left: -1rem;
     margin-top: 1.5rem;
-  }
-
-  @include breakpoint(mobile--Small) {
-    margin-left: .5rem;
-  }
-  @include breakpoint(mobile--Smallest) {
     margin-left: 0;
   }
 
@@ -427,15 +420,12 @@ input[type="text"]:focus {
   @include breakpoint(mobile) {
     display: block;
     margin-top: 2.1rem;
-    margin-right: -16rem;
+    margin-right: -12rem;
   }
 
-  @include breakpoint(mobile--Small) {
-    margin-right: -10rem;
-  }
   @include breakpoint(mobile--Smallest) {
     margin-top: 2.3rem;
-    margin-right: -11rem;
+   
   }
 
   button {
@@ -509,23 +499,17 @@ input[type="text"]:focus {
 /*  MOBILE NAVIGATION */
 
 .mobile-nav {
-
-  @include breakpoint(mobile) {
-    width: 205px;
-    position: absolute;
-    right: 0;
-    float: right;
-    background-color: $color-footer-text;
-    z-index: 333;
-  }
   
-  @include breakpoint(mobile--Small) {
-    width: 205px;
-    position: absolute;
-    right: 0;
-    float: right;
-    background-color: $color-footer-text;
-    z-index: 333;
+  width: 200px;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  float: right;
+  background-color: $color-footer-text;
+  z-index: 333;
+  
+  @include breakpoint(mobile--Smallest) {
+   width: 170px;
   }
 
   a {
@@ -575,6 +559,7 @@ input[type="text"]:focus {
   }
 
   div.languages-mobile p {
+   
 
     @include breakpoint(mobile) {
       display: block;
@@ -613,10 +598,6 @@ button.subnavbtn.mrg-right:nth-of-type(1) {
 
   @include breakpoint(mobile) {
     display: inline-block;
-    margin-right: 0;
-  }
-
-  @include breakpoint(mobile--Small) {
     margin-right: 1rem;
   }
 }
@@ -624,9 +605,9 @@ button.subnavbtn.mrg-right:nth-of-type(1) {
 /*  MOBILE NAVIGATION END */
 .languages-mobile {
   display: none;
-  margin-top: 20rem;
+  
 
-  @include breakpoint(mobile--Small) {
+  @include breakpoint(mobile) {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -638,6 +619,7 @@ button.subnavbtn.mrg-right:nth-of-type(1) {
   &_img {
 
     @include breakpoint(mobile) {
+      
       margin-left: 2.5rem;
     }
     
@@ -650,6 +632,10 @@ button.subnavbtn.mrg-right:nth-of-type(1) {
   @include breakpoint(mobile) {
     display: block;
   }
+}
+
+.privacy-mobile {
+  display: none;
 }
 
 .languages-mobile a {

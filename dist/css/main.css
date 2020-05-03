@@ -132,19 +132,7 @@ header {
 
 @media (max-width: 375px) {
   .logo {
-    margin-left: -1rem;
     margin-top: 1.5rem;
-  }
-}
-
-@media (max-width: 360px) {
-  .logo {
-    margin-left: .5rem;
-  }
-}
-
-@media (max-width: 320px) {
-  .logo {
     margin-left: 0;
   }
 }
@@ -592,20 +580,13 @@ input[type="text"]:focus {
   .search-box-mobile {
     display: block;
     margin-top: 2.1rem;
-    margin-right: -16rem;
-  }
-}
-
-@media (max-width: 360px) {
-  .search-box-mobile {
-    margin-right: -10rem;
+    margin-right: -12rem;
   }
 }
 
 @media (max-width: 320px) {
   .search-box-mobile {
     margin-top: 2.3rem;
-    margin-right: -11rem;
   }
 }
 
@@ -676,25 +657,19 @@ input[type="text"]:focus {
 }
 
 /*  MOBILE NAVIGATION */
-@media (max-width: 375px) {
-  .mobile-nav {
-    width: 205px;
-    position: absolute;
-    right: 0;
-    float: right;
-    background-color: #322b6c;
-    z-index: 333;
-  }
+.mobile-nav {
+  width: 200px;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  float: right;
+  background-color: #322b6c;
+  z-index: 333;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 320px) {
   .mobile-nav {
-    width: 205px;
-    position: absolute;
-    right: 0;
-    float: right;
-    background-color: #322b6c;
-    z-index: 333;
+    width: 170px;
   }
 }
 
@@ -772,12 +747,6 @@ input[type="text"]:focus {
 @media (max-width: 375px) {
   .mobile-nav-icon {
     display: inline-block;
-    margin-right: 0;
-  }
-}
-
-@media (max-width: 360px) {
-  .mobile-nav-icon {
     margin-right: 1rem;
   }
 }
@@ -785,10 +754,9 @@ input[type="text"]:focus {
 /*  MOBILE NAVIGATION END */
 .languages-mobile {
   display: none;
-  margin-top: 20rem;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 375px) {
   .languages-mobile {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -814,6 +782,10 @@ input[type="text"]:focus {
   .home-mobile {
     display: block;
   }
+}
+
+.privacy-mobile {
+  display: none;
 }
 
 .languages-mobile a {
@@ -1352,8 +1324,8 @@ input[type="text"]:focus {
 
 @media (max-width: 375px) {
   .gradient-effect-4 {
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(10%, #322b6c), color-stop(73%, #131c6d), to(#b1bff9));
-    background-image: linear-gradient(to bottom, #322b6c 10%, #131c6d 73%, #b1bff9 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(30%, #322b6c), color-stop(70%, #131c6d), to(#b1bff9));
+    background-image: linear-gradient(to bottom, #322b6c 30%, #131c6d 70%, #b1bff9 100%);
     background-size: cover;
     background-repeat: no-repeat;
   }
@@ -1511,13 +1483,14 @@ input[type="text"]:focus {
 
 @media (max-width: 768px) {
   .astronaut {
+    margin-top: 2rem;
     margin-left: 16rem;
   }
 }
 
 @media (max-width: 375px) {
   .astronaut {
-    margin-top: 8rem;
+    margin-top: 7rem;
     width: 21rem;
     margin-left: 8rem;
   }
@@ -1525,7 +1498,9 @@ input[type="text"]:focus {
 
 @media (max-width: 320px) {
   .astronaut {
-    margin-top: 4rem;
+    width: 19rem;
+    margin-top: 3rem;
+    margin-left: 9rem;
   }
 }
 
