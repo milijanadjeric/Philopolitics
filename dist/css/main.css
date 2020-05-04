@@ -1294,7 +1294,6 @@ input[type="text"]:focus {
 
 @media (max-width: 1280px) {
   .elipse_6 {
-    left: 50%;
     width: 126rem;
   }
 }
@@ -4217,6 +4216,16 @@ input[type="submit"]:hover {
   }
 }
 
+@media (max-width: 1024px) {
+  .gradient-effect-1 {
+    height: 100%;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(15%, #322b6c), color-stop(20%, #131c6d), to(#b1bff9));
+    background-image: linear-gradient(to bottom, #322b6c 15%, #131c6d 20%, #b1bff9 100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+
 @media (max-width: 800px) {
   .gradient-effect-1 {
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(10%, #322b6c), color-stop(65%, #131c6d), to(#b1bff9));
@@ -4555,8 +4564,7 @@ input[type="submit"]:hover {
 
 @media (max-width: 1024px) {
   .socials {
-    margin-top: 2.5rem;
-    margin-bottom: 1.7rem;
+    margin-bottom: 64rem;
   }
 }
 

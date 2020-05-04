@@ -67,7 +67,7 @@
     transform: translate(-50.5%);
 
     @include breakpoint (desktop--Small) {
-      left: 50%;
+      
       width: 126rem;
     }
 

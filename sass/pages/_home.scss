@@ -41,6 +41,26 @@
   background-repeat: no-repeat;
   }
 
+  @include breakpoint (ipad--Landscape) {
+    height: 100%;
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(15%, #322b6c),
+    color-stop(20%, #131c6d),
+    to(#b1bff9)
+  );
+  background-image: linear-gradient(
+    to bottom,
+    #322b6c 15%,
+    #131c6d 20%,
+    #b1bff9 100%
+  );
+  background-size: cover;
+  background-repeat: no-repeat;
+  }
+
   @include breakpoint(tablet) {
     background-image: -webkit-gradient(
       linear,
@@ -315,8 +335,7 @@
   margin-bottom: 28rem;
   }
   @include breakpoint (ipad--Landscape) {
-    margin-top: 2.5rem;
-    margin-bottom: 1.7rem;
+    margin-bottom: 64rem;
   }
   @include breakpoint (tablet) {
     margin-top: 19.9rem;
