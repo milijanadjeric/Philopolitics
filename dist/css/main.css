@@ -4286,12 +4286,6 @@ input[type="submit"]:hover {
   }
 }
 
-@media (min-width: 1536px) {
-  .hero_text {
-    margin-top: 9.6rem;
-  }
-}
-
 .hero_text_heading {
   text-transform: uppercase;
   font-family: "TruenoBold";
@@ -4450,13 +4444,6 @@ input[type="submit"]:hover {
   }
 }
 
-@media (min-width: 1536px) {
-  .hero_img_stars {
-    height: 41rem;
-    left: 70rem;
-  }
-}
-
 .hero_img_stars-mobile {
   display: none;
 }
@@ -4547,13 +4534,6 @@ input[type="submit"]:hover {
   }
 }
 
-@media (min-width: 1536px) {
-  .hero_img_sun {
-    height: 39rem;
-    left: 81rem;
-  }
-}
-
 .socials {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -4596,17 +4576,9 @@ input[type="submit"]:hover {
   }
 }
 
-@media (min-width: 1440px) {
-  .socials {
-    margin-top: 5rem;
-    margin-bottom: 2.3rem;
-  }
-}
-
 @media (min-width: 1536px) {
   .socials {
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
+    margin-top: 0;
   }
 }
 

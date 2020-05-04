@@ -125,9 +125,7 @@
     @include breakpoint(desktop) {
       margin-top: 14rem;
     }
-    @include breakpoint(desktop--Large) {
-      margin-top: 9.6rem;
-    }
+    
 
     &_heading {
       text-transform: uppercase;
@@ -243,10 +241,7 @@
         height: 44rem;
         left: 70rem;
       }  
-      @include breakpoint(desktop--Large) {
-        height: 41rem;
-        left: 70rem;
-      }
+      
       
     }
 
@@ -313,10 +308,7 @@
         height: 43rem;
         left: 81rem;
       }
-      @include breakpoint(desktop--Large) {
-        height: 39rem;
-        left: 81rem;
-      }
+      
       
     }
   }
@@ -352,14 +344,11 @@
   @include breakpoint(mobile) {
     display: none;
   }
-  @include breakpoint(desktop) {
-    margin-top: 5rem;
-    margin-bottom: 2.3rem;
+  @include breakpoint (desktop--Large) {
+    margin-top: 0;
   }
-  @include breakpoint(desktop--Large) {
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
-  }
+  
+  
 
   &_copy {
     font-family: $font-tr-rg;
