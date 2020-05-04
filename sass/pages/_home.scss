@@ -240,6 +240,9 @@
         height: 44rem;
         left: 70rem;
       }  
+      @include breakpoint (desktop--Large) {
+        left: 68rem;
+      }
       
       
     }
@@ -306,6 +309,10 @@
       @include breakpoint(desktop) {
         height: 43rem;
         left: 81rem;
+      }
+
+      @include breakpoint (desktop--Large) {
+        left: 78rem;
       }
       
       

@@ -4443,6 +4443,12 @@ input[type="submit"]:hover {
   }
 }
 
+@media (min-width: 1536px) {
+  .hero_img_stars {
+    left: 68rem;
+  }
+}
+
 .hero_img_stars-mobile {
   display: none;
 }
@@ -4530,6 +4536,12 @@ input[type="submit"]:hover {
   .hero_img_sun {
     height: 43rem;
     left: 81rem;
+  }
+}
+
+@media (min-width: 1536px) {
+  .hero_img_sun {
+    left: 78rem;
   }
 }
 
