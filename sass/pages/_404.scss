@@ -71,9 +71,6 @@
 
   }
 
-  @include breakpoint (ipad--Landscape) {
-    margin-top: 4rem;
-  }
 
   @include breakpoint(tablet) {
     margin-top: 16rem;
@@ -262,6 +259,14 @@
 
   @include breakpoint (desktop--Small) {
     margin-bottom: 18rem;
+  }
+
+  @include breakpoint (ipad--Landscape) {
+    margin-bottom: 52rem;
+  }
+
+  @include breakpoint (tablet) {
+    margin-bottom: 3.2rem;
   }
  
   @include breakpoint(mobile) {

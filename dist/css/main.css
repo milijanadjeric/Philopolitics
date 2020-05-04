@@ -1378,12 +1378,6 @@ input[type="text"]:focus {
   }
 }
 
-@media (max-width: 1024px) {
-  .main {
-    margin-top: 4rem;
-  }
-}
-
 @media (max-width: 800px) {
   .main {
     margin-top: 16rem;
@@ -1617,6 +1611,18 @@ input[type="text"]:focus {
 @media (max-width: 1280px) {
   .links {
     margin-bottom: 18rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .links {
+    margin-bottom: 52rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .links {
+    margin-bottom: 3.2rem;
   }
 }
 
