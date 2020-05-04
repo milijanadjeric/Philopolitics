@@ -1,4 +1,5 @@
 .gradient-effect-4 {
+  height: 100vh;
   background-image: -webkit-gradient(
     linear,
     left top,
@@ -16,7 +17,29 @@
   background-size: cover;
   background-repeat: no-repeat;
 
+  @include breakpoint (desktop--Small) {
+    height: 100%;
+    background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(20%, #322b6c),
+    color-stop(45%, #131c6d),
+    to(#b1bff9)
+  );
+  background-image: linear-gradient(
+    to bottom,
+    #322b6c 20%,
+    #131c6d 45%,
+    #b1bff9 100%
+  );
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  }
+
   @include breakpoint(mobile) {
+    height: 100%;
     background-image: -webkit-gradient(
       linear,
       left top,
@@ -43,7 +66,8 @@
   margin-top: 8rem;
 
   @include breakpoint (desktop--Small) {
-    margin-top: 12rem;
+    margin-top: 18rem;
+    margin-bottom: 14rem;
 
   }
 
@@ -236,8 +260,8 @@
   -ms-flex-pack: end;
   justify-content: flex-end;
 
-  @include breakpoint (ipad--Landscape) {
-    margin-top: -1rem;
+  @include breakpoint (desktop--Small) {
+    margin-bottom: 18rem;
   }
  
   @include breakpoint(mobile) {

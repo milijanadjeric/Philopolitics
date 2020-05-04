@@ -1337,14 +1337,26 @@ input[type="text"]:focus {
 }
 
 .gradient-effect-4 {
+  height: 100vh;
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(20%, #322b6c), color-stop(45%, #131c6d), to(#b1bff9));
   background-image: linear-gradient(to bottom, #322b6c 20%, #131c6d 45%, #b1bff9 100%);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
+@media (max-width: 1280px) {
+  .gradient-effect-4 {
+    height: 100%;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(20%, #322b6c), color-stop(45%, #131c6d), to(#b1bff9));
+    background-image: linear-gradient(to bottom, #322b6c 20%, #131c6d 45%, #b1bff9 100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+
 @media (max-width: 375px) {
   .gradient-effect-4 {
+    height: 100%;
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(30%, #322b6c), color-stop(70%, #131c6d), to(#b1bff9));
     background-image: linear-gradient(to bottom, #322b6c 30%, #131c6d 70%, #b1bff9 100%);
     background-size: cover;
@@ -1361,7 +1373,8 @@ input[type="text"]:focus {
 
 @media (max-width: 1280px) {
   .main {
-    margin-top: 12rem;
+    margin-top: 18rem;
+    margin-bottom: 14rem;
   }
 }
 
@@ -1601,9 +1614,9 @@ input[type="text"]:focus {
   justify-content: flex-end;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1280px) {
   .links {
-    margin-top: -1rem;
+    margin-bottom: 18rem;
   }
 }
 
