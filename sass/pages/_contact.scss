@@ -18,7 +18,7 @@
 
 
   @include breakpoint (desktop--Small) {
-    height: 100%;  
+  height: 100%;  
   background-image: -webkit-gradient(
     linear,
     left top, left bottom,
@@ -108,6 +108,10 @@ input[type="submit"]:hover {
             flex-direction: column-reverse;
     
   margin: 12rem auto;
+  }
+
+  @include breakpoint (mobile) {
+    margin: 2rem auto;
   }
 
   @include breakpoint (desktop) {
@@ -288,7 +292,7 @@ input[type="submit"]:hover {
 
     @include breakpoint(mobile) {
       width: 19.5rem;
-      margin: 4 auto;
+      margin: 1rem auto;
       
     }
 

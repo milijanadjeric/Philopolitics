@@ -3933,6 +3933,12 @@ input[type="submit"]:hover {
   }
 }
 
+@media (max-width: 375px) {
+  .contact {
+    margin: 2rem auto;
+  }
+}
+
 @media (min-width: 1440px) {
   .contact {
     margin-top: 12rem;
@@ -4150,7 +4156,7 @@ input[type="submit"]:hover {
 @media (max-width: 375px) {
   .contact img {
     width: 19.5rem;
-    margin: 4 auto;
+    margin: 1rem auto;
   }
 }
 
