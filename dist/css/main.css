@@ -33,7 +33,6 @@ html {
   font-size: 62.5%;
   /*  1rem = 10px   10/16px= 62.5%   */
   scroll-behavior: smooth;
-  height: 100vh;
 }
 
 @media (max-width: 320px) {
@@ -68,7 +67,7 @@ html {
 }
 
 body {
-  height: 100vh;
+  height: 100%;
 }
 
 @font-face {
@@ -3848,7 +3847,7 @@ input[type="text"]:focus {
 }
 
 .gradient-effect-3 {
-  height: 100%;
+  height: 100vh;
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(20%, #322b6c), color-stop(53%, #131c6d), to(#b1bff9));
   background-image: linear-gradient(to bottom, #322b6c 20%, #131c6d 53%, #b1bff9 100%);
   background-size: cover;
