@@ -3,6 +3,7 @@
 // -----------------------------------------------------------------------------
 
 .gradient-effect-1 {
+  height: 100vh;
   background-image: -webkit-gradient(
     linear,
     left top,
@@ -19,6 +20,26 @@
   );
   background-size: cover;
   background-repeat: no-repeat;
+
+  @include breakpoint (desktop--Small) {
+    height: 100%;
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(20%, #322b6c),
+    color-stop(50%, #131c6d),
+    to(#b1bff9)
+  );
+  background-image: linear-gradient(
+    to bottom,
+    #322b6c 20%,
+    #131c6d 50%,
+    #b1bff9 100%
+  );
+  background-size: cover;
+  background-repeat: no-repeat;
+  }
 
   @include breakpoint(tablet) {
     background-image: -webkit-gradient(
@@ -166,10 +187,12 @@
   }
 
   &_img {
+
+
     &_stars {
       position: absolute;
       height: 31rem;
-      top: 8rem;
+      top: 7rem;
       left: 88rem;
 
       @include breakpoint(desktop--Small) {
@@ -226,7 +249,7 @@
     &_sun {
       position: absolute;
       height: 30rem;
-      top: 8rem;
+      top: 7rem;
       left: 95rem;
 
       @include breakpoint(desktop--Small) {
@@ -284,12 +307,12 @@
   -ms-flex-pack: distribute;
   justify-content: space-around;
   color: $color-blue;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin-top: 2rem;
+  
 
   @include breakpoint(desktop--Small) {
-    margin-top: 1.5rem;
-    margin-bottom: 1rem;
+   
+  margin-bottom: 28rem;
   }
   @include breakpoint (ipad--Landscape) {
     margin-top: 2.5rem;
@@ -356,8 +379,6 @@
 
   &_img {
     margin-top: -0.5rem;
-
-    
   }
 
   a {
