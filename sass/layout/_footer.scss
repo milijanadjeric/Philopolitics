@@ -11,7 +11,6 @@
           justify-content: center;
   padding-top: 3rem;
   padding-bottom: 1.8rem;
-  
 
  
   @include breakpoint (desktop) {
@@ -57,5 +56,11 @@
     font-family: $font-tr-rg;
     font-size: 1.6rem;
     color: $color-footer-text-2;
+  }
+}
+
+.Networks-nodisplay {
+  @include breakpoint(mobile) {
+    display: none;
   }
 }

@@ -874,6 +874,12 @@ input[type="text"]:focus {
   color: #332A6D;
 }
 
+@media (max-width: 375px) {
+  .Networks-nodisplay {
+    display: none;
+  }
+}
+
 .projects {
   margin-top: 10rem;
 }
@@ -5852,8 +5858,7 @@ input[type="submit"]:hover {
 
 @media (max-width: 375px) {
   .text_flag {
-    width: 30rem;
-    margin-bottom: 2rem;
+    width: 30.5rem;
   }
 }
 
@@ -6027,12 +6032,6 @@ input[type="submit"]:hover {
   .text_paragraph-topbottomspace {
     padding-right: 3.5rem;
     padding-left: 3.5rem;
-  }
-}
-
-@media (max-width: 375px) {
-  .Networks-nodisplay {
-    display: none;
   }
 }
 
