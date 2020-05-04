@@ -25,7 +25,7 @@ header {
   }
   @include breakpoint(mobile) {
     margin-top: 1.5rem;
-    margin-left: 0;
+    margin-left: -1rem;
   }
 
   @include breakpoint(desktop--Large) {
@@ -560,7 +560,7 @@ button.subnavbtn.mrg-right:hover {
 
   @include breakpoint(mobile) {
     display: inline-block;
-    margin-right: 1rem;
+    margin-right: 0rem;
   }
 }
 
