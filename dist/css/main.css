@@ -1408,7 +1408,7 @@ input[type="text"]:focus {
 
 @media (max-width: 320px) {
   .main {
-    margin-top: 3rem;
+    margin-bottom: 9rem;
   }
 }
 
