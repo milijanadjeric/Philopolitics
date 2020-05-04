@@ -70,8 +70,6 @@
     margin-bottom: 14rem;
 
   }
-
-
   @include breakpoint(tablet) {
     margin-top: 16rem;
     display: block;
@@ -79,13 +77,19 @@
   }
 
   @include breakpoint (ipad) {
-    margin-top: 9rem;
+    margin-top: 6.5rem;
+    margin-bottom: 6rem;
   }
   
   @include breakpoint(mobile) {
     display: block;
-    margin-top: 5rem;
+    margin-top: 8rem;
+    margin-bottom: 19.5rem;
   
+  }
+
+  @include breakpoint (mobile--Small) {
+    margin-bottom: 18.2rem;
   }
   @include breakpoint (mobile--Smallest) {
     margin-top: 3rem;
