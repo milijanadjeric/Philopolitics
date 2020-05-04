@@ -3929,7 +3929,7 @@ input[type="submit"]:hover {
     -webkit-box-direction: reverse;
     -ms-flex-direction: column-reverse;
     flex-direction: column-reverse;
-    margin: 0;
+    margin: 12rem auto;
   }
 }
 
@@ -3978,7 +3978,7 @@ input[type="submit"]:hover {
 @media (max-width: 800px) {
   .contact_container {
     width: 39%;
-    margin: 6rem auto;
+    margin: 9rem auto;
   }
 }
 
@@ -4137,7 +4137,7 @@ input[type="submit"]:hover {
 @media (max-width: 800px) {
   .contact img {
     width: 40rem;
-    margin: 4rem auto;
+    margin: 0 auto;
   }
 }
 
