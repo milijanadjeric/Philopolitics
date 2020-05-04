@@ -582,6 +582,9 @@ button.subnavbtn.mrg-right:hover {
     width: 100%;
 
   }
+  @include breakpoint(mobile--Smallest) {
+    bottom: 1rem;
+  }
   
 }
 
