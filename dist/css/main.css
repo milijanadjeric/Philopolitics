@@ -3848,6 +3848,7 @@ input[type="text"]:focus {
 }
 
 .gradient-effect-3 {
+  height: 100%;
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(20%, #322b6c), color-stop(53%, #131c6d), to(#b1bff9));
   background-image: linear-gradient(to bottom, #322b6c 20%, #131c6d 53%, #b1bff9 100%);
   background-size: cover;
