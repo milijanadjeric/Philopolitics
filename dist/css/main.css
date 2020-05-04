@@ -3850,6 +3850,16 @@ input[type="text"]:focus {
   background-repeat: no-repeat;
 }
 
+@media (max-width: 1280px) {
+  .gradient-effect-3 {
+    height: 100%;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(20%, #322b6c), color-stop(53%, #131c6d), to(#b1bff9));
+    background-image: linear-gradient(to bottom, #322b6c 20%, #131c6d 53%, #b1bff9 100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+
 @media (max-width: 375px) {
   .gradient-effect-3 {
     height: 100%;
@@ -3900,14 +3910,16 @@ input[type="submit"]:hover {
 
 @media (max-width: 1280px) {
   .contact {
-    margin-top: 13rem;
+    margin-top: 25rem;
+    margin-bottom: 25rem;
   }
 }
 
 @media (max-width: 1024px) {
   .contact {
-    margin-top: 5rem;
+    margin-top: 30rem;
     margin-left: 11rem;
+    margin-bottom: 60rem;
   }
 }
 

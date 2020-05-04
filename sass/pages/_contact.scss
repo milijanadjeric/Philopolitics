@@ -16,6 +16,27 @@
   background-size: cover;
   background-repeat: no-repeat;
 
+
+  @include breakpoint (desktop--Small) {
+    height: 100%;  
+  background-image: -webkit-gradient(
+    linear,
+    left top, left bottom,
+    color-stop(20%, #322b6c),
+    color-stop(53%, #131c6d),
+    to(#b1bff9)
+  );
+  background-image: linear-gradient(
+    to bottom,
+    #322b6c 20%,
+    #131c6d 53%,
+    #b1bff9 100%
+  );
+  background-size: cover;
+  background-repeat: no-repeat;
+  }
+  
+
   @include breakpoint(mobile) {
     height: 100%;    
     background-image: -webkit-gradient(
@@ -70,12 +91,14 @@ input[type="submit"]:hover {
   margin-top: 8rem;
 
   @include breakpoint (desktop--Small) {
-    margin-top: 13rem;
+    margin-top: 25rem;
+    margin-bottom: 25rem;
   }
 
   @include breakpoint (ipad--Landscape) {
-    margin-top: 5rem;
+    margin-top: 30rem;
     margin-left: 11rem;
+    margin-bottom: 60rem;
   }
 
   @include breakpoint(tablet) {
@@ -111,6 +134,7 @@ input[type="submit"]:hover {
     @include breakpoint (desktop--Small) {
       width: 29%;
       margin-right: 13rem;
+     
     }
 
     @include breakpoint (ipad--Landscape) {
