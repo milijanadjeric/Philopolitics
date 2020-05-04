@@ -4319,6 +4319,7 @@ input[type="submit"]:hover {
 
 @media (max-width: 768px) {
   .hero_text_heading {
+    margin-top: 2rem;
     margin-left: 17rem;
   }
 }
@@ -4572,6 +4573,13 @@ input[type="submit"]:hover {
   .socials {
     margin-top: 19.9rem;
     margin-bottom: 3.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .socials {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
   }
 }
 

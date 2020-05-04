@@ -152,6 +152,7 @@
         margin-left: 18.5rem;
       }
       @include breakpoint(ipad) {
+        margin-top: 2rem;
         margin-left: 17rem;
       }
 
@@ -341,6 +342,11 @@
     margin-top: 19.9rem;
     margin-bottom: 3.5rem;
   }  
+
+  @include breakpoint (ipad) {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
  
   @include breakpoint(mobile) {
     display: none;
