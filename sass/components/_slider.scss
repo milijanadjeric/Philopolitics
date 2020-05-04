@@ -25,6 +25,9 @@
   @include breakpoint(desktop--Large) {
     margin-top: 17.6rem;
   }
+  @include breakpoint (desktop--Big) {
+    margin-top: 17.8rem;
+  }
 
   a {
     text-decoration: none;

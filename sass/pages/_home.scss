@@ -360,6 +360,10 @@
     margin-top: 1rem;
     margin-bottom: 1rem;
   }
+
+  @include breakpoint (desktop--Biggest) {
+    margin-bottom: 1.6rem;
+  }
   
   
 

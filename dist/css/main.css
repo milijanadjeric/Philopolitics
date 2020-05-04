@@ -927,6 +927,12 @@ input[type="text"]:focus {
   }
 }
 
+@media (min-width: 1600px) {
+  .projects {
+    margin-top: 17.8rem;
+  }
+}
+
 .projects a {
   text-decoration: none;
 }
@@ -4599,6 +4605,12 @@ input[type="submit"]:hover {
   .socials {
     margin-top: 1rem;
     margin-bottom: 1rem;
+  }
+}
+
+@media (min-width: 1920px) {
+  .socials {
+    margin-bottom: 1.6rem;
   }
 }
 
