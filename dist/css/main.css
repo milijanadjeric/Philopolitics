@@ -66,10 +66,6 @@ html {
   }
 }
 
-body {
-  height: 100vh;
-}
-
 @font-face {
   font-family: 'GilroyExtraBold';
   src: url("../../fonts/GilroyExtraBold.eot");
@@ -3856,7 +3852,7 @@ input[type="text"]:focus {
 
 @media (max-width: 375px) {
   .gradient-effect-3 {
-    height: 100vh;
+    height: 100%;
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(10%, #322b6c), color-stop(65%, #131c6d), to(#b1bff9));
     background-image: linear-gradient(to bottom, #322b6c 10%, #131c6d 65%, #b1bff9 100%);
     background-size: cover;
@@ -3983,7 +3979,7 @@ input[type="submit"]:hover {
 @media (max-width: 375px) {
   .contact_container {
     width: 70%;
-    margin: 1rem auto;
+    margin: 8rem auto;
     font-size: 1.3rem;
   }
 }
@@ -4154,7 +4150,7 @@ input[type="submit"]:hover {
 @media (max-width: 375px) {
   .contact img {
     width: 19.5rem;
-    margin: 0 auto;
+    margin: 4 auto;
   }
 }
 
