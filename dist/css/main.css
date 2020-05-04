@@ -923,7 +923,7 @@ input[type="text"]:focus {
 
 @media (min-width: 1536px) {
   .projects {
-    margin-top: 20rem;
+    margin-top: 17.6rem;
   }
 }
 
@@ -4205,7 +4205,6 @@ input[type="submit"]:hover {
 }
 
 .gradient-effect-1 {
-  height: 100vh;
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(20%, #322b6c), color-stop(75%, #131c6d), to(#b1bff9));
   background-image: linear-gradient(to bottom, #322b6c 20%, #131c6d 75%, #b1bff9 100%);
   background-size: cover;
@@ -4282,7 +4281,7 @@ input[type="submit"]:hover {
 
 @media (min-width: 1440px) {
   .hero_text {
-    margin-top: 14rem;
+    margin-top: 15rem;
   }
 }
 
@@ -4542,6 +4541,7 @@ input[type="submit"]:hover {
   justify-content: space-around;
   color: #131C6D;
   margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 @media (max-width: 1280px) {
@@ -4576,9 +4576,17 @@ input[type="submit"]:hover {
   }
 }
 
+@media (min-width: 1440px) {
+  .socials {
+    margin-top: 5rem;
+    margin-bottom: 3.3rem;
+  }
+}
+
 @media (min-width: 1536px) {
   .socials {
-    margin-top: 0;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
   }
 }
 

@@ -3,7 +3,6 @@
 // -----------------------------------------------------------------------------
 
 .gradient-effect-1 {
-  height: 100vh;
   background-image: -webkit-gradient(
     linear,
     left top,
@@ -123,7 +122,7 @@
       margin-top: 3rem;
     }
     @include breakpoint(desktop) {
-      margin-top: 14rem;
+      margin-top: 15rem;
     }
     
 
@@ -322,6 +321,7 @@
   justify-content: space-around;
   color: $color-blue;
   margin-top: 2rem;
+  margin-bottom: 2rem;
   
 
   @include breakpoint(desktop--Small) {
@@ -344,8 +344,14 @@
   @include breakpoint(mobile) {
     display: none;
   }
+  @include breakpoint(desktop) {
+    margin-top: 5rem;
+    margin-bottom: 3.3rem;
+  }
+
   @include breakpoint (desktop--Large) {
-    margin-top: 0;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
   }
   
   
