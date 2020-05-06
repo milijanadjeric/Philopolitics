@@ -933,6 +933,12 @@ input[type="text"]:focus {
   }
 }
 
+@media (min-width: 1920px) {
+  .projects {
+    margin-top: 18.3rem;
+  }
+}
+
 .projects a {
   text-decoration: none;
 }
@@ -4465,6 +4471,12 @@ input[type="submit"]:hover {
   }
 }
 
+@media (min-width: 1600px) {
+  .hero_img_stars {
+    left: 69rem;
+  }
+}
+
 .hero_img_stars-mobile {
   display: none;
 }
@@ -4560,6 +4572,12 @@ input[type="submit"]:hover {
   }
 }
 
+@media (min-width: 1600px) {
+  .hero_img_sun {
+    left: 80rem;
+  }
+}
+
 .socials {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -4614,6 +4632,13 @@ input[type="submit"]:hover {
   .socials {
     margin-top: 1.9rem;
     margin-bottom: 1rem;
+  }
+}
+
+@media (min-width: 1600px) {
+  .socials {
+    margin-top: 2.3rem;
+    margin-bottom: 1.5rem;
   }
 }
 

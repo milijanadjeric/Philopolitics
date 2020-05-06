@@ -105,7 +105,10 @@ header {
   @include breakpoint(mobile) {
     display: none;
   }
+ 
 }
+
+
 
 /* The subnavigation menu */
 .subnav {
@@ -148,6 +151,8 @@ header {
   @include breakpoint(tablet) {
     font-size: 1rem;
   }
+
+  
 }
 
 /* Add a background color to navigation links on hover */
@@ -180,6 +185,7 @@ header {
   @include breakpoint(mobile--Smallest) {
     margin-top: -9rem;
   }
+  
 
 }
 
@@ -193,6 +199,7 @@ header {
   @include breakpoint(tablet) {
     margin-right: 0;
   }
+
 }
 
 /* When you move the mouse over the subnav container, open the subnav content */
@@ -219,6 +226,7 @@ header {
     background-color: rgba(255, 255, 255, 0.6);
     border-radius: 0.7rem;
   }
+
 }
 
 //  -----LANGUAGES-----//
