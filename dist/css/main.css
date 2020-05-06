@@ -4484,7 +4484,6 @@ input[type="submit"]:hover {
 @media (max-width: 320px) {
   .hero_img_stars-mobile {
     width: 26rem;
-    margin-top: 3rem;
   }
 }
 
@@ -4527,14 +4526,14 @@ input[type="submit"]:hover {
   .hero_img_sun {
     width: 29rem;
     left: 4.8rem;
-    top: 12rem;
+    top: 11rem;
   }
 }
 
 @media (max-width: 360px) {
   .hero_img_sun {
     left: 4.2rem;
-    top: 11rem;
+    top: 10rem;
   }
 }
 
