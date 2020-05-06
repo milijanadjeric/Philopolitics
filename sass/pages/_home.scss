@@ -447,26 +447,26 @@
     display: block;
     margin-top: 3rem;
     margin-bottom: 11rem;
-    margin-left: 8rem;
-    
-    
+    margin-left: 8rem; 
   }
 
   @include breakpoint(mobile--Small) {
-    
+   
     margin-bottom: 10.8rem;
+    margin-left: 7.1rem;
     
   }
   @include breakpoint(mobile--Smallest) {
     margin-top: 4rem;
     margin-bottom: 3rem;
+    margin-left: 7.9rem;
   }
 
   a {
     padding-left: 2rem;
 
     @include breakpoint(mobile--Smallest) {
-      padding-left: 1rem;
+      padding-left: 1.5rem;
     }
   }
 }

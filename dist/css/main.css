@@ -4703,6 +4703,7 @@ input[type="submit"]:hover {
 @media (max-width: 360px) {
   .socials-mobile {
     margin-bottom: 10.8rem;
+    margin-left: 7.1rem;
   }
 }
 
@@ -4710,6 +4711,7 @@ input[type="submit"]:hover {
   .socials-mobile {
     margin-top: 4rem;
     margin-bottom: 3rem;
+    margin-left: 7.9rem;
   }
 }
 
@@ -4719,7 +4721,7 @@ input[type="submit"]:hover {
 
 @media (max-width: 320px) {
   .socials-mobile a {
-    padding-left: 1rem;
+    padding-left: 1.5rem;
   }
 }
 
