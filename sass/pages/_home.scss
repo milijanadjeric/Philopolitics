@@ -20,44 +20,44 @@
   background-size: cover;
   background-repeat: no-repeat;
 
-  @include breakpoint (desktop--Small) {
+  @include breakpoint(desktop--Small) {
     height: 100%;
-  background-image: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    color-stop(20%, #322b6c),
-    color-stop(50%, #131c6d),
-    to(#b1bff9)
-  );
-  background-image: linear-gradient(
-    to bottom,
-    #322b6c 20%,
-    #131c6d 50%,
-    #b1bff9 100%
-  );
-  background-size: cover;
-  background-repeat: no-repeat;
+    background-image: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      color-stop(20%, #322b6c),
+      color-stop(50%, #131c6d),
+      to(#b1bff9)
+    );
+    background-image: linear-gradient(
+      to bottom,
+      #322b6c 20%,
+      #131c6d 50%,
+      #b1bff9 100%
+    );
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 
-  @include breakpoint (ipad--Landscape) {
+  @include breakpoint(ipad--Landscape) {
     height: 100%;
-  background-image: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    color-stop(15%, #322b6c),
-    color-stop(20%, #131c6d),
-    to(#b1bff9)
-  );
-  background-image: linear-gradient(
-    to bottom,
-    #322b6c 15%,
-    #131c6d 20%,
-    #b1bff9 100%
-  );
-  background-size: cover;
-  background-repeat: no-repeat;
+    background-image: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      color-stop(15%, #322b6c),
+      color-stop(20%, #131c6d),
+      to(#b1bff9)
+    );
+    background-image: linear-gradient(
+      to bottom,
+      #322b6c 15%,
+      #131c6d 20%,
+      #b1bff9 100%
+    );
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 
   @include breakpoint(tablet) {
@@ -99,28 +99,27 @@
     background-repeat: no-repeat;
   }
 
-  @include breakpoint (desktop--Large) {
+  @include breakpoint(desktop--Large) {
     background-image: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    color-stop(30%, #322b6c),
-    color-stop(80%, #131c6d),
-    to(#b1bff9)
-  );
-  background-image: linear-gradient(
-    to bottom,
-    #322b6c 30%,
-    #131c6d 80%,
-    #b1bff9 100%
-  );
-  background-size: cover;
-  background-repeat: no-repeat;
+      linear,
+      left top,
+      left bottom,
+      color-stop(30%, #322b6c),
+      color-stop(80%, #131c6d),
+      to(#b1bff9)
+    );
+    background-image: linear-gradient(
+      to bottom,
+      #322b6c 30%,
+      #131c6d 80%,
+      #b1bff9 100%
+    );
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 }
 
 .hero {
-
   &_text {
     margin-top: 10rem;
     display: -webkit-box;
@@ -134,7 +133,7 @@
     @include breakpoint(tablet) {
       margin-top: 3rem;
     }
-    @include breakpoint (mobile) {
+    @include breakpoint(mobile) {
       margin-top: 5rem;
     }
     @include breakpoint(mobile--Smallest) {
@@ -143,7 +142,6 @@
     @include breakpoint(desktop) {
       margin-top: 15rem;
     }
-    
 
     &_heading {
       text-transform: uppercase;
@@ -155,10 +153,10 @@
       z-index: 12;
 
       @include breakpoint(desktop--Small) {
-        margin-left: 10rem;
+        margin-left: 11rem;
         margin-top: 5rem;
       }
-      @include breakpoint (ipad--Landscape) {
+      @include breakpoint(ipad--Landscape) {
         margin-top: 4rem;
         margin-left: 6rem;
         font-size: 5.2rem;
@@ -182,7 +180,6 @@
       @include breakpoint(mobile--Small) {
         margin-left: 4.5rem;
         margin-top: 0;
-      
       }
       @include breakpoint(mobile--Smallest) {
         font-size: 2.8rem;
@@ -197,11 +194,10 @@
       margin-left: 16.3rem;
 
       @include breakpoint(desktop--Small) {
-        margin-left: 10.5rem;
+        margin-left: 11.5rem;
       }
       @include breakpoint(ipad--Landscape) {
         margin-left: 6.5rem;
-        
       }
 
       @include breakpoint(tablet) {
@@ -214,7 +210,7 @@
         font-size: 1.3rem;
         margin-left: 7.3rem;
       }
-      
+
       @include breakpoint(mobile--Smallest) {
         margin-top: 0.5rem;
       }
@@ -225,17 +221,15 @@
   }
 
   &_img {
-
-
     &_stars {
       position: absolute;
-      height: 31rem;
+      height: 35rem;
       top: 7rem;
-      left: 88rem;
+      left: 82rem;
 
       @include breakpoint(desktop--Small) {
         height: 44rem;
-        left: 68rem;
+        left: 67rem;
       }
       @include breakpoint(ipad--Landscape) {
         height: 40rem;
@@ -246,24 +240,21 @@
         height: 44rem;
         top: 32rem;
         left: 8rem;
-        
       }
       @include breakpoint(ipad) {
         left: 6.5rem;
       }
-      
+
       @include breakpoint(mobile) {
         display: none;
       }
       @include breakpoint(desktop) {
         height: 44rem;
         left: 70rem;
-      }  
-      @include breakpoint (desktop--Large) {
+      }
+      @include breakpoint(desktop--Large) {
         left: 68rem;
       }
-      
-      
     }
 
     &_stars-mobile {
@@ -286,18 +277,17 @@
 
     &_sun {
       position: absolute;
-      height: 30rem;
+      height: 35rem;
       top: 7rem;
-      left: 95rem;
+      left: 90rem;
 
       @include breakpoint(desktop--Small) {
-        left: 78rem;
+        left: 77rem;
         height: 43rem;
       }
       @include breakpoint(ipad--Landscape) {
         left: 57rem;
         height: 40rem;
-        
       }
 
       @include breakpoint(tablet) {
@@ -318,7 +308,6 @@
       @include breakpoint(mobile--Small) {
         left: 4.2rem;
         top: 11rem;
-       
       }
       @include breakpoint(mobile--Smallest) {
         width: 23rem;
@@ -330,11 +319,9 @@
         left: 81rem;
       }
 
-      @include breakpoint (desktop--Large) {
+      @include breakpoint(desktop--Large) {
         left: 78rem;
       }
-      
-      
     }
   }
 }
@@ -346,27 +333,26 @@
   -ms-flex-pack: distribute;
   justify-content: space-around;
   color: $color-blue;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-  
+  margin-top: 1rem;
+  margin-bottom: 1.2rem;
 
   @include breakpoint(desktop--Small) {
-   
-  margin-bottom: 27.5rem;
+    margin-top: 3rem;
+    margin-bottom: 28.7rem;
   }
-  @include breakpoint (ipad--Landscape) {
+  @include breakpoint(ipad--Landscape) {
     margin-bottom: 64rem;
   }
-  @include breakpoint (tablet) {
+  @include breakpoint(tablet) {
     margin-top: 19.9rem;
     margin-bottom: 3rem;
-  }  
+  }
 
-  @include breakpoint (ipad) {
+  @include breakpoint(ipad) {
     margin-top: 1rem;
     margin-bottom: 1rem;
   }
- 
+
   @include breakpoint(mobile) {
     display: none;
   }
@@ -375,16 +361,14 @@
     margin-bottom: 3rem;
   }
 
-  @include breakpoint (desktop--Large) {
-    margin-top: .6rem;
+  @include breakpoint(desktop--Large) {
+    margin-top: 0.6rem;
     margin-bottom: 1rem;
   }
 
-  @include breakpoint (desktop--Biggest) {
+  @include breakpoint(desktop--Biggest) {
     margin-bottom: 1.3rem;
   }
-  
-  
 
   &_copy {
     font-family: $font-tr-rg;
@@ -404,7 +388,6 @@
     @include breakpoint(desktop) {
       margin-left: 0;
     }
-    
   }
 
   &_followus {
@@ -413,50 +396,44 @@
     font-size: 1.5rem;
     margin-right: -24rem;
 
-    @include breakpoint(desktop--Small) {
-      margin-right: -20rem;
+    
+    @include breakpoint(ipad--Landscape) {
+      margin-right: -15rem;
     }
-    @include breakpoint (ipad--Landscape) {
-      margin-right: -10rem;
-    }
-    @include breakpoint (tablet) {
+    @include breakpoint(tablet) {
       display: none;
     }
     @include breakpoint(desktop) {
-      margin-right: -25rem;
+      margin-right: -22rem;
     }
+
     
   }
 
   &_img {
-   
+    z-index: 222;
     margin-top: -0.5rem;
 
     img {
-      width: 2.7rem;
-      height: 2.7rem;
-      padding-left: 1rem;
+      width: 2.5rem;
+      margin-left: 1rem;
     }
   }
- 
 }
 
 .socials-mobile {
   display: none;
- 
 
   @include breakpoint(mobile) {
     display: block;
     margin-top: 3rem;
     margin-bottom: 11rem;
-    margin-left: 8rem; 
+    margin-left: 8rem;
   }
 
   @include breakpoint(mobile--Small) {
-   
     margin-bottom: 10.8rem;
     margin-left: 7.1rem;
-    
   }
   @include breakpoint(mobile--Smallest) {
     margin-top: 4rem;
