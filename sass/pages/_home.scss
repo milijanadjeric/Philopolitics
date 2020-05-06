@@ -65,14 +65,14 @@
       linear,
       left top,
       left bottom,
-      color-stop(10%, #322b6c),
-      color-stop(70%, #131c6d),
+      color-stop(20%, #322b6c),
+      color-stop(75%, #131c6d),
       to(#b1bff9)
     );
     background-image: linear-gradient(
       to bottom,
-      #322b6c 10%,
-      #131c6d 70%,
+      #322b6c 20%,
+      #131c6d 75%,
       #b1bff9 100%
     );
     background-size: cover;
@@ -131,7 +131,7 @@
     flex-direction: column;
 
     @include breakpoint(tablet) {
-      margin-top: 3rem;
+      margin-top: 5rem;
     }
     @include breakpoint(mobile) {
       margin-top: 5rem;
@@ -237,8 +237,8 @@
       }
 
       @include breakpoint(tablet) {
-        height: 44rem;
-        top: 32rem;
+        height: 46rem;
+        top: 36rem;
         left: 8rem;
       }
       @include breakpoint(ipad) {
@@ -291,8 +291,8 @@
       }
 
       @include breakpoint(tablet) {
-        height: 43rem;
-        top: 32rem;
+        height: 45rem;
+        top: 36rem;
         left: 17.5rem;
       }
       @include breakpoint(ipad) {
@@ -341,10 +341,10 @@
     margin-bottom: 28.7rem;
   }
   @include breakpoint(ipad--Landscape) {
-    margin-bottom: 64rem;
+    margin-bottom: 65.2rem;
   }
   @include breakpoint(tablet) {
-    margin-top: 19.9rem;
+    margin-top: 12.2rem;
     margin-bottom: 3rem;
   }
 

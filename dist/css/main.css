@@ -893,7 +893,7 @@ input[type="text"]:focus {
 
 @media (max-width: 800px) {
   .projects {
-    margin-top: 58rem;
+    margin-top: 66rem;
   }
 }
 
@@ -952,14 +952,14 @@ input[type="text"]:focus {
 @media (max-width: 1024px) {
   .autoplay .slick-list {
     padding-right: 15rem;
-    padding-left: 2.5rem;
+    padding-left: 4rem;
   }
 }
 
 @media (max-width: 800px) {
   .autoplay .slick-list {
     padding-right: 25rem;
-    padding-left: 7.5rem;
+    padding-left: 8.5rem;
   }
 }
 
@@ -4239,8 +4239,8 @@ input[type="submit"]:hover {
 
 @media (max-width: 800px) {
   .gradient-effect-1 {
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(10%, #322b6c), color-stop(70%, #131c6d), to(#b1bff9));
-    background-image: linear-gradient(to bottom, #322b6c 10%, #131c6d 70%, #b1bff9 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(20%, #322b6c), color-stop(75%, #131c6d), to(#b1bff9));
+    background-image: linear-gradient(to bottom, #322b6c 20%, #131c6d 75%, #b1bff9 100%);
     background-size: cover;
     background-repeat: no-repeat;
   }
@@ -4278,7 +4278,7 @@ input[type="submit"]:hover {
 
 @media (max-width: 800px) {
   .hero_text {
-    margin-top: 3rem;
+    margin-top: 5rem;
   }
 }
 
@@ -4433,8 +4433,8 @@ input[type="submit"]:hover {
 
 @media (max-width: 800px) {
   .hero_img_stars {
-    height: 44rem;
-    top: 32rem;
+    height: 46rem;
+    top: 36rem;
     left: 8rem;
   }
 }
@@ -4512,8 +4512,8 @@ input[type="submit"]:hover {
 
 @media (max-width: 800px) {
   .hero_img_sun {
-    height: 43rem;
-    top: 32rem;
+    height: 45rem;
+    top: 36rem;
     left: 17.5rem;
   }
 }
@@ -4580,13 +4580,13 @@ input[type="submit"]:hover {
 
 @media (max-width: 1024px) {
   .socials {
-    margin-bottom: 64rem;
+    margin-bottom: 65.2rem;
   }
 }
 
 @media (max-width: 800px) {
   .socials {
-    margin-top: 19.9rem;
+    margin-top: 12.2rem;
     margin-bottom: 3rem;
   }
 }
