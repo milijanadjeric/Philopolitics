@@ -965,14 +965,14 @@ input[type="text"]:focus {
 
 @media (max-width: 768px) {
   .autoplay .slick-list {
-    padding-left: 6rem;
+    padding-left: 7rem;
   }
 }
 
 @media (max-width: 375px) {
   .autoplay .slick-list {
     padding-right: 0;
-    padding-left: 2.7rem;
+    padding-left: 3rem;
     margin-left: 0;
   }
 }
@@ -4484,8 +4484,7 @@ input[type="submit"]:hover {
 @media (max-width: 320px) {
   .hero_img_stars-mobile {
     width: 26rem;
-    margin-top: 2.2rem;
-    margin-bottom: 1.5rem;
+    margin-top: 3rem;
   }
 }
 
@@ -4526,7 +4525,7 @@ input[type="submit"]:hover {
 
 @media (max-width: 375px) {
   .hero_img_sun {
-    width: 28rem;
+    width: 29rem;
     left: 4.8rem;
     top: 12rem;
   }
@@ -4542,7 +4541,7 @@ input[type="submit"]:hover {
 @media (max-width: 320px) {
   .hero_img_sun {
     width: 23rem;
-    top: 5.5rem;
+    top: 5.2rem;
     left: 6.7rem;
   }
 }
@@ -4593,8 +4592,7 @@ input[type="submit"]:hover {
 
 @media (max-width: 768px) {
   .socials {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-top: 15.1rem;
   }
 }
 
@@ -4706,7 +4704,6 @@ input[type="submit"]:hover {
 
 @media (max-width: 320px) {
   .socials-mobile {
-    margin-top: 4rem;
     margin-bottom: 3rem;
     margin-left: 7.9rem;
   }
