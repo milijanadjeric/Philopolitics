@@ -4696,7 +4696,7 @@ input[type="submit"]:hover {
     display: block;
     margin-top: 3rem;
     margin-bottom: 11rem;
-    text-align: center;
+    margin-left: 8rem;
   }
 }
 
