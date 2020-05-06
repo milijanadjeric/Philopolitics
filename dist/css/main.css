@@ -4256,6 +4256,15 @@ input[type="submit"]:hover {
   }
 }
 
+@media (min-width: 1536px) {
+  .gradient-effect-1 {
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(30%, #322b6c), color-stop(80%, #131c6d), to(#b1bff9));
+    background-image: linear-gradient(to bottom, #322b6c 30%, #131c6d 80%, #b1bff9 100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+
 .hero_text {
   margin-top: 10rem;
   display: -webkit-box;
@@ -4643,7 +4652,7 @@ input[type="submit"]:hover {
   text-transform: uppercase;
   font-family: "TruenoBold";
   font-size: 1.5rem;
-  margin-right: -24rem;
+  margin-right: -22rem;
 }
 
 @media (max-width: 1280px) {

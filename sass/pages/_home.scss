@@ -98,6 +98,25 @@
     background-size: cover;
     background-repeat: no-repeat;
   }
+
+  @include breakpoint (desktop--Large) {
+    background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(30%, #322b6c),
+    color-stop(80%, #131c6d),
+    to(#b1bff9)
+  );
+  background-image: linear-gradient(
+    to bottom,
+    #322b6c 30%,
+    #131c6d 80%,
+    #b1bff9 100%
+  );
+  background-size: cover;
+  background-repeat: no-repeat;
+  }
 }
 
 .hero {
@@ -392,7 +411,7 @@
     text-transform: uppercase;
     font-family: $font-tr-bd;
     font-size: 1.5rem;
-    margin-right: -24rem;
+    margin-right: -22rem;
 
     @include breakpoint(desktop--Small) {
       margin-right: -20rem;
