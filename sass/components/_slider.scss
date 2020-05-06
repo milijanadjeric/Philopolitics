@@ -20,10 +20,10 @@
     margin-top: 2.7rem;
   }
   @include breakpoint(desktop) {
-    margin-top: 21rem;
+    margin-top: 22rem;
   }
   @include breakpoint(desktop--Large) {
-    margin-top: 17.6rem;
+    margin-top: 18.5rem;
   }
   @include breakpoint (desktop--Big) {
     margin-top: 17.8rem;
@@ -71,10 +71,11 @@
   }
   @include breakpoint (desktop) {
     padding-right: 25rem;
-    padding-left: 9rem;
+    padding-left: 10.5rem;
   }
   @include breakpoint(desktop--Large) {
-    padding-left: 8rem;
+    
+    padding-left: 9.5rem;
   }
   
 

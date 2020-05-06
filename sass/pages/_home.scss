@@ -249,10 +249,11 @@
         display: none;
       }
       @include breakpoint(desktop) {
-        height: 44rem;
-        left: 70rem;
+        height: 46rem;
+        left: 68rem;
       }
       @include breakpoint(desktop--Large) {
+        height: 43rem;
         left: 68rem;
       }
     }
@@ -315,12 +316,13 @@
         left: 6.7rem;
       }
       @include breakpoint(desktop) {
-        height: 43rem;
-        left: 81rem;
+        height: 45rem;
+        left: 80rem;
       }
 
       @include breakpoint(desktop--Large) {
-        left: 78rem;
+        height: 42rem;
+        left: 79rem;
       }
     }
   }
@@ -357,12 +359,12 @@
     display: none;
   }
   @include breakpoint(desktop) {
-    margin-top: 5rem;
-    margin-bottom: 3rem;
+    margin-top: 6rem;
+    margin-bottom: 3.2rem;
   }
 
   @include breakpoint(desktop--Large) {
-    margin-top: 0.6rem;
+    margin-top: 1.9rem;
     margin-bottom: 1rem;
   }
 
