@@ -4249,8 +4249,8 @@ input[type="submit"]:hover {
 @media (max-width: 375px) {
   .gradient-effect-1 {
     height: 100%;
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(10%, #322b6c), color-stop(70%, #131c6d), to(#b1bff9));
-    background-image: linear-gradient(to bottom, #322b6c 10%, #131c6d 70%, #b1bff9 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(30%, #322b6c), color-stop(60%, #131c6d), to(#b1bff9));
+    background-image: linear-gradient(to bottom, #322b6c 30%, #131c6d 60%, #b1bff9 100%);
     background-size: cover;
     background-repeat: no-repeat;
   }
@@ -4683,14 +4683,8 @@ input[type="submit"]:hover {
   margin-top: -0.5rem;
 }
 
-.socials a {
-  padding-left: 0.5rem;
-}
-
-@media (max-width: 375px) {
-  .socials a {
-    padding-left: 2rem;
-  }
+.socials_img a {
+  padding-left: .5rem;
 }
 
 .socials-mobile {
@@ -4720,7 +4714,7 @@ input[type="submit"]:hover {
 }
 
 .socials-mobile a {
-  padding-left: 1.5rem;
+  padding-left: 2rem;
 }
 
 @media (max-width: 320px) {

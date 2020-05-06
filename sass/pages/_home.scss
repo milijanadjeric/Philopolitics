@@ -85,14 +85,14 @@
       linear,
       left top,
       left bottom,
-      color-stop(10%, #322b6c),
-      color-stop(70%, #131c6d),
+      color-stop(30%, #322b6c),
+      color-stop(60%, #131c6d),
       to(#b1bff9)
     );
     background-image: linear-gradient(
       to bottom,
-      #322b6c 10%,
-      #131c6d 70%,
+      #322b6c 30%,
+      #131c6d 60%,
       #b1bff9 100%
     );
     background-size: cover;
@@ -430,15 +430,13 @@
 
   &_img {
     margin-top: -0.5rem;
-  }
 
-  a {
-    padding-left: 0.5rem;
-
-    @include breakpoint(mobile) {
-      padding-left: 2rem;
+    a {
+      padding-left: .5rem;
+  
     }
   }
+ 
 }
 
 .socials-mobile {
@@ -450,6 +448,7 @@
     margin-top: 3rem;
     margin-bottom: 11rem;
     text-align: center;
+    
   }
 
   @include breakpoint(mobile--Small) {
@@ -461,8 +460,10 @@
     margin-top: 4rem;
     margin-bottom: 3rem;
   }
+
   a {
-    padding-left: 1.5rem;
+    padding-left: 2rem;
+
     @include breakpoint(mobile--Smallest) {
       padding-left: 1rem;
     }
