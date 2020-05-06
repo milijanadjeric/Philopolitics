@@ -352,14 +352,14 @@
 
   @include breakpoint(desktop--Small) {
    
-  margin-bottom: 28rem;
+  margin-bottom: 27.5rem;
   }
   @include breakpoint (ipad--Landscape) {
     margin-bottom: 64rem;
   }
   @include breakpoint (tablet) {
     margin-top: 19.9rem;
-    margin-bottom: 3.5rem;
+    margin-bottom: 3rem;
   }  
 
   @include breakpoint (ipad) {
@@ -411,7 +411,7 @@
     text-transform: uppercase;
     font-family: $font-tr-bd;
     font-size: 1.5rem;
-    margin-right: -22rem;
+    margin-right: -24rem;
 
     @include breakpoint(desktop--Small) {
       margin-right: -20rem;
@@ -423,17 +423,19 @@
       display: none;
     }
     @include breakpoint(desktop) {
-      margin-right: -20rem;
+      margin-right: -25rem;
     }
     
   }
 
   &_img {
+   
     margin-top: -0.5rem;
 
-    a {
-      padding-left: .5rem;
-  
+    img {
+      width: 2.7rem;
+      height: 2.7rem;
+      padding-left: 1rem;
     }
   }
  
