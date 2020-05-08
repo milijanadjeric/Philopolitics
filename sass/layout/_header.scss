@@ -279,11 +279,11 @@ input[type="text"] {
   }
 
   @include breakpoint(desktop--Large) {
-    width: 1rem;
+    width: .9rem;
     height: 1.1rem; 
   }
   @include breakpoint(desktop--Big) {
-    width: .8rem;
+    
     height: 1.1rem;
   }
   @include breakpoint(desktop--Biggest) {

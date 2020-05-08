@@ -410,14 +410,13 @@ input[type="text"] {
 
 @media (min-width: 1536px) {
   input[type="text"] {
-    width: 1rem;
+    width: .9rem;
     height: 1.1rem;
   }
 }
 
 @media (min-width: 1600px) {
   input[type="text"] {
-    width: .8rem;
     height: 1.1rem;
   }
 }
