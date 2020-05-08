@@ -508,6 +508,12 @@ input[type="text"]:focus {
   }
 }
 
+@media (min-width: 1536px) {
+  .search-box_form button {
+    margin-top: .3rem;
+  }
+}
+
 @media (min-width: 1920px) {
   .search-box_form button {
     margin-left: -1.7rem;
