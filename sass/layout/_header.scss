@@ -262,36 +262,28 @@ header {
 
 //  -----SEARCH BOX -----//
 input[type="text"] {
-  width: 4rem;
-  height: 2.3rem;
-  border: 1px solid $color-white;
+  width: 1.3rem;
+  border: none;
+  background-color: transparent;
+  background-color: $color-footer-text;
   color: $color-white;
   font-family: $font-rb;
-  border-radius: 1.3rem;
   font-size: 1.1rem;
-  background-color: transparent;
-  transition: width 0.4s ease-in-out;
-  -webkit-transition: width 0.4s ease-in-out;
-  -moz-transition: width 0.4s ease-in-out;
-  -o-transition: width 0.4s ease-in-out;
-
-  @include breakpoint(ipad--Landscape) {
-    font-size: 1.3rem;
-  }
+  margin-top: .4rem;
+  margin-right: .5rem;
+  margin-left: .4rem;
+  margin-bottom: .4rem;
 
   @include breakpoint(mobile) {
     border: none;
   }
-  @include breakpoint(desktop) {
-    width: 3.8rem;
-    height: 2.15rem;
-  }
 
   @include breakpoint(desktop--Large) {
-    width: 3.5rem;
-    height: 2rem;
-    font-size: 1.2rem;
-    border-radius: 1.2rem;
+    width: 1rem;
+    height: 1.1rem;
+  
+    
+    
   }
   @include breakpoint(desktop--Big) {
     width: 3.33rem;
@@ -306,7 +298,7 @@ input[type="text"] {
 /* When the input field gets focus, change its width to 100px */
 
 input[type="text"]:focus {
-  width: 12rem;
+  width: 8rem;
 
   @include breakpoint(mobile) {
     display: none;
@@ -316,30 +308,38 @@ input[type="text"]:focus {
 .search-box {
   z-index: 222;
   margin-top: 2.9rem;
-  margin-right: -18rem;
+  margin-right: -20rem;
+  border: 1px solid $color-white;
+  border-radius: 1.3rem;
+  height: max-content;
+  
 
   @include breakpoint(desktop--Small) {
-    margin-right: -15rem;
+    margin-right: -17rem;
   }
   @include breakpoint(ipad--Landscape) {
-    margin-right: -6rem;
+    margin-right: -7rem;
   }
   @include breakpoint(tablet) {
     margin-top: 2.8rem;
-    margin-right: -1rem;
+    margin-right: -2.5rem;
   }
   @include breakpoint(ipad) {
-    margin-right: -0.3rem;
+    margin-right: -1.5rem;
   }
 
   @include breakpoint(mobile) {
     display: none;
   }
 
-  @include breakpoint(desktop--Large) {
-    margin-top: 3rem;
-    margin-right: -17rem;
+  @include breakpoint (desktop) {
+    margin-right: -19rem;
   }
+  @include breakpoint (desktop--Large) {
+    border-radius: 1.1rem;
+  }
+
+  
   @include breakpoint(desktop--Big) {
     margin-right: -17.5rem;
   }
@@ -350,13 +350,15 @@ input[type="text"]:focus {
   &_form button {
     border: none;
     background: $color-footer-text;
-    margin-left: -2.5rem;
+    float: left;
+    margin-left: .8rem;
+    margin-top: .2rem;
 
     @include breakpoint(desktop) {
-      margin-left: -2.4rem;
+      margin-top: .4rem;
     }
     @include breakpoint(desktop--Large) {
-      margin-left: -2.2rem;
+      
     }
     @include breakpoint(desktop--Big) {
       margin-left: -2rem;
@@ -387,6 +389,7 @@ input[type="text"]:focus {
       margin-bottom: 0;
     }
   }
+
 }
 
 /*  MOBILE SEARCH BOX */
@@ -584,7 +587,9 @@ button.subnavbtn.mrg-right:hover {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     position: absolute;
     bottom: 3rem;
     width: 100%;
