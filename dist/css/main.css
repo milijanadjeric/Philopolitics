@@ -597,7 +597,7 @@ input[type="text"]:focus {
 /*  MOBILE NAVIGATION */
 .mobile-nav {
   width: 200px;
-  height: 100vh;
+  height: 100%;
   position: absolute;
   right: 0;
   float: right;

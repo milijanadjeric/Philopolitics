@@ -287,6 +287,7 @@ input[type="text"] {
 input[type="text"]:focus {
   width: 8rem;
   
+  
 
   @include breakpoint(mobile) {
     display: none;
@@ -454,7 +455,7 @@ input[type="text"]:focus {
 
 .mobile-nav {
   width: 200px;
-  height: 100vh;
+  height: 100%;
   position: absolute;
   right: 0;
   float: right;
