@@ -107,7 +107,11 @@ input[type="submit"]:hover {
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;
     
-  margin: 12rem auto;
+  margin: 10rem auto;
+  }
+
+  @include breakpoint (ipad) {
+    margin: 2.5rem auto;
   }
 
   @include breakpoint (mobile) {

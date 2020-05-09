@@ -8,6 +8,10 @@
   @include breakpoint (tablet) {
     margin-top: 66rem;
   }
+
+  @include breakpoint (ipad) {
+    margin-top: 55rem;
+  }
   @include breakpoint (mobile) {
     margin-top: 4.5rem;
   }

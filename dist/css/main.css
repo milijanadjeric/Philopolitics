@@ -832,6 +832,12 @@ input[type="text"]:focus {
   }
 }
 
+@media (max-width: 768px) {
+  .projects {
+    margin-top: 55rem;
+  }
+}
+
 @media (max-width: 375px) {
   .projects {
     margin-top: 4.5rem;
@@ -3908,7 +3914,13 @@ input[type="submit"]:hover {
     -webkit-box-direction: reverse;
     -ms-flex-direction: column-reverse;
     flex-direction: column-reverse;
-    margin: 12rem auto;
+    margin: 10rem auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact {
+    margin: 2.5rem auto;
   }
 }
 
@@ -4152,6 +4164,7 @@ input[type="submit"]:hover {
 }
 
 .gradient-effect-1 {
+  height: 100vh;
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(20%, #322b6c), color-stop(75%, #131c6d), to(#b1bff9));
   background-image: linear-gradient(to bottom, #322b6c 20%, #131c6d 75%, #b1bff9 100%);
   background-size: cover;
@@ -4382,6 +4395,7 @@ input[type="submit"]:hover {
 
 @media (max-width: 768px) {
   .hero_img_stars {
+    top: 30rem;
     left: 6.5rem;
   }
 }
@@ -4466,6 +4480,7 @@ input[type="submit"]:hover {
 
 @media (max-width: 768px) {
   .hero_img_sun {
+    top: 30rem;
     left: 16rem;
   }
 }
@@ -4546,7 +4561,8 @@ input[type="submit"]:hover {
 
 @media (max-width: 768px) {
   .socials {
-    margin-top: 15.1rem;
+    margin-top: 4rem;
+    margin-bottom: 1.5rem;
   }
 }
 
