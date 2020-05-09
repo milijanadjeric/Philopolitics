@@ -2715,8 +2715,14 @@ input[type="text"]:focus {
   }
 }
 
+@media (min-width: 1920px) {
+  .Aleksandar_bio {
+    padding: 5rem 20rem 5rem 29rem;
+  }
+}
+
 .Aleksandar_bio img {
-  height: 15rem;
+  width: 15rem;
   -ms-flex-item-align: start;
   align-self: flex-start;
 }
