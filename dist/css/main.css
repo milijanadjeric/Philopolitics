@@ -410,6 +410,7 @@ input[type="text"] {
 /* When the input field gets focus, change its width to 100px */
 input[type="text"]:focus {
   width: 8rem;
+  outline: none;
 }
 
 @media (max-width: 375px) {
@@ -2668,7 +2669,7 @@ input[type="text"]:focus {
   display: -ms-flexbox;
   display: flex;
   background-color: #322b6c;
-  padding: 5rem 25rem 1rem 26rem;
+  padding: 5rem 25rem 1rem 24rem;
 }
 
 @media (max-width: 1280px) {
@@ -2715,6 +2716,7 @@ input[type="text"]:focus {
 }
 
 .Aleksandar_bio img {
+  height: 15rem;
   -ms-flex-item-align: start;
   align-self: flex-start;
 }
@@ -2745,7 +2747,7 @@ input[type="text"]:focus {
   font-family: "Roboto";
   font-size: 1.8rem;
   color: #FFFFFF;
-  padding-left: 5rem;
+  padding-left: 7rem;
   padding-right: 8rem;
   padding-bottom: 1rem;
   text-align: justify;
