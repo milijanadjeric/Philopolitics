@@ -4443,7 +4443,8 @@ input[type="submit"]:hover {
 @media (max-width: 375px) {
   .hero_img_stars-mobile {
     display: block;
-    margin: 2.5rem auto;
+    margin-top: 2.5rem;
+    margin-left: 3rem;
   }
 }
 

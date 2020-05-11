@@ -33,7 +33,6 @@ html {
   font-size: 62.5%; /*  1rem = 10px   10/16px= 62.5%   */
   scroll-behavior: smooth;
   
-  
 
   @include breakpoint(mobile--Smallest) {
     font-size: 55%; /* 1rem = 8.75   8.75/16px=  55% */
