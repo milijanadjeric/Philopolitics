@@ -35,6 +35,12 @@ html {
   scroll-behavior: smooth;
 }
 
+@media (max-width: 375px) {
+  html {
+    height: 100vh;
+  }
+}
+
 @media (max-width: 320px) {
   html {
     font-size: 55%;
@@ -843,7 +849,7 @@ input[type="text"]:focus {
 
 @media (max-width: 375px) {
   .projects {
-    margin-top: 4.5rem;
+    margin-top: 3.5rem;
   }
 }
 
@@ -4248,7 +4254,7 @@ input[type="submit"]:hover {
 
 @media (max-width: 375px) {
   .hero_text {
-    margin-top: 5rem;
+    margin-top: 3rem;
   }
 }
 
@@ -4498,8 +4504,8 @@ input[type="submit"]:hover {
 @media (max-width: 375px) {
   .hero_img_sun {
     width: 29rem;
-    left: 4.6rem;
-    top: 10rem;
+    left: 4.3rem;
+    top: 7.7rem;
   }
 }
 
@@ -4676,8 +4682,7 @@ input[type="submit"]:hover {
 @media (max-width: 375px) {
   .socials-mobile {
     display: block;
-    margin-top: 3rem;
-    margin-bottom: 12rem;
+    margin-top: 1rem;
     margin-left: 8rem;
   }
 }
