@@ -847,12 +847,6 @@ input[type="text"]:focus {
   }
 }
 
-@media (max-width: 360px) {
-  .projects {
-    margin-top: 4.5rem;
-  }
-}
-
 @media (max-width: 320px) {
   .projects {
     margin-top: 2.7rem;
@@ -4448,12 +4442,6 @@ input[type="submit"]:hover {
   }
 }
 
-@media (max-width: 360px) {
-  .hero_img_stars-mobile {
-    margin: 3rem auto;
-  }
-}
-
 @media (max-width: 320px) {
   .hero_img_stars-mobile {
     width: 26rem;
@@ -4506,8 +4494,7 @@ input[type="submit"]:hover {
 
 @media (max-width: 360px) {
   .hero_img_sun {
-    left: 4.2rem;
-    top: 10rem;
+    left: 3.8rem;
   }
 }
 
@@ -4684,7 +4671,7 @@ input[type="submit"]:hover {
 
 @media (max-width: 360px) {
   .socials-mobile {
-    margin-bottom: 10.8rem;
+    margin-top: 0;
     margin-left: 7.1rem;
   }
 }
