@@ -81,19 +81,19 @@
   }
 
   @include breakpoint(mobile) {
-    height: 100vh;
+    height: 100%;
     background-image: -webkit-gradient(
       linear,
       left top,
       left bottom,
       color-stop(30%, #322b6c),
-      color-stop(55%, #131c6d),
+      color-stop(60%, #131c6d),
       to(#b1bff9)
     );
     background-image: linear-gradient(
       to bottom,
       #322b6c 30%,
-      #131c6d 55%,
+      #131c6d 60%,
       #b1bff9 100%
     );
     background-size: cover;
@@ -135,7 +135,7 @@
       margin-top: 5rem;
     }
     @include breakpoint(mobile) {
-      margin-top: 3rem;
+      margin-top: 5rem;
     }
     @include breakpoint(mobile--Smallest) {
       margin-top: 3rem;
@@ -268,7 +268,7 @@
 
       @include breakpoint(mobile) {
         display: block;
-        margin: 3rem auto;
+        margin: 2.5rem auto;
       }
       @include breakpoint(mobile--Small) {
         margin: 3rem auto;
@@ -308,8 +308,8 @@
 
       @include breakpoint(mobile) {
         width: 29rem;
-        left: 4.8rem;
-        top: 8rem;
+        left: 4.6rem;
+        top: 10rem;
       }
 
       @include breakpoint(mobile--Small) {
@@ -443,7 +443,8 @@
 
   @include breakpoint(mobile) {
     display: block;
-    padding-top: 2rem;    
+    margin-top: 3rem;
+    margin-bottom: 12rem;
     margin-left: 8rem;
   }
 
