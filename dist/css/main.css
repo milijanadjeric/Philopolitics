@@ -847,6 +847,12 @@ input[type="text"]:focus {
   }
 }
 
+@media (max-width: 360px) {
+  .projects {
+    margin-top: 3rem;
+  }
+}
+
 @media (max-width: 320px) {
   .projects {
     margin-top: 2.7rem;
@@ -4679,7 +4685,7 @@ input[type="submit"]:hover {
 @media (max-width: 360px) {
   .socials-mobile {
     margin-left: 7.1rem;
-    margin-top: 2rem;
+    margin-top: 1rem;
   }
 }
 
