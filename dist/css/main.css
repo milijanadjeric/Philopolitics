@@ -4246,6 +4246,12 @@ input[type="submit"]:hover {
   }
 }
 
+@media (max-width: 360px) {
+  .hero_text {
+    margin-top: 1rem;
+  }
+}
+
 @media (max-width: 320px) {
   .hero_text {
     margin-top: 3rem;
@@ -4494,6 +4500,7 @@ input[type="submit"]:hover {
 
 @media (max-width: 360px) {
   .hero_img_sun {
+    top: 6rem;
     left: 3.8rem;
   }
 }
@@ -4671,8 +4678,9 @@ input[type="submit"]:hover {
 
 @media (max-width: 360px) {
   .socials-mobile {
-    margin-top: 0;
     margin-left: 7.1rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
   }
 }
 

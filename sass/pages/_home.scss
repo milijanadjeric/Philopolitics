@@ -137,6 +137,9 @@
     @include breakpoint(mobile) {
       margin-top: 3rem;
     }
+    @include breakpoint (mobile--Small) {
+      margin-top: 1rem;
+    }
     @include breakpoint(mobile--Smallest) {
       margin-top: 3rem;
     }
@@ -312,6 +315,7 @@
       }
 
       @include breakpoint(mobile--Small) {
+        top: 6rem;
         left: 3.8rem;
         
       }
@@ -447,8 +451,9 @@
   }
 
   @include breakpoint(mobile--Small) {
-    margin-top: 0;
     margin-left: 7.1rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
   }
   @include breakpoint(mobile--Smallest) {
     
