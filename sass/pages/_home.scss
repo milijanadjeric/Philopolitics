@@ -140,9 +140,11 @@
     @include breakpoint (mobile--Small) {
       margin-top: 1rem;
     }
-    @include breakpoint(mobile--Smallest) {
-      margin-top: 3rem;
+
+    @include breakpoint (mobile--Smallest) {
+      margin-top: 0;
     }
+    
     @include breakpoint(desktop) {
       margin-top: 15rem;
     }
@@ -277,7 +279,10 @@
      
 
       @include breakpoint(mobile--Smallest) {
-        width: 26rem;
+        width: 27rem;
+      margin-top: 2rem;
+       margin-left: 3.9rem;
+        
         
         
       }
@@ -320,10 +325,12 @@
         
       }
       @include breakpoint(mobile--Smallest) {
-        width: 23rem;
-        top: 5.2rem;
-        left: 6.7rem;
+        width: 26rem;
+        top: 2rem;
+        left: 5rem;
+        
       }
+
       @include breakpoint(desktop) {
         height: 45rem;
         left: 80rem;
@@ -456,9 +463,15 @@
     
   }
   @include breakpoint(mobile--Smallest) {
-    
-    margin-bottom: 3rem;
-    margin-left: 7.9rem;
+    margin-top: .5rem;
+    margin-left: 9.7rem;
+  }
+
+  img {
+
+    @include breakpoint (mobile--Smallest) {
+      width: 2.2rem;
+    }
   }
 
   a {

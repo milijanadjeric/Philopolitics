@@ -855,7 +855,7 @@ input[type="text"]:focus {
 
 @media (max-width: 320px) {
   .projects {
-    margin-top: 2.7rem;
+    margin-top: 3rem;
   }
 }
 
@@ -959,6 +959,12 @@ input[type="text"]:focus {
   }
 }
 
+@media (max-width: 320px) {
+  .slidebox_content {
+    height: 12rem;
+  }
+}
+
 .slidebox_circle {
   width: 8rem;
   height: 8rem;
@@ -999,6 +1005,8 @@ input[type="text"]:focus {
   .slidebox_card {
     width: 26rem;
     height: 11rem;
+    -webkit-box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.25);
+            box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.25);
   }
 }
 
@@ -4260,7 +4268,7 @@ input[type="submit"]:hover {
 
 @media (max-width: 320px) {
   .hero_text {
-    margin-top: 3rem;
+    margin-top: 0;
   }
 }
 
@@ -4456,7 +4464,9 @@ input[type="submit"]:hover {
 
 @media (max-width: 320px) {
   .hero_img_stars-mobile {
-    width: 26rem;
+    width: 27rem;
+    margin-top: 2rem;
+    margin-left: 3.9rem;
   }
 }
 
@@ -4513,9 +4523,9 @@ input[type="submit"]:hover {
 
 @media (max-width: 320px) {
   .hero_img_sun {
-    width: 23rem;
-    top: 5.2rem;
-    left: 6.7rem;
+    width: 26rem;
+    top: 2rem;
+    left: 5rem;
   }
 }
 
@@ -4691,8 +4701,14 @@ input[type="submit"]:hover {
 
 @media (max-width: 320px) {
   .socials-mobile {
-    margin-bottom: 3rem;
-    margin-left: 7.9rem;
+    margin-top: .5rem;
+    margin-left: 9.7rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .socials-mobile img {
+    width: 2.2rem;
   }
 }
 
