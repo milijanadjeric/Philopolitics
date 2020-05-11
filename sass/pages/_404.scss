@@ -39,7 +39,7 @@
   }
 
   @include breakpoint(mobile) {
-    height: 100%;
+    height: 100vh;
     background-image: -webkit-gradient(
       linear,
       left top,
@@ -83,17 +83,14 @@
   
   @include breakpoint(mobile) {
     display: block;
-    margin-top: 8rem;
-    margin-bottom: 19.5rem;
+    margin-top: 5rem;
+    margin-bottom: 0;
+    
   
   }
 
-  @include breakpoint (mobile--Small) {
-    margin-bottom: 18.2rem;
-  }
-  @include breakpoint (mobile--Smallest) {
-    margin-bottom: 9rem;
-  }
+ 
+  
 
 }
 
@@ -199,8 +196,12 @@
 
   @include breakpoint(mobile) {
     margin-top: 7rem;
-    width: 21rem;
-    margin-left: 8rem;
+    width: 25rem;
+    margin-left: 5.7rem;
+  }
+
+  @include breakpoint (mobile--Small) {
+    margin-top: 4rem;
   }
 
   @include breakpoint (mobile--Smallest) {

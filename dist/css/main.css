@@ -1325,7 +1325,7 @@ input[type="text"]:focus {
 
 @media (max-width: 375px) {
   .gradient-effect-4 {
-    height: 100%;
+    height: 100vh;
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(30%, #322b6c), color-stop(70%, #131c6d), to(#b1bff9));
     background-image: linear-gradient(to bottom, #322b6c 30%, #131c6d 70%, #b1bff9 100%);
     background-size: cover;
@@ -1364,20 +1364,8 @@ input[type="text"]:focus {
 @media (max-width: 375px) {
   .main {
     display: block;
-    margin-top: 8rem;
-    margin-bottom: 19.5rem;
-  }
-}
-
-@media (max-width: 360px) {
-  .main {
-    margin-bottom: 18.2rem;
-  }
-}
-
-@media (max-width: 320px) {
-  .main {
-    margin-bottom: 9rem;
+    margin-top: 5rem;
+    margin-bottom: 0;
   }
 }
 
@@ -1515,8 +1503,14 @@ input[type="text"]:focus {
 @media (max-width: 375px) {
   .astronaut {
     margin-top: 7rem;
-    width: 21rem;
-    margin-left: 8rem;
+    width: 25rem;
+    margin-left: 5.7rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .astronaut {
+    margin-top: 4rem;
   }
 }
 
