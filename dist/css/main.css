@@ -4685,7 +4685,7 @@ input[type="submit"]:hover {
 @media (max-width: 360px) {
   .socials-mobile {
     margin-left: 7.1rem;
-    margin-top: 1rem;
+    margin-top: 0;
   }
 }
 
