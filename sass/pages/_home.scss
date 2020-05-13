@@ -100,7 +100,8 @@
     background-repeat: no-repeat;
   }
 
-  @include breakpoint(desktop--Large) {
+  @include breakpoint(desktop) {
+    height: 100%;
     background-image: -webkit-gradient(
       linear,
       left top,

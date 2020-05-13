@@ -4226,8 +4226,9 @@ input[type="submit"]:hover {
   }
 }
 
-@media (min-width: 1536px) {
+@media (min-width: 1440px) {
   .gradient-effect-1 {
+    height: 100%;
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(30%, #322b6c), color-stop(80%, #131c6d), to(#b1bff9));
     background-image: linear-gradient(to bottom, #322b6c 30%, #131c6d 80%, #b1bff9 100%);
     background-size: cover;
