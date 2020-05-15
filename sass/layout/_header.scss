@@ -14,12 +14,9 @@ header {
     height: 6rem;
   }
 
-
   @include breakpoint(mobile) {
     height: 6rem;
   }
-
-  
 }
 
 //  -----LOG0 -----//
@@ -31,7 +28,7 @@ header {
     margin-left: 1rem;
   }
 
-  @include breakpoint (iPhone) {
+  @include breakpoint(iPhone) {
     margin-left: 0;
   }
   @include breakpoint(mobile) {
@@ -44,7 +41,6 @@ header {
   }
 
   &_picture {
-
     @include breakpoint(iPhone) {
       width: 2.7rem;
       height: 2.7rem;
@@ -128,15 +124,11 @@ header {
   @include breakpoint(iPhone) {
     display: none;
   }
- 
 
   @include breakpoint(mobile) {
     display: none;
   }
- 
 }
-
-
 
 /* The subnavigation menu */
 .subnav {
@@ -183,8 +175,6 @@ header {
   @include breakpoint(tablet) {
     font-size: 1rem;
   }
-
-  
 }
 
 /* Add a background color to navigation links on hover */
@@ -209,16 +199,19 @@ header {
   border-bottom-right-radius: 0.7rem;
   font-family: $font-tr-rg;
 
+  @include breakpoint(iPhone) {
+    background-color: transparent;
+    margin-top: -7rem;
+  }
+
   @include breakpoint(mobile) {
     background-color: transparent;
     margin-top: -7rem;
   }
-  
+
   @include breakpoint(mobile--Smallest) {
     margin-top: -9rem;
   }
-  
-
 }
 
 /* Style the subnav links */
@@ -231,7 +224,6 @@ header {
   @include breakpoint(tablet) {
     margin-right: 0;
   }
-
 }
 
 /* When you move the mouse over the subnav container, open the subnav content */
@@ -247,18 +239,19 @@ header {
     margin-right: 1rem;
   }
 
-    @include breakpoint(mobile) {
-     margin-right: 2.8rem;
-      
-      
-    }
-  
+  @include breakpoint(iPhone) {
+    margin-right: 4.5rem;
+    
+  }
+
+  @include breakpoint(mobile) {
+    margin-right: 2.8rem;
+  }
 
   &_border:hover {
     background-color: rgba(255, 255, 255, 0.6);
     border-radius: 0.7rem;
   }
-
 }
 
 //  -----LANGUAGES-----//
@@ -277,7 +270,6 @@ header {
   }
 
   img {
-
     @include breakpoint(iPhone) {
       display: none;
     }
@@ -286,7 +278,7 @@ header {
       display: none;
     }
 
-    @include breakpoint (desktop) {
+    @include breakpoint(desktop) {
       width: 3.8rem;
     }
   }
@@ -306,25 +298,21 @@ input[type="text"] {
   color: $color-white;
   font-family: $font-rb;
   font-size: 1.1rem;
-  margin-right: .3rem;
+  margin-right: 0.3rem;
   -webkit-transition: width 0.5s ease-in-out;
   transition: width 0.5s ease-in-out;
-  
-  
 
   @include breakpoint(desktop) {
-    width: 1.65rem; 
+    width: 1.65rem;
   }
-  
 }
 
 /* When the input field gets focus, change its width to 100px */
 
 input[type="text"]:focus {
   width: 8rem;
-  outline:none;
-  
-  
+  outline: none;
+
   @include breakpoint(iPhone) {
     display: none;
   }
@@ -345,13 +333,11 @@ input[type="text"]:focus {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
- 
- 
+  -ms-flex-align: center;
+  align-items: center;
 
   @include breakpoint(desktop--Small) {
     margin-right: -17rem;
@@ -375,13 +361,12 @@ input[type="text"]:focus {
     display: none;
   }
 
-  @include breakpoint (desktop) {
+  @include breakpoint(desktop) {
     height: 2.15rem;
     margin-right: -19rem;
   }
 
-
-  @include breakpoint (desktop--Large) {
+  @include breakpoint(desktop--Large) {
     margin-right: -18.5rem;
   }
 
@@ -399,12 +384,12 @@ input[type="text"]:focus {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    margin-left: .2rem;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-left: 0.2rem;
   }
 
   &_search-icon {
@@ -426,12 +411,7 @@ input[type="text"]:focus {
 
   @include breakpoint(mobile) {
     display: block;
-    margin-top: 2.1rem;
     margin-right: -14rem;
-  }
-
-  @include breakpoint(mobile--Smallest) {
-    margin-top: 2.3rem;
   }
 
   button {
@@ -516,14 +496,31 @@ input[type="text"]:focus {
   float: right;
   background-color: $color-footer-text;
   z-index: 333;
- 
- 
+
+  @include breakpoint (iPhone) {
+    width: 220px;
+  }
+  @include breakpoint (mobile) {
+    width: 200px;
+  }
 
   @include breakpoint(mobile--Smallest) {
     width: 170px;
   }
 
   a {
+    @include breakpoint(iPhone) {
+      display: block;
+      margin-top: 7rem;
+      font-size: 1.1rem;
+      color: $color-white;
+      padding: 0.5rem 1.2rem;
+      text-decoration: none;
+      font-family: $font-tr-rg;
+      text-transform: uppercase;
+      margin-left: 1.5rem;
+    }
+
     @include breakpoint(mobile) {
       display: block;
       margin-top: 7rem;
@@ -541,21 +538,36 @@ input[type="text"]:focus {
   }
 
   div.subnav {
+    @include breakpoint(iPhone) {
+      display: block;
+      margin-left: 1.5rem;
+    }
     @include breakpoint(mobile) {
       display: block;
       margin-left: 2rem;
     }
   }
   div.subnav:first-of-type {
+    @include breakpoint(iPhone) {
+      margin-top: 5rem;
+    }
     @include breakpoint(mobile) {
       margin-top: 5rem;
     }
   }
   div.subnav a {
+    @include breakpoint(iPhone) {
+      margin-top: 0;
+      margin-left: 7.5rem;
+      text-align: left;
+    }
     @include breakpoint(mobile) {
       margin-top: 0;
       margin-left: 6rem;
       text-align: left;
+    }
+    @include breakpoint (mobile--Smallest) {
+      margin-left: 5rem;
     }
   }
 
@@ -568,32 +580,50 @@ input[type="text"]:focus {
     letter-spacing: 0.03rem;
     margin-left: 1rem;
 
+    @include breakpoint(iPhone) {
+      margin-left: 0;
+    }
   }
 }
 
 .mobile-nav a:hover {
+
+  @include breakpoint(iPhone) {
+    background-color: transparent;
+  }
   @include breakpoint(mobile) {
     background-color: transparent;
   }
 }
 button.subnavbtn.mrg-right:nth-of-type(1) {
+  @include breakpoint(iPhone) {
+    margin-bottom: 7rem;
+    font-size: 1.1rem;
+  }
   @include breakpoint(mobile) {
     margin-bottom: 7rem;
     font-size: 1.1rem;
   }
-  @include breakpoint (mobile--Smallest) {
+  @include breakpoint(mobile--Smallest) {
     margin-bottom: 9rem;
   }
 }
 button.subnavbtn.mrg-right:hover {
+  @include breakpoint(iPhone) {
+    background-color: rgba(255, 255, 255, 0.6);
+    border-top-left-radius: 0.7rem;
+    border-top-right-radius: 0.7rem;
+    border-bottom-left-radius: 0.7rem;
+    border-bottom-right-radius: 0.7rem;
+  }
 
-  @include breakpoint (mobile) {
-  background-color: rgba(255, 255, 255, 0.6);
-  border-top-left-radius: 0.7rem;
-  border-top-right-radius: 0.7rem;
-  border-bottom-left-radius: 0.7rem;
-  border-bottom-right-radius: 0.7rem;
-}
+  @include breakpoint(mobile) {
+    background-color: rgba(255, 255, 255, 0.6);
+    border-top-left-radius: 0.7rem;
+    border-top-right-radius: 0.7rem;
+    border-bottom-left-radius: 0.7rem;
+    border-bottom-right-radius: 0.7rem;
+  }
 }
 
 .mobile-nav-icon {
@@ -617,6 +647,22 @@ button.subnavbtn.mrg-right:hover {
 .languages-mobile {
   display: none;
 
+  @include breakpoint(iPhone) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: absolute;
+    bottom: 4rem;
+    width: 100%;
+  }
+
   @include breakpoint(mobile) {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -626,21 +672,24 @@ button.subnavbtn.mrg-right:hover {
     -ms-flex-direction: column;
     flex-direction: column;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     position: absolute;
     bottom: 3rem;
     width: 100%;
-
   }
   @include breakpoint(mobile--Smallest) {
     bottom: 1rem;
   }
-  
 }
 
 .home-mobile {
   display: none;
+
+  @include breakpoint(iPhone) {
+    display: block;
+    margin-bottom: 2rem;
+  }
 
   @include breakpoint(mobile) {
     display: block;
@@ -657,5 +706,4 @@ button.subnavbtn.mrg-right:hover {
   margin-bottom: 2rem;
   float: left;
   padding-left: 0;
-  
 }

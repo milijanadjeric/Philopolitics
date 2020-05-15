@@ -35,6 +35,24 @@
   background-size: cover;
   background-repeat: no-repeat;
   }
+  @include breakpoint(iPhone) {
+    height: 100%;    
+    background-image: -webkit-gradient(
+      linear,
+      left top, left bottom,
+      color-stop(10%, #322b6c),
+      color-stop(65%, #131c6d),
+      to(#b1bff9)
+    );
+    background-image: linear-gradient(
+      to bottom,
+      #322b6c 10%,
+      #131c6d 65%,
+      #b1bff9 100%
+    );
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
   
 
   @include breakpoint(mobile) {
@@ -69,6 +87,10 @@ input[type="submit"] {
   border: none;
   border-radius: 0.2rem;
   cursor: pointer;
+
+  @include breakpoint(iPhone) {    
+    font-size: 1.3rem;
+  }
 
   @include breakpoint(mobile) {    
     font-size: 1.3rem;
@@ -112,6 +134,9 @@ input[type="submit"]:hover {
 
   @include breakpoint (ipad) {
     margin: 2.5rem auto;
+  }
+  @include breakpoint (iPhone) {
+    margin: 3rem auto;
   }
 
   @include breakpoint (mobile) {
@@ -159,6 +184,11 @@ input[type="submit"]:hover {
     @include breakpoint (ipad) {
       margin: 3rem auto;
     }
+    @include breakpoint(iPhone) {
+      width: 70%;
+      margin: 8.3rem auto;
+      font-size: 1.3rem;
+    }
 
     @include breakpoint(mobile) {
       width: 70%;
@@ -184,6 +214,12 @@ input[type="submit"]:hover {
     @include breakpoint (ipad) {
       font-size: 2.6rem;
      
+    }
+
+    @include breakpoint(iPhone) {
+      padding-top: 0;
+      padding-bottom: 3rem;
+      font-size: 1.8rem;
     }
 
     @include breakpoint(mobile) {
@@ -292,6 +328,12 @@ input[type="submit"]:hover {
     }
     @include breakpoint (ipad) {
       margin: 2rem auto;
+    }
+
+    @include breakpoint(iPhone) {
+      width: 22rem;
+      margin: 1rem auto;
+      
     }
 
     @include breakpoint(mobile) {
