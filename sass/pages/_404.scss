@@ -38,6 +38,26 @@
 
   }
 
+  @include breakpoint(iPhone) {
+    height: 100vh;
+    background-image: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      color-stop(30%, #322b6c),
+      color-stop(70%, #131c6d),
+      to(#b1bff9)
+    );
+    background-image: linear-gradient(
+      to bottom,
+      #322b6c 30%,
+      #131c6d 70%,
+      #b1bff9 100%
+    );
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
   @include breakpoint(mobile) {
     height: 100vh;
     background-image: -webkit-gradient(
@@ -79,6 +99,13 @@
   @include breakpoint (ipad) {
     margin-top: 6.5rem;
     margin-bottom: 6rem;
+  }
+
+  @include breakpoint(iPhone) {
+    display: block;
+    margin-top: 5rem;
+    margin-bottom: 0;
+    
   }
   
   @include breakpoint(mobile) {
@@ -126,6 +153,11 @@
     margin-left: 19.7rem;
   }
 
+  @include breakpoint(iPhone) {
+    margin-right: 0;
+    margin-left: 6.6rem;
+  }
+
   @include breakpoint(mobile) {
     margin-right: 0;
     margin-left: 4.5rem;
@@ -144,6 +176,10 @@
     font-size: 6.5rem;
     align-self: flex-start;
 
+    @include breakpoint(iPhone) {
+      font-size: 3.5rem;
+    }
+
     @include breakpoint(mobile) {
       font-size: 3.5rem;
     }
@@ -156,6 +192,11 @@
     text-transform: uppercase;
     font-size: 5rem;
     padding-bottom: 4rem;
+
+    @include breakpoint(iPhone) {
+      font-size: 3rem;
+      padding-bottom: 2rem;
+    }
 
     @include breakpoint(mobile) {
       font-size: 3rem;
@@ -172,6 +213,12 @@
     font-size: 1.8rem;
     padding-bottom: 5rem;
     width: 40rem;
+
+    @include breakpoint(iPhone) {
+      font-size: 1.4rem;
+      width: 30rem;
+      
+    }
 
     @include breakpoint(mobile) {
       font-size: 1.4rem;
@@ -195,6 +242,12 @@
   @include breakpoint(ipad) {
     margin-top: 2rem;
     margin-left: 16rem;
+  }
+
+  @include breakpoint(iPhone) {
+    margin-top: 5rem;
+    width: 28rem;
+    margin-left: 6.5rem;
   }
 
   @include breakpoint(mobile) {
@@ -232,6 +285,11 @@
     border-radius: 0.2rem;
     margin-right: 2.2rem;
 
+    @include breakpoint(iPhone) {
+      padding: 1.5rem 3.5rem 1.3rem 3.5rem;
+      font-size: 1.2rem;
+    }
+
     @include breakpoint(mobile) {
       padding: 1.5rem 3.5rem 1.3rem 3.5rem;
       font-size: 1.2rem;
@@ -247,6 +305,11 @@
     padding: 1.35rem 4rem 1.15rem 4rem;
     border: 0.2rem solid $color-submit;
     border-radius: 0.2rem;
+
+    @include breakpoint(iPhone) {
+      padding: 1.3rem 3.5rem 1.1rem 3.5rem;
+      font-size: 1.2rem;
+    }
 
     @include breakpoint(mobile) {
       padding: 1.3rem 3.5rem 1.1rem 3.5rem;
@@ -272,6 +335,10 @@
 
   @include breakpoint (tablet) {
     margin-bottom: 1.7rem;
+  }
+
+  @include breakpoint(iPhone) {
+    display: none;
   }
  
   @include breakpoint(mobile) {

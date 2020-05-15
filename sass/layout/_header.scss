@@ -681,6 +681,12 @@ button.subnavbtn.mrg-right:hover {
   @include breakpoint(mobile--Smallest) {
     bottom: 1rem;
   }
+
+  &_img {
+    @include breakpoint (mobile) {
+      margin-left: -.8rem;
+    }
+  }
 }
 
 .home-mobile {

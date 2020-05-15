@@ -195,6 +195,10 @@ input[type="submit"]:hover {
       margin: 8rem auto;
       font-size: 1.3rem;
     }
+
+    @include breakpoint (mobile--Smallest) {
+      margin: 5rem auto;
+    }
     
   
     @include breakpoint (desktop) {
@@ -342,9 +346,6 @@ input[type="submit"]:hover {
       
     }
 
-    @include breakpoint (mobile--Smallest) {
-      width: 14rem;
-    }
 
     @include breakpoint(desktop) {
       width: 49rem;
