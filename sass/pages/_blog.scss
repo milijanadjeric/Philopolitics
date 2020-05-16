@@ -23,6 +23,10 @@
     @include breakpoint(ipad) {
       margin-left: 7.5rem;
     }
+    @include breakpoint(iPhone) {
+      margin-left: 0;
+      margin-top: 0;
+    }
     @include breakpoint(mobile) {
       margin-left: 0;
       margin-top: 0;
@@ -40,6 +44,10 @@
   }
 
   .container_tekstovi-1 {
+
+    @include breakpoint(iPhone) {
+      margin-top: 3rem;
+  }
       
     @include breakpoint(mobile) {
         margin-top: 3rem;
@@ -143,6 +151,10 @@
         margin-top: -4.8rem;
         background: transparent;
 
+        @include breakpoint(iPhone) {
+          margin-top: -7rem;
+        }
+
         @include breakpoint(mobile) {
           margin-top: -7rem;
         }
@@ -156,6 +168,11 @@
           justify-content: center;
           align-items: center;
 
+          @include breakpoint(iPhone) {
+            width: 8.5rem;
+            height: 7rem;
+          }
+
           @include breakpoint(mobile) {
             width: 8.5rem;
             height: 7rem;
@@ -165,6 +182,11 @@
             color: $color-white;
             font-family: $font-tr-bd;
             font-size: 2.5rem;
+
+            @include breakpoint(iPhone) {
+              font-size: 3.6rem;
+            }
+
             @include breakpoint(mobile) {
               font-size: 3.6rem;
             }
@@ -174,6 +196,12 @@
             color: $color-white;
             font-family: $font-tr;
             text-transform: uppercase;
+            
+            @include breakpoint(iPhone) {
+              font-size: 1.6rem;
+            }
+
+
             @include breakpoint(mobile) {
               font-size: 1.6rem;
             }
@@ -191,6 +219,12 @@
           justify-content: center;
           align-items: center;
 
+          @include breakpoint(iPhone) {
+            width: 8.5rem;
+            height: 2.8rem;
+            font-size: 1.3rem;
+          }
+
           @include breakpoint(mobile) {
             width: 8.5rem;
             height: 2.8rem;
@@ -207,6 +241,11 @@
           padding-top: 0.9rem;
           color: $color-black;
 
+          @include breakpoint(iPhone) {
+            font-size: 1.3rem;
+            width: 8.5rem;
+          }
+
           @include breakpoint(mobile) {
             font-size: 1.3rem;
             width: 8.5rem;
@@ -219,6 +258,10 @@
           @include breakpoint(ipad--Landscape)  {
             width: 27.5rem;
 
+          }
+
+          @include breakpoint(iPhone) {
+            width: 35rem;
           }
 
           @include breakpoint(mobile) {
@@ -243,6 +286,11 @@
               padding-left: 7.5rem;
             }
 
+            @include breakpoint(iPhone) {
+              font-size: 1.6rem;
+              padding-left: 12rem;
+            }
+
             @include breakpoint(mobile) {
               font-size: 1.6rem;
               padding-left: 12rem;
@@ -265,6 +313,11 @@
               padding-left: 7.5rem;
             }
 
+            @include breakpoint(iPhone) {
+              font-size: 1.3rem;
+              padding-left: 12rem;
+            }
+
             @include breakpoint(mobile) {
               font-size: 1.3rem;
               padding-left: 12rem;
@@ -284,6 +337,14 @@
         @include breakpoint(ipad--Landscape) {
           width: 27rem;
         }
+
+        @include breakpoint(iPhone) {
+          width: 41.4rem;
+        }
+
+        // @include breakpoint (iPhoneS) {
+        //   width: 41.2rem;
+        // }
 
         @include breakpoint(mobile) {
           width: 37.5rem;
@@ -332,6 +393,10 @@
       margin-left: 7rem;
     }
 
+    @include breakpoint(iPhone) {
+      display: none;
+    }
+
   
     @include breakpoint(mobile) {
       display: none;
@@ -350,6 +415,10 @@
   }
   
   .hidden {
+
+    @include breakpoint(iPhone) {
+      display: none;
+    }
     @include breakpoint(mobile) {
       display: none;
     }

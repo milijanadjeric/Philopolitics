@@ -38,6 +38,9 @@
     @else if $point == iPhone {//max-width = 414px
         @media (max-width: $iPhone)                         { @content; }
     }
+    @else if $point == iPhoneS {//max-width = 414px
+        @media (max-width: $iPhoneS)                         { @content; }
+    }
     @else if $point == mobile {//max-width = 375px
         @media (max-width: $mobile)                         { @content; }
     }
@@ -63,6 +66,7 @@ $ipad--Landscape  : 1024px;
 $ipad             : 768px;
 $tablet           : 800px;    //   1023 / 16px = 64rem
 $iPhone           : 414px;
+$iPhoneS          : 412px;
 $mobile           : 375px;     //   767 / 16px = 48rem
 $mobile--Small    : 360px;     //   360 / 16px = 22.5rem
 $mobile--Smallest : 320px;     //   320 / 16px = 20rem

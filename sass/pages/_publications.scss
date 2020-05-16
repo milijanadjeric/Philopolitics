@@ -28,6 +28,11 @@
     margin-left: 7rem;
   }
 
+  @include breakpoint(iPhone) {
+    margin-left: 5.6rem;
+    margin-top: 4rem;
+  }
+
   @include breakpoint(mobile) {
     margin-left: 3.8rem;
     margin-top: 3.5rem;
@@ -54,6 +59,10 @@
   color: $color-footer-text;
   margin-top: 3.5rem;
   margin-bottom: 3.5rem;
+
+   @include breakpoint(iPhone) {
+    display: none;
+  }
 
   @include breakpoint(mobile) {
     display: none;
@@ -158,6 +167,10 @@
     -ms-flex-direction: column;
     flex-direction: column;
 
+    @include breakpoint(iPhone) {
+      margin-bottom: 3.5rem;
+    }
+
     @include breakpoint(mobile) {
       margin-bottom: 3.5rem;
     }
@@ -191,6 +204,10 @@
         width: 28rem;
       }
 
+      @include breakpoint(iPhone) {
+        width: 30rem;
+      }
+
       @include breakpoint(mobile) {
         width: 30rem;
       }
@@ -205,6 +222,10 @@
 }
 
 .hidden {
+
+  @include breakpoint(iPhone) {
+    display: none;
+  }
   @include breakpoint(mobile) {
     display: none;
   }
