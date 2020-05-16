@@ -87,9 +87,12 @@ input[type="submit"] {
   border: none;
   border-radius: 0.2rem;
   cursor: pointer;
+  
 
   @include breakpoint(iPhone) {    
     font-size: 1.3rem;
+    -webkit-appearance: none;
+  -webkit-border-radius:0px;
   }
 
   @include breakpoint(mobile) {    
@@ -245,6 +248,7 @@ input[type="submit"]:hover {
     border-left: none;
     border-right: none;
     outline: none;
+    border-radius: 0;
     margin-bottom: 25px;
     resize: vertical;
     background-color: transparent;
@@ -263,6 +267,7 @@ input[type="submit"]:hover {
       border-left: none;
       border-right: none;
       outline: none;
+      border-radius: 0;
       margin-bottom: 4.3rem;
       resize: vertical;
       background-color: transparent;
@@ -285,6 +290,7 @@ input[type="submit"]:hover {
       border-left: none;
       border-right: none;
       outline: none;
+      border-radius: 0;
       margin-bottom: 3rem;
       resize: vertical;
       background-color: transparent;
