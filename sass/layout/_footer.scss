@@ -37,6 +37,10 @@
           justify-content: center;
   padding-bottom: 3rem;
 
+  @include breakpoint(iPhone) {
+    display: none;
+  }
+
   @include breakpoint(mobile) {
     display: none;
   }
@@ -60,6 +64,10 @@
 }
 
 .Networks-nodisplay {
+
+  @include breakpoint(iPhone) {
+    display: none;
+  }
   @include breakpoint(mobile) {
     display: none;
   }

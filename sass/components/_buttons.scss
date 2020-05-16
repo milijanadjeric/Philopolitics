@@ -9,6 +9,9 @@
   @include breakpoint (tablet) {
     margin-top: 3rem;
   }
+  @include breakpoint(iPhone) {
+    display: none;
+  }
   @include breakpoint(mobile) {
     display: none;
   }
@@ -37,6 +40,7 @@
   color: $color-white;
   font-family: $font-tr-rg;
   text-transform: uppercase;
+  text-decoration: none;
   font-size: 1rem;
   justify-content: center;
   align-items: center;
@@ -45,6 +49,10 @@
 
   @include breakpoint(tablet) {
     margin-top: 0.5rem;
+  }
+
+  @include breakpoint(iPhone) {
+    margin-top: 2rem;
   }
 
   @include breakpoint(mobile) {
