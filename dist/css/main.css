@@ -643,6 +643,7 @@ input[type="text"]:focus {
   font-family: "Roboto";
   font-size: 1.7rem;
   color: #FFFFFF;
+  outline: none;
 }
 
 .overlay .closebtn {
@@ -800,6 +801,12 @@ input[type="text"]:focus {
   }
 }
 
+@media (max-width: 320px) {
+  .mobile-nav div.languages-mobile p {
+    display: none;
+  }
+}
+
 @media (max-width: 414px) {
   .mobile-nav a:hover {
     background-color: transparent;
@@ -916,7 +923,7 @@ input[type="text"]:focus {
 
 @media (max-width: 320px) {
   .languages-mobile {
-    bottom: 1rem;
+    bottom: 0;
   }
 }
 

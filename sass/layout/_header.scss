@@ -456,6 +456,7 @@ input[type="text"]:focus {
     font-family: "Roboto";
     font-size: 1.7rem;
     color: $color-white;
+    outline: none;
   }
 }
 
@@ -584,6 +585,10 @@ input[type="text"]:focus {
     @include breakpoint(iPhone) {
       margin-left: 0;
     }
+
+    @include breakpoint (mobile--Smallest) {
+      display: none;
+    }
   }
 }
 
@@ -680,7 +685,7 @@ button.subnavbtn.mrg-right:hover {
     width: 100%;
   }
   @include breakpoint(mobile--Smallest) {
-    bottom: 1rem;
+    bottom: 0;
   }
 
   &_img {
