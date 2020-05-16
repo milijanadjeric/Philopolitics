@@ -342,9 +342,9 @@
           width: 41.4rem;
         }
 
-        // @include breakpoint (iPhoneS) {
-        //   width: 41.2rem;
-        // }
+        @include breakpoint (iPhoneS) {
+          width: 41.2rem;
+        }
 
         @include breakpoint(mobile) {
           width: 37.5rem;

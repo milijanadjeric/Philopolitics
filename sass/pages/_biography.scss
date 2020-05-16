@@ -16,7 +16,7 @@
     padding: 6rem 8rem 2rem 7rem;
   }
 
-  @include breakpoint(mobile) {
+  @include breakpoint(iPhone) {
     background-image: -webkit-gradient(
       linear,
       left top,
@@ -54,6 +54,12 @@
     width: 15rem;
     -ms-flex-item-align: start;
     align-self: flex-start;
+
+    @include breakpoint(iPhone) {
+      width: 6.2rem;
+      margin-left: 17.7rem;
+      padding-top: 0.5rem;
+    }
 
     @include breakpoint(mobile) {
       width: 6.2rem;
@@ -97,6 +103,13 @@
       padding-right: 0;
     }
 
+    @include breakpoint(iPhone) {
+      font-size: 1.3rem;
+      padding-left: 5.2rem;
+      padding-right: 5.2rem;
+      padding-top: 1.7rem;
+    }
+
     @include breakpoint(mobile) {
       font-size: 1.3rem;
       padding-left: 3.1rem;
@@ -138,6 +151,13 @@
   margin-top: 3.5rem;
   margin-bottom: 3.5rem;
 
+  @include breakpoint(iPhone) {
+    font-size: 1.3rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 5.2rem;
+  }
+
   @include breakpoint(mobile) {
     font-size: 1.3rem;
     margin-top: 2rem;
@@ -163,6 +183,11 @@
   }
   @include breakpoint(ipad) {
     margin-left: 7.5rem;
+  }
+
+  @include breakpoint(iPhone) {
+    margin-left: 0;
+    margin-top: 0;
   }
 
   @include breakpoint(mobile) {
@@ -269,7 +294,7 @@
       margin-top: -4.8rem;
       background: transparent;
 
-      @include breakpoint(mobile) {
+      @include breakpoint(iPhone) {
         margin-top: -7rem;
       }
 
@@ -282,6 +307,11 @@
         justify-content: center;
         align-items: center;
 
+        @include breakpoint(iPhone) {
+          width: 8.5rem;
+          height: 7rem;
+        }
+
         @include breakpoint(mobile) {
           width: 8.5rem;
           height: 7rem;
@@ -291,6 +321,11 @@
           color: $color-white;
           font-family: $font-tr-bd;
           font-size: 2.5rem;
+
+          @include breakpoint(iPhone) {
+            font-size: 3.6rem;
+          }
+
           @include breakpoint(mobile) {
             font-size: 3.6rem;
           }
@@ -300,6 +335,12 @@
           color: $color-white;
           font-family: $font-tr;
           text-transform: uppercase;
+
+          @include breakpoint(iPhone) {
+            font-size: 1.6rem;
+          }
+
+
           @include breakpoint(mobile) {
             font-size: 1.6rem;
           }
@@ -317,6 +358,12 @@
         justify-content: center;
         align-items: center;
 
+        @include breakpoint(iPhone) {
+          width: 8.5rem;
+          height: 2.8rem;
+          font-size: 1.3rem;
+        }
+
         @include breakpoint(mobile) {
           width: 8.5rem;
           height: 2.8rem;
@@ -333,6 +380,11 @@
         padding-top: 0.9rem;
         color: $color-black;
 
+        @include breakpoint(iPhone) {
+          font-size: 1.3rem;
+          width: 8.5rem;
+        }
+
         @include breakpoint(mobile) {
           font-size: 1.3rem;
           width: 8.5rem;
@@ -344,6 +396,10 @@
 
         @include breakpoint(ipad--Landscape) {
           width: 27.5rem;
+        }
+
+        @include breakpoint(iPhone) {
+          width: 35rem;
         }
 
         @include breakpoint(mobile) {
@@ -365,6 +421,11 @@
           @include breakpoint(ipad--Landscape) {
             font-size: 1.3rem;
             padding-left: 7.5rem;
+          }
+
+          @include breakpoint(iPhone) {
+            font-size: 1.6rem;
+            padding-left: 12rem;
           }
 
           @include breakpoint(mobile) {
@@ -389,6 +450,11 @@
             padding-left: 7.5rem;
           }
 
+          @include breakpoint(iPhone) {
+            font-size: 1.3rem;
+            padding-left: 12rem;
+          }
+
           @include breakpoint(mobile) {
             font-size: 1.3rem;
             padding-left: 12rem;
@@ -407,6 +473,14 @@
 
       @include breakpoint(ipad--Landscape) {
         width: 27rem;
+      }
+
+      @include breakpoint(iPhone) {
+        width: 41.4rem;
+      }
+
+     @include breakpoint (iPhoneS) {
+      width: 41.2rem;
       }
 
       @include breakpoint(mobile) {
@@ -453,6 +527,10 @@
     margin-left: 7rem;
   }
 
+  @include breakpoint(iPhone) {
+    display: none;
+  }
+
   @include breakpoint(mobile) {
     display: none;
   }
@@ -469,6 +547,10 @@
 }
 
 .hidden {
+
+  @include breakpoint(iPhone) {
+    display: none;
+  }
   @include breakpoint(mobile) {
     display: none;
   }
