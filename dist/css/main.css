@@ -6136,6 +6136,10 @@ input[type="submit"]:hover {
   }
 }
 
+.div-11_wrap_circle {
+  width: 19rem;
+}
+
 @media (max-width: 414px) {
   .div-11_wrap_circle {
     width: 30rem;
