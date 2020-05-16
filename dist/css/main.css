@@ -133,6 +133,7 @@ header {
 
 @media (max-width: 414px) {
   .logo {
+    margin-top: 1.5rem;
     margin-left: 0;
   }
 }
@@ -589,8 +590,8 @@ input[type="text"]:focus {
 @media (max-width: 414px) {
   .search-box-mobile {
     display: block;
-    margin-top: 2.6rem;
-    margin-right: -15rem;
+    margin-top: 2.2rem;
+    margin-right: -15.5rem;
   }
 }
 
@@ -860,7 +861,7 @@ input[type="text"]:focus {
 @media (max-width: 414px) {
   .mobile-nav-icon {
     display: inline-block;
-    margin-top: 2.2rem;
+    margin-top: 1.8rem;
     margin-right: 1rem;
   }
 }
@@ -1454,11 +1455,29 @@ input[type="text"]:focus {
   height: 5rem;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 414px) {
   .btnLoad {
+    width: 32rem;
+    height: 5rem;
     display: block;
     margin-top: 6rem;
     margin-bottom: 2rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .btnLoad {
+    width: 30rem;
+    height: 5rem;
+    display: block;
+    margin-top: 6rem;
+    margin-bottom: 2rem;
+  }
+}
+
+@media (max-width: 414px) {
+  .btnLoadmargin {
+    margin: 5rem auto;
   }
 }
 

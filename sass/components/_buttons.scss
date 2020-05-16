@@ -6,7 +6,7 @@
   margin-left: 21rem;
   margin-top: 4rem;
 
-  @include breakpoint (tablet) {
+  @include breakpoint(tablet) {
     margin-top: 3rem;
   }
   @include breakpoint(iPhone) {
@@ -15,17 +15,16 @@
   @include breakpoint(mobile) {
     display: none;
   }
-  @include breakpoint (desktop) {
+  @include breakpoint(desktop) {
     margin-left: 23rem;
   }
-  @include breakpoint (desktop) {
+  @include breakpoint(desktop) {
     width: 21rem;
   }
-  
-  @include breakpoint (desktop--Biggest) {
+
+  @include breakpoint(desktop--Biggest) {
     margin-left: 29rem;
   }
-  
 }
 
 //  *** button on page one-publication  ***  //
@@ -58,16 +57,15 @@
   @include breakpoint(mobile) {
     margin-top: 2rem;
   }
-  @include breakpoint (desktop) {
+  @include breakpoint(desktop) {
     margin-top: 7.4rem;
   }
-  @include breakpoint (desktop--Large) {
+  @include breakpoint(desktop--Large) {
     margin-top: 7.7rem;
   }
-  @include breakpoint (desktop--Big) {
+  @include breakpoint(desktop--Big) {
     margin-top: 8.4rem;
   }
-  
 
   img {
     padding-left: 0.5rem;
@@ -88,20 +86,29 @@
   width: 30rem;
   height: 5rem;
 
-  @include breakpoint(mobile) {
+  @include breakpoint(iPhone) {
+    width: 32rem;
+    height: 5rem;
     display: block;
     margin-top: 6rem;
     margin-bottom: 2rem;
-  
   }
 
+  @include breakpoint(mobile) {
+    width: 30rem;
+    height: 5rem;
+    display: block;
+    margin-top: 6rem;
+    margin-bottom: 2rem;
+  }
 }
 
 .btnLoadmargin {
+  @include breakpoint(iPhone) {
+    margin: 5rem auto;
+  }
 
   @include breakpoint(mobile) {
     margin: 5rem auto;
   }
-  
 }
-
