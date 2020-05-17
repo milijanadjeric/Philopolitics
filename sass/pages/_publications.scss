@@ -96,15 +96,15 @@
     
   }
   @include breakpoint(desktop--Large) {
-    top: 1680px;
+    top: 1750px;
     left: 1125px;
   }
   @include breakpoint(desktop--Big) {
-    top: 1740px;
+    top: 1800px;
     left: 1170px;
   }
   @include breakpoint (desktop--Biggest) {
-    top: 2070px;
+    top: 2130px;
     left: 1430px;
   }
 }
@@ -133,15 +133,15 @@
     right: 125px;
   }
   @include breakpoint(desktop--Large) {
-    top: 1680px;
+    top: 1750px;
     right: 130px;
   }
   @include breakpoint(desktop--Big) {
-    top: 1740px;
+    top: 1800px;
     right: 140px;
   }
   @include breakpoint (desktop--Biggest) {
-    top: 2070px;
+    top: 2130px;
     right: 170px;
   }
 }
