@@ -180,6 +180,11 @@
       @include breakpoint(mobile--Small) {
         margin-left: 3.1rem;
       }
+
+      @include breakpoint (desktop) {
+        width: 21rem;
+      }
+      
       
     }
 
@@ -242,6 +247,10 @@
         }
       }
 
+      img {
+        width: 15rem;
+      }
+
     }
   }
 }
@@ -290,6 +299,10 @@
       }
       @include breakpoint(mobile--Small) {
         margin-left: 3.1rem;
+      }
+
+      @include breakpoint (desktop) {
+        width: 21rem;
       }
     }
 
@@ -351,6 +364,10 @@
           padding-bottom: 3.7rem;
         }
       }
+
+      img {
+        width: 15rem;
+      }
     }
   }
 }
@@ -401,6 +418,10 @@
       }
       @include breakpoint(mobile--Small) {
         margin-left: 3.1rem;
+      }
+
+      @include breakpoint (desktop) {
+        width: 21rem;
       }
      
     }
@@ -462,6 +483,10 @@
         @include breakpoint(desktop--Biggest) {
           padding-bottom: 3.7rem;
         }
+      }
+
+      img {
+        width: 15rem;
       }
     }
   }

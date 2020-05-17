@@ -6164,6 +6164,12 @@ input[type="submit"]:hover {
   }
 }
 
+@media (min-width: 1440px) {
+  .div-11_wrap_circle {
+    width: 21rem;
+  }
+}
+
 .div-11_wrap_block {
   width: 38rem;
   margin-left: 4rem;
@@ -6245,6 +6251,10 @@ input[type="submit"]:hover {
   }
 }
 
+.div-11_wrap_block img {
+  width: 15rem;
+}
+
 .div-22 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -6303,6 +6313,12 @@ input[type="submit"]:hover {
 @media (max-width: 360px) {
   .div-22_wrap_circle {
     margin-left: 3.1rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .div-22_wrap_circle {
+    width: 21rem;
   }
 }
 
@@ -6387,6 +6403,10 @@ input[type="submit"]:hover {
   }
 }
 
+.div-22_wrap_block img {
+  width: 15rem;
+}
+
 .div-33 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -6445,6 +6465,12 @@ input[type="submit"]:hover {
 @media (max-width: 360px) {
   .div-33_wrap_circle {
     margin-left: 3.1rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .div-33_wrap_circle {
+    width: 21rem;
   }
 }
 
@@ -6527,6 +6553,10 @@ input[type="submit"]:hover {
   .div-33_wrap_block_par {
     padding-bottom: 3.7rem;
   }
+}
+
+.div-33_wrap_block img {
+  width: 15rem;
 }
 
 @media (max-width: 414px) {
