@@ -6164,12 +6164,6 @@ input[type="submit"]:hover {
   }
 }
 
-@media (min-width: 1440px) {
-  .div-11_wrap_circle {
-    width: 20rem;
-  }
-}
-
 .div-11_wrap_block {
   width: 38rem;
   margin-left: 4rem;
@@ -6312,12 +6306,6 @@ input[type="submit"]:hover {
   }
 }
 
-@media (min-width: 1440px) {
-  .div-22_wrap_circle {
-    width: 20rem;
-  }
-}
-
 .div-22_wrap_block {
   width: 38rem;
   margin-left: 4rem;
@@ -6457,12 +6445,6 @@ input[type="submit"]:hover {
 @media (max-width: 360px) {
   .div-33_wrap_circle {
     margin-left: 3.1rem;
-  }
-}
-
-@media (min-width: 1440px) {
-  .div-33_wrap_circle {
-    width: 20rem;
   }
 }
 

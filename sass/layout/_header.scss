@@ -42,6 +42,8 @@ header {
   }
 
   &_picture {
+
+
     @include breakpoint(iPhone) {
       width: 2.7rem;
       height: 2.7rem;
@@ -271,6 +273,8 @@ header {
   }
 
   img {
+
+    
     @include breakpoint(iPhone) {
       display: none;
     }

@@ -180,9 +180,7 @@
       @include breakpoint(mobile--Small) {
         margin-left: 3.1rem;
       }
-      @include breakpoint(desktop) {
-        width: 20rem;
-      }
+      
     }
 
     &_block {
@@ -243,6 +241,7 @@
           padding-bottom: 3.7rem;
         }
       }
+
     }
   }
 }
@@ -291,9 +290,6 @@
       }
       @include breakpoint(mobile--Small) {
         margin-left: 3.1rem;
-      }
-      @include breakpoint(desktop) {
-        width: 20rem;
       }
     }
 
@@ -406,9 +402,7 @@
       @include breakpoint(mobile--Small) {
         margin-left: 3.1rem;
       }
-      @include breakpoint(desktop) {
-        width: 20rem;
-      }
+     
     }
 
     &_block {
