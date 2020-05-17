@@ -275,6 +275,8 @@
 
     &_circle {
 
+      width: 19rem;
+
       @include breakpoint(iPhone) {
         width: 30rem;
         height: 30rem;
@@ -385,6 +387,8 @@
     }
 
     &_circle {
+
+      width: 19rem;
 
       @include breakpoint(iPhone) {
         width: 30rem;

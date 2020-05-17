@@ -6284,6 +6284,10 @@ input[type="submit"]:hover {
   }
 }
 
+.div-22_wrap_circle {
+  width: 19rem;
+}
+
 @media (max-width: 414px) {
   .div-22_wrap_circle {
     width: 30rem;
@@ -6426,6 +6430,10 @@ input[type="submit"]:hover {
     display: block;
     margin-bottom: 4rem;
   }
+}
+
+.div-33_wrap_circle {
+  width: 19rem;
 }
 
 @media (max-width: 414px) {
