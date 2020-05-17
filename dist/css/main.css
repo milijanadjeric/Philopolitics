@@ -5964,7 +5964,7 @@ input[type="submit"]:hover {
 
 @media (min-width: 1440px) {
   .container_projekti .slick-prev {
-    top: 1450px;
+    top: 1550px;
     left: 510px;
     margin-bottom: 6rem;
   }
@@ -5972,21 +5972,21 @@ input[type="submit"]:hover {
 
 @media (min-width: 1536px) {
   .container_projekti .slick-prev {
-    top: 1580px;
+    top: 1680px;
     left: 565px;
   }
 }
 
 @media (min-width: 1600px) {
   .container_projekti .slick-prev {
-    top: 1650px;
+    top: 1750px;
     left: 590px;
   }
 }
 
 @media (min-width: 1920px) {
   .container_projekti .slick-prev {
-    top: 1940px;
+    top: 2040px;
     left: 730px;
   }
 }
@@ -6022,28 +6022,28 @@ input[type="submit"]:hover {
 
 @media (min-width: 1440px) {
   .container_projekti .slick-next {
-    top: 1450px;
+    top: 1550px;
     right: 655px;
   }
 }
 
 @media (min-width: 1536px) {
   .container_projekti .slick-next {
-    top: 1580px;
+    top: 1680px;
     right: 690px;
   }
 }
 
 @media (min-width: 1600px) {
   .container_projekti .slick-next {
-    top: 1650px;
+    top: 1750px;
     right: 720px;
   }
 }
 
 @media (min-width: 1920px) {
   .container_projekti .slick-next {
-    top: 1940px;
+    top: 2040px;
     right: 870px;
   }
 }

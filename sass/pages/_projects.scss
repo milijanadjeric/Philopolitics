@@ -48,20 +48,20 @@
   }
 
   @include breakpoint(desktop) {
-    top: 1450px;
+    top: 1550px;
     left: 510px;
     margin-bottom: 6rem;
   }
   @include breakpoint(desktop--Large) {
-    top: 1580px;
+    top: 1680px;
     left: 565px;
   }
   @include breakpoint(desktop--Big) {
-    top: 1650px;
+    top: 1750px;
     left: 590px;
   }
   @include breakpoint (desktop--Biggest) {
-    top: 1940px;
+    top: 2040px;
     left: 730px;
   }
 }
@@ -83,19 +83,19 @@
     right: 95px;
   }
   @include breakpoint(desktop) {
-    top: 1450px;
+    top: 1550px;
     right: 655px;
   }
   @include breakpoint(desktop--Large) {
-    top: 1580px;
+    top: 1680px;
     right: 690px;
   }
   @include breakpoint(desktop--Big) {
-    top: 1650px;
+    top: 1750px;
     right: 720px;
   }
   @include breakpoint (desktop--Biggest) {
-    top: 1940px;
+    top: 2040px;
     right: 870px;
   }
 }
