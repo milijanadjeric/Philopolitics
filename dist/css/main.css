@@ -452,7 +452,6 @@ input[type="text"] {
   width: 1.9rem;
   border: none;
   background-color: transparent;
-  background-color: #322b6c;
   color: #FFFFFF;
   font-family: "Roboto";
   font-size: 1.1rem;
@@ -4749,6 +4748,7 @@ input[type="submit"] {
 @media (max-width: 414px) {
   input[type="submit"] {
     font-size: 1.3rem;
+    border-radius: 0px;
     -webkit-appearance: none;
     -webkit-border-radius: 0px;
   }
@@ -6963,7 +6963,7 @@ input[type="submit"]:hover {
 }
 
 .banner_line-2 {
-  border: 0.05rem solid rgba(255, 255, 255, 0.3);
+  border-bottom: 0.1px solid rgba(255, 255, 255, 0.3);
   width: 57.5rem;
   margin-top: 2.3rem;
   margin-bottom: 1rem;
@@ -6977,7 +6977,7 @@ input[type="submit"]:hover {
 
 @media (max-width: 414px) {
   .banner_line-2 {
-    border: 0.3px solid rgba(255, 255, 255, 0.3);
+    border-bottom: 0.1px solid rgba(255, 255, 255, 0.3);
     width: 31rem;
     margin-left: 5.2rem;
     margin-top: 1rem;
@@ -6986,7 +6986,7 @@ input[type="submit"]:hover {
 
 @media (max-width: 375px) {
   .banner_line-2 {
-    border: 0.3px solid rgba(255, 255, 255, 0.3);
+    border-bottom: 0.1px solid rgba(255, 255, 255, 0.3);
     width: 29.7rem;
     margin-left: 3.8rem;
     margin-top: 1rem;
@@ -7002,7 +7002,31 @@ input[type="submit"]:hover {
 
 @media (max-width: 320px) {
   .banner_line-2 {
-    border: 0.5px solid rgba(255, 255, 255, 0.3);
+    border-bottom: 0.1px solid rgba(255, 255, 255, 0.3);
+  }
+}
+
+@media (min-width: 1440px) {
+  .banner_line-2 {
+    border-bottom: 0.1px solid rgba(255, 255, 255, 0.3);
+  }
+}
+
+@media (min-width: 1536px) {
+  .banner_line-2 {
+    border-bottom: 0.1px solid rgba(255, 255, 255, 0.3);
+  }
+}
+
+@media (min-width: 1600px) {
+  .banner_line-2 {
+    border-bottom: 0.1px solid rgba(255, 255, 255, 0.3);
+  }
+}
+
+@media (min-width: 1920px) {
+  .banner_line-2 {
+    border-bottom: 0.1px solid rgba(255, 255, 255, 0.3);
   }
 }
 

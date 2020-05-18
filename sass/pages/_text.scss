@@ -54,7 +54,8 @@
   }
 
   &_line-2 {
-    border: .05rem solid rgba(255, 255, 255, 0.3);
+    
+    border-bottom: .1px solid rgba(255, 255, 255, 0.3);
     width: 57.5rem;
     margin-top: 2.3rem;
     margin-bottom: 1rem;
@@ -64,14 +65,14 @@
     }
 
     @include breakpoint(iPhone) {
-      border: 0.3px solid rgba(255, 255, 255, 0.3);
+      border-bottom: .1px solid rgba(255, 255, 255, 0.3);
       width: 31rem;
       margin-left: 5.2rem;
       margin-top: 1rem;
     }
 
     @include breakpoint(mobile) {
-      border: 0.3px solid rgba(255, 255, 255, 0.3);
+      border-bottom: .1px solid rgba(255, 255, 255, 0.3);
       width: 29.7rem;
       margin-left: 3.8rem;
       margin-top: 1rem;
@@ -81,7 +82,26 @@
       margin-left: 3rem;
     }
     @include breakpoint(mobile--Smallest) {
-      border: 0.5px solid rgba(255, 255, 255, 0.3);
+      border-bottom: .1px solid rgba(255, 255, 255, 0.3);
+    }
+
+    @include breakpoint (desktop) {
+      border-bottom: .1px solid rgba(255, 255, 255, 0.3);
+
+    }
+    @include breakpoint (desktop--Large) {
+      border-bottom: .1px solid rgba(255, 255, 255, 0.3);
+
+    }
+
+    @include breakpoint (desktop--Big) {
+      border-bottom: .1px solid rgba(255, 255, 255, 0.3);
+
+    }
+
+    @include breakpoint (desktop--Biggest) {
+      border-bottom: .1px solid rgba(255, 255, 255, 0.3);
+
     }
   }
 

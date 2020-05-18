@@ -91,6 +91,7 @@ input[type="submit"] {
 
   @include breakpoint(iPhone) {    
     font-size: 1.3rem;
+    border-radius: 0px;
     -webkit-appearance: none;
   -webkit-border-radius:0px;
   }
