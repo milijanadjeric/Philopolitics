@@ -54,7 +54,7 @@
   }
 
   &_line-2 {
-    border: 1px solid rgba(255, 255, 255, 0.3);
+    border: .05rem solid rgba(255, 255, 255, 0.3);
     width: 57.5rem;
     margin-top: 2.3rem;
     margin-bottom: 1rem;
@@ -199,6 +199,8 @@
   }
 
   &_flag {
+
+    width: 57.6rem;
 
     @include breakpoint(tablet) {
       width: 50rem;

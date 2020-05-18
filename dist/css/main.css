@@ -6963,7 +6963,7 @@ input[type="submit"]:hover {
 }
 
 .banner_line-2 {
-  border: 1px solid rgba(255, 255, 255, 0.3);
+  border: 0.05rem solid rgba(255, 255, 255, 0.3);
   width: 57.5rem;
   margin-top: 2.3rem;
   margin-bottom: 1rem;
@@ -7141,6 +7141,10 @@ input[type="submit"]:hover {
   .text {
     margin-bottom: 9rem;
   }
+}
+
+.text_flag {
+  width: 57.6rem;
 }
 
 @media (max-width: 800px) {

@@ -470,6 +470,7 @@
     }
     img {
       width: 30rem;
+     
 
       @include breakpoint(ipad--Landscape) {
         width: 27rem;
