@@ -470,6 +470,7 @@
     }
     img {
       width: 30rem;
+      height: 13.8rem;
      
 
       @include breakpoint(ipad--Landscape) {
@@ -478,6 +479,7 @@
 
       @include breakpoint(iPhone) {
         width: 41.4rem;
+        height: 25rem;
       }
 
      @include breakpoint (iPhoneS) {
@@ -486,6 +488,7 @@
 
       @include breakpoint(mobile) {
         width: 37.5rem;
+        height: 20rem;
       }
       @include breakpoint(mobile--Small) {
         width: 36rem;

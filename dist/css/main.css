@@ -3974,6 +3974,7 @@ input[type="text"]:focus {
 
 .div-1_wrap img {
   width: 30rem;
+  height: 13.8rem;
 }
 
 @media (max-width: 1024px) {
@@ -3985,6 +3986,7 @@ input[type="text"]:focus {
 @media (max-width: 414px) {
   .div-1_wrap img {
     width: 41.4rem;
+    height: 25rem;
   }
 }
 
@@ -3997,6 +3999,7 @@ input[type="text"]:focus {
 @media (max-width: 375px) {
   .div-1_wrap img {
     width: 37.5rem;
+    height: 20rem;
   }
 }
 
@@ -4571,6 +4574,7 @@ input[type="text"]:focus {
 
 .div-1_wrap img {
   width: 30rem;
+  height: 13.8rem;
 }
 
 @media (max-width: 1024px) {
@@ -4582,6 +4586,7 @@ input[type="text"]:focus {
 @media (max-width: 414px) {
   .div-1_wrap img {
     width: 41.4rem;
+    height: 25rem;
   }
 }
 
@@ -4594,6 +4599,7 @@ input[type="text"]:focus {
 @media (max-width: 375px) {
   .div-1_wrap img {
     width: 37.5rem;
+    height: 20rem;
   }
 }
 
