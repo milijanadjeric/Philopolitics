@@ -133,6 +133,10 @@
   }
 }
 
+.slide-box {
+  outline: none;
+}
+
 .div-11 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -143,12 +147,15 @@
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
+ 
+ 
 
   &_wrap {
     margin-bottom: 6rem;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    
 
     @include breakpoint(iPhone) {
       display: block;
@@ -253,6 +260,9 @@
 
     }
   }
+   a {
+     outline: none;
+   }
 }
 .div-22 {
   display: -webkit-box;
@@ -369,6 +379,10 @@
         width: 15rem;
       }
     }
+  }
+
+  a {
+    outline: none;
   }
 }
 
@@ -489,6 +503,10 @@
         width: 15rem;
       }
     }
+  }
+
+  a {
+    outline: none;
   }
 }
 

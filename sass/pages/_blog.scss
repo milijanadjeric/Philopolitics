@@ -138,6 +138,7 @@
   
     a {
       text-decoration: none;
+      outline: none;
     }
   
     &_wrap {
@@ -148,15 +149,15 @@
   
       &_block {
         position: absolute;
-        margin-top: -4.8rem;
+        margin-top: -5rem;
         background: transparent;
 
         @include breakpoint(iPhone) {
-          margin-top: -7rem;
+          margin-top: -10.05rem;
         }
 
         @include breakpoint(mobile) {
-          margin-top: -7rem;
+          margin-top: -9rem;
         }
   
         &_date {

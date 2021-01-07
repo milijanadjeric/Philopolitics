@@ -96,11 +96,19 @@
 }
 
 .slidebox {
-   
+
+  a {
+    
+    outline: none;
+  }
+ 
+ 
 
   &_content {
     display: flex;
     height: 15rem;
+    
+    
 
     @include breakpoint (iPhone) {
       height: 13.5rem;

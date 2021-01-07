@@ -1178,6 +1178,10 @@ input[type="text"]:focus {
   }
 }
 
+.slidebox a {
+  outline: none;
+}
+
 .slidebox_content {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -4303,6 +4307,7 @@ input[type="text"]:focus {
 
 .div-1 a {
   text-decoration: none;
+  outline: none;
 }
 
 .div-1_wrap {
@@ -4319,19 +4324,19 @@ input[type="text"]:focus {
 
 .div-1_wrap_block {
   position: absolute;
-  margin-top: -4.8rem;
+  margin-top: -5rem;
   background: transparent;
 }
 
 @media (max-width: 414px) {
   .div-1_wrap_block {
-    margin-top: -7rem;
+    margin-top: -10.05rem;
   }
 }
 
 @media (max-width: 375px) {
   .div-1_wrap_block {
-    margin-top: -7rem;
+    margin-top: -9rem;
   }
 }
 
@@ -4749,6 +4754,7 @@ input[type="submit"] {
   border: none;
   border-radius: 0.2rem;
   cursor: pointer;
+  outline: none;
 }
 
 @media (max-width: 414px) {
@@ -6109,6 +6115,10 @@ input[type="submit"]:hover {
   }
 }
 
+.slide-box {
+  outline: none;
+}
+
 .div-11 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -6259,6 +6269,10 @@ input[type="submit"]:hover {
 
 .div-11_wrap_block img {
   width: 15rem;
+}
+
+.div-11 a {
+  outline: none;
 }
 
 .div-22 {
@@ -6413,6 +6427,10 @@ input[type="submit"]:hover {
   width: 15rem;
 }
 
+.div-22 a {
+  outline: none;
+}
+
 .div-33 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -6563,6 +6581,10 @@ input[type="submit"]:hover {
 
 .div-33_wrap_block img {
   width: 15rem;
+}
+
+.div-33 a {
+  outline: none;
 }
 
 @media (max-width: 414px) {
@@ -6889,6 +6911,7 @@ input[type="submit"]:hover {
 
 .div-111_wrap a {
   text-decoration: none;
+  outline: none;
 }
 
 @media (max-width: 414px) {
